@@ -1,10 +1,10 @@
-/* 背景色 */
+/* 背景色だけを変更 */
 body {
   background-color: #f8f9fa !important;
 }
 
-/* 段落間のスペースを広げる */
+/* 段落の間隔（これを調整） */
 p {
-  margin-bottom: 2em !important;     /* ← この数字を大きくするとさらに間が空く */
-  line-height: 1.8;                  /* 行間も少し広げる */
+  margin-bottom: 1.4em;
+  line-height: 1.65;
 }
