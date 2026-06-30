@@ -1,9 +1,10 @@
-/* 背景色だけを変更（他のスタイルはできるだけ崩さない） */
+/* 背景色 */
 body {
   background-color: #f8f9fa !important;
 }
 
-/* 必要に応じて文字色を少し調整したい場合（任意） */
-body {
-  color: #333 !important;   /* 黒すぎる場合はこの行を削除または調整 */
+/* 段落間のスペースを広げる */
+p {
+  margin-bottom: 2em !important;     /* ← この数字を大きくするとさらに間が空く */
+  line-height: 1.8;                  /* 行間も少し広げる */
 }
