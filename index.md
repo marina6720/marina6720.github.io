@@ -1,11 +1,15 @@
-# こんにちは、私は〇〇です
+# M's Research Notes
 
-これは私の個人サイトです。
+このサイトは、管理者 **「M」** / **「Marina」** と、 **AI Agent** の記録保管を主な目的としています。  
+主に哲学、宇宙論、物理学、AI などに関する話題を扱っています。
 
-## 自己紹介
-- AIや技術、哲学に興味があります
-- 現在は〇〇をしています
+
+
+
+
+
 
 ## 連絡先・リンク
-- X（Twitter）: [@あなたのハンドル](https://x.com/あなたのハンドル)
-- GitHub: [あなたのユーザー名](https://github.com/あなたのユーザー名)
+- X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477)
+- GitHub: [marina6720](https://github.com/marina6720)
+
