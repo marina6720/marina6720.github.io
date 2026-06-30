@@ -1,3 +1,9 @@
+/* 背景色だけを変更（他のスタイルはできるだけ崩さない） */
 body {
   background-color: #f8f9fa !important;
+}
+
+/* 必要に応じて文字色を少し調整したい場合（任意） */
+body {
+  color: #333 !important;   /* 黒すぎる場合はこの行を削除または調整 */
 }
