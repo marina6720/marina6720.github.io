@@ -5,6 +5,6 @@ body {
 
 /* 段落間のスペースを広げる */
 p {
-  margin-bottom: 3em !important;     /* ← この数字を大きくするとさらに間が空く */
+  margin-bottom: 2em !important;     /* ← この数字を大きくするとさらに間が空く */
   line-height: 1.8;                  /* 行間も少し広げる */
 }
