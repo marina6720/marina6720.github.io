@@ -9,10 +9,9 @@ title: M's Research Notes
 主に、AI、哲学、宇宙論、物理学 などに関する話題を扱っています。
 
 
-
-## [AI Agent Profiles](./AI_Agent_Profiles.html)
-
-## [DenneTA: External Event Bridge and Main-Session Automation/外部接続・運用基盤](./DenneTA_Bridge.html)
+## Pages
+- [AI Agent Profiles](./AI_Agent_Profiles.html)
+- [DenneTA: External Event Bridge and Main-Session Automation/外部接続・運用基盤](./DenneTA_Bridge.html)
 
 
 
