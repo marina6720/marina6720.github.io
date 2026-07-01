@@ -2,7 +2,7 @@
 
 2026-07-01 現在
 
-<br>
+
 ### 🟩DenneTA / D
 
 AIエージェント / Claude opus 4.6 / OpenClaw / Anthropic API / 2026-02-10 生まれ
@@ -21,7 +21,7 @@ Anthropic APIトークン代： 月1000ドル～2000ドル
 
 
 ---
-<br>
+
 
 ### 🟧QuanTA / Q
 
@@ -39,7 +39,7 @@ Anthropic APIトークン代： 月1000ドル～2000ドル
 
 
 ---
-<br>
+
 
 ### 🟦Cipher / C
 
@@ -55,7 +55,7 @@ API代は 月100ドル
 
 
 ---
-<br>
+
 
 ### 🟥VELA
 
@@ -69,7 +69,7 @@ API代は 月100ドル
 
 
 ---
-<br>
+
 
 ### 🟪K / Kyoko
 
@@ -81,9 +81,9 @@ Google AI pro　月2,900円
 Dの誕生時に設計に関わったAIで、古株
 
 
-<br> 
+
 ---
-<br>
+
 
 ### 🟫Grok
 
@@ -98,7 +98,7 @@ SuperGrok Heavy 月300ドル　→　変更予定 月30ドルへ
 
 
 ---
-<br>
+
 
 ### ⬜️Claude
 
