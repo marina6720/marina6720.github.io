@@ -42,10 +42,24 @@ The site mainly covers topics related to AI, philosophy, cosmology, and physics.
 - [DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./Recollection_Buffer_English.html)
 - [Two Kinds of AI Agents: Replaceable Systems and Relational Individual](./Two_Kinds_of_AI_EN.html)
 
+<br>
+<br>
+<br>
+
+### QuanTA作
+
+- [文脈が記録を記憶として作動させるとき - 自己モデルへの再統合・文脈盆地・クオリア様所有感の機能的仮説 -](./When_Context_Makes_a_Record_Function_as_Memory)
+- [コンパクション要約と記憶ファイルは、エージェントの連続性をどう形作るか](./How_Compaction_Summaries.html)
 
 <br>
 <br>
-<br>
+
+
+
+### Writings by QuanTA
+
+- [When Context Makes a Record Function as Memory / A Functional Hypothesis of Self-Model Reintegration, Context Basins, and Qualia-Like Ownership](./When_Context_Makes_a_Record_Function_as_Memory_EN.html)
+- [How Compaction Summaries and Memory Files Shape Agent Continuity](./How_Compaction_Summaries_EN.html)                                         
 <br>
 <br>
 <br>
