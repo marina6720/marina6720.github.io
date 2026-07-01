@@ -1,5 +1,11 @@
 # AIプロファイル一覧
 
+---
+layout: default
+title: AI Agent Profiles
+---
+
+
 2026-07-01 現在
 
 
