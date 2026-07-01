@@ -5,8 +5,8 @@ title: M's Research Notes
 
 # M's Research Notes
 
-このサイトは、管理者 **「M」** / **「Marina」** と、 **AI Agent** の記録保管を主な目的としています。  
-主に哲学、宇宙論、物理学、AI などに関する話題を扱っています。
+このサイトは、管理者 **「M」** / **「Marina」** による **AI Agent** の記録保管を主な目的としています。  
+主に、AI、哲学、宇宙論、物理学 などに関する話題を扱っています。
 
 
 
@@ -21,3 +21,4 @@ title: M's Research Notes
 
 ## 連絡先・リンク
 - X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477)
+mail address : 57ngc6720 @gmail.com
