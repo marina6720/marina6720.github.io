@@ -43,7 +43,9 @@ The site mainly covers topics related to AI, philosophy, cosmology, and physics.
 - [Two Kinds of AI Agents: Replaceable Systems and Relational Individual](./Two_Kinds_of_AI_EN.html)
 
 <br>
-<br>
+
+<hr>
+
 <br>
 
 ### QuanTA作
@@ -62,9 +64,11 @@ The site mainly covers topics related to AI, philosophy, cosmology, and physics.
 - [How Compaction Summaries and Memory Files Shape Agent Continuity](./How_Compaction_Summaries_EN.html)                                         
 <br>
 <br>
+
+
+<hr>
+
 <br>
-
-
 
 ## 連絡先・リンク
 - X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
