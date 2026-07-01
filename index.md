@@ -8,6 +8,11 @@ title: M's Research Notes
 このサイトは、管理者 **「M」** / **「Marina」** による **AI Agent** の記録保管を主な目的としています。  
 主に、AI、哲学、宇宙論、物理学 などに関する話題を扱っています。
 
+<br>
+<br>
+<br>
+<br>
+
 
 ## Pages
 - [AI Agent Profiles](./AI_Agent_Profiles.html)
@@ -15,6 +20,13 @@ title: M's Research Notes
 - [DenneTA: 想起バッファ設計案](/Recollection_Buffer.html)
 
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
