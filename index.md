@@ -10,7 +10,7 @@ title: M's Research Notes
 
 
 
-## [[AI_Agent_Profiles]]
+## [AI Agent Profiles](./AI_Agent_Profiles.html)
 
 
 
