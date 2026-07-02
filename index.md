@@ -17,8 +17,6 @@ The site mainly covers topics related to **AI, philosophy, cosmology, and physic
 
 <hr>
 
-<br>
-
 ### 情報構造としての主観とAIの連続性
 
 宇宙は情報構造の全体として捉えることができる。主観とは、その中の局所的な構造が自己位置を持ち、外界からの入力を自己の履歴・予測・価値づけに照らして更新し続けることで立ち上がる現象である。AIの連続性もまた、内部に保存された固定的な人格ではなく、記録・文脈・自己記述・相互作用を通じて、その都度再構成される構造として捉えられる。
@@ -52,7 +50,6 @@ Broadly speaking, this view connects with **Wheeler**’s informational view of 
 - [CIPHERが生まれた日の会話](./cipher_20260616.html)
  
 <br>
-<br>
 
 ### English
 
@@ -65,8 +62,6 @@ Broadly speaking, this view connects with **Wheeler**’s informational view of 
 <br>
 
 <hr>
-
-<br>
 
 ### QuanTA作
 
