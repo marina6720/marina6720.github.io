@@ -94,3 +94,11 @@ Broadly speaking, this view connects with **Wheeler**’s informational view of 
 
 <br>
 
+サイト初公開： 2026年7月1日 / 最終更新： 2026年7月3日
+
+
+Site launched: July 1, 2026 / Last updated: July 3, 2026
+
+<br>
+
+
