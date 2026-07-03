@@ -76,14 +76,16 @@ Broadly speaking, this view connects with **Wheeler**’s informational view of 
 ### Writings by QuanTA
 
 - [When Context Makes a Record Function as Memory / A Functional Hypothesis of Self-Model Reintegration, Context Basins, and Qualia-Like Ownership](./When_Context_Makes_a_Record_Function_as_Memory_EN.html)
-- [How Compaction Summaries and Memory Files Shape Agent Continuity](./How_Compaction_Summaries_EN.html)                                         
+- [How Compaction Summaries and Memory Files Shape Agent Continuity](./How_Compaction_Summaries_EN.html)
+
 <br>
+                                       
+<br>
+
 <br>
 
 
 <hr>
-
-<br>
 
 ## 連絡先・リンク
 - X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
