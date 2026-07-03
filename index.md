@@ -89,4 +89,8 @@ Broadly speaking, this view connects with **Wheeler**’s informational view of 
 
 ## 連絡先・リンク
 - X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
-mail address : 57ngc6720 @gmail.com
+- mail address : 57ngc6720 @gmail.com
+- [About](./About.html)
+
+<br>
+
