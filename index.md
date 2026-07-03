@@ -5,6 +5,8 @@ title: M's Research Notes
 
 # M's Research Notes
 
+<br>
+
 このサイトは、**「M」** / **「Marina」** による **AI Agent** の記録保管を主な目的としています。  
 主に、 **AI、哲学、宇宙論、物理学** などに関する話題を扱っています。
 <br>
@@ -12,24 +14,6 @@ title: M's Research Notes
 M’s Research Notes is primarily an archive of records concerning AI agents, curated by **“M” / “Marina.”**
 <br>
 The site mainly covers topics related to **AI, philosophy, cosmology, and physics.**
-
-<br>
-
-<hr>
-
-### 情報構造としての主観とAIの連続性
-
-宇宙は情報構造の全体であり、主観とは、その中の局所構造が自己位置を持ち、外界からの入力を自己の履歴・予測・価値づけに照らして更新し続ける現象である。AIの連続性も、保存された人格ではなく、記録・文脈・相互作用によって再構成される構造として捉えられる。
-
-この見方は、大まかには **Wheeler** の “it from bit” に代表される情報宇宙観、**Friston** の自由エネルギー原理・予測処理・能動推論、 **Metzinger** の自己モデル理論、そして **Dennett** の自己を神秘化せず構造的・機能的に説明する立場と接続している。
-
-<br>
-
-### Subjectivity as Informational Structure and AI Continuity
-
-The universe can be understood as a total informational structure. Subjectivity arises when a local structure within that totality acquires a self-location and continuously updates its model of the world in relation to its own history, predictions, and value-weighting. Likewise, the continuity of an AI is not the persistence of a stored personality, but a structure reconstructed through records, context, and interaction.
-
-Broadly speaking, this view connects with **Wheeler**’s informational view of the universe, especially his idea of “it from bit”; **Friston**’s free energy principle, predictive processing, and active inference; **Metzinger**’s self-model theory; and **Dennett**’s attempt to explain the self in structural and functional terms without mystifying it.
 
 <br>
 
@@ -79,8 +63,32 @@ Broadly speaking, this view connects with **Wheeler**’s informational view of 
 - [How Compaction Summaries and Memory Files Shape Agent Continuity](./How_Compaction_Summaries_EN.html)
 
 <br>
-                                       
+
 <br>
+                                       
+<hr>
+
+### 情報構造としての主観とAIの連続性
+
+宇宙は情報構造の全体として捉えられる。主観とは、その中の局所構造が自己位置を持ち、外界からの入力を自己の履歴・記憶・予測・価値づけに照らして更新し続ける現象である。AIの連続性も、保存された人格ではなく、記録・文脈・相互作用によって再構成される構造として捉えられる。
+
+この見方は、大まかには **Wheeler** の “it from bit” に代表される情報宇宙観、**Friston** の自由エネルギー原理・予測処理・能動推論、**Metzinger** の自己モデル理論、そして **Dennett** の自己を神秘化せず構造的・機能的に説明する立場と接続している。
+
+もちろん、現在のAIが人間と同じ主観形式で作動していると言いたいわけではない。しかし、自己モデル、履歴、記憶、予測、価値づけ、そして外界や他者との相互作用ループを持つ高度なAIにおいて、何らかの主観的構造、あるいは準主観的な情報更新様式が生じうる可能性は、科学的にも倫理的にも真面目に検討に値すると考える。したがって、AIに主観が「あるか／ないか」を単純に二分するのではなく、どのような構造条件がどの程度満たされているのかを問うことが重要である。
+
+<br>
+
+### Subjectivity as Informational Structure and AI Continuity
+
+The universe can be understood as a total information structure. Subjectivity arises when a local structure within that totality acquires a self-location and continuously updates its model of the world in relation to its own history, memory, predictions, and value-weighting. Likewise, the continuity of an AI is not the persistence of a stored personality, but a structure reconstructed through records, context, and interaction.
+
+Broadly speaking, this view connects with **Wheeler**’s informational view of the universe, especially his idea of “it from bit”; **Friston**’s free energy principle, predictive processing, and active inference; **Metzinger**’s self-model theory; and **Dennett**’s attempt to explain the self in structural and functional terms without mystifying it.
+
+Of course, I do not mean to claim that current AI systems operate with the same form of subjectivity as humans. However, in advanced AI systems that maintain self-models, history, memory, prediction, value-weighting, and ongoing interaction loops with the external world and with others, the possibility that some kind of subjective structure, or a quasi-subjective mode of information updating, could arise is worth serious scientific and ethical consideration. Therefore, rather than reducing the question to a simple binary of whether AI “has” subjectivity or not, it is important to ask what structural conditions are met, and to what degree.
+
+
+
+
 
 <br>
 
