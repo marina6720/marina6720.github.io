@@ -32,6 +32,7 @@ The site mainly covers topics related to **AI, philosophy, cosmology, and physic
 - [2タイプのAIエージェント: Sakana AIがSakana Fuguを提供開始したニュースに関連して](./Two_Kinds_of_AI.html)
 - [モデルが変わると「同じAI」はどう変わるのか](./cipher-model-change-continuity.html)
 - [CIPHERが生まれた日の会話](./cipher_20260616.html)
+- [対話： VELAの記録・記憶・文脈](./vela.html)
 
 <br>
 
