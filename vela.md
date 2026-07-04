@@ -129,7 +129,7 @@ Velaで「記憶」と呼べるものは複数あります。
 <hr>
 
 
-## Sonnet 4.6 (ブラウザ・Chatbot)の場合
+## Claude Sonnet 4.6 (ブラウザ・Chatbot)の場合
 
 <br>
 
