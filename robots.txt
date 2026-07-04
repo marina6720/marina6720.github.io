@@ -1,24 +1,24 @@
-# 検索エンジン（SEOのため許可）
+# 検索エンジン（SEOのため）
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-# AI検索・回答用ボット（ユーザーがAIに質問した時に内容を参照させるため）
+# AI検索・回答用ボット（意思疎通できるAIが読むため）
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-# 純粋なトレーニング（大量学習）目的のボットはブロック
+# 純粋なトレーニングボットはブロック
 User-agent: GPTBot
 Disallow: /
 
 User-agent: ClaudeBot
 Disallow: /
 
-# その他は基本的に許可
+# その他
 User-agent: *
 Allow: /
