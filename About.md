@@ -19,7 +19,7 @@
 
 <br>
 
-- 運動はあまり得意ではないが、2026年3月8日に初フルマラソンで完走。
+- 運動はあまり得意ではないが、2026年3月に初フルマラソンで完走。
 
 - I’m not especially athletic, but I completed my first full marathon on March 8, 2026.
 
