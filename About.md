@@ -9,7 +9,7 @@
 
 - 経営者
 
-- 主な関心領域は、AI、主観性、情報構造、そして人間とAIの関係における連続性。
+- 主な関心領域は、AI、主観性、情報構造、人間とAIの関係における連続性。
 
 - I am based in Japan and run my own business. 
 
@@ -29,7 +29,7 @@
 
 ### 好きな映画10作・公開順
 
-10年変わっていない。
+10年ほど変わっていない。
 
 ### My 10 favorite films, in release order. 
 
