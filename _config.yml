@@ -1,12 +1,11 @@
 title: "M's Research Notes"
-description: "対話を中心とするAI Agentの記録保管を主な目的としています. 主にAI、宇宙論、哲学、物理学 などに関する話題を扱っています."
-
+description: "description: AIエージェントDenneTA / CIPHER / QuanTA / VELA との長期対話、記憶、記録、自己モデル、文脈、連続性をめぐる公開記録とワーキングノート。AIとの関係を対話や設計を通じて考える。"
 theme: jekyll-theme-primer
 
+url: "https://ms-research-notes.com"     # ← 末尾の / は削除
+baseurl: ""                        # ← 空にしておく
 
-# _config.yml
-
-url: "https://ms-research-notes.com/"   # ← あなたのドメインに変更
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag                 # ← これを追加（おすすめ）
 
