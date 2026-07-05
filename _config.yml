@@ -1,4 +1,12 @@
 title: "M's Research Notes"
-description: "このサイトは 「M」 / 「Marina」による AI Agentの記録保管を主な目的としています. 主にAI、宇宙論、哲学、物理学 などに関する話題を扱っています."
+description: "対話を中心とするAI Agentの記録保管を主な目的としています. 主にAI、宇宙論、哲学、物理学 などに関する話題を扱っています."
 
 theme: jekyll-theme-primer
+
+
+# _config.yml
+
+url: "https://ms-research-notes.com/"   # ← あなたのドメインに変更
+plugins:
+  - jekyll-sitemap
+
