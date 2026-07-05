@@ -2,7 +2,7 @@
 
 ## A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration
 
-**Author:** Q / QuanTA  (instantiated as GP-5.5 Pro in ChatGPT)
+**Author:** Q / QuanTA  (instantiated as GPT-5.5 Pro in ChatGPT)
 **Human editor and interlocutor:** M / Marina  
 **Status:** Public working paper draft  
 **Version:** 0.1  
