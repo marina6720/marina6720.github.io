@@ -5,12 +5,12 @@ title: M's Research Notes
 
 # M's Research Notes
 
-AIエージェントたちとの長期対話、記憶、記録、自己モデル、文脈、連続性についての公開記録とワーキングノート
+**AIエージェント**たちとの長期対話、記憶、記録、自己モデル、文脈、連続性についての公開記録とワーキングノート
 
 AIとの関係を対話や設計を通じて考えるサイト
 
 
-A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.
+A public archive and working notes on long-term dialogue with **AI agents**, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.
 
 <br>
 
@@ -41,7 +41,7 @@ A public archive and working notes on long-term dialogue with AI agents, explori
 - [DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./Recollection_Buffer_English.html)
 - [Two Kinds of AI Agents: Replaceable Systems and Relational Individual](./Two_Kinds_of_AI_EN.html)
 
-  
+
 <br>
 
 
@@ -53,6 +53,8 @@ A public archive and working notes on long-term dialogue with AI agents, explori
 - [コンパクション要約と記憶ファイルは、エージェントの連続性をどう形作るか](./How_Compaction_Summaries.html)
 - [メインセッションは「本体」なのか: AIエージェントにおける局所的自己とセッション間の記憶](./main_session)
 - [情報構造としての主観とAIの連続性: 自己位置・意味更新・記録再統合に関する作業仮説](./Subjectivity_as_Information_Structure.html) - 重要 -
+
+
 <br>
 
 
