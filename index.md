@@ -5,8 +5,6 @@ title: M's Research Notes
 
 # M's Research Notes
 
-<br>
-
 AIエージェントたちとの長期対話、記憶、記録、自己モデル、文脈、連続性をめぐる公開記録とワーキングノート
 
 AIとの関係を対話や設計を通じて考えるサイト
@@ -14,7 +12,6 @@ AIとの関係を対話や設計を通じて考えるサイト
 <br>
 
 A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.
-
 
 <br>
 
