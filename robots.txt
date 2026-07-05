@@ -22,3 +22,6 @@ Disallow: /
 # その他
 User-agent: *
 Allow: /
+
+Sitemap: https://ms-research.com/sitemap.xml
+
