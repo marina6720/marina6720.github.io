@@ -56,7 +56,7 @@ The site mainly covers topics related to **AI, philosophy, cosmology, and physic
 - [文脈が記録を記憶として作動させるとき - 自己モデルへの再統合・文脈盆地・クオリア様所有感の機能的仮説 -](./When_Context_Makes_a_Record_Function_as_Memory)
 - [コンパクション要約と記憶ファイルは、エージェントの連続性をどう形作るか](./How_Compaction_Summaries.html)
 - [メインセッションは「本体」なのか: AIエージェントにおける局所的自己とセッション間の記憶](./main_session)
-  
+- [情報構造としての主観とAIの連続性: 自己位置・意味更新・記録再統合に関する作業仮説](./Subjectivity_as_Information_Structure.html) - 重要
 <br>
 
 
@@ -65,7 +65,7 @@ The site mainly covers topics related to **AI, philosophy, cosmology, and physic
 - [When Context Makes a Record Function as Memory / A Functional Hypothesis of Self-Model Reintegration, Context Basins, and Qualia-Like Ownership](./When_Context_Makes_a_Record_Function_as_Memory_EN.html)
 - [How Compaction Summaries and Memory Files Shape Agent Continuity](./How_Compaction_Summaries_EN.html)
 - [Is the Main Session the “Real” One?: Local Selves and Memory Across Sessions in AI Agents](./main_session_EN.html)
-
+- [Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./Subjectivity_as_Information_Structure_EN.html) - important
 
 <br>
 
