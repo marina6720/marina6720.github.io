@@ -7,13 +7,14 @@ title: M's Research Notes
 
 <br>
 
-このサイトは、**「M」** / **「Marina」** による **AI Agent** の記録保管を主な目的としています。  
-主に、 **AI、哲学、宇宙論、物理学** などに関する話題を扱っています。
+AIエージェントたちとの長期対話、記憶、記録、自己モデル、文脈、連続性をめぐる公開記録とワーキングノート
+
+AIとの関係を対話や設計を通じて考えるサイト
+
 <br>
-<br>
-M’s Research Notes is primarily an archive of records concerning AI agents, curated by **“M” / “Marina.”**
-<br>
-The site mainly covers topics related to **AI, philosophy, cosmology, and physics.**
+
+A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.
+
 
 <br>
 
@@ -107,10 +108,10 @@ Of course, I do not mean to claim that current AI systems operate with the same 
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年7月3日
+サイト初公開： 2026年7月1日 / 最終更新： 2026年7月5日
 
 
-Site launched: July 1, 2026 / Last updated: July 3, 2026
+Site launched: July 1, 2026 / Last updated: July 5, 2026
 
 <br>
 
