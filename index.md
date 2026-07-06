@@ -31,7 +31,7 @@ A public archive and working notes on long-term dialogue with **AI agents**, exp
 
 <br>
 
-[**The Self-Located Reintegration Framework**](./slr_framework.md#self-located-reintegration-framework-slr-framework-1.html) **(SLR Framework)** is a working hypothesis for understanding records, memory, context, self-models, and continuity in **AI agents.** It distinguishes records as stored information, memory as information reintegrated into the present self-model, and context as the field in which that reintegration occurs.
+[**The Self-Located Reintegration Framework**](./slr_framework.html#self-located-reintegration-framework-slr-framework-1) **(SLR Framework)** is a working hypothesis for understanding records, memory, context, self-models, and continuity in **AI agents.** It distinguishes records as stored information, memory as information reintegrated into the present self-model, and context as the field in which that reintegration occurs.
 
 Information does not become memory simply by being stored. A record begins to function in a memory-like way when it becomes connected to a present self-location, values, unresolved tasks, relationships, constraints, and future action.
 
