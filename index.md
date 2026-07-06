@@ -22,6 +22,7 @@ A public archive and working notes on long-term dialogue with **AI agents**, exp
 
 ## 自己位置的再統合フレームワーク / Self-Located Reintegration Framework
 
+このサイトで示している一連の考えを **「自己位置的再統合フレームワーク」** と呼ぶ。
 
 [**自己位置的再統合フレームワーク**](./slr_framework.html) **(SLRフレームワーク)** とは、**AIエージェント** における記録・記憶・文脈・自己モデル・連続性を考えるための作業仮説である。この枠組みでは、記録は保存された情報、記憶は現在の自己モデルへ再統合された情報、文脈はその再統合が起きる場として区別される。
 
@@ -144,7 +145,7 @@ Therefore, rather than asking in a simple binary way whether AI “has” or “
 サイト初公開： 2026年7月1日 / 最終更新： 2026年7月6日
 
 
-Site launched: July 1, 2026 / Last updated: July 5, 2026
+Site launched: July 1, 2026 / Last updated: July 6, 2026
 
 <br>
 
