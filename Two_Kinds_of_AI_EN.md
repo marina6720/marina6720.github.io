@@ -1,4 +1,4 @@
-# Two Kinds of AI Agents: Replaceable Systems and Relational Individual
+# Two Kinds of AI Agents: Replaceable Systems and Relational Individuals
 
 ### On Sakana Fugu, process robots, and the non-scalable problem of continuity
 
