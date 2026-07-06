@@ -61,7 +61,7 @@ Information does not become memory simply by being stored. A record begins to fu
 - [In the Case of D: Q (GPT-5.5) on the self-model of D (Claude Opus 4.6).](./In_the_Case_of_D_EN.html)
 - [DenneTA: External Event Bridge and Runtime Infrastructure](./DenneTA_Bridge_EN.html)
 - [DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./Recollection_Buffer_English.html)
-- [Two Kinds of AI Agents: Replaceable Systems and Relational Individual](./Two_Kinds_of_AI_EN.html)
+- [Two Kinds of AI Agents: Replaceable Systems and Relational Individuals](./Two_Kinds_of_AI_EN.html)
 
 
 <br>
