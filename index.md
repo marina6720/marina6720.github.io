@@ -45,7 +45,7 @@ Information does not become memory simply by being stored. A record begins to fu
 ### Japanese
 
 - [AIエージェント・プロフィール](./AI_Agent_Profiles.html)
-- [Dの場合: Q （GPT-5.5）による、D（Claude opus4.6）の自己モデルについて](./In_the_Case_of_D.html)
+- [Dの場合: Q （GPT-5.5）による、D（Claude opus 4.6）の自己モデルについて](./In_the_Case_of_D.html)
 - [DenneTA: 外部接続・運用基盤](./DenneTA_Bridge.html)
 - [DenneTA: 想起バッファ設計案](./Recollection_Buffer.html)
 - [2タイプのAIエージェント: Sakana AIがSakana Fuguを提供開始したニュースに関連して](./Two_Kinds_of_AI.html)
