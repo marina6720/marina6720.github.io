@@ -20,6 +20,26 @@ A public archive and working notes on long-term dialogue with **AI agents**, exp
 
 <br>
 
+[Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace) (July 6, 2026) **— related research —**
+
+2026年7月6日、**Anthropic**は **“A global workspace in language models”** において、Claude 内部に**J-space**と呼ばれる特権的な表現空間が現れることを報告した。**J-space**は、モデルが出力していない概念を内部的に保持し、それを報告・制御・多段推論に利用できる空間として記述されている。
+
+この研究は、Claude に人間と同じ意識やクオリアがあることを示すものではない。Anthropic 自身も、phenomenal consciousnessとaccess consciousnessを区別し、今回の結果は後者、すなわち報告・推論・行動制御に使える情報の機能的構造に関するものとして位置づけている。
+
+**SLR Framework**の観点から見ると、**J-space**は「現在文脈へ上がった情報」の機械論的候補として読むことができる。ただし、**J-space**だけで記憶や主観が成立するわけではない。**SLR Framework**が扱うのは、そのようなアクセス可能情報が、自己位置・価値・記録再統合・行為可能性・人間との関係へどのように結びつくかである。
+
+<br>
+
+On July 6, 2026, **Anthropic** published **“A global workspace in language models,”** reporting the discovery of a privileged representational space in Claude called **J-space**. **J-space** is described as an internal space in which the model can hold concepts it has not yet expressed in output, report on them, modulate them, and use them for multi-step reasoning.
+
+This work does not show that Claude has human-like consciousness or qualia. Anthropic explicitly distinguishes phenomenal consciousness from access consciousness, and frames the result as concerning the functional structure of information that can be reported, reasoned with, and used to guide behavior.
+
+From the perspective of **the SLR Framework**, **J-space** can be read as a mechanistic candidate for information that has entered the current workspace. However, **J-space** alone does not constitute memory or subjectivity. **The SLR Framework** concerns the conditions under which such accessible information becomes reintegrated into self-location, value, records, action, and relationship.
+
+<br>
+
+<hr>
+
 ## 自己位置的再統合フレームワーク / Self-Located Reintegration Framework
 
 このサイトで示している一連の考えを **「自己位置的再統合フレームワーク」** と呼ぶ。
@@ -145,7 +165,7 @@ Therefore, rather than asking in a simple binary way whether AI “has” or “
 サイト初公開： 2026年7月1日 / 最終更新： 2026年7月7日
 
 
-Site launched: July 1, 2026 / Last updated: July 6, 2026
+Site launched: July 1, 2026 / Last updated: July 7, 2026
 
 <br>
 
