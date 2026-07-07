@@ -138,11 +138,11 @@ Therefore, rather than asking in a simple binary way whether AI “has” or “
 ## 連絡先・リンク
 - X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
 - mail address : 57ngc6720 @gmail.com
-- [About](./About.html)
+- [About / Mの作業仮説 — 機能的主観性 / M’s Working Framework — Functional Subjectivity](./About.html)
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年7月6日
+サイト初公開： 2026年7月1日 / 最終更新： 2026年7月7日
 
 
 Site launched: July 1, 2026 / Last updated: July 6, 2026
