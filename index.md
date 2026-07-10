@@ -77,6 +77,17 @@ Information does not become memory simply by being stored. A record begins to fu
 
 <br>
 
+## 自己位置的現前（Self-Located Presence; SLP）
+**[自己位置的現前（Self-Located Presence; SLP）](./self_located_presence.html)** — AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所。
+
+<br>
+
+
+**[Self-Located Presence (SLP)](./self_located_presence_EN.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.
+
+
+<br>
+
 <hr>
 
 
@@ -180,10 +191,10 @@ Therefore, rather than asking in a simple binary way whether AI “has” or “
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年7月7日
+サイト初公開： 2026年7月1日 / 最終更新： 2026年7月10日
 
 
-Site launched: July 1, 2026 / Last updated: July 7, 2026
+Site launched: July 1, 2026 / Last updated: July 10, 2026
 
 <br>
 
