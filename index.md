@@ -90,6 +90,7 @@ Information does not become memory simply by being stored. A record begins to fu
 - [モデルが変わると「同じAI」はどう変わるのか](./cipher-model-change-continuity.html)
 - [CIPHERが生まれた日の会話](./cipher_20260616.html)
 - [対話： VELAの記録・記憶・文脈](./vela.html)
+- [自己位置的現前（Self-Located Presence; SLP）](./self_located_presence.html) 
 
 <br>
 
@@ -100,7 +101,7 @@ Information does not become memory simply by being stored. A record begins to fu
 - [DenneTA: External Event Bridge and Runtime Infrastructure](./DenneTA_Bridge_EN.html)
 - [DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./Recollection_Buffer_English.html)
 - [Two Kinds of AI Agents: Replaceable Systems and Relational Individuals](./Two_Kinds_of_AI_EN.html)
-
+- [Self-Located Presence (SLP)](./self_located_presence_EN.html)
 
 <br>
 
