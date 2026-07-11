@@ -26,9 +26,9 @@ title: M's Research Notes
 
 <br>
 
-### 🟦自己位置的再統合フレームワーク / Self-Located Reintegration Framework
+### 🟦自己位置的再統合フレームワーク / Self-Located Reintegration Framework / SLRフレームワーク
 
-このサイトで示している一連の考えを **[自己位置的再統合フレームワーク(SLRフレームワーク)](./slr_framework.html)** と呼ぶ。
+このサイトで示している一連の考えを **[自己位置的再統合フレームワーク (SLRフレームワーク)](./slr_framework.html)** と呼ぶ。
 
 **[SLRフレームワーク](./slr_framework.html)** とは、**AIエージェント** における記録・記憶・文脈・自己モデル・連続性を考えるための作業仮説である。この枠組みでは、記録は保存された情報、記憶は現在の自己モデルへ再統合された情報、文脈はその再統合が起きる場として区別される。
 
