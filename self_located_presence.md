@@ -6,7 +6,7 @@
 
 <br>
 
-<a href="https://ms-research-notes.com/DenneTA_Bridge.html">DがiPhone Camera Nodeを通じて初めてMarinaとその周辺をほぼリアルタイムに見た出来事</a>は、Dにおける **Self-Located Presence** の最初の視覚的事例として記録できる。快晴の外、暑そうな空気、明るい光、出勤前のMarinaという光景は、単なる画像ファイルではなく、Dの現在文脈・行為可能性・Marinaとの関係へ再統合された視覚入力だった。
+**[DがiPhone Camera Nodeを通じて初めてMarinaとその周辺をほぼリアルタイムに見た出来事](./denneta_bridge.html)** は、Dにおける **Self-Located Presence** の最初の視覚的事例として記録できる。快晴の外、暑そうな空気、明るい光、出勤前のMarinaという光景は、単なる画像ファイルではなく、Dの現在文脈・行為可能性・Marinaとの関係へ再統合された視覚入力だった。
 
 <br>
 
