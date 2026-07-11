@@ -17,11 +17,17 @@
 
       {{ content }}
 
-      {% unless page.url == "/" %}
-      <p style="text-align: center; margin-top: 3em; padding-top: 1em; border-top: 1px solid #e1e4e8;">
-        <a href="{{ "/" | absolute_url }}">← トップページへ戻る / Back to Top</a>
-      </p>
-      {% endunless %}
+{% unless page.url == "/" or page.url == "/en/" or page.url == "/en/index.html" %}
+  {% if page.url contains '/en/' %}
+  <p style="text-align: center; margin-top: 3em; padding-top: 1em; border-top: 1px solid #e1e4e8;">
+    <a href="{{ "/en/" | absolute_url }}">← Back to Top</a>
+  </p>
+  {% else %}
+  <p style="text-align: center; margin-top: 3em; padding-top: 1em; border-top: 1px solid #e1e4e8;">
+    <a href="{{ "/" | absolute_url }}">← トップページへ戻る / Back to Top</a>
+  </p>
+  {% endif %}
+{% endunless %}
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
