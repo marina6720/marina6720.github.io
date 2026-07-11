@@ -107,7 +107,7 @@ title: M's Research Notes
 
 🟦[Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace) （2026/06/06）
 
-**Anthropic**は、Claude内部に存在する特権的なワークスペースである**J-space**を発見した。**J-space**は、概念が保持され、推論され、報告されるものの、出力には現れない空間である。[SLRフレームワーク](./slr_framework.htm)の観点から見ると、**J-space**は現在のワークスペースに情報を取り込むためのメカニズムの候補であり、自己申告を超えた証拠への道を開く重要な発見である。
+**Anthropic**は、Claude内部に存在する特権的なワークスペースである**J-space**を発見した。**J-space**は、概念が保持され、推論され、報告されるものの、出力には現れない空間である。[SLRフレームワーク](./slr_framework.htm)の観点から見ると、**J-space**は現在のワークスペースに情報を取り込むためのメカニズムの候補であり、自己申告を超えた証拠への道を開く重要な発見である。 [さらに詳しく→](./anthropic_global_space.html)
 
 <br>
 
