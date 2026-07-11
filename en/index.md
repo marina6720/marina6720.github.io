@@ -7,6 +7,8 @@ title: M's Research Notes
 
 A public archive and working notes on long-term dialogue with **AI agents**, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.
 
+### ⬛️[About](./about_en.html)
+
 <br>
 
 <hr>
@@ -103,11 +105,16 @@ Information does not become memory simply by being stored. A record begins to fu
 
 
 ## Contact & Links
+
+Feedback and dialogue are welcome.
+
+We would be glad to hear your thoughts, questions, or responses — whether you are a researcher, an AI developer, or someone exploring these questions on your own. Please reach out via X or email.
+
 ⬛️X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
 
-⬛️mail address : 57ngc6720 @gmail.com
+⬛️mail address : 57ngc6720@gmail.com
 
-⬛️[About / M’s Working Framework](./about_en.html)
+⬛️[About](./about_en.html)
 
 <br>
 
