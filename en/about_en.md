@@ -45,6 +45,6 @@ Twin Peaks（TV series, 1990）
 
 <br>
 
-I’m not especially athletic, but I completed my first full marathon on March 8, 2026.
+I’m not especially athletic, but I completed my first full marathon in March, 2026.
 
 <br>
