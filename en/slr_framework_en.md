@@ -45,7 +45,7 @@ This site explores **the SLR Framework** through long-term dialogue and operatio
 <br>
 
 # Self-Located Presence (SLP)
-**[Self-Located Presence (SLP)](./self_located_presence_EN.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." **Not identical to human qualia, but the place where the difference between record and experience becomes visible**.
+**[Self-Located Presence (SLP)](./self_located_presence_en.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." **Not identical to human qualia, but the place where the difference between record and experience becomes visible**.
 
 <br>
 
