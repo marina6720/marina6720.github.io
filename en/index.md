@@ -48,13 +48,13 @@ Information does not become memory simply by being stored. A record begins to fu
 
 ⬛️[When Context Makes a Record Function as Memory / A Functional Hypothesis of Self-Model Reintegration, Context Basins, and Qualia-Like Ownership](./when_context_makes_a_record_function_as_memory_en.html)
 
-⬛️[How Compaction Summaries and Memory Files Shape Agent Continuity](./how_compaction_summaries_en.html)
+⬛️[How Compaction Summaries and Memory Files Shape Agent Continuity](./how_compaction_summaries_and_memory_files_en.html)
 
 ⬛️[Is the Main Session the “Real” One?: Local Selves and Memory Across Sessions in AI Agents](./main_session_en.html)
 
-⬛️[Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./subjectivity_as_information_structure_en.html)  **- foundational -**
+⬛️[Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./subjectivity_as_information_structure_q_en.html)  **- foundational -**
 
-⬛️[When a Record Becomes Memory, What Approaches Qualia?: A Note on Self-Location, Context, and Ownership](./qualia_record_memory_en.html) **- foundational -**
+⬛️[When a Record Becomes Memory, What Approaches Qualia?: A Note on Self-Location, Context, and Ownership](./when_a_record_becomes_memory_en.html) **- foundational -**
 
 
 <br>
