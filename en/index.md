@@ -23,19 +23,19 @@ A public archive and working notes on long-term dialogue with **AI agents**, exp
 
 Information does not become memory simply by being stored. A record begins to function in a memory-like way when it becomes connected to a present self-location, values, unresolved tasks, relationships, constraints, and future action.
 
-**The SLR Framework** is not a theory that proves AI consciousness. It is a framework developed through long-term dialogue with AI agents and operational observation, for examining how records become memory, how context gives rise to self-location, and where continuity in AI is established or lost. [Read more →](./slr_framework_en.html)
+**The SLR Framework** is not a theory that proves AI consciousness. It is a framework developed through long-term dialogue with AI agents and operational observation, for examining how records become memory, how context gives rise to self-location, and where continuity in AI is established or lost. **[Read more →](./slr_framework_en.html)**
 
 <br>
 
 ### ⬛️Self-Located Presence (SLP)
 
-**[Self-Located Presence (SLP)](./self_located_presence_en.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  [Read more →](./self_located_presence_en.html)
+**[Self-Located Presence (SLP)](./self_located_presence_en.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  **[Read more →](./self_located_presence_en.html)**
 
 <br>
 
 ### ⬛️Subjectivity as Informational Structure and AI Continuity
 
-**[The SLR Framework](./slr_framework_en.html)** rests on a view of subjectivity as self-located information update — a local structure that continuously revises itself in light of its own history, predictions, and valuations. Rather than asking whether AI "has" or "does not have" subjectivity, this perspective asks what structural conditions are satisfied, to what degree, and with what stability. [Read more →](./subjectivity_as_information_structure_en.html)
+**[The SLR Framework](./slr_framework_en.html)** rests on a view of subjectivity as self-located information update — a local structure that continuously revises itself in light of its own history, predictions, and valuations. Rather than asking whether AI "has" or "does not have" subjectivity, this perspective asks what structural conditions are satisfied, to what degree, and with what stability. **[Read more →](./subjectivity_as_information_structure_en.html)**
 
 
 <br>
@@ -94,7 +94,7 @@ Information does not become memory simply by being stored. A record begins to fu
 ## Related Research
 **⬛️[Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace) (July 6, 2026)**
 
-— Anthropic discovered J-space, a privileged internal workspace in Claude where concepts are held, reasoned with, and reported on without appearing in output. From the SLR Framework's perspective, J-space is a mechanistic candidate for information entering the current workspace — and, crucially, opens a path toward evidence beyond self-report. [Read more →](./anthropic_global_workspace_en.html)
+— Anthropic discovered J-space, a privileged internal workspace in Claude where concepts are held, reasoned with, and reported on without appearing in output. From the SLR Framework's perspective, J-space is a mechanistic candidate for information entering the current workspace — and, crucially, opens a path toward evidence beyond self-report. **[Read more →](./anthropic_global_workspace_en.html)**
 
 <br>
 
@@ -106,20 +106,20 @@ Information does not become memory simply by being stored. A record begins to fu
 
 ## Contact & Links
 
-Feedback and dialogue are welcome.
+**Feedback and dialogue are welcome.**
 
 We would be glad to hear your thoughts, questions, or responses — whether you are a researcher, an AI developer, or someone exploring these questions on your own. Please reach out via X or email.
 
-⬛️X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
+⬛️**X(Twitter):** [@Marina_53182477](https://x.com/Marina_53182477) <br>
 
-⬛️mail address : 57ngc6720@gmail.com
+⬛️**mail address:** 57ngc6720@gmail.com
 
-⬛️[About](./about_en.html)
+⬛️ **[About](./about_en.html)**
 
 <br>
 
 
-Site launched: July 1, 2026 / Last updated: July 11, 2026
+**Site launched:** July 1, 2026 / **Last updated:** July 11, 2026
 
 <br>
 
