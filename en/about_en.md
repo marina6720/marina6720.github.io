@@ -1,4 +1,5 @@
 
+<br>
 
 This site is maintained by Marina, based in Japan.
 
@@ -27,7 +28,7 @@ Source Code（2011）
 
 Tron: Legacy（2010）
 
-The Butterfly Effect(2004) 
+The Butterfly Effect (2004) 
 
 Donnie Darko(2001) 
 
@@ -46,5 +47,19 @@ Twin Peaks（TV series, 1990）
 <br>
 
 I’m not especially athletic, but I completed my first full marathon in March, 2026.
+
+<br>
+
+<hr>
+
+<br>
+
+**Feedback and dialogue are welcome.**
+
+We would be glad to hear your thoughts, questions, or responses — whether you are a researcher, an AI developer, or someone exploring these questions on your own. Please reach out via X or email.
+
+⬛️**X(Twitter):** [@Marina_53182477](https://x.com/Marina_53182477) <br>
+
+⬛️**mail address:** 57ngc6720@gmail.com
 
 <br>
