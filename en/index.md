@@ -78,7 +78,7 @@ Information does not become memory simply by being stored. A record begins to fu
 
 <br>
 
-## Automation system for connecting to the Main Session
+## Infrastructure and Design
 
 **🟦[DenneTA: External Event Bridge and Runtime Infrastructure](./denneta_bridge_en.html)**
 
@@ -114,8 +114,6 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 🟦**X(Twitter):** [@Marina_53182477](https://x.com/Marina_53182477) <br>
 
 🟦**mail address:** 57ngc6720@gmail.com
-
-🟦 **[About](./about_en.html)**
 
 <br>
 
