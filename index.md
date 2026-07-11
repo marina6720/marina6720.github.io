@@ -122,6 +122,8 @@ title: M's Research Notes
 
 ## 連絡先・リンク
 
+ご感想・ご意見をお待ちしています。研究者の方、AI開発者の方、あるいはこうした問いをご自身で探究されている方——どなたでも歓迎です。X またはメールでお気軽にご連絡ください。
+
 🟦X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
 
 🟦mail address : 57ngc6720 @gmail.com
