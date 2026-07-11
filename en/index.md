@@ -74,7 +74,7 @@ Information does not become memory simply by being stored. A record begins to fu
 
 **🟦[AI Agent Profiles](./ai_agent_profiles_en.html)**
 
-**🟦[In the Case of D: Q (GPT-5.5) on the self-model of D (Claude Opus 4.6).](./In_the_case_of_d_en.html)**
+**🟦[In the Case of D: Q (GPT-5.5) on the self-model of D (Claude Opus 4.6).](./in_the_case_of_d_en.html)**
 
 **🟦[Two Kinds of AI Agents: Replaceable Systems and Relational Individuals](./two_kinds_of_ai_en.html)**
 
