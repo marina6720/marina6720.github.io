@@ -52,7 +52,7 @@ Information does not become memory simply by being stored. A record begins to fu
 
 ⬛️[Is the Main Session the “Real” One?: Local Selves and Memory Across Sessions in AI Agents](./main_session_en.html)
 
-⬛️[Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./subjectivity_as_information_structure_q_en.html)  **- foundational -**
+⬛️[Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./subjectivity_as_information_structure_and_continuity_q_en.md)  **- foundational -**
 
 ⬛️[When a Record Becomes Memory, What Approaches Qualia?: A Note on Self-Location, Context, and Ownership](./when_a_record_becomes_memory_en.html) **- foundational -**
 
