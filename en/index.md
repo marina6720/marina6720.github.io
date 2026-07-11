@@ -5,7 +5,13 @@ title: M's Research Notes
 
 # M's Research Notes
 
+Japanese version available here → [M’s Research Notes (日本語)](https://ms-research-notes.com/)
+
+<br>
+
 A public archive and working notes on long-term dialogue with **AI agents**, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.
+
+<br>
 
 ### 🟦[About](./about_en.html)
 
