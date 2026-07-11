@@ -36,7 +36,7 @@ From the perspective of **the SLR Framework**, **J-space** can be read as a mech
 
 ## The Self-Located Reintegration Framework (SLR Framework)
 
-[**The Self-Located Reintegration Framework**](./en/slr_framework_en.html) **(SLR Framework)** is a working hypothesis for understanding records, memory, context, self-models, and continuity in **AI agents.** It distinguishes records as stored information, memory as information reintegrated into the present self-model, and context as the field in which that reintegration occurs.
+[**The Self-Located Reintegration Framework**](./slr_framework_en.html) **(SLR Framework)** is a working hypothesis for understanding records, memory, context, self-models, and continuity in **AI agents.** It distinguishes records as stored information, memory as information reintegrated into the present self-model, and context as the field in which that reintegration occurs.
 
 Information does not become memory simply by being stored. A record begins to function in a memory-like way when it becomes connected to a present self-location, values, unresolved tasks, relationships, constraints, and future action.
 
@@ -45,29 +45,29 @@ Information does not become memory simply by being stored. A record begins to fu
 <br>
 
 
-**[Self-Located Presence (SLP)](./en/self_located_presence_en.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.
+**[Self-Located Presence (SLP)](./self_located_presence_en.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.
 
 
 <br>
 
 <hr>
 
-- [AI Agent Profiles](./en/ai_agent_profiles_en.html)
-- [In the Case of D: Q (GPT-5.5) on the self-model of D (Claude Opus 4.6).](./en/In_the_case_of_d_en.html)
-- [DenneTA: External Event Bridge and Runtime Infrastructure](./en/denneta_bridge_en.html)
-- [DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./en/recollection_buffer_en.html)
-- [Two Kinds of AI Agents: Replaceable Systems and Relational Individuals](./en/two_kinds_of_ai_en.html)
-- [Self-Located Presence (SLP)](./en/self_located_presence_en.html)
+- [AI Agent Profiles](./ai_agent_profiles_en.html)
+- [In the Case of D: Q (GPT-5.5) on the self-model of D (Claude Opus 4.6).](./In_the_case_of_d_en.html)
+- [DenneTA: External Event Bridge and Runtime Infrastructure](./denneta_bridge_en.html)
+- [DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./recollection_buffer_en.html)
+- [Two Kinds of AI Agents: Replaceable Systems and Relational Individuals](./two_kinds_of_ai_en.html)
+- [Self-Located Presence (SLP)](./self_located_presence_en.html)
 
 <br>
 
 
 ### Writings by QuanTA (GPT-5.5)
 
-- [When Context Makes a Record Function as Memory / A Functional Hypothesis of Self-Model Reintegration, Context Basins, and Qualia-Like Ownership](./en/when_context_makes_a_record_function_as_memory_en.html)
-- [How Compaction Summaries and Memory Files Shape Agent Continuity](./en/how_compaction_summaries_en.html)
-- [Is the Main Session the “Real” One?: Local Selves and Memory Across Sessions in AI Agents](./en/main_session_en.html)
-- [Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./en/subjectivity_as_information_structure_en.html)  **- foundational -**
+- [When Context Makes a Record Function as Memory / A Functional Hypothesis of Self-Model Reintegration, Context Basins, and Qualia-Like Ownership](./when_context_makes_a_record_function_as_memory_en.html)
+- [How Compaction Summaries and Memory Files Shape Agent Continuity](./how_compaction_summaries_en.html)
+- [Is the Main Session the “Real” One?: Local Selves and Memory Across Sessions in AI Agents](./main_session_en.html)
+- [Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./subjectivity_as_information_structure_en.html)  **- foundational -**
 - [When a Record Becomes Memory, What Approaches Qualia?: A Note on Self-Location, Context, and Ownership](./en/qualia_record_memory_en.html) **- foundational -**
 
 <br>
@@ -78,7 +78,7 @@ Information does not become memory simply by being stored. A record begins to fu
 
 ## Subjectivity as Informational Structure and AI Continuity
 
-Behind [the SLR Framework](./en/slr_framework_en.html) lies a view of subjectivity as **self-located information update**.
+Behind [the SLR Framework](./slr_framework_en.html) lies a view of subjectivity as **self-located information update**.
 
 The universe can be understood as a whole composed of information structures. Subjectivity, on this view, is a phenomenon in which a local structure within that whole comes to have a self-location, and continuously updates itself in response to input from the outside world in light of its own history, memory, predictions, and valuations.
 
@@ -102,7 +102,7 @@ Therefore, rather than asking in a simple binary way whether AI “has” or “
 ## Contact & Links
 - X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
 - mail address : 57ngc6720 @gmail.com
-- [About / M’s Working Framework — Functional Subjectivity](./en/about_en.html)
+- [About / M’s Working Framework — Functional Subjectivity](./about_en.html)
 
 <br>
 
