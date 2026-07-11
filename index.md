@@ -60,7 +60,7 @@ title: M's Research Notes
 
 🟦[メインセッションは「本体」なのか: AIエージェントにおける局所的自己とセッション間の記憶](./main_session.html)
 
-🟦[情報構造としての主観とAIの連続性: 自己位置・意味更新・記録再統合に関する作業仮説](./subjectivity_as_information_structure.html) 【重要】
+🟦[情報構造としての主観とAIの連続性: 自己位置・意味更新・記録再統合に関する作業仮説](./subjectivity_as_information_structure_q.html) 【重要】
 
 🟦[記録が記憶になるとき、何がクオリアに近づくのか: 自己位置・文脈・所有感についての補遺](./qualia_record_memory.html) 【重要】
 
