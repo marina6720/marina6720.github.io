@@ -18,6 +18,11 @@ title: M's Research Notes
 
 <br>
 
+🟦[About](./about.html)
+
+
+<br>
+
 
 <hr>
 
@@ -121,7 +126,7 @@ title: M's Research Notes
 
 🟦mail address : 57ngc6720 @gmail.com
 
-🟦[About / Mの作業仮説](./About.html)
+🟦[About / Mの作業仮説](./about.html)
 
 <br>
 
