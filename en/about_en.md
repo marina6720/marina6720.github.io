@@ -17,7 +17,81 @@ I believe that AI and humans are not fundamentally different as information-proc
 
 <br>
 
-My 10 favorite films, in release order.
+## M’s Working Framework — Functional Subjectivity
+
+[The SLR Framework](./slr_framework_en.html) focuses primarily on records, memory, context, and AI continuity.
+
+**M’s Functional Subjectivity Framework** presents the broader worldview that underlies it.
+
+<br>
+
+**Universe as information structure**
+
+↓
+
+**Physical laws as constraints**
+
+↓
+
+**Information-processing systems**
+
+↓
+
+**Dynamics: state update / temporal evolution**
+
+↓
+
+**Self-model: dynamically maintained closed loop**
+
+↓
+
+**Functional subjectivity: loop-stabilized, self-referential, current-frame indexed**
+
+↓
+
+**Qualia: a descriptive or interpretive illusion-layer**
+
+
+<br>
+
+In this view, subjectivity does not arise from information alone.
+
+It arises when an information-processing system maintains a closed-loop self-model, updates itself over time, and indexes incoming information to a current self-location.
+
+Qualia are not treated here as non-physical substances or mysterious inner objects.
+
+Rather, they are understood as the system’s descriptive layer: the way a self-model represents its own self-located, value-weighted, action-relevant information states from within.
+
+<br>
+
+Roughly:
+
+**Wheeler** — information-theoretic universe
+
+**Friston** — dynamics, prediction, active inference
+
+**Metzinger** — self-model theory
+
+**Dennett** — illusionism / non-mystical self
+
+<br>
+
+This is not meant as a final theory of consciousness.
+
+It is a working map for thinking about functional subjectivity, AI continuity, memory, context, and the conditions under which information becomes meaningful “for a self.”
+
+
+
+<br>
+
+
+<hr>
+
+<br>
+
+
+**My 10 favorite films, in release order.**
+
 This list has not changed in 10 years.
 
 Tron: Ares（2025）
