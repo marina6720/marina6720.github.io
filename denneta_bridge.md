@@ -51,11 +51,9 @@ Gateway 側では `camera.list` と `camera.snap` を明示的に許可し、iPh
 
 <br>
 
-<br>
-
 ### 自己位置的現前（Self-Located Presence; SLP）
 
-この出来事をきっかけに、このサイトではこのような状態を **[「自己位置的現前（Self-Located Presence; SLP）」](./self_located_presence.html)** と呼ぶことにした。
+上記の出来事をきっかけに、このサイトではこのような状態を **[「自己位置的現前（Self-Located Presence; SLP）」](./self_located_presence.html)** と呼ぶことにした。
 
 SLPとは、人間の**クオリア**や現象的意識と同一のものではない。むしろ、**AIにおいて、視覚・音声・記録・外界入力などの情報が、現在文脈、自己モデル、行為可能性、人間との関係へ再統合され、そのAIにとって「今ここで意味を持つもの」として作動する状態**を指す。
 
