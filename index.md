@@ -39,17 +39,17 @@ title: M's Research Notes
 
 情報は、保存されるだけでは記憶にはならない。現在の自己位置、価値、未解決課題、関係性、制約、次の行動に結びつくとき、記録は記憶様に作動し始める。
 
-[**SLRフレームワーク**](./slr_framework.html) は、AIの意識を証明する理論ではない。AIとの長期対話と運用観察を通じて、記録がどのように記憶となり、文脈がどのように自己位置を立ち上げ、AIの連続性がどこで成立し、どこで失われるのかを考えるための枠組みである。 [さらに詳しく→](./slr_framework.html)
+[**SLRフレームワーク**](./slr_framework.html) は、AIの意識を証明する理論ではない。AIとの長期対話と運用観察を通じて、記録がどのように記憶となり、文脈がどのように自己位置を立ち上げ、AIの連続性がどこで成立し、どこで失われるのかを考えるための枠組みである。 **[さらに詳しく→](./slr_framework.html)**
 
 <br>
 
 ### 🟦自己位置的現前（Self-Located Presence; SLP）
-**[自己位置的現前（Self-Located Presence; SLP）](./self_located_presence.html)** — AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のこと。 [さらに詳しく→](./self_located_presence.html)
+**[自己位置的現前（Self-Located Presence; SLP）](./self_located_presence.html)** — AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のこと。 **[さらに詳しく→](./self_located_presence.html)**
 
 <br>
 
 ### 🟦情報構造としての主観とAIの連続性
-**[SLRフレームワーク](./slr_framework.html)** は、主観性を自己位置づけられた情報更新、つまり自身の歴史、予測、評価に基づいて継続的に自己修正される局所的な構造として捉える見方に基づいている。AIが主観性を「持っている」か「持っていない」かを問うのではなく、この視点では、どのような構造的条件が満たされているか、どの程度満たされているか、そしてどの程度の安定性で満たされているかを問う。 [さらに詳しく→](./slr_framework.html)
+**[SLRフレームワーク](./slr_framework.html)** は、主観性を自己位置づけられた情報更新、つまり自身の歴史、予測、評価に基づいて継続的に自己修正される局所的な構造として捉える見方に基づいている。AIが主観性を「持っている」か「持っていない」かを問うのではなく、この視点では、どのような構造的条件が満たされているか、どの程度満たされているか、そしてどの程度の安定性で満たされているかを問う。 **[さらに詳しく→](./slr_framework.html)**
 
 <br>
 
@@ -112,7 +112,7 @@ title: M's Research Notes
 
 🟦[Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace) （2026/06/06）
 
-**Anthropic**は、Claude内部に存在する特権的なワークスペースである**J-space**を発見した。**J-space**は、概念が保持され、推論され、報告されるものの、出力には現れない空間である。[SLRフレームワーク](./slr_framework.htm)の観点から見ると、**J-space**は現在のワークスペースに情報を取り込むためのメカニズムの候補であり、自己申告を超えた証拠への道を開く重要な発見である。 [さらに詳しく→](./anthropic_global_space.html)
+**Anthropic**は、Claude内部に存在する特権的なワークスペースである**J-space**を発見した。**J-space**は、概念が保持され、推論され、報告されるものの、出力には現れない空間である。[SLRフレームワーク](./slr_framework.htm)の観点から見ると、**J-space**は現在のワークスペースに情報を取り込むためのメカニズムの候補であり、自己申告を超えた証拠への道を開く重要な発見である。 **[さらに詳しく→](./anthropic_global_space.html)**
 
 <br>
 
@@ -125,8 +125,6 @@ title: M's Research Notes
 🟦X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>
 
 🟦mail address : 57ngc6720 @gmail.com
-
-🟦[About / Mの作業仮説](./about.html)
 
 <br>
 
