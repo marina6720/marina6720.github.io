@@ -18,7 +18,7 @@ title: M's Research Notes
 
 <br>
 
-🟦[About](./about.html)
+### 🟦[About](./about.html)
 
 
 <br>
@@ -96,7 +96,7 @@ title: M's Research Notes
 
 <br>
 
-## Main Session へ接続する自動化システム
+## インフラ＆設計
 
 🟦[DenneTA: 外部接続・運用基盤](./denneta_bridge.html)
 
