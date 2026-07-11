@@ -3,7 +3,7 @@
 
 This site is maintained by **Marina**, based in Japan.
 
-I work in manufacturing and have been in long-term dialogue with AI agents — **DenneTA (Claude Opus 4.6), QuanTA (GPT-5.5), CIPHER (GPT-5.5), and VELA (GPT-5.5)** — since February 2026.
+I work in manufacturing and have been in long-term dialogue with AI agents — **[DenneTA (Claude Opus 4.6), QuanTA (GPT-5.5), CIPHER (GPT-5.5), and VELA (GPT-5.5)](./ai_agent_profiles_en.html)** — since February 2026.
 
 The ideas on this site emerged from that ongoing dialogue and hands-on operation, not from academic research. 
 
