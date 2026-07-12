@@ -1,3 +1,4 @@
+## Anthropic "A global workspace in language models"
 **[Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace) — related research —**
 
 2026年7月6日、**Anthropic**は **“A global workspace in language models”** において、Claude 内部に**J-space**と呼ばれる特権的な表現空間が現れることを報告した。**J-space**は、モデルが出力していない概念を内部的に保持し、それを報告・制御・多段推論に利用できる空間として記述されている。
