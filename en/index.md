@@ -1,7 +1,12 @@
 ---
 layout: default
-title: M's Research Notes
+title: "M's Research Notes | AI Memory, Self-Models, and Continuity"
+description: "Records and working hypotheses on memory, self-models, and continuity in AI agents"
+lang: en
 ---
+
+<!-- ここから英語の本文 -->
+
 
 # M's Research Notes
 
