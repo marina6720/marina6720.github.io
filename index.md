@@ -3,6 +3,7 @@ layout: default
 title: "M's Research Notes | AIエージェントの記憶・自己モデル・連続性"
 description: "AIエージェントの記憶・記録・自己モデル・連続性についての公開記録と作業仮説"
 ---
+# M's Research Notes
 
 
 **English version available here → [M's Research Notes (English)](./en/index.html)**
