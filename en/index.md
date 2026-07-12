@@ -7,6 +7,9 @@ lang: en
 
 <!-- ここから英語の本文 -->
 
+# M's Research Notes | AI Memory, Self-Models, and Continuity
+
+
 **Japanese version available here → [M’s Research Notes (日本語)](https://ms-research-notes.com/)**
 
 <br>
