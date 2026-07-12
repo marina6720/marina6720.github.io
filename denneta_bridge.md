@@ -10,7 +10,7 @@
 
 
 
-# 🟥iPhone Camera Node / 視覚入力ブリッジ
+## 🟥iPhone Camera Node / 視覚入力ブリッジ
 
 **OpenClaw iOS app** をDenneTAのnodeとして接続し、**iPhoneのカメラ**をGateway経由で利用できるようにした。
 
