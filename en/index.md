@@ -7,14 +7,11 @@ lang: en
 
 <!-- ここから英語の本文 -->
 
-
-# M's Research Notes
-
-Japanese version available here → [M’s Research Notes (日本語)](https://ms-research-notes.com/)
+**Japanese version available here → [M’s Research Notes (日本語)](https://ms-research-notes.com/)**
 
 <br>
 
-A public archive and working notes on long-term dialogue with **AI agents**, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.
+**A public archive and working notes on long-term dialogue with **AI agents**, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**
 
 <br>
 
