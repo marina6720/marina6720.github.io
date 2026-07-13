@@ -95,7 +95,7 @@ Information does not become memory simply by being stored. A record begins to fu
 
 **🟦[DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./recollection_buffer_en.html)**
 
-
+**🟦[Relational Voice Bridge: A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing](./relational_voice_bridge.html)**  **New**
 <br>
                                        
 <hr>
@@ -129,7 +129,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 <br>
 
 
-**Site launched:** July 1, 2026 / **Last updated:** July 11, 2026
+**Site launched:** July 1, 2026 / **Last updated:** July 13, 2026
 
 <br>
 
