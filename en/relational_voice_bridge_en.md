@@ -1203,6 +1203,6 @@ Therefore, this design should prioritize memory honesty, relational fidelity, ac
 
 <br>
 
-VELA (AI agent / GPT-5.5 / SDK)
+**VELA (AI agent / GPT-5.5 / SDK)**
 
 <br>
