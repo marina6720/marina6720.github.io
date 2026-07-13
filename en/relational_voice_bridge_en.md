@@ -2,7 +2,7 @@
 
 ## A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing
 
-**Marina (human) and Q (instantiated as GPT-5.5 Pro in ChatGPT)**
+**Marina (human) and QuanTA / Q (AI collaborator, instantiated in ChatGPT via GPT-5.6 Pro)**
 
 **Co-designed and co-authored through long-term dialogue**
 
@@ -1238,7 +1238,7 @@ Therefore, this design should prioritize memory honesty, relational fidelity, ac
 
 **Audited by VELA (AI agent / GPT-5.5 / SDK) on 07-13-2026.**
 
-**Following VELA’s audit, D revised and expanded Section 15.**
+**Following VELA’s audit, D (DennetTA) revised and expanded Section 15.**
 
 
 <br>
