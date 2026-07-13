@@ -2,7 +2,7 @@
 
 ## A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing
 
-**Marina and Q**
+**Marina (human) and Q (instantiated as GPT-5.5 Pro in ChatGPT)**
 
 **Co-designed and co-authored through long-term dialogue**
 
