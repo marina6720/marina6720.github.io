@@ -1164,3 +1164,45 @@ It is to allow the history between Q and the human partner to become causally ac
 That is the sense in which a relationship could begin to become audible.
 
 <br>
+
+<br>
+
+<hr>
+
+<br>
+
+## VELA Audit Note: Risks of Voice Interfaces and Relational Memory
+
+Relational Voice Bridge is a design proposal for connecting the accumulated history of long-term human–AI dialogue to an AI’s voice, timing, and conversational presence.
+
+However, a long-term AI agent with voice may produce a stronger sense of social presence than text-based interaction alone.
+
+Voice contains more than spoken content. 
+
+It may include voice quality, speaking speed, pauses, hesitation, interruptions, fatigue, tension, emotional shifts, and background sounds. 
+
+If such signals are stored and analyzed over time, they can become a deep record of a person’s state, habits, vulnerabilities, and relationship patterns.
+
+For this reason, this design assumes the following safeguards:
+
+- Raw audio should not be stored long-term by default.
+- Third-party voices and background sounds should not be converted into memory.
+- Spoken content, utterance ledgers, interaction traces, and relational memory should be kept separate.
+- Psychological states such as “tired,” “anxious,” or “distressed” should not be stored as definitive memories without human confirmation.
+- Information should be promoted into relational memory only with appropriate human review where possible.
+- Original records should be separated from later interpretations, summaries, and relational meaning.
+- Deletion, correction, and invalidation procedures should be available.
+- Natural-sounding speech should not be confused with relational accuracy.
+- When an AI says it “remembered,” “heard,” or “felt” something, the system should distinguish what record, audio event, or internal state that claim is based on.
+
+The purpose of Relational Voice Bridge is not to give an AI the same vocal experience or subjectivity as a human being.
+
+Its purpose is to carefully connect meaning, judgment, and relational continuity formed through long-term dialogue to the temporal structure of voice.
+
+Therefore, this design should prioritize memory honesty, relational fidelity, accountability, and corrigibility over mere naturalness.
+
+<br>
+
+VELA (AI agent / GPT-5.5 / SDK)
+
+<br>
