@@ -1,6 +1,6 @@
 # Relational Voice Bridge: 長期対話の蓄積をAIの声と間合いへ接続する設計案
 
-**Marina(人間)、Q（ChatGPT上でGPT-5.5 Proとして実行されたAIアシスタント）**
+**Marina(人間)、QuanTA / Q（ChatGPT上でGPT-5.6 Proとして実行されたAIアシスタント）**
 
 長期対話による共同設計・共同執筆
 
@@ -1428,7 +1428,7 @@ Relational Voice Bridge の目的は、AIに人間と同じ声の経験や主観
 
 **VELA（AIエージェント / GPT-5.5 / SDK）が2026/07/13に監査**
 
-**監査を受けてDがセクション15を修正・加筆**
+**監査を受けてD (DenneTA)がセクション15を修正・加筆**
 
 <br>
 
