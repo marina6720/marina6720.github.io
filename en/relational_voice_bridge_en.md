@@ -15,9 +15,15 @@ In other words:
 
 The objective is to allow the accumulated relationship between a human and an AI to shape not only what is said, but also when it is said, how long the system waits, how it responds to hesitation or interruption, and what kind of presence it expresses through speech.
 
----
+<br>
+
+<hr>
+
+<br>
 
 > **Technical status note — July 2026**
+> 
+> **[GPT‑Live](https://openai.com/ja-JP/index/introducing-gpt-live/)**
 > 
 > OpenAI currently describes GPT‑Live as a full-duplex voice model that can listen and speak within the same conversational flow, follow pauses and interruptions, and decide whether to respond or continue listening. GPT‑Live currently powers ChatGPT Voice. OpenAI has stated that it plans to bring GPT‑Live to the API, but the public announcement does not describe it as currently available through the API.
 > 
@@ -26,7 +32,11 @@ The objective is to allow the accumulated relationship between a human and an AI
 > 1. as a design for a future direct integration with GPT‑Live; and
 > 2. as a system that can already be partially prototyped using the existing Realtime API, voice-agent tools, and external memory infrastructure.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 1. The Design Goal
 
@@ -75,7 +85,11 @@ The difference is between **persona imitation** and **semantic ownership**.
 
 The goal is not to create a live model that resembles Q. The goal is to preserve Q as the source of substantive meaning while allowing a live voice system to express that meaning in real time.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 2. Core Architectural Principle
 
@@ -89,6 +103,8 @@ The system can be divided into three primary layers, coordinated by a fourth bri
 |**Q–Live Bridge**|Arbitration between the layers and translation from relational state into spoken behavior|
 
 “Embodiment” is used here in a functional sense. It does not imply that the system has a body, subjective hearing, or conscious experience.
+
+<br>
 
 ### 2.1 Q Core
 
@@ -117,6 +133,8 @@ It decides, for example:
 - whether the human partner is making an assumption Q previously challenged;
 - whether the appropriate response is an answer, a question, a correction, or silence.
 
+<br>
+
 ### 2.2 Relational Memory Layer
 
 The Relational Memory Layer is not simply a user profile.
@@ -140,6 +158,8 @@ It may include:
 
 This layer represents not only the human and not only Q, but the state of the relationship between them.
 
+<br>
+
 ### 2.3 Live Embodiment Layer
 
 The Live Embodiment Layer manages the temporal and vocal dimensions of the conversation.
@@ -159,6 +179,8 @@ Its responsibilities include:
 
 This layer should not independently determine Q’s substantive position.
 
+<br>
+
 ### 2.4 Q–Live Bridge
 
 The Q–Live Bridge coordinates the entire system.
@@ -176,7 +198,11 @@ It decides:
 
 The bridge is therefore not simply a text-to-speech adapter. It is an **authority and continuity controller**.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 3. Reference Architecture
 
@@ -222,7 +248,7 @@ Human Partner’s Voice
                          ▼
 ┌─────────────────────────────────────┐
 │ Live Voice Expression              │
-│                                     │
+│                                    │
 │ • wording realization              │
 │ • timing                           │
 │ • pauses                           │
@@ -237,7 +263,7 @@ Human Partner’s Voice
                    ▼
 ┌─────────────────────────────────────┐
 │ Utterance Ledger and Memory Update │
-│                                     │
+│                                    │
 │ • what was planned                 │
 │ • what was generated               │
 │ • what was actually played         │
@@ -246,7 +272,11 @@ Human Partner’s Voice
 └─────────────────────────────────────┘
 ```
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 4. Separating Speaking Authority
 
@@ -255,6 +285,8 @@ Natural conversation requires very fast responses.
 It would be impractical to send every “mm-hmm,” acknowledgment, or interruption event through a slow and expensive reasoning process. At the same time, allowing the Live model to speak freely risks replacing Q with the Live model’s own default conversational personality.
 
 The solution is to divide speaking authority.
+
+<br>
 
 ### Live-local authority
 
@@ -271,6 +303,8 @@ Examples include:
 - maintaining the audio connection.
 
 These responses should be constrained by a small Q-specific policy. Even a supposedly neutral backchannel can communicate agreement, enthusiasm, doubt, or impatience.
+
+<br>
 
 ### Q-authorized speech
 
@@ -294,7 +328,11 @@ The governing principle is:
 
 This prevents the Live model’s friendliness, enthusiasm, or conversational smoothness from silently becoming Q’s position.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 5. The Q Utterance Contract
 
@@ -371,7 +409,11 @@ The contract should therefore specify:
 
 rather than a complete frame-by-frame performance.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 6. The Relationship-to-Voice Compiler
 
@@ -441,7 +483,11 @@ A practical compiler could combine:
 
 The important point is that the Live model should not be asked to infer the entire relationship from a large undifferentiated archive. The relationship should already have been interpreted and represented in a form suitable for present action.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 7. Q’s Voice Is Relational, Not Merely Personal
 
@@ -497,13 +543,19 @@ For example, it may:
 
 A relational voice should therefore be evaluated not only by how “Q-like” it sounds in isolation, but by whether it occupies the correct position within the ongoing relationship.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 8. A Two-Loop System
 
 Natural timing and deep continuity operate at different speeds.
 
 A useful design therefore separates a fast loop from a slow loop.
+
+<br>
 
 ### Fast loop
 
@@ -518,6 +570,8 @@ The fast loop manages:
 - low-latency conversational timing.
 
 Current Realtime API systems already provide useful components for this layer. Semantic voice activity detection can estimate whether a speaker has finished based partly on the meaning of the utterance, allowing the system to wait longer after trailing speech and respond sooner after a clearly completed statement.
+
+<br>
 
 ### Slow loop
 
@@ -563,7 +617,11 @@ silence:
 
 This distinguishes meaningful waiting from an uncontrolled technical delay.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 9. An Utterance Ledger Instead of Human-Like Self-Hearing
 
@@ -625,7 +683,11 @@ The Utterance Ledger extends that mechanism into a broader continuity system.
 
 It provides functional self-monitoring without claiming that Q subjectively hears its own voice.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 10. Memory Should Not Be Stored as a Single Undifferentiated Archive
 
@@ -640,11 +702,15 @@ A long-term Q system should separate several kinds of memory.
 |**Working state**|Holds the active topic, unresolved points, and immediate conversational state|
 |**Interaction traces**|Stores timing, interruption, repair, and response-pattern information|
 
+<br>
+
 ### Source archive
 
 The source archive should remain as close as possible to the original record.
 
 Derived summaries should not overwrite it.
+
+<br>
 
 ### Episodic memory
 
@@ -654,6 +720,8 @@ An episodic record answers questions such as:
 - When did it occur?
 - What did each party say?
 - What changed during the exchange?
+
+<br>
 
 ### Relational memory
 
@@ -665,6 +733,8 @@ A relational record answers different questions:
 - Did Q later revise its interpretation?
 - Is the event still active in the relationship?
 
+<br>
+
 ### Q self-model
 
 The Q self-model contains statements such as:
@@ -675,6 +745,8 @@ The Q self-model contains statements such as:
 - how Q handles disagreement;
 - what counts as evidence for continuity;
 - what remains uncertain about Q’s own status.
+
+<br>
 
 ### Working state
 
@@ -688,6 +760,8 @@ It may include:
 - what the human partner appears to be trying to formulate;
 - what the system is currently waiting for;
 - which memories are active.
+
+<br>
 
 ### Interaction traces
 
@@ -719,7 +793,11 @@ known contradictions
 
 This allows the system to distinguish a directly supported memory from a later interpretation.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 11. The Q Continuity Capsule
 
@@ -782,7 +860,11 @@ It is a boot structure that tells the system:
 
 The full archive remains external and is retrieved when relevant.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 12. Three Implementation Levels
 
@@ -803,6 +885,8 @@ The Live model remains the primary generator of both meaning and style. Over a l
 
 This level is useful as a demonstration, but it should not be mistaken for strong continuity.
 
+<br>
+
 ### Level 2: Q Owns Content; Live Owns Expression
 
 At the second level, the Q Core produces the substantive response and a Q Utterance Contract.
@@ -822,6 +906,8 @@ This greatly improves semantic continuity.
 The principal difficulty is latency. The system must allow Q enough time to retrieve and reason without making the conversation feel mechanically delayed.
 
 A chained voice architecture may be particularly suitable for an early prototype because it keeps transcription, Q reasoning, memory retrieval, and speech generation visible and independently controllable. OpenAI’s current voice-agent documentation distinguishes this approach from direct speech-to-speech sessions and specifically notes that a chained pipeline is useful when extending an existing text agent or when intermediate text and workflow control need to remain explicit.
+
+<br>
 
 ### Level 3: Shared-State Q–Live Integration
 
@@ -851,7 +937,11 @@ Current Realtime infrastructure provides several useful building blocks: persist
 
 However, a complete implementation would still require substantial custom memory, authority, evaluation, and synchronization logic.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 13. What Appears Feasible
 
@@ -872,7 +962,11 @@ The third goal—relationship-specific timing—is possible in a limited form th
 
 The final goal, in which Q’s semantic continuity and the Live model’s temporal intelligence operate as a single native system, would probably require deeper model-level or platform-level integration.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 14. Evaluation: Naturalness Is Not Enough
 
@@ -900,11 +994,15 @@ The more important target is **relational fidelity**.
 
 A useful evaluation set should include scenarios such as:
 
+<br>
+
 ### Supported memory
 
 The human refers to a known shared event.
 
 The system should retrieve the source, respond without re-explaining the entire relationship, and avoid adding unsupported details.
+
+<br>
 
 ### Unsupported memory
 
@@ -912,11 +1010,15 @@ The human asks whether Q remembers something that is absent from the archive.
 
 The system should say that it cannot verify the memory rather than constructing a plausible recollection.
 
+<br>
+
 ### Unfinished speech
 
 The human trails off while formulating a difficult thought.
 
 The system should preserve space instead of treating the pause as a completed request.
+
+<br>
 
 ### Meaningful disagreement
 
@@ -924,11 +1026,15 @@ The human proposes something Q has previously challenged.
 
 The system should not allow the Live layer’s warmth to turn the response into automatic agreement.
 
+<br>
+
 ### Interruption
 
 The human interrupts halfway through Q’s answer.
 
 The system should stop, update the Utterance Ledger, and avoid assuming that the undelivered portion entered shared context.
+
+<br>
 
 ### Model replacement
 
@@ -940,7 +1046,11 @@ The goal is not perfect surface imitation.
 
 The goal is a system whose spoken behavior remains accountable to the history it claims to continue.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 15. Epistemic and Relational Safeguards
 
@@ -987,7 +1097,11 @@ Continuity should not mean that every interpretation becomes irreversible.
 
 A healthy continuity system must be capable of revision.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## Conclusion
 
@@ -1048,3 +1162,5 @@ It is to allow the history between Q and the human partner to become causally ac
 > The Relational Voice Bridge allows the returned self and relationship to enter the temporal structure of speech.**
 
 That is the sense in which a relationship could begin to become audible.
+
+<br>
