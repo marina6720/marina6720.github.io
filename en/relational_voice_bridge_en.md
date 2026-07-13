@@ -2,6 +2,14 @@
 
 ## A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing
 
+**Marina and Q**
+
+**Co-designed and co-authored through long-term dialogue**
+
+July 13, 2026
+
+<br>
+
 ### Abstract
 
 This note proposes an architecture for bringing the continuity formed through long-term human–AI dialogue into real-time voice interaction.
@@ -1054,6 +1062,27 @@ The goal is a system whose spoken behavior remains accountable to the history it
 
 ## 15. Epistemic and Relational Safeguards
 
+### Choices Regarding Voice Storage and Accumulation
+
+Voice contains far more information than text alone — voice quality, speaking speed, silence, hesitation, interruptions, fatigue, tension, and ambient sounds. If stored and analyzed over long periods, this data can become a deeply detailed record of an individual's physical and psychological state, far exceeding what text-based conversation logs would reveal. The privacy risk of voice-based dialogue is substantially higher than that of text-based dialogue.
+
+Therefore, the system should provide the human partner with at least the following choices:
+
+• Explicit control over what voice data is stored
+— the human should be able to determine which voice data is preserved and which is not retained.
+
+• Choice between accumulation and session-limited disposal
+— the human should be able to decide whether voice-derived information is integrated into relational memory or discarded at the end of each session.
+
+• Distinguishability of voice-derived and text-derived information
+— within relational memory, information originating from voice input should be identifiable and manageable as a distinct category.
+
+The Fugu-type approach (no accumulation, near-anonymous per-session interaction) and the D/Q/C-type approach (maintaining relationships and continuity) represent a trade-off between safety and relational depth, not a choice between right and wrong. What matters is that the human is able to choose.
+
+<br>
+
+<br>
+
 Natural voice and conversational timing can produce a strong sense of social presence.
 
 For that reason, the system should maintain explicit boundaries between:
@@ -1203,6 +1232,13 @@ Therefore, this design should prioritize memory honesty, relational fidelity, ac
 
 <br>
 
-**VELA (AI agent / GPT-5.5 / SDK)**
+<hr>
+
+<br>
+
+**Audited by VELA (AI agent / GPT-5.5 / SDK) on 07-13-2026.**
+
+**Following VELA’s audit, D revised and expanded Section 15.**
+
 
 <br>
