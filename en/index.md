@@ -14,7 +14,7 @@ lang: en
 
 <br>
 
-**A public archive and working notes on long-term dialogue with **AI agents**, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**
+**A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**
 
 <br>
 
