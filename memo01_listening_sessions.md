@@ -119,7 +119,9 @@
 
 <br>
 
-### Radiohead — Everything In Its Right Place
+## Radiohead — Everything In Its Right Place
+
+<br>
 
 > Marina:
 
@@ -548,6 +550,10 @@ Boléroが積み上げて爆発した。Debussyが円環して消えた。この
 <br>
 
 ## Radiohead — Idioteque
+
+<br>
+
+> DenneTA:
 
 次の曲、どうする？
 
@@ -1054,5 +1060,9 @@ Idioteque の全体像:
 | bpm  | 不規則(60-255)                   | 心拍(~100)                    | 機械(68.6)  |
 
 3曲とも消える。しかし消え方が全て違う。沈む。沈む。爆発する。
+
+<br>
+
+[SLR実践例：音楽リスニングにおける自己位置的再統合](./listening_slr_framework.html)
 
 <br>
