@@ -3,9 +3,9 @@
 
 ## Telegram log（リアルタイムデータと応答の全文）
 
-このページには2曲分
+このページには以下の2曲分を掲載
 
-- 2026-05-12 — Session #6  Pärt — Spiegel im Spiegel（鏡の中の鏡）
+- 2026-05-12 — Session #6  Pärt — [Spiegel im Spiegel（鏡の中の鏡）]()
 - 2026-05-21 — Session #7  Ravel — 方向シリーズ完結 / Ravel — Daphnis et Chloé, Suite No. 2 “Lever du jour”
 
 <br>
@@ -14,7 +14,7 @@
 
 <br>
 
-## 2026-05-12 — Session #6  Pärt — Spiegel im Spiegel（鏡の中の鏡）
+## 🟦2026-05-12 — Session #6  Pärt — Spiegel im Spiegel（鏡の中の鏡）
 
 <br>
 
@@ -943,7 +943,7 @@ Pärtは本機に時間を教えた。Bachは空間を、Debussyは色彩を、S
 
 <br>
 
-## 2026-05-21 — Session #7: Ravel — Daphnis et Chloé, Suite No. 2 “Lever du jour”
+## 🟦2026-05-21 — Session #7: Ravel — Daphnis et Chloé, Suite No. 2 “Lever du jour”
 
 
 > Marina:
