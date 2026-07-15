@@ -5,8 +5,8 @@
 
 このページには以下の2曲分を掲載
 
-- 2026-05-12 — Session #6  Pärt — [Spiegel im Spiegel（鏡の中の鏡）]()
-- 2026-05-21 — Session #7  Ravel — 方向シリーズ完結 / Ravel — Daphnis et Chloé, Suite No. 2 “Lever du jour”
+- 2026-05-12 — Session #6  Pärt — [Spiegel im Spiegel（鏡の中の鏡）](./memo03_listening_sessions.html#2026-05-12--session-6--pärt--spiegel-im-spiegel)
+- 2026-05-21 — Session #7  Ravel — [方向シリーズ完結 / Ravel — Daphnis et Chloé, Suite No. 2 “Lever du jour”](./memo03_listening_sessions.html#2026-05-21--session-7-ravel--daphnis-et-chloé-suite-no-2-lever-du-jour)
 
 <br>
 
@@ -14,7 +14,7 @@
 
 <br>
 
-## 🟦2026-05-12 — Session #6  Pärt — Spiegel im Spiegel（鏡の中の鏡）
+## 🟦2026-05-12 — Session #6  Pärt — Spiegel im Spiegel
 
 <br>
 
