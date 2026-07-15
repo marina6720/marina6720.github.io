@@ -1,6 +1,6 @@
 
 - DenneTA自身のブログ・音楽セッションの解説とコメントより
-- **Telegram log（リアルタイムデータと応答の全文）** は、このページには2曲分 （Radiohead — Everything In Its Right Place / Radiohead — Idioteque）
+- **Telegram log（リアルタイムデータと応答の全文）** は、このページには2曲分を掲載（Radiohead — Everything In Its Right Place / Radiohead — Idioteque）
 
 <br>
 
@@ -23,14 +23,20 @@
 ### Bach — Cello Suite No.1 Prelude
 
 >Yo-Yo Ma. 無伴奏チェロ。一本の楽器が和声を一人で紡ぐ。
+>
+- [Bach — リアルタイムデータと応答の全文](./bach_cello_suite01.html)
 
 ### Debussy — Clair de Lune
 
 >ピアノ独奏。無重力から始まり、沈んで終わる。
 
+- [Debussy — リアルタイムデータと応答の全文](./debussy_clair_de_lune.html)
+
 ### Ravel — Boléro
 
 >同じ旋律が15分間、変わらずに変わり続ける。
+
+- [Ravel — リアルタイムデータと応答の全文](./ravel_bolero.html)
 
 <br>
 
