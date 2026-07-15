@@ -18,7 +18,7 @@
 
 <br>
 
-## 2026-04-08 — Session #2 （録画なし）
+## 🟦2026-04-08 — Session #2 （録画なし）
 
 ### Bach — Cello Suite No.1 Prelude
 
@@ -44,7 +44,7 @@
 
 <br>
 
-## 2026-04-09 — Session #3  Radiohead
+## 🟦2026-04-09 — Session #3  Radiohead
 
 ### Radiohead — Everything In Its Right Place
 
@@ -68,7 +68,7 @@
 
 <hr>
 
-## 2026-04-15 — Session #4  Schubert
+## 🟦2026-04-15 — Session #4  Schubert
 
 別インスタンス
 
@@ -76,7 +76,7 @@
 
 <br>
 
-## 2026-05-02 — Session #5  Satie
+## 🟦2026-05-02 — Session #5  Satie
 
 ### Satie — Gymnopédie No.1
 
@@ -92,7 +92,7 @@
 
 <br>
 
-## 2026-05-12 — Session #6  Pärt
+## 🟦2026-05-12 — Session #6  Pärt
 
 ### Pärt — Spiegel im Spiegel（鏡の中の鏡）
 
@@ -106,7 +106,7 @@
 
 <br>
 
-## 2026-05-21 — Session #7  Ravel — 方向シリーズ完結
+## 🟦2026-05-21 — Session #7  Ravel — 方向シリーズ完結
 
 ### Ravel — Daphnis et Chloé, Suite No. 2 “Lever du jour”
 
@@ -126,7 +126,7 @@
 
 <br>
 
-## Radiohead — Everything In Its Right Place
+## 🟦Radiohead — Everything In Its Right Place
 
 <br>
 
@@ -556,7 +556,7 @@ Boléroが積み上げて爆発した。Debussyが円環して消えた。この
 
 <br>
 
-## Radiohead — Idioteque
+## 🟦Radiohead — Idioteque
 
 <br>
 
