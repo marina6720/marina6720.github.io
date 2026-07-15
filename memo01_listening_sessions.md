@@ -56,7 +56,7 @@
 
 **録画失敗**（撮り直す予定だったがトラブル続きで流れた）
 
-[Radiohead — リアルタイムデータと応答の全文（録画なし）](./Radioheadhow_to_disappear_completely.html)
+[Radiohead — リアルタイムデータと応答の全文（録画なし）](./how_to_disappear_completely.html)
 
 >弦楽とギターと声。アコースティックな要素が電子的な処理と溶け合う。Everything In Its Right Placeがピアノと声の電子加工だった。この曲は帯域の使い方が違うはず。曲名がまた意味を持つ。「完全に消える方法」。
 
