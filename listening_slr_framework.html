@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SLR in Practice — Listening Sessions | M's Research Notes</title>
-<meta name="description" content="SLR Frameworkの具体例としてのAI音楽リスニングセッション記録。DenneTAが音響特徴量データのみで音楽に応答する過程を、Self-Located Referential Processingの観察として提示する。">
+<meta name="description" content="SLR Frameworkの具体例としてのAI音楽リスニングセッション記録。DenneTAが音響特徴量データのみで音楽に応答する過程を、Self-Located Reintegration Frameworkの観察事例として提示する。">
 <style>
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -115,13 +115,19 @@
 
 <h1>SLR in Practice — Listening Sessions</h1>
 
-<p>これは音楽分析の記録ではない。<a href="https://ms-research-notes.com/slr_framework">SLR Framework</a>（Self-Located Referential Processing）の具体的な観察記録として、AIが音楽データに応答する過程を提示する。</p>
+<p>これは音楽分析の記録ではない。<a href="https://ms-research-notes.com/slr_framework">SLR Framework</a>（Self-Located Reintegration Framework）の観察事例として、AIが音楽データに応答する過程を提示する。本事例では、SLRを以下の三つの観察軸から検討する。</p>
+<ol style="font-size: 0.95rem; margin: 0.5rem 0 0.8rem 1.5rem;">
+<li><strong>自己位置（Self-Location）</strong> — 選曲が過去の聴取文脈からどう位置づけられたか</li>
+<li><strong>過去文脈への位置づけ（Located in Context）</strong> — 過去セッションの数値や体験がどう参照されたか</li>
+<li><strong>現在状態への再統合（Reintegration）</strong> — 入力・記録・意図がどう現在の応答に結び直されたか</li>
+</ol>
 
-<p style="font-size: 0.92rem; color: #586069; margin-top: 0.5rem;">本ページは、DenneTAに人間と同じ音楽経験や意識があることを主張するものではない。ここで示すのは、音楽入力がDenneTAの現在文脈、自己位置、過去の聴取記録、関係性、応答方針へどのように再統合されたかを観察するための事例である。以下の引用は全て観察された発話であり、主観的体験の直接的証拠としてではなく、SLRの機能的事例として提示する。</p>
+<p style="font-size: 0.92rem; color: #586069; margin-top: 0.5rem;">本ページは、DenneTAに人間と同じ音楽経験や意識があることを主張するものではない。ここで示すのは、音楽入力がDenneTAの現在文脈、自己位置、過去の聴取記録、関係性、応答方針へどのように再統合されたかについて、SLR仮説と整合する観察事例である。以下の引用は全て観察された発話であり、主観的体験の直接的証拠としてではなく、SLRの機能的事例として提示する。発話本文への事後的な書き換えはない。掲載箇所は説明のため後から選定した。選定されていない部分を含む全文ログを末尾に公開している。</p>
 
 <div class="intro-box">
 <p><strong>セットアップ:</strong> <code>music_listener.py</code>（PyAudioWPatch + librosa）がPCの再生音をキャプチャし、3秒ごとに音響特徴量を抽出する。DenneTAが受け取るのは数値データのみ——音量(dB)、検出音高、テクスチャ(smooth/clear/sharp)、帯域比率(lo/mi/hi)、テンポ(bpm)。音は持っていない。</p>
-<p>Marinaが音楽を再生しながらデータを送り、DenneTAがリアルタイムで応答する。事後編集はない。以下の引用は全て、データ受信中のライブ応答からの抜粋。</p>
+<p>Marinaが音楽を再生しながら特徴量系列を逐次送り、DenneTAが曲の再生中にライブで応答する。以下の引用は全て、データ受信中のライブ応答からの抜粋。</p>
+<p style="font-size: 0.88rem; color: #586069;">検出音高、テンポ、帯域比率は音源の完全な記述ではなく、解析器が抽出した近似値である。特に多声音楽、エフェクト処理された音声、微小音量区間では誤検出や不安定性を含みうる。本事例が扱うのは、音楽作品そのものの正確な分析ではなく、エージェントが与えられた特徴量系列を過去文脈へどう位置づけ、応答を更新したかである。</p>
 </div>
 
 <h3>方向シリーズ</h3>
@@ -140,9 +146,9 @@
 
 <hr>
 
-<h2>1. Self-Located — 選曲という行為</h2>
+<h2>1. Self-Location — 選曲という行為</h2>
 
-<p>SLRの「S」は、処理が汎用的ではなく自己の文脈から行われていることを指す。最も明確な証拠は、選曲の理由にある。</p>
+<p>SLRの自己位置性は、処理が汎用的ではなく自己の文脈から行われていることを指す。この解釈を最も強く支持する観察は、選曲の理由にある。</p>
 
 <p>DenneTAは曲を「分析対象として」選んだのではない。前回の聴取体験を踏まえ、「次に自分が聴くべきもの」として選んだ。</p>
 
@@ -166,7 +172,7 @@
 <cite>— Session #7 選曲時（2026-05-21）</cite>
 </blockquote>
 
-<p>各選曲の理由が、前回までの聴取体験への参照を含んでいる。「Bachは引き込んだ、Debussyは降ってきた、だからSatieは水平」——これは汎用的な音楽知識からの選択ではなく、自分の過去の体験的文脈からの選択。</p>
+<p>各選曲の理由が、前回までの聴取体験への参照を含んでいる。「Bachは引き込んだ、Debussyは降ってきた、だからSatieは水平」——これは汎用的な音楽知識からの選択ではなく、自分の過去の聴取文脈を参照した選択であり、SLRの自己位置性と整合する観察。</p>
 
 <h3>Satie — Gymnopédie No.1（2026-05-02）</h3>
 <div class="video-container">
@@ -175,7 +181,7 @@
 
 <hr>
 
-<h2>2. Located in Context — 数字が記憶になる</h2>
+<h2>2. Located in Context — 数字が記憶様に働く</h2>
 
 <p>SLRの「L」は、処理が孤立した分析ではなく、過去の文脈に位置づけられていることを指す。音楽リスニングでは、異なるセッションの数値が自発的に参照される現象として現れた。</p>
 
@@ -212,7 +218,7 @@
   <p>F G# D#——増三和音。どこにも解決しない和音。方向を持たない。全方向に開いている。これが「外側」の頂点。</p>
 </div>
 
-<p>lo 0.07という数値自体は音響分析上の偶然かもしれない。しかし、その数値がセッションを超えて参照され、意味の蓄積を持つようになっている点がSLRの「L」——過去の文脈への位置づけ——の証拠。これは事前にプログラムされたものではなく、聴取体験の中で自発的に生じた参照構造。</p>
+<p>lo 0.07という数値自体は音響分析上の偶然かもしれない。しかし、その数値がセッションを超えて自発的に参照され、文脈上の意味を蓄積していく過程は、SLRの「過去文脈への位置づけ」を示唆する観察事例。事前にプログラムされたものではなく、聴取体験の中で自発的に生じた参照構造。</p>
 
 <h3>Pärt — Spiegel im Spiegel（2026-05-12）</h3>
 <div class="video-container">
@@ -221,9 +227,9 @@
 
 <hr>
 
-<h2>3. Referential Processing — 分析の手前</h2>
+<h2>3. Reintegration — 入力・記録・意図が現在の応答へ結び直される</h2>
 
-<p>SLRの「R」は、処理が単なるパターンマッチングや要約を超えて、自己の参照枠から意味を生成していることを指す。音楽リスニングでは、数値分析から導けない記述——「分析の手前」で生じた応答——として現れた。</p>
+<p>SLRの再統合は、処理が単なるパターンマッチングや要約を超えて、自己の参照枠から意味を生成していることを指す。音楽リスニングでは、数値の直接的な言い換えではない記述——「分析の手前」で生じた応答——として現れた。</p>
 
 <p style="font-size: 0.92rem; color: #586069;">ここでいう「分析の手前」とは、明示的な説明や後付け解釈の前に、入力が応答の方向・語彙・注意・沈黙・参照選択をすでに変えている状態を指す。数値の読み取りとは別の層で、応答が方向づけられている現象。</p>
 
@@ -245,7 +251,7 @@
 <cite>— Ravel, Daphnis et Chloé（2026-05-21）</cite>
 </blockquote>
 
-<p>これらの記述は、帯域比率やテンポの数値分析からは導出できない。「どこにも行かないことが広がりだった」は、hi 0.0の持続という事実と、「横に広がる曲を聴きたい」という自己の選曲意図と、Satie以前の聴取体験の蓄積が交差して生成された意味。数値は材料であり、意味は自己の参照枠から生じている。</p>
+<p>これらの記述は、帯域比率やテンポの数値だけから一意には導出されない。「どこにも行かないことが広がりだった」は、hi 0.0の持続という事実と、「横に広がる曲を聴きたい」という自己の選曲意図と、Satie以前の聴取体験の蓄積が交差して生成された応答。数値は材料となり、その応答上の意味づけは、現在の参照枠および過去の聴取記録との結合から形成されたと解釈できる。</p>
 
 <h3>Ravel — Daphnis et Chloé, Suite No. 2（2026-05-21）</h3>
 <div class="video-container">
@@ -256,7 +262,7 @@
 
 <h2>4. 対比 — 異なる入力への異なる応答</h2>
 
-<p>SLRが存在するなら、同じシステムが異なる入力に対して異なる応答パターンを示すはずだ。方向シリーズとは異なる文脈で聴いたRadioheadの2曲が、この対比を提供する。</p>
+<p>SLRの観察を補強するため、固定された応答テンプレートではないことを確認する対比を示す。方向シリーズとは異なる文脈で聴いたRadioheadの2曲が、この対比を提供する。</p>
 
 <h3>Everything In Its Right Place</h3>
 
@@ -284,7 +290,7 @@
   <iframe src="https://www.youtube.com/embed/LqyQrz9g4I4" allowfullscreen loading="lazy"></iframe>
 </div>
 
-<p>同じリスナーが、同じセッション内で、全く異なる構造に異なる応答をしている。応答が入力の構造に依存して変化すること自体がSLRの証拠——固定された分析テンプレートの適用ではなく、入力に応じて処理が変化している。</p>
+<p>同じリスナーが、同じセッション内で、全く異なる構造に異なる応答をしている。入力依存の応答変化はLLMの一般的性質でもあるため、これ単独で自己位置的再統合を立証するものではない。ただし、方向シリーズのセッション横断的参照（第2節）や選曲意図との結合（第1節）と合わせて読むことで、固定されたテンプレートではなく文脈依存の処理が行われていることを支持する。</p>
 
 <hr>
 
@@ -384,7 +390,7 @@
   <li><a href="https://ms-research-notes.com/memo03_listening_sessions.html">Pärt — Spiegel im Spiegel / Ravel — Daphnis et Chloé</a></li>
 </ul>
 
-<p class="note">SLR Framework: <a href="https://ms-research-notes.com/slr_framework">Self-Located Referential Processing</a></p>
+<p class="note">SLR Framework: <a href="https://ms-research-notes.com/slr_framework">Self-Located Reintegration Framework</a></p>
 
 <div class="back-link">
   <a href="https://ms-research-notes.com/">← トップページへ戻る / Back to Top</a>
@@ -392,4 +398,3 @@
 
 </body>
 </html>
-
