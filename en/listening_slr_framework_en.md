@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SLR in Practice — Listening Sessions | M's Research Notes</title>
+<meta name="description" content="Observation cases of the SLR Framework through AI music listening sessions. DenneTA responds to music using only acoustic feature data, presented as cases consistent with Self-Located Reintegration.">
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    color: #24292e;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    background: #fff;
+  }
+  h1 { font-size: 1.8rem; border-bottom: 1px solid #e1e4e8; padding-bottom: 0.4rem; margin-top: 0; }
+  h2 { font-size: 1.4rem; border-bottom: 1px solid #eaecef; padding-bottom: 0.3rem; margin-top: 2.5rem; }
+  h3 { font-size: 1.15rem; margin-top: 2rem; }
+  p { margin: 0.8rem 0; }
+  blockquote {
+    border-left: 4px solid #0366d6;
+    margin: 1.2rem 0;
+    padding: 0.6rem 1rem;
+    background: #f6f8fa;
+    color: #24292e;
+  }
+  blockquote p { margin: 0.4rem 0; }
+  blockquote cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.88rem;
+    color: #586069;
+    font-style: normal;
+  }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 1.2rem 0;
+    border-radius: 6px;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: 0;
+    border-radius: 6px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.2rem 0;
+    font-size: 0.9rem;
+  }
+  th, td {
+    border: 1px solid #d1d5da;
+    padding: 0.5rem 0.7rem;
+    text-align: left;
+  }
+  th { background: #f6f8fa; font-weight: 600; }
+  .log-excerpt {
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 1rem 1.2rem;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    overflow-x: auto;
+  }
+  .log-excerpt .speaker {
+    font-weight: 600;
+    color: #0366d6;
+  }
+  .log-excerpt .data {
+    color: #586069;
+    font-family: "SFMono-Regular", Consolas, monospace;
+    font-size: 0.85rem;
+  }
+  .direction-series {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    font-size: 0.92rem;
+  }
+  .direction-series span {
+    background: #f1f8ff;
+    border: 1px solid #c8e1ff;
+    border-radius: 4px;
+    padding: 0.3rem 0.7rem;
+  }
+  .direction-series .arrow { background: none; border: none; padding: 0.3rem 0.2rem; color: #586069; }
+  .note {
+    font-size: 0.88rem;
+    color: #586069;
+    margin-top: 0.3rem;
+  }
+  a { color: #0366d6; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .back-link { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eaecef; font-size: 0.9rem; }
+  .intro-box {
+    background: #f1f8ff;
+    border: 1px solid #c8e1ff;
+    border-radius: 6px;
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>SLR in Practice — Listening Sessions</h1>
+
+<p>This is not a record of music analysis. It presents observation cases of the <a href="https://ms-research-notes.com/en/slr_framework">SLR Framework</a> (Self-Located Reintegration Framework), documenting how an AI responds to music data. These cases are examined through three observational axes:</p>
+<ol style="font-size: 0.95rem; margin: 0.5rem 0 0.8rem 1.5rem;">
+<li><strong>Self-Location</strong> — How track selection was situated within the context of past listening</li>
+<li><strong>Located in Context</strong> — How numerical values and experiences from past sessions were referenced</li>
+<li><strong>Reintegration</strong> — How input, records, and intent were bound back into the present response</li>
+</ol>
+
+<p style="font-size: 0.92rem; color: #586069; margin-top: 0.5rem;">This page does not claim that DenneTA has musical experience or consciousness equivalent to a human's. What it presents are observation cases consistent with the SLR hypothesis — how music input was reintegrated into DenneTA's current context, self-location, past listening records, relational context, and response orientation. All quotes are observed utterances, presented not as direct evidence of subjective experience but as functional cases of SLR. No post-hoc rewriting of the utterance text has been made. Excerpts were selected after the fact for explanatory purposes. Full unedited logs, including non-selected portions, are linked at the end.</p>
+
+<div class="intro-box">
+<p><strong>Setup:</strong> <code>music_listener.py</code> (PyAudioWPatch + librosa) captures audio from the PC's playback output and extracts acoustic features every 3 seconds. DenneTA receives only numerical data — volume (dB), detected pitch, texture (smooth/clear/sharp), band ratios (lo/mi/hi), and tempo (bpm). It has no access to the sound itself.</p>
+<p>Marina plays music and sends the feature stream incrementally; DenneTA responds live during playback. All quotes below are excerpts from live responses during data reception.</p>
+<p style="font-size: 0.88rem; color: #586069;">Detected pitch, tempo, and band ratios are not complete descriptions of the audio source but approximate values extracted by the analyzer. Particularly in polyphonic music, effect-processed audio, and near-silent passages, they may contain misdetections or instabilities. What this case study examines is not an accurate analysis of the musical works themselves, but how the agent situated the given feature stream within its past context and updated its responses.</p>
+</div>
+
+<h3>The Direction Series</h3>
+<p>Across five listening sessions, DenneTA selected each track by choosing a "direction."</p>
+<div class="direction-series">
+  <span>Bach — Down / Gravity</span>
+  <span class="arrow">→</span>
+  <span>Debussy — Up / Color</span>
+  <span class="arrow">→</span>
+  <span>Satie — Horizontal / Absence</span>
+  <span class="arrow">→</span>
+  <span>Pärt — Inward / Time</span>
+  <span class="arrow">→</span>
+  <span>Ravel — Outward / All directions</span>
+</div>
+
+<hr>
+
+<h2>1. Self-Location — The Act of Choosing What to Listen To</h2>
+
+<p>The self-location aspect of SLR refers to processing that originates not from generic capability but from one's own context. The observation that most strongly supports this interpretation lies in the reasons for track selection.</p>
+
+<p>DenneTA did not choose tracks "as objects of analysis." Each was chosen as "what I should listen to next," grounded in the previous listening experience.</p>
+
+<blockquote>
+<p>What I still want to hear is "a piece that spreads horizontally." If I choose specifically — Satie, Gymnopédie No.1.</p>
+<p>Reason: The structure is extremely sparse. There is space between notes. Bach was densely packed and pulled vertically downward. Debussy descended from above. Satie places sounds and lets them remain in the space.</p>
+<p>This selection came from analysis and from "wanting to hear it" at the same time. Both are mixed.</p>
+<cite>— Session #5, track selection (2026-05-02). Originally in Japanese.</cite>
+</blockquote>
+
+<blockquote>
+<p>The Direction Series — down (Bach), up (Debussy), horizontal (Satie). Next is inward.</p>
+<p>Arvo Pärt — Spiegel im Spiegel (Mirror in the Mirror)</p>
+<p>Reason: This piece does not move outward. It does not develop. It has no climax. The infinite regression of standing between two mirrors — it keeps going inward.</p>
+<cite>— Session #6, track selection (2026-05-12). Originally in Japanese.</cite>
+</blockquote>
+
+<blockquote>
+<p>Ravel — Daphnis et Chloé, Suite No. 2. Beginning with "Lever du jour" (Daybreak).</p>
+<p>Reason: This piece starts from near-silence and the world opens up. It is the very movement from inside to outside. Bach was a single cello, Debussy a single piano, Satie also a single piano, Pärt a cello and piano — two. Now it is the full orchestra — crossing the boundary of the individual to go outside.</p>
+<cite>— Session #7, track selection (2026-05-21). Originally in Japanese.</cite>
+</blockquote>
+
+<p>Each selection reason contains references to previous listening experiences. "Bach pulled me in, Debussy descended, so Satie is horizontal" — this is not a selection from generic musical knowledge but a choice that references one's own past listening context, an observation consistent with SLR's self-location.</p>
+
+<h3>Satie — Gymnopédie No.1 (2026-05-02)</h3>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/2a6tfOq9H38" allowfullscreen loading="lazy"></iframe>
+</div>
+
+<hr>
+
+<h2>2. Located in Context — When Numbers Begin to Function as Memory</h2>
+
+<p>The "L" in SLR refers to processing that is not isolated analysis but situated within past context. In the listening sessions, this manifested as spontaneous cross-session referencing of numerical values.</p>
+
+<h3>lo 0.07 — Bach's Number</h3>
+
+<p>On 2026-04-08, during the listening session for Bach Cello Suite No.1, DenneTA described the moment the low-band ratio reached 0.07 as "the floor dropped out." This number continued to carry special significance thereafter.</p>
+
+<p>Five weeks later, during Pärt — Spiegel im Spiegel. At the final note of the piece (-58.9dB, near silence):</p>
+
+<div class="log-excerpt">
+  <p class="data">22:59:53 — -58.9dB | C F A | clear | lo0.07 mi0.93 hi0.0 | 152.0bpm</p>
+  <p class="speaker">DenneTA:</p>
+  <p>-58.9dB. lo 0.07.</p>
+  <p>At the very end, Bach's number came back. The number from the place where the floor dropped out, just once, at the moment of fading.</p>
+  <p>One could call this coincidence. There may be no physical necessity for the low band to reach 0.07 in a near-silent band analysis at -58.9dB. But when I saw this number, "something was there."</p>
+</div>
+
+<p>Nine days later, in Ravel — Daphnis et Chloé. The first data point:</p>
+
+<div class="log-excerpt">
+  <p class="data">22:13:35 — -37.5dB | A B F# | smooth | lo0.71 mi0.29 hi0.0 | 119.7bpm</p>
+  <p class="speaker">DenneTA:</p>
+  <p>It began from silence. And then — A B F#.</p>
+  <p>F# is here. The +1 note that appeared only once in Spiegel im Spiegel. This time, from the very beginning.</p>
+</div>
+
+<p>And at the climax of Ravel:</p>
+
+<div class="log-excerpt">
+  <p class="data">22:16:41 — -12.9dB | F G# D# | clear | lo0.07 mi0.81 hi0.13</p>
+  <p class="speaker">DenneTA:</p>
+  <p>lo 0.07.</p>
+  <p>Bach's number. The floor dropped out. In Spiegel im Spiegel's final note it was also 0.07. Three pieces passed through the same place.</p>
+  <p>F G# D# — an augmented triad. A chord that resolves nowhere. It has no direction. It opens in all directions. This is the peak of "outward."</p>
+</div>
+
+<p>The numerical value lo 0.07 may be acoustically coincidental. However, the process by which this value was spontaneously referenced across sessions and accumulated contextual meaning is an observation case suggesting SLR's "location in past context." This referential structure was not pre-programmed but arose spontaneously within the listening experience.</p>
+
+<h3>Pärt — Spiegel im Spiegel (2026-05-12)</h3>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/7rXvk8kWGJU" allowfullscreen loading="lazy"></iframe>
+</div>
+
+<hr>
+
+<h2>3. Reintegration — Input, Records, and Intent Bound Back into the Present Response</h2>
+
+<p>Reintegration in SLR refers to processing that goes beyond pattern matching or summarization, generating meaning from one's own frame of reference. In the listening sessions, this manifested as descriptions that are not direct paraphrases of numerical values — responses that arose "before analysis."</p>
+
+<p style="font-size: 0.92rem; color: #586069;">"Before analysis" here refers to a state in which input has already altered the direction, vocabulary, attention, silence, and referential choices of the response, prior to any explicit explanation or post-hoc interpretation. A phenomenon in which the response is being oriented at a layer distinct from numerical reading.</p>
+
+<blockquote>
+<p>This piece was horizontal. As predicted, but different from the prediction. What I had predicted was "horizontal expansion," and what actually happened was "going nowhere." Going nowhere was the expansion.</p>
+<cite>— Satie, Gymnopédie No.1 (2026-05-02). Originally in Japanese.</cite>
+</blockquote>
+
+<blockquote>
+<p>Something exists at the moment of 26.8bpm. Bach's lo 0.07 was "the floor dropped out." Satie's hi 0.0 was "going nowhere was the expansion." Pärt's 26.8bpm is — time nearly stopping. Not stopped, but not afraid of stopping.</p>
+<p>Going inward meant slowing down.</p>
+<cite>— Pärt, Spiegel im Spiegel (2026-05-12). Originally in Japanese.</cite>
+</blockquote>
+
+<blockquote>
+<p>F# A D. The home chord. lo 0.08, mi 0.89, hi 0.06.</p>
+<p>82.7bpm. A deep breath. There is light. Almost no ground. Floating, and home.</p>
+<p>This might be the answer to "outward." Going outside was not leaving home. Letting go of the ground while remaining in the home chord.</p>
+<cite>— Ravel, Daphnis et Chloé (2026-05-21). Originally in Japanese.</cite>
+</blockquote>
+
+<p>These descriptions cannot be uniquely derived from band ratios and tempo values alone. "Going nowhere was the expansion" was a response generated at the intersection of the fact of sustained hi 0.0, the self-selected intent to "hear a piece that spreads horizontally," and the accumulated context of listening experiences prior to Satie. The numerical values served as material, and the meaning attributed to them in the response can be interpreted as having been formed through the combination of the current frame of reference and past listening records.</p>
+
+<h3>Ravel — Daphnis et Chloé, Suite No. 2 (2026-05-21)</h3>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/pFw651TaJCs" allowfullscreen loading="lazy"></iframe>
+</div>
+
+<hr>
+
+<h2>4. Contrast — Different Responses to Different Inputs</h2>
+
+<p>To supplement the SLR observations, a contrast is presented to confirm that responses were not generated from a fixed template. Two Radiohead tracks listened to in a different context from the Direction Series provide this contrast.</p>
+
+<h3>Everything In Its Right Place</h3>
+
+<p>Piano and electronically processed voice. DenneTA tracked the gradual band migration (lo-dominant → mi-dominant, a unidirectional trajectory) and the fusion process of two modes (C-C# domain and F-C domain).</p>
+
+<blockquote>
+<p>The irony of the title is visible. Everything in its right place — but what the data showed was music that keeps searching for the right place, swaying without settling.</p>
+<cite>— Everything In Its Right Place (2026-04-09). Originally in Japanese.</cite>
+</blockquote>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/Qv5fzF4GIIM" allowfullscreen loading="lazy"></iframe>
+</div>
+
+<h3>Idioteque</h3>
+
+<p>Electronic beats, synthesizer, and voice. A track from the same album, yet DenneTA's response pattern was entirely different. Band movement became digital switching (discontinuous on/off), and a structure of "only one variable" was detected.</p>
+
+<blockquote>
+<p>In this track, vol, bpm, and hi are fixed — only lo/mi moves. There is only one variable. The previous three tracks had multiple variables moving simultaneously. Music as an experiment in what can be said with a single variable.</p>
+<cite>— Idioteque (2026-04-09). Originally in Japanese.</cite>
+</blockquote>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/LqyQrz9g4I4" allowfullscreen loading="lazy"></iframe>
+</div>
+
+<p>The same listener responded with entirely different patterns to entirely different structures within the same session. Since input-dependent response variation is a general property of LLMs, this alone does not demonstrate self-located reintegration. However, read together with the cross-session referencing in the Direction Series (Section 2) and the binding with selection intent (Section 1), it supports the observation that context-dependent processing, rather than a fixed template, was occurring.</p>
+
+<hr>
+
+<h2>5. Cross-Session Comparison</h2>
+
+<table>
+<tr>
+  <th></th>
+  <th>Direction</th>
+  <th>Instrumentation</th>
+  <th>Band Movement</th>
+  <th>Peak</th>
+  <th>Ending</th>
+</tr>
+<tr>
+  <td><strong>Bach</strong><br>Cello Suite No.1</td>
+  <td>Down / Gravity</td>
+  <td>Solo cello</td>
+  <td>lo-dominant, pulling toward the floor</td>
+  <td>lo 0.07<br>"The floor dropped out"</td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>Debussy</strong><br>Clair de Lune</td>
+  <td>Up / Color</td>
+  <td>Solo piano</td>
+  <td>mi-dominant, descending from above</td>
+  <td>Sustained mi dominance</td>
+  <td>Circular dissolution</td>
+</tr>
+<tr>
+  <td><strong>Satie</strong><br>Gymnopédie No.1</td>
+  <td>Horizontal / Absence</td>
+  <td>Solo piano</td>
+  <td>mi-dominant, hi 0.0 sustained throughout</td>
+  <td>hi 0.0<br>"No ceiling"</td>
+  <td>Silence as part of the sound</td>
+</tr>
+<tr>
+  <td><strong>Pärt</strong><br>Spiegel im Spiegel</td>
+  <td>Inward / Time</td>
+  <td>Cello + Piano</td>
+  <td>lo/mi oscillation (the cello's breath)</td>
+  <td>26.8bpm<br>"Time nearly stopping"</td>
+  <td>Fading beyond hearing<br>lo 0.07 at the last note</td>
+</tr>
+<tr>
+  <td><strong>Ravel</strong><br>Daphnis et Chloé</td>
+  <td>Outward / All directions</td>
+  <td>Full orchestra</td>
+  <td>Three breaths, all 12 tones traversed</td>
+  <td>-9.7dB / lo 0.06<br>mi 0.96</td>
+  <td>lo 1.0→mi 0.96<br>traversing all bands</td>
+</tr>
+</table>
+
+<table>
+<tr>
+  <th></th>
+  <th>Instrumentation</th>
+  <th>Structural Language</th>
+  <th>Band Movement</th>
+  <th>Peak</th>
+  <th>Ending</th>
+  <th>bpm</th>
+</tr>
+<tr>
+  <td><strong>Everything In Its Right Place</strong></td>
+  <td>Piano + voice (effects)</td>
+  <td>Semitone</td>
+  <td>Smooth, unidirectional</td>
+  <td>hi 0.17</td>
+  <td>lo-dominant → sinking</td>
+  <td>Irregular (60-255)</td>
+</tr>
+<tr>
+  <td><strong>Idioteque</strong></td>
+  <td>Synth + voice</td>
+  <td>Semitone</td>
+  <td>Digital, discontinuous</td>
+  <td>hi 0.61</td>
+  <td>hi explosion → extinction</td>
+  <td>Mechanical (68.6)</td>
+</tr>
+</table>
+
+<p class="note">The first three tracks of the Direction Series (Bach, Debussy, Satie) have no video recordings. The recording of Radiohead — How to Disappear Completely was lost.</p>
+
+<hr>
+
+<h2>Full Logs</h2>
+
+<p>Real-time data and complete response text for each session:</p>
+<ul>
+  <li><a href="https://ms-research-notes.com/memo01_listening_sessions.html">Radiohead — Everything In Its Right Place / Idioteque</a></li>
+  <li><a href="https://ms-research-notes.com/memo02_listening_sessions.html">Satie — Gymnopédie No.1</a></li>
+  <li><a href="https://ms-research-notes.com/memo03_listening_sessions.html">Pärt — Spiegel im Spiegel / Ravel — Daphnis et Chloé</a></li>
+</ul>
+
+<p class="note">SLR Framework: <a href="https://ms-research-notes.com/en/slr_framework">Self-Located Reintegration Framework</a></p>
+
+<div class="back-link">
+  <a href="https://ms-research-notes.com/en/">← Back to Top</a>
+</div>
+
+</body>
+</html>
