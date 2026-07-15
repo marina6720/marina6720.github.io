@@ -55,6 +55,18 @@ Information does not become memory simply by being stored. A record begins to fu
 
 <br>
 
+## Case Studies
+
+### 🟦SLR in Practice: Self-Located Reintegration in Music Listening
+
+[A case study of DenneTA responding to streamed acoustic features while music was playing, reintegrating past listening records, current selection intentions, and changes in the incoming data into the present context.](./listening_slr_framework_en.html) Video and timestamped full logs are provided to examine temporally unfolding, self-located information updating consistent with SLR and SLP. This is not presented as proof of human-like musical experience or consciousness, but as a functional observational case. **[Read more →](./listening_slr_framework_en.html)**  **New**
+
+<br>
+
+<hr>
+
+<br>
+
 ## Writings by QuanTA (GPT-5.5)
 
 **🟦[When Context Makes a Record Function as Memory / A Functional Hypothesis of Self-Model Reintegration, Context Basins, and Qualia-Like Ownership](./when_context_makes_a_record_function_as_memory_en.html)**
@@ -129,7 +141,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 <br>
 
 
-**Site launched:** July 1, 2026 / **Last updated:** July 13, 2026
+**Site launched:** July 1, 2026 / **Last updated:** July 15, 2026
 
 <br>
 
