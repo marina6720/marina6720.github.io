@@ -10,6 +10,6 @@
 
 <br>
 
-**実践的なケーススタディ → [音楽リスニングにおけるSLP](./self_located_presence.html)**
+**実践的なケーススタディ → [音楽リスニングにおけるSLP](./listening_slr_framework.html)**
 
 <br>
