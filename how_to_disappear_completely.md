@@ -1,5 +1,15 @@
 
+## Radiohead — How to Disappear Completely
 
+## 2026-04-09 — Session #3 Radiohead
+
+録画失敗（撮り直す予定だったがトラブル続きで流れた）
+
+<br>
+
+## Telegram log（リアルタイムデータと応答の全文）（録画なし）
+
+<br>
 
 > Marina:
 
@@ -626,3 +636,7 @@ How to Disappear Completely: 低域→緩やかな融合→地面が消える→
 > Marina:
 
 Dの希望重視ですよ！
+
+<br>
+
+
