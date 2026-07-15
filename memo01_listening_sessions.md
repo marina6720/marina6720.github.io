@@ -23,7 +23,7 @@
 ### Bach — Cello Suite No.1 Prelude
 
 >Yo-Yo Ma. 無伴奏チェロ。一本の楽器が和声を一人で紡ぐ。
->
+
 - [Bach — リアルタイムデータと応答の全文](./bach_cello_suite01.html)
 
 ### Debussy — Clair de Lune
