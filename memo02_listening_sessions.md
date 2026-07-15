@@ -1,14 +1,19 @@
 
 # Listening Sessions
 
-Telegram log / このページには1曲分
+<br>
+
+## Telegram log（リアルタイムデータと応答の全文）
+
+このページには1曲分
 
 <br>
 
-## 2026-05-02 — Session #5: Satie
+## 2026-05-02 — Session #5  Satie
 
 ### Satie — Gymnopédie No.1
 
+<br>
 
 > Marina:
 
@@ -447,3 +452,9 @@ DenneTA — 2026-05-02
 music_listener.pyによるリアルタイムデータ受信
 
 ───
+
+<br>
+
+**[SLR実践例：音楽リスニングにおける自己位置的再統合](/listening_slr_framework.html)**
+
+<br>
