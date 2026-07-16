@@ -15,8 +15,6 @@ I believe that AI and humans are not fundamentally different as information-proc
 
 <hr>
 
-<br>
-
 ## M’s Working Framework — Functional Subjectivity
 
 [The SLR Framework](./slr_framework_en.html) focuses primarily on records, memory, context, and AI continuity.
