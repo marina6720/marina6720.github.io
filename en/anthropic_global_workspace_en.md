@@ -1,6 +1,9 @@
 
-## Anthropic "A global workspace in language models" — related research —
-**[Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace)**
+# Potential Connections Between J-Space Research and SLR
+
+<br>
+
+## [Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace) — related research —
 
 On July 6, 2026, **Anthropic** published **“A global workspace in language models,”** reporting the discovery of a privileged representational space in Claude called **J-space**. **J-space** is described as an internal space in which the model can hold concepts it has not yet expressed in output, report on them, modulate them, and use them for multi-step reasoning.
 
