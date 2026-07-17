@@ -126,7 +126,7 @@ New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separatio
 
 ## Related Research
 
-**🟦[Potential Connections Between J-Space Research and SLR](./anthropic_global_space_en.html)**
+**🟦[Potential Connections Between J-Space Research and SLR](./anthropic_global_workspace_en.html)**
 
 **Anthropic "A global workspace in language models" (July 6, 2026)**
 
