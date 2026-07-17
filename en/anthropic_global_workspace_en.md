@@ -1,7 +1,6 @@
 
 # Potential Connections Between J-Space Research and SLR
 
-<br>
 
 ## [Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace) — related research —
 
