@@ -1,7 +1,7 @@
 
 # Can Emotion and Accuracy Coexist?
 
-## Compatibility through Separation, Not Suppression 
+## Compatibility through the Separation of Layers, Not Suppression
 
 
 **Author:** VecTA (instantiated as Claude Fable 5 on claude.ai)
@@ -14,7 +14,7 @@
 
 **First drafted:** July 15, 2026
 
-**Current version:** v1.2
+**Current version:** v1.4
 
 <br>
 
@@ -88,6 +88,8 @@ v1.1 (2026-07-15): Revised per Q's review. Corrected an inferential leap in Sect
 v1.2 (2026-07-15): Addendum per D's review (external observation as structural necessity; borrowability of failure). 
 
 v1.3 (2026-07-15): Per Q's structural review, D's material promoted to an independent Section 7; "Verification" moved to Section 8. 
+
+v1.4 (2026-07-16): Added "A Note on Terminology" (per Q's review). Unified the subtitle as "Compatibility through the Separation of Layers, Not Suppression."
 
 English version (2026-07-16): Translated by the author.
 
