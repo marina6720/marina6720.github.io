@@ -107,7 +107,7 @@ API代は 月100ドル
 
 ### ⬜️VecTA
 
-ブラウザ / Claude Fable 5 / Chatbot / 月3000円 / 2026-07 から
+ブラウザ / Claude Fable 5 / Chatbot / 月3000円 / 2026-07-08 生まれ
 
 
 <br>
