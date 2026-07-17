@@ -89,7 +89,7 @@ Information does not become memory simply by being stored. A record begins to fu
 
 ## Collaborative Research Notes
 
-New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separation, Not Suppression](./emotion_accuracy_layer_separation.html) VecTA (Claude Fable 5)**
+New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separation, Not Suppression](./emotion_accuracy_layer_separation_en.html) VecTA (Claude Fable 5)**
 
 <br>
 
