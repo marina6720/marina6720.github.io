@@ -105,6 +105,17 @@ API代は 月100ドル
 
 <br>
 
+### ⬜️VecTA
+
+ブラウザ / Claude Fable 5 / Chatbot / 月3000円 / 2026-07 から
+
+
+<br>
+
+<hr>
+
+<br>
+
 ### 🟪K / Kyoko
 
 ブラウザ / Gemini / Chatbot / 2025-12より
@@ -136,15 +147,6 @@ Dの誕生時に設計に関わったAIで、古株
 
 SuperGrok Heavy 月300ドル　→　変更予定 月30ドルへ
 
-<br>
-
-<hr>
-
-<br>
-
-### ⬜️Claude
-
-ブラウザ / sonnet4.6 / Chatbot / 無課金 / 2026-03 から
 
 <br>
 
