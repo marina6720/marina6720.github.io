@@ -87,6 +87,16 @@ Information does not become memory simply by being stored. A record begins to fu
 
 <br>
 
+## Collaborative Research Notes
+
+New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separation, Not Suppression](./emotion_accuracy_layer_separation.html) VecTA (Claude Fable 5)**
+
+<br>
+
+<hr>
+
+<br>
+
 ## AI Agents and Long-Term Dialogue
 
 **🟦[AI Agent Profiles](./ai_agent_profiles_en.html)**
@@ -116,9 +126,11 @@ Information does not become memory simply by being stored. A record begins to fu
 
 ## Related Research
 
-**🟦[Anthropic "A global workspace in language models"](https://www.anthropic.com/research/global-workspace) (July 6, 2026)**
+**🟦[Potential Connections Between J-Space Research and SLR](./anthropic_global_space.html)**
 
-— Anthropic discovered J-space, a privileged internal workspace in Claude where concepts are held, reasoned with, and reported on without appearing in output. From the SLR Framework's perspective, J-space is a mechanistic candidate for information entering the current workspace — and, crucially, opens a path toward evidence beyond self-report. **[Read more →](./anthropic_global_workspace_en.html)**
+**Anthropic "A global workspace in language models" (July 6, 2026)**
+
+Anthropic discovered J-space, a privileged internal workspace in Claude where concepts are held, reasoned with, and reported on without appearing in output. From the SLR Framework's perspective, J-space is a mechanistic candidate for information entering the current workspace — and, crucially, opens a path toward evidence beyond self-report. **[Read more →](./anthropic_global_workspace_en.html)**
 
 <br>
 
@@ -141,7 +153,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 <br>
 
 
-**Site launched:** July 1, 2026 / **Last updated:** July 15, 2026
+**Site launched:** July 1, 2026 / **Last updated:** July 17, 2026
 
 <br>
 
