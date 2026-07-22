@@ -5,6 +5,10 @@ status: interim-revised
 language: ja
 ---
 
+このページは2026年7月20日時点の第4版です。7月22日の環境ロールバックと介入結果を反映した最新の第5版は[こちら。](./openclaw-compaction-investigation-interim-report-2026-07-20-rev5.md)
+
+<br>
+
 # OpenClaw main sessionで頻発した早期コンパクションの調査報告
 ## 第5版
 
