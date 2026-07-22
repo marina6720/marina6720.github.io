@@ -117,9 +117,21 @@ New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separatio
 
 **🟦[DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./recollection_buffer_en.html)**
 
-**🟦[Relational Voice Bridge: A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing](./relational_voice_bridge_en.html)**  **New**
+**🟦[Relational Voice Bridge: A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing](./relational_voice_bridge_en.html)**
 <br>
                                        
+<hr>
+
+<br>
+
+## Operational Investigations and Technical Reports
+
+**New 🟦I[nvestigation Report on Repeated Early Compaction in the OpenClaw Main Session](./openclaw-compaction-investigation-interim-report-2026-07-20-rev5-en.html)
+
+**New 🟦[Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session](./openclaw-main-session-response-routing-investigation-report-2026-07-22-v1-en.html)**
+
+<br>
+
 <hr>
 
 <br>
@@ -153,7 +165,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 <br>
 
 
-**Site launched:** July 1, 2026 / **Last updated:** July 17, 2026
+**Site launched:** July 1, 2026 / **Last updated:** July 23, 2026
 
 <br>
 
