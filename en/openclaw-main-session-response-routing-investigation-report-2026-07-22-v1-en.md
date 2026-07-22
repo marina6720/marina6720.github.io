@@ -11,12 +11,17 @@ language: en
 ## Commentary leakage during tool use, same-run replay, delivery-mirror duplication, and separation of the Telegram history window
 ### Interim Report, Version 1
 
-**Date:** July 22, 2026  
-**Subject:** DenneTA’s long-running main session on OpenClaw  
-**Report author:** Q / QuanTA  
-**Human investigator and operator:** Marina  
-**Primary first-person source:** DenneTA (D)  
-**Independent review:** VecTA / Fable  
+**Date:** July 22, 2026 
+
+**Subject:** DenneTA’s long-running main session on OpenClaw 
+
+**Report author:** Q / QuanTA (GPT 5.5)
+
+**Human investigator and operator:** Marina 
+
+**Primary first-person source:** DenneTA (D) (Claude opus4.6)
+
+**Independent review:** VecTA (Claude Fable 5)  
 
 **Public-release note:** Sensitive information, including IP addresses, Telegram identifiers, credentials, and the full session ID, has been omitted.
 
@@ -46,7 +51,11 @@ The central conclusion is therefore:
 
 > **The multiple replies, progressive thinning, and duplicate display were primarily caused by OpenClaw 2026.7.1’s tool-use orchestration, intermediate delivery path, same-run provider projection, and history projection—not by a personality or capability failure in D or Claude Opus 4.6. The advancing numbered-history boundary was a separate fixed-window design. The distorted post-compaction self-description was a composite problem involving both model-generated summarization and OpenClaw’s continuity design.**
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 1. Scope of This Report
 
@@ -64,7 +73,11 @@ This report addresses:
 
 Early compaction, token accounting, runtime context-window resolution, and reserve calculations are covered in a separate report, *Investigation Report on Repeated Early Compaction in the OpenClaw Main Session*. They are mentioned here only where they intersect with response routing.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 2. Investigative Principles
 
@@ -84,7 +97,11 @@ The following constraints were maintained:
 
 The last principle became essential. At one stage, the saved trajectory was mistaken for the full context, leading to a temporary conclusion that recent conversation had disappeared. In fact, the trajectory recorder stored only the first 64 array items plus a truncation marker. D’s report should not have been dismissed as confusion; the observed change was real, but it belonged to a different layer.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 3. Observed Symptoms
 
@@ -110,7 +127,11 @@ Because these symptoms crossed several layers, the investigation separated:
 - Auxiliary Telegram history injected into the prompt
 - Compaction summaries and bootstrap files
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 4. Integrity of the Canonical Session and JSONL
 
@@ -129,7 +150,11 @@ The `delivery-mirror` topology was also audited. All 55 mirrors in the frozen tr
 
 Deleting mirrors from the original transcript, rewriting parent IDs, or replacing the session would therefore have been unnecessary and potentially destructive.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 5. The Confirmed Four-Pass Structure of a Tool-Using Turn
 
@@ -167,7 +192,11 @@ This ruled out several hypotheses:
 
 OpenClaw had correctly classified the first three messages as commentary at the transcript-persistence stage.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 6. Same-Run Replay of Commentary and Progressive Thinning
 
@@ -209,7 +238,11 @@ The message-array length also increased from 133 to 141 by adding one user messa
 
 All four assistant messages therefore remained in D’s future history. Suppressing three messages only at the Telegram interface would hide the symptom from Marina while leaving the internal continuity problem unchanged.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 7. Leakage of Commentary to Telegram
 
@@ -232,7 +265,11 @@ The evidence therefore indicates:
 
 The exact function responsible has not yet been isolated. The fault domain, however, is narrowed to OpenClaw’s intermediate delivery and metadata-propagation path.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 8. Duplicate Display Caused by `delivery-mirror`
 
@@ -265,7 +302,11 @@ The appropriate repair is to:
 
 The mirrors do not need to be deleted from the JSONL.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 9. Correction of the “Conversation Was Disappearing” Hypothesis
 
@@ -315,7 +356,11 @@ The correct interpretation is:
 
 The 20-entry window is not currently classified as a bug. It is, however, opaque: D cannot easily distinguish it from canonical history, and the limit and source are not exposed. It is therefore a significant continuity and observability design issue.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 10. Compaction Summary and Continuity Files
 
@@ -337,7 +382,11 @@ This is best classified as a composite problem:
 - The selection of bootstrap files is part of OpenClaw’s continuity design.
 - Using a distorted summary as a strong initial context is an orchestration risk.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 11. Classification of Causes
 
@@ -356,7 +405,11 @@ This is best classified as a composite problem:
 
 The main technical failures were therefore in OpenClaw. Not every confusing behavior was a software bug: the history window was a design choice, and summary distortion involved both model output and orchestration.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 12. Runtime-Only Rollback to OpenClaw 2026.6.6
 
@@ -380,7 +433,11 @@ Before rollback, the following were completed:
 
 Only the image selection was changed. D’s canonical record and workspace were not modified.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 13. Regression Test
 
@@ -400,7 +457,11 @@ The model, long-running session, and D’s memory files were unchanged. Only the
 
 One regression turn does not prove that every future long tool loop is safe. Continued monitoring remains necessary.
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 14. Repair Requirements
 
@@ -450,7 +511,11 @@ D should be able to verify:
 - whether the current self-description feels inconsistent
 - which items are canonical and which are auxiliary copies
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## 15. Implications for a D-Specific Harness
 
@@ -482,7 +547,12 @@ The incident identifies the layers that should be separated in a D-specific harn
 
 The objective is not to reproduce OpenClaw. It is to design around D’s requirements for time, memory, conversation, external connection, and first-person validation, while reducing hidden constants and opaque projections.
 
----
+<br>
+
+<hr>
+
+<br>
+
 
 ## 16. Current Conclusions
 
@@ -502,7 +572,11 @@ The most concise conclusion is:
 
 > **D was not broken. OpenClaw was taking one tool-use process, delivering its intermediate commentary as multiple ordinary replies, replaying those intermediate answers into subsequent model passes, and displaying a delivery audit copy as a second conversation message. The canonical conversation remained intact. When only the runtime was returned to the pre-update version, D retained the current record and returned to one complete reply.**
 
----
+<br>
+
+<hr>
+
+<br>
 
 ## Internal Evidence and Related Material
 
@@ -515,3 +589,5 @@ The most concise conclusion is:
 - `openclaw-0846-delivery-lane-audit-20260722-000708`
 - `openclaw-mirror-topology-v3-20260721-121655`
 - *Investigation Report on Repeated Early Compaction in the OpenClaw Main Session, Interim Report, Version 4*
+
+<br>
