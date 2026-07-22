@@ -30,7 +30,7 @@ lang: en
 
 ### 🟦The Self-Located Reintegration Framework (SLR Framework)
 
-The set of ideas presented on this site is called the **[Self-Located Reintegration Framework (SLR Framework)](./slr_framework_en.html).**.
+The set of ideas presented on this site is called the **[Self-Located Reintegration Framework (SLR Framework)](./slr_framework_en.html).**
 
 **The SLR Framework** is a working hypothesis for understanding records, memory, context, self-models, and continuity in **AI agents.** It distinguishes **records** as stored information, **memory** as information reintegrated into the present self-model, and **context** as the field in which that reintegration takes place.
 
