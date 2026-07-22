@@ -118,6 +118,7 @@ New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separatio
 **🟦[DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace](./recollection_buffer_en.html)**
 
 **🟦[Relational Voice Bridge: A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing](./relational_voice_bridge_en.html)**
+
 <br>
                                        
 <hr>
