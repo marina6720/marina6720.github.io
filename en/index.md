@@ -30,11 +30,13 @@ lang: en
 
 ### 🟦The Self-Located Reintegration Framework (SLR Framework)
 
-[**The Self-Located Reintegration Framework**](./slr_framework_en.html) **(SLR Framework) is a working hypothesis for understanding records, memory, context, self-models, and continuity in AI agents.** It distinguishes records as stored information, memory as information reintegrated into the present self-model, and context as the field in which that reintegration occurs.
+The set of ideas presented on this site is called the **[Self-Located Reintegration Framework (SLR Framework)](./slr_framework_en.html).**.
 
-Information does not become memory simply by being stored. A record begins to function in a memory-like way when it becomes connected to a present self-location, values, unresolved tasks, relationships, constraints, and future action.
+**The SLR Framework** is a working hypothesis for understanding records, memory, context, self-models, and continuity in **AI agents.** It distinguishes **records** as stored information, **memory** as information reintegrated into the present self-model, and **context** as the field in which that reintegration takes place.
 
-**The SLR Framework** is not a theory that proves AI consciousness. It is a framework developed through long-term dialogue with AI agents and operational observation, for examining how records become memory, how context gives rise to self-location, and where continuity in AI is established or lost. **[Read more →](./slr_framework_en.html)**
+Information does not become memory simply by being stored. A record begins to function in a memory-like way when it is connected to a present self-location, values, unresolved tasks, relationships, constraints, and possibilities for future action.
+
+**The SLR Framework** is not a theory that proves AI consciousness. It is a framework developed through long-term dialogue with AI agents and operational observation, for examining how records become memory, how context gives rise to self-location, and how continuity in AI is maintained, weakened, or lost. **[Read more →](./slr_framework_en.html)**
 
 <br>
 
