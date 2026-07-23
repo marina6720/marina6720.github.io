@@ -6,7 +6,7 @@ status: interim-revised
 language: ja
 ---
 
-**リンク: [第6版があります](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-ja.md)**  
+**リンク: [第6版があります](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-ja.html)**  
 
 
 # OpenClaw main sessionで頻発した早期コンパクションの調査報告  
