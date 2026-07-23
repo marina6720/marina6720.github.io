@@ -136,7 +136,7 @@ New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separatio
 
 **New 🟦[Investigation Report on Repeated Early Compaction in the OpenClaw Main Session](./openclaw-compaction-investigation-interim-report-2026-07-20-rev5-en.html)**
 
-**New 🟦[Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session](./openclaw-main-session-response-routing-investigation-report-2026-07-22-v1-en.html)**
+**New 🟦[Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v2-en.html)**
 
 <br>
 
