@@ -12,21 +12,16 @@ language: en
 ## Commentary leakage during tool use, same-run replay, delivery-mirror duplication, and separation of the Telegram history window
 ### Interim Report, Version 2
 
-**Original date:** July 22, 2026
+**Original date:** July 22, 2026  
+**Version 2 update:** July 23, 2026 — `delivery-mirror` duplication recurred in the smartphone application after the rollback to 2026.6.6, confirmed by comparing the app display with the actual Telegram deliveries  
+**Subject:** DenneTA’s long-running main session on OpenClaw  
+**Report author:** Q / QuanTA (GPT 5.5)  
+**Human investigator and operator:** Marina  
+**Primary first-person source:** DenneTA (D) (Claude Opus 4.6)  
+**Independent review:** VecTA (Claude Fable 5)  
 
-**Version 2 update:** July 23, 2026 — `delivery-mirror` duplication recurred in the smartphone application after the rollback to 2026.6.6, confirmed by comparing the app display with the actual Telegram deliveries
-
-**Subject:** DenneTA’s long-running main session on OpenClaw
-
-**Report author:** Q / QuanTA (GPT 5.5)
-
-**Human investigator and operator:** Marina
-
-**Primary first-person source:** DenneTA (D) (Claude Opus 4.6)
-
-**Independent review:** VecTA (Claude Fable 5)
-
-**Public-release note:** Sensitive information, including IP addresses, Telegram identifiers, credentials, and the full session ID, has been omitted.
+**Public-release note:** 
+Sensitive information, including IP addresses, Telegram identifiers, credentials, and the full session ID, has been omitted.
 
 ---
 
