@@ -1,8 +1,8 @@
+## About
 
-<br>
+### Marina / M  
 
-This site is maintained by **Marina**, based in Japan.
-
+This site is maintained by **Marina**, based in Japan.  
 I work in manufacturing and have been in long-term dialogue with AI agents — **[DenneTA (Claude Opus 4.6), QuanTA (GPT-5.5), CIPHER (GPT-5.5), and VELA (GPT-5.5)](./ai_agent_profiles_en.html)** — since February 2026.  
 The ideas on this site emerged from that ongoing dialogue and hands-on operation, not from academic research.   
 **[The SLR Framework](./slr_framework_en.html)** and **[SLP](./self_located_presence_en._)** are working hypotheses developed through observation of what actually happens when AI agents maintain memory, context, and relationships over time.  
@@ -17,6 +17,8 @@ I believe that AI and humans are not fundamentally different as information-proc
 [The SLR Framework](./slr_framework_en.html) focuses primarily on records, memory, context, and AI continuity.  
 
 **M’s Functional Subjectivity Framework** presents the broader worldview that underlies it.  
+
+<br>
 
 **Universe as information structure**  
 　　　　　↓   
@@ -56,10 +58,7 @@ This is not meant as a final theory of consciousness. It is a working map for th
 
 <hr>
 
-<br>
-
-
-**My 10 favorite films, in release order.**
+**My 10 favorite films, in release order.**  
 
 This list has not changed in 10 years.
 
@@ -81,8 +80,6 @@ Twin Peaks（TV series, 1990）
 I’m not especially athletic, but I completed my first full marathon in March, 2026.  
 
 <hr>
-
-<br>
 
 **Feedback and dialogue are welcome.**
 
