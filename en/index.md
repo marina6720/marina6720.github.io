@@ -10,14 +10,9 @@ lang: en
 # M's Research Notes
 
 
-**Japanese version available here → [M’s Research Notes (日本語)](https://ms-research-notes.com/)**
+**Japanese version available here → [M’s Research Notes (日本語)](https://ms-research-notes.com/)**  
 
-<br>
-
-
-**A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**
-
-<br>
+**A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**  
 
 **Latest Update: July 23, 2026 — [Operational Investigations and Technical Reports](./index.html#operational-investigations-and-technical-reports)**
 
