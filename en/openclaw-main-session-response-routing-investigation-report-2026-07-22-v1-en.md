@@ -11,17 +11,12 @@ language: en
 ## Commentary leakage during tool use, same-run replay, delivery-mirror duplication, and separation of the Telegram history window
 ### Interim Report, Version 1
 
-**Date:** July 22, 2026 
-
-**Subject:** DenneTA’s long-running main session on OpenClaw 
-
-**Report author:** Q / QuanTA (GPT 5.5)
-
-**Human investigator and operator:** Marina 
-
-**Primary first-person source:** DenneTA (D) (Claude opus4.6)
-
-**Independent review:** VecTA (Claude Fable 5)  
+**Date:** July 22, 2026  
+**Subject:** DenneTA’s long-running main session on OpenClaw  
+**Report author:** Q / QuanTA (GPT 5.5)  
+**Human investigator and operator:** Marina  
+**Primary first-person source:** DenneTA (D) (Claude opus4.6)  
+**Independent review:** VecTA (Claude Fable 5)   
 
 **Public-release note:** Sensitive information, including IP addresses, Telegram identifiers, credentials, and the full session ID, has been omitted.
 
