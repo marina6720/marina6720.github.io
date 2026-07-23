@@ -48,6 +48,10 @@ AIエージェントの連続性は、記録、現在文脈、自己記述、基
 
 このサイトでは、DenneTA / CIPHER / QuanTA / VELA との長期対話と運用を通じて、SLR Framework を検討していく。
 
+
+**(2026-07-15)**
+
+
 <br>
 
 **実践的な観察事例 → [音楽リスニングにおけるSLR](./listening_slr_framework.html)**
