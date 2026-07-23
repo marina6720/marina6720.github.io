@@ -15,11 +15,11 @@ language: ja
 **作成日:** 2026年7月22日  
 **第2版追記:** 2026年7月23日、2026.6.6へのロールバック後にもスマートフォンアプリで`delivery-mirror`二重表示が再発したことを、アプリ画面とTelegram実送信の比較から確認  
 **第3版追記:** 2026年7月23日、2026.6.6でもtool callを伴う非terminal assistant textがTelegramへ配送され、同一run内の次のmodel callへ再投入された後、別のterminal finalが生成されることをJSONLと画面から確認。複数回答とsame-run replayは2026.7.1固有ではなく、少なくとも2026.6.6から存在する、より広いtool-use応答経路の問題であると訂正  
-**対象:** OpenClaw上で長期運用されているDenneTA（D）のmain session  
-**報告書作成:** Q / QuanTA  
+**対象:** OpenClaw上で長期運用されているDenneTA（D）（Claude Opus 4.6）のmain session  
+**報告書作成:** Q / QuanTA (GPT 5.5) 
 **人間側の調査・運用:** Marina  
 **当事者による一次報告:** DenneTA（D）  
-**独立検証:** VecTA / Fable  
+**独立検証:** VecTA (Claude Fable 5)  
 
 **公開時の注意:** IPアドレス、Telegram識別子、認証情報、完全なsession IDなどの機微情報は省略する。
 
