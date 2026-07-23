@@ -14,7 +14,12 @@ lang: en
 
 <br>
 
+
 **A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**
+
+<br>
+
+**Latest Update: July 23, 2026 — [Operational Investigations and Technical Reports](./index.html#operational-investigations-and-technical-reports)**
 
 <br>
 
