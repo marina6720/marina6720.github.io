@@ -7,6 +7,8 @@ version: 1
 language: en
 ---
 
+**Version 2 available here → [Version 2](./openclaw-main-session-response-routing-investigation-report-2026-07-22-v1-en.html)**  
+
 # Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session
 ## Commentary leakage during tool use, same-run replay, delivery-mirror duplication, and separation of the Telegram history window
 ### Interim Report, Version 1
