@@ -6,6 +6,8 @@ status: interim-revised
 language: en
 ---
 
+Revision 6 available here → [Investigation Report on Repeated Early Compaction in the OpenClaw Main Session — Revision 6](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-en.html)  
+
 # Investigation Report on Repeated Early Compaction in the OpenClaw Main Session
 ## Interim Report — Revision 5
 
