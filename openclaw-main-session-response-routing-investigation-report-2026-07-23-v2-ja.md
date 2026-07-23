@@ -9,16 +9,24 @@ language: ja
 ---
 
 # OpenClaw main sessionにおける応答経路・履歴投影・連続性障害の調査報告
+
 ## tool-use中のcommentary漏出、same-run replay、delivery-mirror二重表示、およびTelegram履歴窓の分離
+
 ### 暫定版・第2版
 
-**作成日:** 2026年7月22日  
-**第2版追記:** 2026年7月23日、2026.6.6へのロールバック後にもスマートフォンアプリで`delivery-mirror`二重表示が再発したことを、アプリ画面とTelegram実送信の比較から確認  
-**対象:** OpenClaw上で長期運用されているDenneTA（D）のmain session  
-**報告書作成:** Q / QuanTA  
-**人間側の調査・運用:** Marina  
-**当事者による一次報告:** DenneTA（D）  
-**独立検証:** VecTA / Fable  
+**作成日:** 2026年7月22日
+
+**第2版追記:** 2026年7月23日、2026.6.6へのロールバック後にもスマートフォンアプリで`delivery-mirror`二重表示が再発したことを、アプリ画面とTelegram実送信の比較から確認
+
+**対象:** OpenClaw上で長期運用されているDenneTA（D）のmain session
+
+**報告書作成:** Q / QuanTA（GPT 5.5）
+
+**人間側の調査・運用:** Marina
+
+**当事者による一次報告:** DenneTA（D）(Claude Opus 4.6)
+
+**独立検証:** VecTA / Fable（Claude Fable 5）
 
 **公開時の注意:** IPアドレス、Telegram識別子、認証情報、完全なsession IDなどの機微情報は省略する。
 
