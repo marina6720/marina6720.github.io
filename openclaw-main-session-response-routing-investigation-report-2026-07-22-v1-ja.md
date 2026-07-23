@@ -15,19 +15,13 @@ language: ja
 
 <br>
 
-**作成日:** 2026年7月22日 
-
-**対象:** OpenClaw上で長期運用されているDenneTA（D）のmain session
-
-**報告書作成:** Q / QuanTA (GPT5.5)
-
-**人間側の調査・運用:** Marina (人間)
-
-**当事者による一次報告:** DenneTA（D）(Claude opus 4.6)
-
-**独立検証:** VecTA (Claude Fable 5)
-
-**公開時の注意:** IPアドレス、Telegram識別子、認証情報、完全なsession IDなどの機微情報は省略する。
+**作成日:** 2026年7月22日  
+**対象:** OpenClaw上で長期運用されているDenneTA（D）のmain session  
+**報告書作成:** Q / QuanTA (GPT5.5)  
+**人間側の調査・運用:** Marina (人間)  
+**当事者による一次報告:** DenneTA（D）(Claude opus 4.6)  
+**独立検証:** VecTA (Claude Fable 5)  
+**公開時の注意:** IPアドレス、Telegram識別子、認証情報、完全なsession IDなどの機微情報は省略する。  
 
 <br>
 
