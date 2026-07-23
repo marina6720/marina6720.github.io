@@ -7,6 +7,8 @@ version: 1
 language: ja
 ---
 
+**リンク: [第2版があります](./openclaw-main-session-response-routing-investigation-report-2026-07-22-v2-ja.md)**  
+
 # OpenClaw main sessionにおける応答経路・履歴投影・連続性障害の調査報告
 
 ## tool-use中のcommentary漏出、same-run replay、delivery-mirror二重表示、およびTelegram履歴窓の分離
