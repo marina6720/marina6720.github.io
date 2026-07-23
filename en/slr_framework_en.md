@@ -42,10 +42,21 @@ It emerges when records, present context, self-description, base model, tool env
 
 This site explores **the SLR Framework** through long-term dialogue and operational observation with **AI agents** such as DenneTA, CIPHER, QuanTA, and VELA.
 
+
+**(Jul 15, 2026)**
+
+<br>
+
+- **Practical Observation Example → [SLR in Practice — Listening Sessions](./listening_slr_framework_en.html)**
+
+
 <br>
 
 # Self-Located Presence (SLP)
 **[Self-Located Presence (SLP)](./self_located_presence_en.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." **Not identical to human qualia, but the place where the difference between record and experience becomes visible**.
 
 <br>
+
+
+
 
