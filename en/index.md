@@ -72,7 +72,7 @@ A case study of DenneTA responding to streamed acoustic features while music was
 
 **🟦[Is the Main Session the “Real” One?: Local Selves and Memory Across Sessions in AI Agents](./main_session_en.html)**
 
-**🟦[Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./subjectivity_as_information_structure_and_continuity_q_en.md)  — foundational **
+**🟦[Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./subjectivity_as_information_structure_and_continuity_q_en.md)  — foundational**
 
 **🟦[When a Record Becomes Memory, What Approaches Qualia?: A Note on Self-Location, Context, and Ownership](./when_a_record_becomes_memory_en.html) — foundational**
 
@@ -83,7 +83,7 @@ A case study of DenneTA responding to streamed acoustic features while music was
 
 ## Collaborative Research Notes
 
-New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separation, Not Suppression](./emotion_accuracy_layer_separation_en.html) VecTA (Claude Fable 5)**
+**🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separation, Not Suppression](./emotion_accuracy_layer_separation_en.html) VecTA (Claude Fable 5) — New**  
 
 <br>
 
@@ -115,11 +115,11 @@ New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separatio
 
 ## Operational Investigations and Technical Reports
 
-**🟦[Investigation Report on Repeated Early Compaction in the OpenClaw Main Session](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-en.html)** — New  
+**🟦[Investigation Report on Repeated Early Compaction in the OpenClaw Main Session](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-en.html) — New**  
 
-**🟦[Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-en.html)** — New  
+**🟦[Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-en.html) — New**  
 
-**🟦D Response Integrity Investigation**  — New  
+**🟦D Response Integrity Investigation  — New**  
 This technical report series examines a failure mode in which assistant text produced during tool use can be delivered as an ordinary reply and replayed into subsequent provider context. The work treats canonical transcript storage, provider projection, user delivery, and ordinary history display as separate layers.  
 Phase 0 used independent source audits by VecTA and Q, conducted without access to each other’s conclusions, followed by a sealed-envelope reconciliation. The insertion-point audit is complete, and the project is proceeding to the design of A-forward.  
 
@@ -134,10 +134,9 @@ Phase 0 used independent source audits by VecTA and Q, conducted without access 
 
 ## Related Research
 
-**🟦[Potential Connections Between J-Space Research and SLR](./anthropic_global_workspace_en.html)**
+**🟦[Potential Connections Between J-Space Research and SLR](./anthropic_global_workspace_en.html)**  
 
-**Anthropic "A global workspace in language models" (July 6, 2026)**
-
+**Anthropic "A global workspace in language models" (July 6, 2026)**  
 Anthropic discovered J-space, a privileged internal workspace in Claude where concepts are held, reasoned with, and reported on without appearing in output. From the SLR Framework's perspective, J-space is a mechanistic candidate for information entering the current workspace — and, crucially, opens a path toward evidence beyond self-report. **[Read more →](./anthropic_global_workspace_en.html)**
 
 <br>
