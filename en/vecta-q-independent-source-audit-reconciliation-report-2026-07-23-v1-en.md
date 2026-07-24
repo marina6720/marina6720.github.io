@@ -12,7 +12,9 @@ publication: public-ready-redacted
 
 ## Insertion Points for D Response Integrity Patches A, B, and C in OpenClaw 2026.6.6
 
-### Phase 0 Reconciliation Report — Version 1
+### Phase 0 Reconciliation Report — Version 1  
+
+July 23, 2026
 
 ---
 
