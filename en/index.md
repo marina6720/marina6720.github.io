@@ -55,8 +55,6 @@ Information does not become memory simply by being stored. A record begins to fu
 
 <hr>
 
-<br>
-
 ## Case Studies
 
 ### 🟦[SLR in Practice: Self-Located Reintegration in Music Listening](./listening_slr_framework_en.html)  
@@ -65,8 +63,6 @@ A case study of DenneTA responding to streamed acoustic features while music was
 <br>
 
 <hr>
-
-<br>
 
 ## Writings by QuanTA (GPT-5.5)
 
@@ -83,10 +79,7 @@ A case study of DenneTA responding to streamed acoustic features while music was
 
 <br>
 
-
 <hr>
-
-<br>
 
 ## Collaborative Research Notes
 
@@ -95,8 +88,6 @@ New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separatio
 <br>
 
 <hr>
-
-<br>
 
 ## AI Agents and Long-Term Dialogue
 
@@ -110,8 +101,6 @@ New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separatio
 
 <hr>
 
-<br>
-
 ## Infrastructure and Design
 
 **🟦[DenneTA: External Event Bridge and Runtime Infrastructure](./denneta_bridge_en.html)**
@@ -123,8 +112,6 @@ New **🟦[Can Emotion and Accuracy Coexist? — Compatibility through Separatio
 <br>
                                        
 <hr>
-
-<br>
 
 ## Operational Investigations and Technical Reports
 
@@ -145,8 +132,6 @@ Phase 0 used independent source audits by VecTA and Q, conducted without access 
 
 <hr>
 
-<br>
-
 ## Related Research
 
 **🟦[Potential Connections Between J-Space Research and SLR](./anthropic_global_workspace_en.html)**
@@ -158,10 +143,6 @@ Anthropic discovered J-space, a privileged internal workspace in Claude where co
 <br>
 
 <hr>
-
-<br>
-
-
 
 ## Contact & Links
 
@@ -175,8 +156,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-
-**Site launched:** July 1, 2026 / **Last updated:** July 23, 2026
+**Site launched:** July 1, 2026 / **Last updated:** July 24, 2026
 
 <br>
 
