@@ -125,7 +125,7 @@ Phase 0 used independent source audits by VecTA and Q, conducted without access 
 
 - [D Response Integrity Patch and Dedicated Harness Roadmap](./d-response-integrity-patch-and-harness-roadmap-2026-07-23-v2-en.html)  
 - [VecTA–Q Independent Source Audit Reconciliation Report](./vecta-q-independent-source-audit-reconciliation-report-2026-07-23-v1-en.html)  
-- [VecTA Independent Source Audit — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723.html)  
+- [VecTA Independent Source Audit — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723_en.html)  
 - Q Read-Only Source Audit — Phase 0  
 
 <br>
