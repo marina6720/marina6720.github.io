@@ -122,8 +122,7 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 
 ## 関連研究
 
-**🟦[J-space研究とSLRの接続可能性](./anthropic_global_space.html)**
-
+**🟦[J-space研究とSLRの接続可能性](./anthropic_global_space.html)**  
 **Anthropic "A global workspace in language models" （2026/07/06）**  
 **Anthropic**は、Claude内部に存在する特権的なワークスペースである**J-space**を発見した。**J-space**は、概念が保持され、推論され、報告されるものの、出力には現れない空間である。[SLRフレームワーク](./slr_framework.html)の観点から見ると、**J-space**は現在のワークスペースに情報を取り込むためのメカニズムの候補であり、自己申告を超えた証拠への道を開く重要な発見である。 **[さらに詳しく→](./anthropic_global_space.html)**
 
@@ -133,9 +132,8 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 
 ## 連絡先・リンク
 
-ご感想・ご意見をお待ちしています。研究者の方、AI開発者の方、あるいはこうした問いをご自身で探究されている方——どなたでも歓迎です。X またはメールでお気軽にご連絡ください。
-
-🟦X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477) <br>  
+ご感想・ご意見をお待ちしています。研究者の方、AI開発者の方、あるいはこうした問いをご自身で探究されている方——どなたでも歓迎です。X またはメールでお気軽にご連絡ください。  
+🟦X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477)  
 🟦mail address : 57ngc6720 @gmail.com  
 
 <br>
