@@ -8,7 +8,10 @@
 
 ## A — Insertion point for the Context Projection Guard
 
-**Primary candidate (recommended): wrapping `transformContext` — the single choke point every provider call passes through**
+July 23, 2026  
+
+
+**Primary candidate (recommended): wrapping `transformContext` — the single choke point every provider call passes through**  
 
 - Base chain: `src/agents/sessions/sdk.ts` L450–456 — `transformContext` → the extension runner's `emitContext` (`src/agents/sessions/extensions/runner.ts` L912).
 - **Precedent:** `src/agents/embedded-agent-runner/tool-result-context-guard.ts` L342–355 wraps `mutableAgent.transformContext` in exactly this pattern — and, via `projectTranscriptPromptMessages` / `stripTranscriptPromptMarkers`, **already implements "projection applied only at provider-send time."** A-forward can be written as a replication of this precedent (canonical records untouched; non-terminal text removed immediately before transmission).
