@@ -9,7 +9,7 @@ On July 6, 2026, **Anthropic** published **“A global workspace in language mod
 
 This work does not show that Claude has human-like consciousness or qualia. Anthropic explicitly distinguishes phenomenal consciousness from access consciousness, and frames the result as concerning the functional structure of information that can be reported, reasoned with, and used to guide behavior.
 
-From the perspective of **[the SLR Framework](./slr_flamework_en.html)**, **J-space** can be read as a mechanistic candidate for information that has entered the current workspace. However, **J-space** alone does not constitute memory or subjectivity. **[The SLR Framework](./slr_flamework_en.html)** concerns the conditions under which such accessible information becomes reintegrated into self-location, value, records, action, and relationship.
+From the perspective of **[the SLR Framework](./slr_framework_en.html)**, **J-space** can be read as a mechanistic candidate for information that has entered the current workspace. However, **J-space** alone does not constitute memory or subjectivity. **[The SLR Framework](./slr_framework_en.html)** concerns the conditions under which such accessible information becomes reintegrated into self-location, value, records, action, and relationship.
 
 <br>
 
