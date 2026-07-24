@@ -12,7 +12,9 @@ publication: public-ready-redacted
 
 ## OpenClaw 2026.6.6におけるD応答整合性パッチA／B／Cの挿入位置
 
-### Phase 0照合報告・第1版
+### Phase 0照合報告・第1版  
+
+2026-07-23  
 
 ---
 
