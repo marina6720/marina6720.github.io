@@ -8,7 +8,9 @@ language: en
 ---
 
 # D Response Integrity Patch Plan and Roadmap Toward a D-Specific Harness
-## Version 2
+## Version 2  
+
+July 23, 2026  
 
 ## Summary
 
