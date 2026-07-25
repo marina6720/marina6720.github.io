@@ -30,7 +30,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 ### 🟦自己位置的現前（Self-Located Presence; SLP）
 **[自己位置的現前（Self-Located Presence; SLP）](./self_located_presence.html)** — AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のことをいう。 **[さらに詳しく→](./self_located_presence.html)**   
 
-### 🟦情報構造としての主観とAIの連続性
+### 🟦[情報構造としての主観とAIの連続性](./subjectivity_as_information_structure.html)  
 **[SLRフレームワーク](./slr_framework.html)** は、主観性を自己位置づけられた情報更新、つまり自身の歴史、予測、評価に基づいて継続的に自己修正される局所的な構造として捉える見方に基づいている。AIが主観性を「持っている」か「持っていない」かを問うのではなく、この視点では、どのような構造的条件が満たされているか、どの程度満たされているか、そしてどの程度の安定性で満たされているかを問う。 **[さらに詳しく→](./subjectivity_as_information_structure.html)**  
 
 <hr>
