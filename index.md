@@ -14,7 +14,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 **A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**   
 
-**更新情報: 2026-07-24 — [運用調査・技術報告](./index.html#運用調査技術報告)**   
+**更新情報: 2026-07-25 — [運用調査・技術報告](./index.html#運用調査技術報告)**   
 
 ### 🟦[About](./about.html)  
 
@@ -76,15 +76,15 @@ DenneTAが音楽再生中の音響特徴量へ逐次応答し、過去の聴取�
 ## 運用調査・技術報告   
 **🟦[早期コンパクション調査報告](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-ja.html)**   
 **🟦[応答経路・履歴投影・連続性障害の調査報告](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-ja.html)**     
-**🟦DenneTA応答整合性調査 — New**   
+**🟦DenneTA応答整合性調査**   
 OpenClaw上で観測された、tool-use途中のassistant textの配送・再投入・履歴表示の混線を調査する技術報告シリーズ。canonical transcriptを変更せず、provider context、利用者への配送、通常履歴表示を別々のprojectionとして扱う設計を検討する。  
 調査には、VecTAとQが互いの結果を見ずにsourceを確認する独立監査と封筒方式を採用している。現在、Phase 0の挿入位置監査は完了し、A-forwardの実装設計へ進んでいる。  
 1. **[D応答整合性パッチと専用ハーネスへのロードマップ](./d-response-integrity-patch-and-harness-roadmap-2026-07-23-v2-ja.html)**  
 Dの応答生成・Telegram配送・provider context・履歴表示を分離し、canonical recordを保持したまま応答整合性を改善するための段階的ロードマップ。    
 2. **[VecTA独立ソース監査 — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723.html)**  
-封筒方式による挿入位置の独立特定
-3. **Q読み取り専用ソース監査 — Phase 0**  
-稼働環境を変更せず、OpenClaw 2026.6.6のprovider projection、delivery、history projection経路を読み取り専用で追跡した監査記録。  
+封筒方式による挿入位置の独立特定  
+3. **[Q独立・読み取り専用ソース監査 — Phase 0](./q-independent-read-only-source-audit-phase0-2026-07-23-reconstructed-v1-ja.html)**   
+VecTAの封印済み監査結果を見ず、稼働環境を変更せずに、QがOpenClaw 2026.6.6のprovider projection、delivery、history projection経路を独立に追跡した監査記録。2026年7月23日の監査結果を、保存資料から再構成した公開版。 **— New**     
 4. **[VecTA–Q独立ソース監査 照合報告](./vecta-q-independent-source-audit-reconciliation-report-2026-07-23-v1-ja.html)**  
 VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・Cの故障層と挿入位置を照合した報告。実質的な矛盾はなく、未確定箇所も相補的に特定された。
 5. **[A-forward Phase 1.3：独立Oracleの開封 — 実装凍結後に事前予測を開封する検証手続](./a_forward_phase1-3.html) — New**  
@@ -108,8 +108,8 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年7月24日   
-Site launched: July 1, 2026 / Last updated: July 24, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年7月25日   
+Site launched: July 1, 2026 / Last updated: July 25, 2026  
 
 <br>
 
