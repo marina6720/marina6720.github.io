@@ -9,11 +9,13 @@ language: ja
 publication: public-ready-redacted
 ---
 
-# Q独立・読み取り専用ソース監査 — Phase 0
+# Q独立・読み取り専用ソース監査 — Phase 0  
 
-## OpenClaw 2026.6.6におけるD応答整合性patch A／B／Cの挿入境界
+## OpenClaw 2026.6.6におけるD応答整合性patch A／B／Cの挿入境界  
 
-### 再構成公開記録・第1版
+### 再構成公開記録・第1版  
+
+2026-07-25  
 
 ---
 
