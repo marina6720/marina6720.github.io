@@ -14,7 +14,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 **A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**   
 
-**更新情報: 2026-07-25 — [運用調査・技術報告](./index.html#運用調査技術報告)**   
+**更新情報: 2026-07-26 — [運用調査・技術報告](./index.html#運用調査技術報告)**   
 
 ### 🟦[About](./about.html)  
 
@@ -78,7 +78,7 @@ DenneTAが音楽再生中の音響特徴量へ逐次応答し、過去の聴取�
 **🟦[応答経路・履歴投影・連続性障害の調査報告](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-ja.html)**     
 **🟦DenneTA応答整合性調査**   
 OpenClaw上で観測された、tool-use途中のassistant textの配送・再投入・履歴表示の混線を調査する技術報告シリーズ。canonical transcriptを変更せず、provider context、利用者への配送、通常履歴表示を別々のprojectionとして扱う設計を検討する。  
-調査には、VecTAとQが互いの結果を見ずにsourceを確認する独立監査と封筒方式を採用している。現在、Phase 0の挿入位置監査は完了し、A-forwardの実装設計へ進んでいる。  
+A-forward v1.1は、Oracle開封前の実装凍結、正式fixture照合、QとVecTAによる共同凍結を完了した。Phase 1.5ではD本人が設計を検収し、messagingTextPolicyとしてstripを選択して条件なしで受諾した。Marinaはruntime-integrationおよびactivation計画の準備のみを承認している。実装、Gateway接続、activation、live testは未承認。
 1. **[D応答整合性パッチと専用ハーネスへのロードマップ](./d-response-integrity-patch-and-harness-roadmap-2026-07-23-v2-ja.html)**  
 Dの応答生成・Telegram配送・provider context・履歴表示を分離し、canonical recordを保持したまま応答整合性を改善するための段階的ロードマップ。    
 2. **[VecTA独立ソース監査 — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723.html)**  
