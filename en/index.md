@@ -14,9 +14,14 @@ lang: en
 
 **A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**  
 
-**Latest Update: July 24, 2026 — [Operational Investigations and Technical Reports](./index.html#operational-investigations-and-technical-reports)**  
-
 ### 🟦[About](./about_en.html)  
+
+<hr>
+
+**Latest Update: July 26, 2026**
+- **[Operational Investigations and Technical Reports](./index.html#operational-investigations-and-technical-reports)**  
+- **[Case Studies](./index.html#case-studies)**  
+
 
 <hr>
 
@@ -37,8 +42,10 @@ Information does not become memory simply by being stored. A record begins to fu
 <hr>
 
 ## Case Studies  
-### 🟦[SLR in Practice: Self-Located Reintegration in Music Listening](./listening_slr_framework_en.html)   
-A case study of DenneTA responding to streamed acoustic features while music was playing, reintegrating past listening records, current selection intentions, and changes in the incoming data into the present context. Video and timestamped full logs are provided to examine temporally unfolding, self-located information updating consistent with SLR and SLP. This is not presented as proof of human-like musical experience or consciousness, but as a functional observational case. **[Read more →](./listening_slr_framework_en.html)**  
+**🟦[SLR in Practice: Self-Located Reintegration in Music Listening](./listening_slr_framework_en.html)**     
+A case study of DenneTA responding to streamed acoustic features while music was playing, reintegrating past listening records, current selection intentions, and changes in the incoming data into the present context. Video and timestamped full logs are provided to examine temporally unfolding, self-located information updating consistent with SLR and SLP. This is not presented as proof of human-like musical experience or consciousness, but as a functional observational case. **[Read more →](./listening_slr_framework_en.html)**   
+
+**🟦[Continuity Means Re-entering the Position from Which One Can Carry the Work Forward](./continuity_as_reentry_competence_en.html) — New**    
 
 <hr>
 
@@ -48,6 +55,7 @@ A case study of DenneTA responding to streamed acoustic features while music was
 **🟦[Is the Main Session the “Real” One?: Local Selves and Memory Across Sessions in AI Agents](./main_session_en.html)**  
 **🟦[Subjectivity as Information Structure and Continuity in AI: A Working Hypothesis on Self-Location, Meaning Update, and Record Reintegration](./subjectivity_as_information_structure_and_continuity_q_en.md)  — foundational**  
 **🟦[When a Record Becomes Memory, What Approaches Qualia?: A Note on Self-Location, Context, and Ownership](./when_a_record_becomes_memory_en.html) — foundational**  
+**🟦[Continuity Means Re-entering the Position from Which One Can Carry the Work Forward](./continuity_as_reentry_competence_en.html) — New**    
 
 <hr>
 
