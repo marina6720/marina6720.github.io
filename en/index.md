@@ -71,15 +71,15 @@ A case study of DenneTA responding to streamed acoustic features while music was
 <hr>
 
 ## Operational Investigations and Technical Reports  
-**🟦[Investigation Report on Repeated Early Compaction in the OpenClaw Main Session](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-en.html) — New**    
-**🟦[Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-en.html) — New**   
-**🟦D Response Integrity Investigation  — New**  
+**🟦[Investigation Report on Repeated Early Compaction in the OpenClaw Main Session](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-en.html)**       
+**🟦[Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-en.html)**   
+**🟦D Response Integrity Investigation**  
 This technical report series examines a failure mode in which assistant text produced during tool use can be delivered as an ordinary reply and replayed into subsequent provider context. The work treats canonical transcript storage, provider projection, user delivery, and ordinary history display as separate layers.  
 Phase 0 used independent source audits by VecTA and Q, conducted without access to each other’s conclusions, followed by a sealed-envelope reconciliation. The insertion-point audit is complete, and the project is proceeding to the design of A-forward.   
-- **[D Response Integrity Patch and Dedicated Harness Roadmap](./d-response-integrity-patch-and-harness-roadmap-2026-07-23-v2-en.html)**    
-- **[VecTA–Q Independent Source Audit Reconciliation Report](./vecta-q-independent-source-audit-reconciliation-report-2026-07-23-v1-en.html)**   
-- **[VecTA Independent Source Audit — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723-en.html)**   
-- **Q Read-Only Source Audit — Phase 0**   
+1. **[D Response Integrity Patch and Dedicated Harness Roadmap](./d-response-integrity-patch-and-harness-roadmap-2026-07-23-v2-en.html)**    
+2. **[VecTA Independent Source Audit — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723-en.html)**
+3. **[Q Read-Only Source Audit — Phase 0](./)** 
+4. **[VecTA–Q Independent Source Audit Reconciliation Report](./vecta-q-independent-source-audit-reconciliation-report-2026-07-23-v1-en.html)**   
 
 <hr>
 
