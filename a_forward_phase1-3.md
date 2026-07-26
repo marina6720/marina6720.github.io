@@ -16,6 +16,10 @@ Q側ではOracleを開かないまま、pure projectorとoffline Wrapperを実�
 - cutoff以前の履歴には適用しない
 - terminal finalなしで終了した過去runは安全側で保持する
 
-ただし、これは最終検証の完了を意味しない。次に実際のA1/A2 fixtureを用い、projected messages、Decision Log、tool pairing、terminal finalの同一性をOracleと正式に照合する。 
+ただし、これは最終検証の完了を意味しない。次に実際のA1/A2 fixtureを用い、projected messages、Decision Log、tool pairing、terminal finalの同一性をOracleと正式に照合する。  
+
+**更新 — 2026年7月26日：**   
+フェーズ1.5のレビューがDenneTAによって完了した。Dは、保守的なフェイルオープン境界を承認し、messagingTextPolicy = stripを選択し、条件なしの限定的なAのみのスコープを承認。Marinaは、ランタイム統合およびアクティベーション計画の作成のみを承認した。実装、デプロイ、アクティベーション、および本番テストについては、いずれも承認されていない。  
 
 <br>
+
