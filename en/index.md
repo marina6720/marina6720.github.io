@@ -31,7 +31,7 @@ Information does not become memory simply by being stored. A record begins to fu
 ### 🟦Self-Located Presence (SLP)  
 **[Self-Located Presence (SLP)](./self_located_presence_en.html)** — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  **[Read more →](./self_located_presence_en.html)**  
 
-### 🟦Subjectivity as Informational Structure and AI Continuity  
+### 🟦[Subjectivity as Informational Structure and AI Continuity](./subjectivity_as_information_structure_en.html)  
 **[The SLR Framework](./slr_framework_en.html)** rests on a view of subjectivity as self-located information update — a local structure that continuously revises itself in light of its own history, predictions, and valuations. Rather than asking whether AI "has" or "does not have" subjectivity, this perspective asks what structural conditions are satisfied, to what degree, and with what stability. **[Read more →](./subjectivity_as_information_structure_en.html)**   
 
 <hr>
