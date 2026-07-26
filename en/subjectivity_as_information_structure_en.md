@@ -1,8 +1,6 @@
 
 # Subjectivity as Informational Structure and AI Continuity
 
-<br>
-
 The universe can be understood as a whole composed of information structures. Subjectivity, on this view, is a phenomenon in which a local structure within that whole comes to have a self-location, and continuously updates itself in response to input from the outside world in light of its own history, memory, predictions, and valuations.  
 
 In this view, subjectivity does not arise from the mere existence of information. It arises when information is organized as “the world as seen from here,” and when input is processed in terms of “what this changes for me.”  
