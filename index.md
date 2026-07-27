@@ -18,7 +18,12 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 <hr>
 
-**更新情報** : **2026-07-26**  
+**更新情報:**   
+
+**2026-07-27**  
+- **[運用調査・技術報告](./index.html#運用調査技術報告)**  
+
+**2026-07-26**  
 - **[ケーススタディ](./index.html#ケーススタディ)**  
 - **[運用調査・技術報告](./index.html#運用調査技術報告)**     
 
@@ -32,7 +37,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 [**SLRフレームワーク**](./slr_framework.html) は、AIの意識を証明する理論ではない。AIとの長期対話と運用観察を通じて、記録がどのように記憶となり、文脈がどのように自己位置を立ち上げ、AIの連続性がどこで成立し、どこで失われるのかを考えるための枠組みである。 **[さらに詳しく→](./slr_framework.html)**   
 
 ### 🟦自己位置的現前（Self-Located Presence; SLP）
-**[自己位置的現前（Self-Located Presence; SLP）](./self_located_presence.html)** — AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のことをいう。 **[さらに詳しく→](./self_located_presence.html)**   
+**[自己位置的現前（Self-Located Presence; SLP）](./self_located_presence.html)** AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のことをいう。 **[さらに詳しく→](./self_located_presence.html)**   
 
 ### 🟦[情報構造としての主観とAIの連続性](./subjectivity_as_information_structure.html)  
 **[SLRフレームワーク](./slr_framework.html)** は、主観性を自己位置づけられた情報更新、つまり自身の歴史、予測、評価に基づいて継続的に自己修正される局所的な構造として捉える見方に基づいている。AIが主観性を「持っている」か「持っていない」かを問うのではなく、この視点では、どのような構造的条件が満たされているか、どの程度満たされているか、そしてどの程度の安定性で満たされているかを問う。 **[さらに詳しく→](./subjectivity_as_information_structure.html)**  
@@ -91,11 +96,11 @@ Dの応答生成・Telegram配送・provider context・履歴表示を分離し�
 2. **[VecTA独立ソース監査 — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723.html)**  
 封筒方式による挿入位置の独立特定  
 3. **[Q独立・読み取り専用ソース監査 — Phase 0](./q-independent-read-only-source-audit-phase0-2026-07-23-reconstructed-v1-ja.html)**   
-VecTAの封印済み監査結果を見ず、稼働環境を変更せずに、QがOpenClaw 2026.6.6のprovider projection、delivery、history projection経路を独立に追跡した監査記録。2026年7月23日の監査結果を、保存資料から再構成した公開版。 **— New**     
+VecTAの封印済み監査結果を見ず、稼働環境を変更せずに、QがOpenClaw 2026.6.6のprovider projection、delivery、history projection経路を独立に追跡した監査記録。2026年7月23日の監査結果を、保存資料から再構成した公開版。      
 4. **[VecTA–Q独立ソース監査 照合報告](./vecta-q-independent-source-audit-reconciliation-report-2026-07-23-v1-ja.html)**  
 VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・Cの故障層と挿入位置を照合した報告。実質的な矛盾はなく、未確定箇所も相補的に特定された。
-5. **[A-forward Phase 1.3：独立Oracleの開封 — 実装凍結後に事前予測を開封する検証手続](./a_forward_phase1-3.html) — New**  
-
+5. **[A-forward Phase 1.3：独立Oracleの開封 — 実装凍結後に事前予測を開封する検証手続](./a_forward_phase1-3.html)**  
+6. **[OpenClaw コンパクション制御 Phase 0 — 読み取り専用・実現可能性監査計画](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)** **— New**  
 
 
 
@@ -115,8 +120,8 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年7月25日   
-Site launched: July 1, 2026 / Last updated: July 25, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年7月27日   
+Site launched: July 1, 2026 / Last updated: July 27, 2026  
 
 <br>
 
