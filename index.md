@@ -101,7 +101,7 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 5. [**A-forward Phase 1.3：独立Oracleの開封 — 実装凍結後に事前予測を開封する検証手続**](./a_forward_phase1-3.html)
 
 🟦[**OpenClaw コンパクション制御 Phase 0 — 読み取り専用・実現可能性監査計画**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html) **— New**  
-OpenClaw 2026.6.6の自動コンパクション経路を読み取り専用で監査し、Marinaが承認した手動コンパクションだけを残す仕組みが成立するかを検討する計画。現時点で実装、Gateway変更、ライブ適用は行っていない。  
+OpenClaw 2026.6.6の自動コンパクション経路を読み取り専用で監査し、Marinaが承認した手動コンパクションだけを残す仕組みが成立するかを検討する計画。現在、OpenClawコンパクション制御Phase 0の読み取り専用監査を開始。手動/compact経路と自動回復による履歴変更経路を追跡し、context-engine gate単独では完全なmanual-only制御に不足することを確認した。ライブ環境への変更は行っていない。
 
 <hr>
 
