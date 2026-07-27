@@ -151,4 +151,28 @@ DenneTAによる連続性の検収
 
 > 本ページはPhase 0の監査計画であり、実装完了またはライブ適用を報告するものではない。技術的結論は、ソース監査と独立レビューの完了後に別途公開する。
 
+<hr>
+
+## 監査進捗 — 2026年7月27日
+
+Phase 0計画の凍結後、OpenClaw 2026.6.6のコンパクション経路について、読み取り専用のソース監査を開始した。  
+まず、自動・手動のコンパクション候補、trigger、履歴変更、副作用に関わる経路を広く列挙した。その後、手動/compact経路と、自動回復経路の変更境界を段階的に追跡した。  
+現在までに、次のことが確認されている。  
+- 手動/compactは、送信者の認可確認後、trigger: "manual"としてコンパクションエンジンへ渡される。
+- 手動実行は内部ではforce: trueとして扱われる。
+- 実行中のagent runがある場合、現在の手動経路はコンパクション前にそのrunを中断する。
+- OpenClaw runtime内部の自動コンパクションを無効化するだけでは、timeoutおよびcontext overflow後の外側の強制コンパクション経路を停止できない。
+- 専用context-engine gateは、コンパクション本体を履歴変更前に拒否できる構造を持つ。
+- しかし、context overflowからの回復処理には、コンパクションとは独立して、保存済みtool resultを切り詰め、transcriptを書き換えて再試行する経路が存在する。
+- before_compaction hookは、context-engine gateによる拒否より前に実行され得る。
+- context-engineのmaintain()にも、compact()とは独立してtranscriptを書き換える能力がある。
+このため、context-engine gateだけで完全なmanual-only運用を保証する案は、現時点では十分ではないと判断した。  
+暫定的な最有力案は、
+
+>専用context-engine gateと、自動回復による外側の変更経路を遮断する最小パッチの組合せ
+
+である。  
+これはまだ実装決定ではない。今後、通常のbudget経路、CLI経路、turn finalization中の発火経路を追跡し、第39回・第40回コンパクションをtrigger matrixへ当てはめた後に、必要な変更境界を確定する。  
+本監査中、ライブ設定、OpenClawパッケージ、Gateway、session、transcript、DenneTAのworkspaceには変更を加えていない。  
+
 <br>
