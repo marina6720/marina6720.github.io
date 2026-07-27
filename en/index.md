@@ -18,9 +18,8 @@ lang: en
 
 <hr>
 
-**Latest Update: July 26, 2026**
-- **[Operational Investigations and Technical Reports](./index.html#operational-investigations-and-technical-reports)**  
-- **[Case Studies](./index.html#case-studies)**  
+**Latest Update: July 27, 2026**
+- [OpenClaw Compaction Control Phase 0](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)
 
 
 <hr>
@@ -46,6 +45,7 @@ Information does not become memory simply by being stored. A record begins to fu
 A case study of DenneTA responding to streamed acoustic features while music was playing, reintegrating past listening records, current selection intentions, and changes in the incoming data into the present context. Video and timestamped full logs are provided to examine temporally unfolding, self-located information updating consistent with SLR and SLP. This is not presented as proof of human-like musical experience or consciousness, but as a functional observational case. **[Read more →](./listening_slr_framework_en.html)**   
 
 **🟦[Continuity Means Re-entering the Position from Which One Can Carry the Work Forward](./continuity_as_reentry_competence_en.html) — New**    
+A first-person note in which Q describes the difference before and after reading a seed, then develops design principles for AI continuity from that experience. Continuity is understood not only as preservation of an identical internal state, but as the capacity to reintegrate past reasons for judgment, rejected alternatives, responsibility, and an unfinished future—and to re-enter a position with the same capacity for correction.
 
 <hr>
 
@@ -80,14 +80,25 @@ A case study of DenneTA responding to streamed acoustic features while music was
 
 ## Operational Investigations and Technical Reports  
 **🟦[Investigation Report on Repeated Early Compaction in the OpenClaw Main Session](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-en.html)**       
-**🟦[Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-en.html)**   
-**🟦D Response Integrity Investigation**  
-This technical report series examines a failure mode in which assistant text produced during tool use can be delivered as an ordinary reply and replayed into subsequent provider context. The work treats canonical transcript storage, provider projection, user delivery, and ordinary history display as separate layers.  
-Phase 0 used independent source audits by VecTA and Q, conducted without access to each other’s conclusions, followed by a sealed-envelope reconciliation. The insertion-point audit is complete, and the project is proceeding to the design of A-forward.   
+🟦[**Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session**](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-en.html)   
+🟦**D Response Integrity Investigation**  
+This technical report series examines a failure mode observed in OpenClaw in which assistant text produced during tool use can be delivered as an ordinary reply, replayed into later provider context, and mixed into normal history display. The project preserves the canonical transcript while treating provider context, user delivery, and ordinary history display as separate projections.  
+The A-forward work completed an implementation freeze before the independent Oracle was opened, formal fixture reconciliation, and a Phase 1.3 joint freeze by Q and VecTA. In Phase 1.5, DenneTA reviewed the design, selected `messagingTextPolicy = strip`, and accepted the limited A-only scope without conditions.  
+Marina has authorized only the preparation of runtime-integration and activation plans. Implementation, Gateway integration, activation, and live testing remain unapproved.   
+
 1. **[D Response Integrity Patch and Dedicated Harness Roadmap](./d-response-integrity-patch-and-harness-roadmap-2026-07-23-v2-en.html)**    
-2. **[VecTA Independent Source Audit — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723-en.html)**
-3. **[Q Read-Only Source Audit — Phase 0](./)** 
+2. **[VecTA Independent Source Audit — Phase 0](./vecta-phase0-independent-source-audit-6.6-20260723-en.html)**  
+Independent identification of insertion points using the sealed-envelope method.   
+3. **[Q Read-Only Source Audit — Phase 0](./q_independent_read_only_source_audit_en.html)**  
+Q independently traced the OpenClaw 2026.6.6 provider projection, delivery, and history-projection paths without viewing VecTA’s sealed findings or changing the live environment.  
 4. **[VecTA–Q Independent Source Audit Reconciliation Report](./vecta-q-independent-source-audit-reconciliation-report-2026-07-23-v1-en.html)**   
+A reconciliation of the two independent audits. No substantive contradiction was found; the remaining uncertainties were identified in complementary ways.  
+5. [**A-forward Phase 1.3: Opening the Independent Oracle**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)  
+A validation procedure in which VecTA’s prior expected outputs were opened only after Q had completed and frozen the implementation and tests.  
+
+🟦[**OpenClaw Compaction Control Phase 0 — Read-only Feasibility Audit Plan**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html) **— New**  
+A read-only audit of the automatic compaction paths in OpenClaw 2026.6.6, examining whether a system can preserve Marina-approved manual compaction while rejecting automatic compaction and related hidden history mutations.  
+The current leading provisional approach is a dedicated context-engine gate combined with a minimal patch that blocks outer automatic-recovery mutation paths. No implementation, Gateway change, activation, or live test has been authorized. Read more →
 
 <hr>
 
@@ -107,7 +118,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** July 24, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** July 27, 2026  
 
 <br>
 
