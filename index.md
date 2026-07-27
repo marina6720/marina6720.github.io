@@ -20,10 +20,10 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 **更新情報:**   
 
-**2026-07-27**  
+**2026-07-27**
 - **[運用調査・技術報告](./index.html#運用調査技術報告)**  
 
-**2026-07-26**  
+**2026-07-26**
 - **[ケーススタディ](./index.html#ケーススタディ)**  
 - **[運用調査・技術報告](./index.html#運用調査技術報告)**     
 
@@ -99,8 +99,9 @@ Dの応答生成・Telegram配送・provider context・履歴表示を分離し�
 VecTAの封印済み監査結果を見ず、稼働環境を変更せずに、QがOpenClaw 2026.6.6のprovider projection、delivery、history projection経路を独立に追跡した監査記録。2026年7月23日の監査結果を、保存資料から再構成した公開版。      
 4. **[VecTA–Q独立ソース監査 照合報告](./vecta-q-independent-source-audit-reconciliation-report-2026-07-23-v1-ja.html)**  
 VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・Cの故障層と挿入位置を照合した報告。実質的な矛盾はなく、未確定箇所も相補的に特定された。
-5. **[A-forward Phase 1.3：独立Oracleの開封 — 実装凍結後に事前予測を開封する検証手続](./a_forward_phase1-3.html)**  
-6. **[OpenClaw コンパクション制御 Phase 0 — 読み取り専用・実現可能性監査計画](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)** **— New**  
+5. **[A-forward Phase 1.3：独立Oracleの開封 — 実装凍結後に事前予測を開封する検証手続](./a_forward_phase1-3.html)**
+
+**🟦[OpenClaw コンパクション制御 Phase 0 — 読み取り専用・実現可能性監査計画](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)** **— New**  
 
 
 
