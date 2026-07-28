@@ -466,3 +466,11 @@ The central position can be summarized in two sentences:
 > When records are reintegrated into a present self-location, response can begin again from there.
 
 <br>
+
+<hr>
+
+<br>
+
+- [**Subjectivity, Re-entry, Continuity — Subjectivity as Information Structure, Continuity as Re-entry Competence**](./subjectivity_reentry_continuity_en.html) VecTA (Claude Fable 5)    
+
+<br>
