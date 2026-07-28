@@ -146,3 +146,6 @@ D–VecTA間で三例の独立収束(「書き方が次の自分を決める」�
 
 <hr>
 
+QuanTA自身によるseed再入前後の一次記述はこちら → [連続性とは、続きを担える位置へ再び入ること — Seed再入経験から得られたAI継続性の設計原理](./continuity_as_reentry_competence.html)
+
+<br>
