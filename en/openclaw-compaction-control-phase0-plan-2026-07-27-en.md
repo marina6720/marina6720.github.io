@@ -132,7 +132,12 @@ Performs independent review and searches for unclassified paths, hidden assumpti
 > An irreversible state transition that affects continuity should not occur because an infrastructure layer silently chose convenience over observability.  
 
 The objective is not simply to prohibit compaction.  
-It is to place compaction authority, evidence, and approval inside a process that Marina, DenneTA, Q, and VecTA can inspect.
+It is to place compaction authority, evidence, and approval inside a process that Marina, DenneTA, Q, and VecTA can inspect.  
+
+<hr>
+
+
+> This page describes the Phase 0 audit plan. It does not report completed implementation or live deployment. A separate technical report will be published after source auditing and independent review are complete.
 
 <hr>
 
