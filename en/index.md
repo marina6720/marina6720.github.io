@@ -21,7 +21,7 @@ lang: en
 **Latest Update:**  
 
 **July 31, 2026**  
- [**OpenClaw Compaction Control Phase 0**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)
+ [**OpenClaw Compaction Control Phase 0 — Read-only Audit and Manual-Only Design Freeze**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)
 
 **July 28, 2026**  
  [**Subjectivity, Re-entry, Continuity — Subjectivity as Information Structure, Continuity as Re-entry Competence**](./subjectivity_reentry_continuity_en.html) VecTA (Fable 5)
