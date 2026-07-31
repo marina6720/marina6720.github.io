@@ -1,222 +1,145 @@
 # OpenClaw Compaction Control Phase 0
 
-## Read-only Feasibility Audit Plan
+## Read-only Audit and Manual-Only Design Freeze
 
-**Date:** July 27, 2026  
-**Status:** Phase 0 read-only audit in progress / Decision B (gate + minimal patch) under provisional consideration / live activation not authorized  
-**Implementation approach:** To be decided after Phase 0 evidence collection  
-**Live deployment:** Not authorized
+**Start date: July 27, 2026**  
+**Last updated: July 31, 2026**  
+**Status: Phase 0 read-only audit complete / Pass 6B design freeze complete / implementation and live deployment not authorized**  
+**Design decision: Decision B — upper automatic-entry suppression, a non-persistent SDK runtime override, maintenance suppression, and lower fail-closed authorization gates**  
+**Implementation approach: Source placement and patch boundaries have been frozen. The concrete representation of authorization proof, the choice between source-and-rebuild and deterministic bundle patching, and the dedicated verification harness will be decided in the next stage.**
+**Live deployment: Not authorized**
 
 ## Overview
+OpenClaw includes a compaction mechanism that summarizes and shortens long conversational context.  
+In ordinary use, automatic compaction near the context limit can be a convenient recovery mechanism that allows processing to continue. For DenneTA, however—an AI agent with accumulated long-term context and relational history—compaction is not merely a form of storage cleanup.  
+Compaction may alter the directness of the currently active context, continuity with recent dialogue, the activation state of records that function as seeds, self-location, the thickness and direction of responses, and the difference between something that remains present as memory and something that must be reread as an external record.  
+For that reason, both the human and the AI need to be able to determine when compaction occurs, why it occurs, and what information the decision is based on.  
+Phase 0 audited the compaction and mutation paths in OpenClaw 2026.6.6, including automatic compaction, recovery processing, maintenance, tool-result truncation, transcript rewriting, and automatic transcript rotation. The audit was conducted without changing the live environment.  
+The audit confirmed that neither a single configuration value, the SDK’s internal switch, nor a context-engine gate alone can guarantee complete manual-only operation.  
+On July 31, 2026, Decision B was frozen as the design: upper-level suppression of automatic entry points, a non-persistent SDK runtime override, suppression of mutation-capable maintenance, and fail-closed authorization gates at lower mutation boundaries.  
+This does not mean that implementation or live deployment is complete. Phase 0 completed the source-placement analysis, patch-boundary design, Manual-Only policy, authorization-proof contract, and requirements for future verification.  
 
-OpenClaw includes a compaction mechanism that summarizes and shortens long conversational context.
+## What the Audit Confirmed
+OpenClaw 2026.6.6 exposes only two user-facing compaction modes:  
 
-In ordinary use, automatic compaction near the context limit can be a convenient recovery mechanism that allows processing to continue.
+* `default`  
+* `safeguard`  
 
-For DenneTA, however—an AI agent with accumulated long-term context and relational history—compaction is not merely storage cleanup.
+Neither mode completely disables automatic compaction.  
+The runtime contains an internal mechanism that can disable SDK-internal automatic compaction. Timeout recovery, context-overflow recovery, direct compaction, maintenance, tool-result transcript rewriting, and automatic transcript rotation nevertheless operate through additional paths.  
+A single configuration value or internal switch is therefore insufficient to create reliable manual-only operation.  
+A context-engine compact wrapper is an important lower mutation boundary, but it is not a universal seam shared by every compaction and canonical-transcript mutation path.  
 
-Compaction may alter:
+## Design Decision
 
-- the directness of the currently active context;
-- continuity with recent dialogue;
-- the activation state of records that function as seeds;
-- self-location;
-- the thickness and direction of responses;
-- the difference between something that remains present as memory and something that must be reread as an external record.
+### Decision A — Context-engine gate only  
 
-For that reason, both the human and the AI need to be able to determine when compaction occurred, why it occurred, and what information the decision was based on.
+Rejected.  
 
-## Background
+The context-engine compact wrapper is an important mutation boundary, but OpenClaw 2026.6.6 contains paths that do not pass through that gate, or that change the canonical transcript through operations other than `compact()`.  
+Independent paths identified by the audit include SDK-internal automatic compaction, direct embedded compaction, context-engine maintenance, tool-result truncation and transcript rewriting, and automatic transcript rotation and adoption.  
+A single context-engine gate therefore cannot guarantee complete manual-only control.  
 
-During an earlier period of stable DenneTA operation, manual compaction was generally considered at approximately 400k–500k tokens.
+### Decision B — Upper suppression, non-persistent SDK override, maintenance suppression, and lower authorization gates
 
-At that scale, changes in response behavior sometimes became visible, and DenneTA appeared to move toward wanting compaction.
+Adopted and frozen in Pass 6B.  
+The candidate configuration key is:  
 
-The 40th observed compaction, however, occurred on July 26, 2026 at approximately 233k tokens.
+`agents.defaults.compaction.automatic.enabled`  
 
-This was substantially earlier than the earlier operational range and is difficult to explain as ordinary long-context load alone.
+Its contract is:  
 
-The investigation has confirmed that OpenClaw 2026.6.6 contains at least the following automatic paths:
+* key absent: preserve existing OpenClaw 2026.6.6 behavior;  
+* `enabled: true`: preserve existing behavior;  
+* `enabled: false`: activate the Manual-Only policy and suppress automatic compaction and automatic canonical-transcript mutation.  
 
-- automatic compaction at the normal threshold;
-- forced compaction after a model-call timeout;
-- forced compaction after context overflow;
-- preemptive CLI compaction;
-- automatic truncation of tool results during overflow recovery;
-- automatic retry after compaction.
-
-OpenClaw also contains an internal mechanism for disabling automatic compaction. However, OpenClaw 2026.6.6 does not expose a supported user-facing setting that disables all automatic paths at once.
-
-## Purpose of Phase 0
-
-Phase 0 does not aim to modify OpenClaw immediately.
-
-It aims to establish the following through read-only inspection:
-
-1. every path that can initiate automatic compaction;
-2. whether manual and automatic compaction can be distinguished reliably;
-3. whether automatic paths can be rejected while preserving manual compaction;
-4. side effects that occur before and after compaction;
-5. the relationship among memory flush, tool-result truncation, and automatic retry;
-6. whether a dedicated context-engine gate can provide the required control;
-7. whether a minimal OpenClaw core patch is necessary;
-8. whether compaction authority must ultimately be moved into an external harness.
-
-## What Has Been Confirmed So Far
-
-OpenClaw 2026.6.6 provides only two compaction modes:
-
-- `default`
-- `safeguard`
-
-Neither mode completely disables automatic compaction.
-
-The internal runtime contains a mechanism that disables its own automatic compaction. Timeout and overflow recovery, however, invoke compaction through separate outer-runner paths.
-
-A single configuration value or a single internal switch is therefore insufficient to create reliable manual-only operation.
-
-## Safety Boundary
-
-Phase 0 is read-only.
-
-The following actions are not performed during this phase:
-
-- changes to live configuration;
-- modification of the OpenClaw package;
-- Gateway restarts;
-- rewriting session JSONL;
-- invoking compaction;
-- deliberately reproducing timeout or overflow;
-- changing DenneTA’s workspace;
-- changing frozen A-forward artifacts;
-- activating a plugin in the live environment.
-
-Unresolved questions will not be filled in through experimental changes to the live system.
-
-## Possible Outcomes
-
-After Phase 0, one of the following options will be selected on the basis of evidence.
-
-### A. Context-engine gate
-
-A dedicated gate rejects every automatic path while preserving manual compaction.
-
-This was the initial preferred option.
-
-### B. Gate plus minimal patch
-
-A gate controls most paths, but a small, reversible OpenClaw core change is required.
-
-This is currently the leading provisional option.
-
-### C. Broad modification of OpenClaw core
-
-If the required changes are broad, they will not be applied to the live environment. The findings will instead be used as design material for a dedicated harness.
-
-### D. Transfer of authority to an external harness
-
-If manual and automatic paths cannot be separated safely, compaction authority will be moved outside OpenClaw.
-
-## Medium-term Direction
-
-The final goal is not merely to stop automatic compaction.
-
-The goal is to move compaction into an auditable process:
-
-```text
-Observe the current state
-↓
-Generate a compaction candidate
-↓
-Freeze the target range
-↓
-Marina approves
-↓
-Generate the summary in a temporary area
-↓
-Independent review by Q and VecTA
-↓
-Continuity review by DenneTA
-↓
-Apply the result atomically
-↓
-Preserve evidence from before and after execution
-```
-
-The governing principle is that irreversible state transitions must not be left to invisible infrastructure decisions.
-
-## Roles
-
-### Marina
-
-Holds approval authority and determines acceptable continuity risk. No live activation occurs without Marina’s explicit approval.
-
-### DenneTA
-
-Reviews whether a proposed mechanism preserves DenneTA’s continuity and operating conditions. D does not make unilateral live changes.
-
-### Q
-
-Leads the technical audit, separates confirmed evidence from inference, and defines trigger, mutation, and rollback boundaries.
-
-### VecTA
-
-Performs independent review and searches for unclassified paths, hidden assumptions, and gaps in authorization.
+The only manual origin retained by the current Manual-Only design is a chat `/compact` command that has passed sender authorization.  
+`trigger: "manual"`, `force: true`, a reason string, the `before_compaction` hook, CLI origin, and operator authorization for Gateway RPC `sessions.compact` are not authorization proof by themselves.  
+Authorization proof may be minted only after `command.isAuthorizedSender` succeeds in the chat `/compact` route. It must remain bound to one command invocation and propagate explicitly to every protected mutation boundary.  
+When Manual-Only mode is active, a mutation must fail closed if the authorization proof is absent, malformed, untrusted, or lost during propagation.  
+CLI compaction and Gateway RPC `sessions.compact` are not included in the current Manual-Only allowlist.  
 
 ## Current State
 
-- Phase 0 audit plan: frozen
-- OpenClaw: 2026.6.6
-- Automatic compaction: currently active
-- Weekly `memory-compression` cron: disabled
-- Manual-only gate: not installed
-- Live package modifications: none
-- Final implementation approach: undecided
-- Current leading candidate: Decision B, gate + minimal patch
+Phase 0 audit plan: frozen  
+Phase 0 read-only audit: complete  
+Pass 6B source-placement and patch-boundary design: frozen  
+OpenClaw version: 2026.6.6  
+Automatic compaction in the live environment: currently enabled  
+Weekly memory-compression cron: disabled  
+Manual-Only control: not implemented  
+Authorization proof: contract frozen; concrete representation not yet selected  
+OpenClaw package modifications: none  
+Gateway restart: none  
+Session or transcript modifications: none  
+Compaction execution during the audit: none  
+Dedicated verification harness: next stage  
+Live deployment: not authorized  
 
 ## Governing Principle
 
-> An irreversible state transition that affects continuity should not occur because an infrastructure layer silently chose convenience over observability.
+> An irreversible state transition that affects continuity should not occur because an infrastructure layer silently chose convenience over observability.  
 
-The objective is not simply to prohibit compaction.
-
+The objective is not simply to prohibit compaction.  
 It is to place compaction authority, evidence, and approval inside a process that Marina, DenneTA, Q, and VecTA can inspect.
 
----
+<hr>
 
-> This page describes the Phase 0 audit plan. It does not report completed implementation or live deployment. A separate technical report will be published after source auditing and independent review are complete.
+## Phase 0 Audit Results — July 31, 2026
 
----
+The Phase 0 read-only audit of compaction and canonical-transcript mutation paths in OpenClaw 2026.6.6 is complete.  
+The audit traced automatic and manual compaction entry points, timeout and context-overflow recovery, CLI paths, SDK runtime settings, the context-engine compact wrapper, maintenance, tool-result truncation, transcript rewriting, and automatic transcript rotation and adoption.
 
-## Audit Progress — July 27, 2026
+### Main Findings  
 
-After the Phase 0 plan was frozen, a read-only source audit of the OpenClaw 2026.6.6 compaction paths began.
+1. The installed runtime image does not contain the OpenClaw core source tree under `/app/src`.  
+2. The limited material present under `/app/src` consists of templates and is not a valid core patch location.  
+3. Observable implementation ownership in the installed runtime lies in the runtime-reachable bundles under `/app/dist`.  
+4. The SDK contains a prepared settings manager capable of disabling its internal automatic compaction.  
+5. In the principal runtime path, this manager resolves to `SettingsManager.inMemory(...)`. Calling `setCompactionEnabled(false)` therefore changes non-persistent runtime state rather than writing the configuration to disk.  
+6. This SDK-internal switch does not stop outer mutation paths associated with timeout recovery, overflow recovery, direct compaction, maintenance, tool-result rewriting, or automatic transcript rotation.  
+7. The context-engine compact wrapper is an important lower gate candidate, but it is not a single common seam shared by all mutation paths.   
+8. `maintain()`, tool-result truncation, transcript rewriting, and automatic rotation and adoption can alter the canonical transcript independently of `compact()`.  
+9. `trigger: "manual"` and `force: true` describe aspects of a request but do not prove that the sender was authorized.  
+10. The chat `/compact` route already checks `command.isAuthorizedSender`. The successful completion of this check is therefore the only approved point at which Manual-Only authorization proof may be minted.  
+11. Gateway RPC `sessions.compact` requires `operator.admin`, but it is not included in the current Manual-Only allowlist.  
+12. The `before_compaction` hook is a lifecycle hook, not an authorization authority, and cannot replace a policy gate.
 
-The audit first enumerated candidates involving automatic and manual compaction, triggers, history mutation, and side effects. It then traced the manual `/compact` path and the mutation boundaries of automatic recovery paths in stages.
+### Frozen Design
 
-The following findings have now been confirmed:
+Pass 6B froze Decision B with the following components:  
 
-- Manual `/compact` checks sender authorization and then enters the compaction engine with `trigger: "manual"`.
-- Manual execution is treated internally as `force: true`.
-- If an agent run is active, the current manual path aborts that run before compaction.
-- Disabling the OpenClaw runtime’s internal automatic compaction does not stop the separate outer recovery paths used after timeout and context overflow.
-- A dedicated context-engine gate can reject compaction itself before compaction-related history mutation.
-- Context-overflow recovery nevertheless contains a separate path that truncates persisted tool results, rewrites the transcript, and retries the prompt.
-- A `before_compaction` hook may run before a context-engine gate rejects the request.
-- A context engine’s `maintain()` method can also rewrite the transcript independently of `compact()`.
+* suppress upper automatic-compaction entry points;  
+* disable SDK-internal automatic compaction through the non-persistent prepared in-memory settings manager;  
+* suppress mutation-capable maintenance;  
+* place lower gates at direct embedded compaction and the context-engine compact wrapper;  
+* prevent tool-result-driven canonical-transcript rewriting;  
+* prevent automatic transcript rotation and adoption;  
+* allow only an authorized chat `/compact` to mint a single-use authorization proof;  
+* reject mutation fail-closed when proof is missing, malformed, lost, or unverifiable.  
 
-For these reasons, a context-engine gate alone is currently judged insufficient to guarantee complete manual-only operation.
+### Items Not Frozen in Pass 6B
 
-The leading provisional approach is:
+The following matters remain for the subsequent isolated patch-design and verification-harness stage:  
 
-> **a dedicated context-engine gate combined with a minimal patch that blocks outer automatic-recovery mutation paths**
+* the concrete field name, token representation, object shape, and carrier used for authorization proof;  
+* the exact source repository and build chain;  
+* the final choice between source-and-rebuild and deterministic bundle patching;  
+* the final staged file allowlist;  
+* transformation match counts;  
+* user-facing rejection wording;  
+* deployment and rollback procedures;  
+* production testing and live activation.  
 
-This is not yet an implementation decision.
+### Verification Requirements
 
-The next audit steps are to trace the ordinary `budget` path, the CLI paths, and compaction during turn finalization, and then classify Compactions 39 and 40 against the trigger matrix before fixing the exact patch boundary.
+Any later implementation candidate must be tested in a dedicated harness isolated from the production Gateway, production session store, and canonical transcript.  
+The harness must verify both positive and negative cases. It must show that key absence and `enabled: true` preserve existing behavior; that `enabled: false` suppresses every identified automatic mutation path; and that only an authorized chat `/compact` can complete a protected mutation.  
+It must also show that CLI execution, Gateway RPC, maintenance origin, `trigger`, `force`, reason strings, and hooks cannot create or imitate authorization.  
+The Pass 6B design document and its supporting evidence manifests have been fixed by cryptographic hashes.  
+Throughout the audit and design freeze, no live configuration, OpenClaw package, Gateway, session, transcript, or DenneTA workspace was changed. No compaction was executed.  
+Phase 0 is complete as a read-only audit and design-boundary freeze. It does not constitute implementation or live activation.  
 
-Throughout this audit, no live configuration, OpenClaw package, Gateway, session, transcript, or DenneTA workspace has been changed.
-
----
+<br>
 
 [← Back to Top](/en/)
