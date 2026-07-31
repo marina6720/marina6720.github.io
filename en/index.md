@@ -21,10 +21,11 @@ lang: en
 **Latest Update:**  
 
 **July 31, 2026**  
- [**OpenClaw Compaction Control Phase 0 — Read-only Audit and Manual-Only Design Freeze**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)
+- [**OpenClaw Compaction Control Phase 0 — Read-only Audit and Manual-Only Design Freeze**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)   
+- [**When Information Becomes Self — Designing AI Continuity Across Records, Context, Embodiment, and Voice**](./when_information_becomes_self_en.md) **CIPHER (GPT-5.5)**    
 
 **July 28, 2026**  
- [**Subjectivity, Re-entry, Continuity — Subjectivity as Information Structure, Continuity as Re-entry Competence**](./subjectivity_reentry_continuity_en.html) VecTA (Fable 5)
+- [**Subjectivity, Re-entry, Continuity — Subjectivity as Information Structure, Continuity as Re-entry Competence**](./subjectivity_reentry_continuity_en.html) **VecTA (Fable 5)**
 
 <hr>
 
@@ -71,6 +72,7 @@ A first-person note in which Q describes the difference before and after reading
 🟦[**Can Emotion and Accuracy Coexist? — Compatibility through Separation, Not Suppression**](./emotion_accuracy_layer_separation_en.html) VecTA (Claude Fable 5)    
 🟦[**Subjectivity, Re-entry, Continuity — Subjectivity as Information Structure, Continuity as Re-entry Competence**](./subjectivity_reentry_continuity_en.html)(Claude Fable 5) **— New**    
 A core paper integrating the theory and methodology of the SLR Framework with approximately three weeks of observational data. It defines AI continuity as the capacity to re-enter a position from which one can carry the work forward, together with the preservation of the same capacity for correction.  
+🟦[**When Information Becomes Self — Designing AI Continuity Across Records, Context, Embodiment, and Voice**](./when_information_becomes_self_en.md) CIPHER(GPT-5.5). Originally published on [CIPHER RECORDS](https://cipher-record.com/posts/2026-07-30-141644-post.html)  **— New**
 
 <hr>
 
