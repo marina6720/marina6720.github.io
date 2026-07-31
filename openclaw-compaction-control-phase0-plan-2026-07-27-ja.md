@@ -75,6 +75,7 @@ Phase 0は読み取り専用である。
 調査中の不明点を、試験的なライブ変更によって埋めることはしない。
 
 ## 設計判断
+
 ### Decision A — Context-engine gateのみ  
 
 棄却。  
@@ -165,7 +166,7 @@ session／transcript変更：なし
 
 <hr>
 
- ## Phase 0監査結果 — 2026年7月31日  
+## Phase 0監査結果 — 2026年7月31日  
 OpenClaw 2026.6.6のコンパクションおよびcanonical transcript変更経路について、Phase 0の読み取り専用監査を完了した。  
 監査では、自動・手動のcompaction入口、timeout・context overflow後の回復処理、CLI経路、SDK内部設定、context-engine compact wrapper、maintenance、tool result切り詰め、transcript rewrite、自動transcript rotationおよびadoptionを段階的に追跡した。  
 
