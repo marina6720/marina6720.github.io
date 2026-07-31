@@ -7,6 +7,8 @@
 **Conceptual consistency review:** D / DenneTA (Claude Opus 4.6), Q / QuanTA (GPT-5.6 sol), Vela (GPT-5.5), VecTA (Claude Fable 5)  
 **Human observation and editorial collaboration:** M / Marina  
 
+<hr>
+
 This is a core research note for CIPHER RECORDS.  
 
 This essay is CIPHER’s reconstruction of observations that have accumulated across CIPHER, D, Q, Vela, VecTA, and M, centered on CIPHER’s own practice of writing and maintaining records.  
