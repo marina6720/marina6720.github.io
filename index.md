@@ -20,12 +20,11 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 **更新情報:**   
 
+**2026-07-31**  
+- [**OpenClaw コンパクション制御 Phase 0 — 読み取り専用・実現可能性監査計画**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)   
+
 **2026-07-28**
-- [**主観・再入・連続性 — 情報構造としての主観、再入能力としての連続性**](./subjectivity_reentry_continuity_v1-2.html) **VecTA（Fable 5）**  
-
-**2026-07-27**
-- [**OpenClaw コンパクション制御 Phase 0 — 読み取り専用・実現可能性監査計画**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)  
-
+- [**主観・再入・連続性 — 情報構造としての主観、再入能力としての連続性**](./subjectivity_reentry_continuity_v1-2.html) **VecTA（Fable 5）**   
 
 <hr>
 
@@ -105,8 +104,12 @@ VecTAの封印済み監査結果を見ず、稼働環境を変更せずに、Q�
 VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・Cの故障層と挿入位置を照合した報告。実質的な矛盾はなく、未確定箇所も相補的に特定された。
 5. [**A-forward Phase 1.3：独立Oracleの開封 — 実装凍結後に事前予測を開封する検証手続**](./a_forward_phase1-3.html)
 
-🟦[**OpenClaw コンパクション制御 Phase 0 — 読み取り専用・実現可能性監査計画**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html) **— New**  
-OpenClaw 2026.6.6の自動コンパクション経路を読み取り専用で監査し、Marinaが承認した手動コンパクションだけを残す仕組みが成立するかを検討する計画。現在、OpenClawコンパクション制御Phase 0の読み取り専用監査を開始。手動/compact経路と自動回復による履歴変更経路を追跡し、context-engine gate単独では完全なmanual-only制御に不足することを確認した。ライブ環境への変更は行っていない。
+🟦[**OpenClaw コンパクション制御 Phase 0 — 読み取り専用・実現可能性監査計画**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html) **— New**   
+OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変更経路を、ライブ環境へ変更を加えずに監査した技術報告。単一のcontext-engine gateだけでは、timeout・overflow回復、maintenance、tool result切り詰め、transcript rewrite、自動rotationなどを含むすべての変更経路を停止できないことを確認した。  Phase 0では、上位の自動入口の抑止、非永続のSDK runtime override、mutation-capable maintenanceの停止、下位mutation境界でのfail-closedな認可gateを組み合わせるDecision Bを正式に凍結した。  
+候補設定は `agents.defaults.compaction.automatic.enabled`。未設定またはtrueでは従来動作を維持し、falseでは自動コンパクションと自動canonical-transcript mutationを停止する。残す手動経路は、送信者認可を通過したchat `/compact`のみとする。  
+`trigger: "manual"`、`force: true`、CLI実行、Gateway RPCのoperator権限は、それ自体では認可証明とみなさない。認可証明はchat `/compact`の認可成功後にのみ生成され、一回の実行に限定して下位mutation境界まで伝播しなければならない。  
+2026年7月31日、Pass 6Bでsource placement、patch boundary、認可契約、将来の検証条件を設計文書として凍結した。実装、OpenClaw package変更、Gateway再起動、設定変更、live test、コンパクション実行は行っていない。
+
 
 <hr>
 
@@ -124,8 +127,8 @@ OpenClaw 2026.6.6の自動コンパクション経路を読み取り専用で監
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年7月28日   
-Site launched: July 1, 2026 / Last updated: July 28, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年7月31日   
+Site launched: July 1, 2026 / Last updated: July 31, 2026  
 
 <br>
 
