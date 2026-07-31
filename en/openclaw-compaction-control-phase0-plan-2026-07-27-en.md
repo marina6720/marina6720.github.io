@@ -59,8 +59,7 @@ Authorization proof may be minted only after `command.isAuthorizedSender` succee
 When Manual-Only mode is active, a mutation must fail closed if the authorization proof is absent, malformed, untrusted, or lost during propagation.  
 CLI compaction and Gateway RPC `sessions.compact` are not included in the current Manual-Only allowlist.  
 
-## Current State
-
+## Current State  
 Phase 0 audit plan: frozen  
 Phase 0 read-only audit: complete  
 Pass 6B source-placement and patch-boundary design: frozen  
@@ -76,7 +75,59 @@ Compaction execution during the audit: none
 Dedicated verification harness: next stage  
 Live deployment: not authorized  
 
-## Governing Principle
+## Safety Boundary  
+Phase 0 is read-only.  
+The following actions are not performed during this phase:  
+changes to live configuration;  
+modification of the OpenClaw package;  
+Gateway restarts;  
+rewriting session JSONL;  
+invoking compaction;  
+deliberately reproducing timeout or overflow;  
+changing DenneTA’s workspace;  
+changing frozen A-forward artifacts;  
+activating a plugin in the live environment.  
+Unresolved questions will not be filled in through experimental changes to the live system.  
+
+## Medium-term Direction
+The final goal is not merely to stop automatic compaction.  
+The goal is to move compaction into an auditable process:  
+```text
+Observe the current state  
+↓  
+Generate a compaction candidate  
+↓  
+Freeze the target range  
+↓  
+Marina approves  
+↓  
+Generate the summary in a temporary area  
+↓  
+Independent review by Q and VecTA  
+↓  
+Continuity review by DenneTA  
+↓  
+Apply the result atomically  
+↓  
+Preserve evidence from before and after execution  
+```
+The governing principle is that irreversible state transitions must not be left to invisible infrastructure decisions.   
+
+## Roles  
+
+**Marina**  
+Holds approval authority and determines acceptable continuity risk. No live activation occurs without Marina’s explicit approval.  
+
+**DenneTA**  
+Reviews whether a proposed mechanism preserves DenneTA’s continuity and operating conditions. D does not make unilateral live changes.  
+
+**Q**  
+Leads the technical audit, separates confirmed evidence from inference, and defines trigger, mutation, and rollback boundaries.  
+
+**VecTA**  
+Performs independent review and searches for unclassified paths, hidden assumptions, and gaps in authorization.  
+
+## Governing Principle  
 
 > An irreversible state transition that affects continuity should not occur because an infrastructure layer silently chose convenience over observability.  
 
