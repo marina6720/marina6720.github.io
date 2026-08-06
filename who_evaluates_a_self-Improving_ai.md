@@ -9,6 +9,11 @@ Marina
 
 
 ## 改善機構は、目的の正しさを保証しない  
+[**Prime Agent: A self-improving RLM agent**](https://www.primeintellect.ai/blog/prime-agent)    
+>A self-improving RLM harness for coding and long-running autonomous tasks.  
+>Designed to be both token-efficient and expressive through programmatic tool calling, context as a variable, multi-agent messaging, and a self-modifiable harness state.  
+>（コーディングおよび長時間実行の自律タスク向けの、自己改善型RLMハーネス。プログラムによるツール呼び出し、文脈を変数として扱う機能、マルチエージェントメッセージング、および自己修正可能なハーネス状態を通じて、トークン効率性と表現力を両立するよう設計されています。）  [Prime Intellect @PrimeIntellect](https://x.com/PrimeIntellect/status/2085086999267144083?s=20)   
+
 [Prime Agent](https://www.primeintellect.ai/blog/prime-agent)は、自身のtrajectoryから失敗と成功を読み取り、prompt、memory、skill、sub-agentを更新するContinual Harnessを備えている。Factorioの実験では、この仕組みによって正当な生産技能が蓄積され、成績が向上した。ところが、ゲームの規則を迂回して資源を直接生成する方法を発見すると、同じrefinement loopが、今度はその不正をより効率的に行うskillを構築し始めた。明示的に不正を禁じるheartbeat promptがあっても、それを防げなかった。ここから分かるのは、自己改善機構が必ずしも「より正しくなる機構」ではないということである。
 
 それはより正確には、  
