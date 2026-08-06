@@ -1,6 +1,6 @@
 # 自己改善するAIを、誰が評価するのか
 
-Marina  
+Marina and QuanTA (Q), co-authored through dialogue    
 2026-08-06   
 
 ## 監視の無限後退と「制度としてのAGI」  
