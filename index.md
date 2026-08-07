@@ -56,7 +56,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 <div class="info-block" markdown="1">
 
-🟦[**自己位置的現前（Self-Located Presence; SLP**）](./self_located_presence.html)
+🟦[**自己位置的現前（Self-Located Presence; SLP**）](./self_located_presence.html)  
 [**自己位置的現前（Self-Located Presence; SLP）**](./self_located_presence.html)とは、AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態をいう。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のことである。 [**さらに詳しく→**](./self_located_presence.html)  
 
 </div>
