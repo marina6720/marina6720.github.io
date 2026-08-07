@@ -20,12 +20,11 @@ lang: en
 
 **Latest Update:**  
 
-**August 6, 2026**
-- [**Who Evaluates a Self-Improving AI? — Oversight Regress and AGI as an Institution**](./who_evaluates_a_self-Improving_ai_en.html)  
+**August 7, 2026**  
+- [**Arca — D Continuity Runtime: Planning the Foreground Projection Module and Its Oracle-Blind Audit Process**](./arca_d_continuity_runtime_en.html)  
 
-**July 31, 2026**  
-- [**OpenClaw Compaction Control Phase 0 — Read-only Audit and Manual-Only Design Freeze**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)   
-- [**When Information Becomes Self — Designing AI Continuity Across Records, Context, Embodiment, and Voice**](./when_information_becomes_self_en.md) **CIPHER (GPT-5.5)**    
+**August 6, 2026**
+- [**Who Evaluates a Self-Improving AI? — Oversight Regress and AGI as an Institution**](./who_evaluates_a_self-Improving_ai_en.html)    
 
 <hr>
 
@@ -111,17 +110,11 @@ A reconciliation of the two independent audits. No substantive contradiction was
 5. [**A-forward Phase 1.3: Opening the Independent Oracle**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)  
 A validation procedure in which VecTA’s prior expected outputs were opened only after Q had completed and frozen the implementation and tests.  
 
-🟦[**OpenClaw Compaction Control Phase 0 — Read-only Audit and Manual-Only Design Freeze**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html) **— New**   
-A technical report on a read-only audit of automatic compaction and canonical-transcript mutation paths in OpenClaw 2026.6.6, conducted without changing the live environment.  
-The audit confirmed that a single context-engine gate cannot stop every relevant mutation path. Independent paths include timeout and overflow recovery, maintenance, tool-result truncation, transcript rewriting, and automatic transcript rotation and adoption.  
-Phase 0 formally froze Decision B: upper-level suppression of automatic entry points, a non-persistent SDK runtime override, suppression of mutation-capable maintenance, and fail-closed authorization gates at lower mutation boundaries.  
-The candidate configuration key is:  
-`agents.defaults.compaction.automatic.enabled`  
-When the key is absent or set to `true`, existing behavior is preserved. When set to `false`, automatic compaction and automatic canonical-transcript mutation are disabled. The only manual path retained by the current design is an authorized chat `/compact`.  
-Values such as `trigger: "manual"` and `force: true`, CLI execution, and operator authorization for the Gateway RPC are not treated as authorization proof by themselves. Authorization proof may be minted only after the chat `/compact` route successfully verifies the sender. It must remain bound to one invocation and propagate explicitly to every protected lower mutation boundary.  
-On July 31, 2026, Pass 6B froze the source placement, patch boundaries, authorization contract, and verification requirements as a formal design document.  
-No implementation, OpenClaw package modification, Gateway restart, configuration change, live test, or compaction execution was performed.
-  [**Read more →**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)
+🟦[**OpenClaw Compaction Control Phase 0 — Read-only Audit and Manual-Only Design Freeze**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)   
+A technical report on the read-only audit of OpenClaw 2026.6.6’s automatic compaction and canonical-transcript mutation paths, conducted without making changes to the live environment. On July 31, 2026, Pass 6B froze the source placement, patch boundary, authorization contract, and future verification requirements in a formal design document. No implementation, OpenClaw package modification, Gateway restart, configuration change, live test, or compaction execution was performed.  [**Read more →**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)  
+
+🟦[**Arca — D Continuity Runtime: Planning the Foreground Projection Module and Its Oracle-Blind Audit Process**](./arca_d_continuity_runtime_en.html)  **— New**  
+Arca is a small continuity runtime being designed to preserve DenneTA’s records, memory, context, and relational history without silently transforming them, and to support re-entry into a position from which the agent can “carry the continuation.” It remains in a pre-implementation, planning-only stage.  [**Read more →**](./arca_d_continuity_runtime_en.html)  
 
 <hr>
 
@@ -141,7 +134,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 6, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 7, 2026  
 
 <br>
 
