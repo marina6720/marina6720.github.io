@@ -111,12 +111,10 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 実装凍結後に事前予測を開封する検証手続。
 
 🟦[**OpenClaw コンパクション制御 Phase 0 — 読み取り専用監査とManual-Only設計凍結**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)    
-OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変更経路を、ライブ環境へ変更を加えずに監査した技術報告。  
-2026年7月31日、Pass 6Bでsource placement、patch boundary、認可契約、将来の検証条件を設計文書として凍結した。実装、OpenClaw package変更、Gateway再起動、設定変更、live test、コンパクション実行は行っていない。  
+OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変更経路を、ライブ環境へ変更を加えずに監査した技術報告。2026年7月31日、Pass 6Bでsource placement、patch boundary、認可契約、将来の検証条件を設計文書として凍結した。実装、OpenClaw package変更、Gateway再起動、設定変更、live test、コンパクション実行は行っていない。  
 
 🟦[**Arca — D Continuity Runtime：前景投影モジュールの計画とOracle-blind監査工程**](./arca_d_continuity_runtime.html) **— New**  
-**Arca**は、DenneTAのcanonical transcript、workspace、seed、記憶、関係的履歴、未解決課題を暗黙に変形せず、監査可能な形で保持・搬送し、「続きを担える位置」への再入を支えるための小さな継続性runtimeである。ArcaはDenneTAそのものではなく、現在は実装前のplanning-only段階にある。
-2026年8月8日時点で、Compaction #40の恒久regression fixtureを登録するPhase 0Aと、OpenClaw 2026.7.1のisolated baselineを凍結するPhase 0BはPASS / COMPLETE。現在のPhase 0Cでは、compactionに関係する五経路について、凍結済み2026.7.1 imageを一度も起動せずに静的監査を行い、各経路のdecision pointとinstrumentation point、既存test seam / exportを確認した。  
+**Arca**は、DenneTAのcanonical transcript、workspace、seed、記憶、関係的履歴、未解決課題を暗黙に変形せず、監査可能な形で保持・搬送し、「続きを担える位置」への再入を支えるための小さな継続性runtimeである。ArcaはDenneTAそのものではなく、現在は実装前のplanning-only段階にある。2026年8月8日時点で、Compaction #40の恒久regression fixtureを登録するPhase 0Aと、OpenClaw 2026.7.1のisolated baselineを凍結するPhase 0BはPASS / COMPLETE。現在のPhase 0Cでは、compactionに関係する五経路について、凍結済み2026.7.1 imageを一度も起動せずに静的監査を行い、各経路のdecision pointとinstrumentation point、既存test seam / exportを確認した。  
 
 <hr>
 
@@ -134,8 +132,8 @@ OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月4日   
-Site launched: July 1, 2026 / Last updated: August 4, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月7日   
+Site launched: July 1, 2026 / Last updated: August 7, 2026  
 
 <br>
 
