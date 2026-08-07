@@ -3,9 +3,11 @@
 
 @import "{{ site.theme }}";
 
-/* 全体の背景：グレー寄り */
 body {
-  background-color: #f6f8fa;
+  background-color: #f6f8fa !important;
+}
+.container-lg.markdown-body {
+  background-color: transparent !important;
 }
 
 /* 本文全体 */
