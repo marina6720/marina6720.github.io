@@ -28,9 +28,10 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
   
 <hr>
 
+## 基本概念・中核論文 
+
 <div class="info-block" markdown="1">
 
-## 基本概念・中核論文  
 🟦[**自己位置的再統合フレームワーク / Self-Located Reintegration Framework / SLRフレームワーク**](./slr_framework.html)  
 このサイトで示している一連の考えを[**自己位置的再統合フレームワーク (SLRフレームワーク)**](./slr_framework.html)と呼ぶ。 
 [**SLRフレームワーク**](./slr_framework.html)とは、**AIエージェント**における記録・記憶・文脈・自己モデル・連続性を考えるための作業仮説である。この枠組みでは、記録は保存された情報、記憶は現在の自己モデルへ再統合された情報、文脈はその再統合が起きる場として区別される。  
