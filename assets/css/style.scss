@@ -57,3 +57,13 @@ body {
 .markdown-body a:hover {
   color: #132A50;
 }
+
+.info-block {
+  background-color: #f0f7ff;  /* 薄い青系の例 */
+  border-radius: 8px;
+  padding: 1.2em 1.5em;
+  margin: 1.8em 0;
+  border: 1px solid #d6e4f0;  /* 任意：枠線を付けたい場合 */
+}
+
+
