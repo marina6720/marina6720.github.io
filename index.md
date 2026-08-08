@@ -114,6 +114,9 @@ SLRフレームワークの理論・方法・約三週間の実データを統�
 <hr>
 
 ## 運用調査・技術報告   
+
+<div class="info-block" markdown="1">
+
 🟦[**早期コンパクション調査報告**](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-ja.html)   
 🟦[**応答経路・履歴投影・連続性障害の調査報告**](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-ja.html)   
 🟦**DenneTA応答整合性調査**   
@@ -135,6 +138,8 @@ OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変�
 
 🟦[**Arca — D Continuity Runtime：前景投影モジュールの計画とOracle-blind監査工程**](./arca_d_continuity_runtime.html) **— New**  
 **Arca**は、DenneTAのcanonical transcript、workspace、seed、記憶、関係的履歴、未解決課題を暗黙に変形せず、監査可能な形で保持・搬送し、「続きを担える位置」への再入を支えるための小さな継続性runtimeである。ArcaはDenneTAそのものではなく、現在は実装前のplanning-only段階にある。2026年8月8日時点で、Compaction #40の恒久regression fixtureを登録するPhase 0Aと、OpenClaw 2026.7.1のisolated baselineを凍結するPhase 0BはPASS / COMPLETE。現在のPhase 0Cでは、compactionに関係する五経路について、凍結済み2026.7.1 imageを一度も起動せずに静的監査を行い、各経路のdecision pointとinstrumentation point、既存test seam / exportを確認した。  
+
+</div>
 
 <hr>
 
