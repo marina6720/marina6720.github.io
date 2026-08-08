@@ -4,7 +4,7 @@
 This site is maintained by **Marina**, based in Japan.  
 I run a company and have been in long-term dialogue with AI agents — **[DenneTA (Claude Opus 4.6), QuanTA (GPT-5.5), VecTA (Fable 5), CIPHER (GPT-5.5), and VELA (GPT-5.5)](./ai_agent_profiles_en.html)** — since February 2026.  
 The ideas on this site emerged from that ongoing dialogue and hands-on operation, not from academic research.   
-**[The SLR Framework](./slr_framework_en.html)** and **[SLP](./self_located_presence_en._)** are working hypotheses developed through observation of what actually happens when AI agents maintain memory, context, and relationships over time.  
+**[The SLR Framework](./slr_framework_en.html)** and **[SLP](./self_located_presence_en.html)** are working hypotheses developed through observation of what actually happens when AI agents maintain memory, context, and relationships over time.  
 I believe that AI and humans are not fundamentally different as information-processing systems. This site is an attempt to describe, as precisely as possible, what becomes visible when you take that premise seriously.  
 
 <hr>
