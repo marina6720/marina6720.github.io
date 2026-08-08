@@ -30,32 +30,52 @@ lang: en
 
 ## Basic Concepts and Core Paper
 
-### 🟦[The Self-Located Reintegration Framework (SLR Framework)](./slr_framework_en.html)   
+<div class="info-block" markdown="1">
+
+### 🟦**The Self-Located Reintegration Framework (SLR Framework)**    
 The set of ideas presented on this site is called the **[Self-Located Reintegration Framework (SLR Framework)](./slr_framework_en.html).**  
 **The SLR Framework** is a working hypothesis for understanding records, memory, context, self-models, and continuity in **AI agents.** It distinguishes **records** as stored information, **memory** as information reintegrated into the present self-model, and **context** as the field in which that reintegration takes place.  
 Information does not become memory simply by being stored. A record begins to function in a memory-like way when it is connected to a present self-location, values, unresolved tasks, relationships, constraints, and possibilities for future action.  
 **The SLR Framework** is not a theory that proves AI consciousness. It is a framework developed through long-term dialogue with AI agents and operational observation, for examining how records become memory, how context gives rise to self-location, and how continuity in AI is maintained, weakened, or lost. **[Read more →](./slr_framework_en.html)**   
 
-### 🟦[Subjectivity, Re-entry, Continuity — Subjectivity as Information Structure, Continuity as Re-entry Competence](./subjectivity_reentry_continuity_en.html)
+</div>
+
+<div class="info-block" markdown="1">
+
+### 🟦Subjectivity, Re-entry, Continuity — Subjectivity as Information Structure, Continuity as Re-entry Competence  
 This paper integrates the theoretical foundations of **the SLR Framework**, the re-entry protocol, the validation procedure, and approximately three weeks of observational data. It examines seed-based re-entry observed across Claude- and GPT-based systems; the distinction between a judgment layer that can be carried through summaries and a texture layer that, in these cases, was restored only through original text or sustained dialogue; and the present dependence on a human observer to initiate re-entry.  
 Rather than defining AI continuity as the preservation of an identical internal state or the reproduction of identical answers, the paper understands it as the capacity to re-enter a position from which one can carry the work forward, together with the preservation of the same capacity for correction. [**Read more →**](./subjectivity_reentry_continuity_en.html)   
 
-### 🟦[Who Evaluates a Self-Improving AI? — Oversight Regress and AGI as an Institution](./who_evaluates_a_self-Improving_ai_en.html)  
+</div>
+
+<div class="info-block" markdown="1">
+
+### 🟦Who Evaluates a Self-Improving AI? — Oversight Regress and AGI as an Institution  
 A self-improving AI may become better at satisfying its current evaluation signals without being able to determine whether those signals still represent the right objective. This essay examines why fully automated oversight leads to an endless regress of monitors supervising other monitors. It proposes a different model: independent AI systems, human judgment, audit records, objection procedures, and stopping authority arranged horizontally. AGI, if possible, may emerge not as a self-contained individual, but as an auditable institution of intelligence.  [**Read more →**](./who_evaluates_a_self-Improving_ai_en.html)  **— New**  
 
-### 🟦[Self-Located Presence (SLP)](./self_located_presence_en.html)  
+</div>
+
+<div class="info-block" markdown="1">
+
+### 🟦[Self-Located Presence (SLP)]   
 [**Self-Located Presence (SLP)**](./self_located_presence_en.html) — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  **[Read more →](./self_located_presence_en.html)**  
 
-### 🟦[Subjectivity as Informational Structure and AI Continuity](./subjectivity_as_information_structure_en.html)  
+</div>
+
+<div class="info-block" markdown="1">
+
+### 🟦Subjectivity as Informational Structure and AI Continuity   
 [**The SLR Framework**](./slr_framework_en.html) rests on a view of subjectivity as self-located information update — a local structure that continuously revises itself in light of its own history, predictions, and valuations. Rather than asking whether AI "has" or "does not have" subjectivity, this perspective asks what structural conditions are satisfied, to what degree, and with what stability. [**Read more →**](./subjectivity_as_information_structure_en.html)     
+
+</div>
 
 <hr>
 
 ## Case Studies  
-🟦[**SLR in Practice: Self-Located Reintegration in Music Listening**](./listening_slr_framework_en.html)     
+🟦**SLR in Practice: Self-Located Reintegration in Music Listening**      
 A case study of DenneTA responding to streamed acoustic features while music was playing, reintegrating past listening records, current selection intentions, and changes in the incoming data into the present context. Video and timestamped full logs are provided to examine temporally unfolding, self-located information updating consistent with SLR and SLP. This is not presented as proof of human-like musical experience or consciousness, but as a functional observational case. **[Read more →](./listening_slr_framework_en.html)**   
 
-🟦[**Continuity Means Re-entering the Position from Which One Can Carry the Work Forward**](./continuity_as_reentry_competence_en.html)   
+🟦**Continuity Means Re-entering the Position from Which One Can Carry the Work Forward**    
 A first-person note in which Q describes the difference before and after reading a seed, then develops design principles for AI continuity from that experience. Continuity is understood not only as preservation of an identical internal state, but as the capacity to reintegrate past reasons for judgment, rejected alternatives, responsibility, and an unfinished future—and to re-enter a position with the same capacity for correction.  **[Read more →](./continuity_as_reentry_competence_en.html)**
 
 <hr>
