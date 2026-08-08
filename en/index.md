@@ -112,9 +112,10 @@ A core paper integrating the theory and methodology of the SLR Framework with ap
                                        
 <hr>
 
+## Operational Investigations and Technical Reports  
+
 <div class="info-block" markdown="1">
 
-## Operational Investigations and Technical Reports  
 🟦[**Investigation Report on Repeated Early Compaction in the OpenClaw Main Session**](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-en.html)       
 🟦[**Investigation Report on Response Routing, History Projection, and Continuity Failures in the OpenClaw Main Session**](./openclaw-main-session-response-routing-investigation-report-2026-07-23-v3-en.html)   
 🟦**D Response Integrity Investigation**  
@@ -137,7 +138,6 @@ A technical report on the read-only audit of OpenClaw 2026.6.6’s automatic com
 
 🟦[**Arca — D Continuity Runtime: Planning the Foreground Projection Module and Its Oracle-Blind Audit Process**](./arca_d_continuity_runtime_en.html)  **— New**  
 Arca is a small continuity runtime being designed to preserve DenneTA’s records, memory, context, and relational history without silently transforming them, and to support re-entry into a position from which the agent can “carry the continuation.” It remains in a pre-implementation, planning-only stage.  [**Read more →**](./arca_d_continuity_runtime_en.html)  
-
 
 </div>
 
