@@ -18,7 +18,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 <hr>
 
-**更新情報:**   
+🟦**更新情報:**   
 
 **2026-08-07**  
 - [**Arca — D Continuity Runtime：前景投影モジュールの計画とOracle-blind監査工程**](./arca_d_continuity_runtime.html)  
