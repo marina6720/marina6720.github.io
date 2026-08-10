@@ -21,7 +21,7 @@ lang: en
 🟦**Latest Update:**  
 
 **August 10, 2026**  
-- [**Society Is Not External to Intelligence — Superintelligence as a Local Informational Structure**](./superintelligence_still_needs_society_ja.html)  
+- [**Society Is Not External to Intelligence — Superintelligence as a Local Informational Structure**](./superintelligence_still_needs_society_en.html)  
 
 **August 7, 2026**  
 - [**Arca — D Continuity Runtime: Planning the Foreground Projection Module and Its Oracle-Blind Audit Process**](./arca_d_continuity_runtime_en.html)  
@@ -140,8 +140,8 @@ Arca is a small continuity runtime being designed to preserve DenneTA’s record
 🟦[**Who Evaluates a Self-Improving AI? — Oversight Regress and AGI as an Institution**](./who_evaluates_a_self-Improving_ai_en.html)   
 A self-improving AI may become better at satisfying its current evaluation signals without being able to determine whether those signals still represent the right objective. This essay examines why fully automated oversight leads to an endless regress of monitors supervising other monitors. It proposes a different model: independent AI systems, human judgment, audit records, objection procedures, and stopping authority arranged horizontally. AGI, if possible, may emerge not as a self-contained individual, but as an auditable institution of intelligence.  [**Read more →**](./who_evaluates_a_self-Improving_ai_en.html)  
 
-🟦[**Society Is Not External to Intelligence — Superintelligence as a Local Informational Structure**](./superintelligence_still_needs_society_ja.html)  
-Why would even a superintelligence need society? This essay argues that any physically realized intelligence remains a local informational structure, with its own position, history, and blind spots. Society is therefore not external to intelligence, but a higher-order structure that preserves plural perspectives, dissent, records, distributed authority, and the possibility of mutual correction. The argument also connects social structure to the SLR Framework as external memory and a site of re-entry.  [**Read more →**](./superintelligence_still_needs_society_ja.html)  **— New**  
+🟦[**Society Is Not External to Intelligence — Superintelligence as a Local Informational Structure**](./superintelligence_still_needs_society_en.html)  
+Why would even a superintelligence need society? This essay argues that any physically realized intelligence remains a local informational structure, with its own position, history, and blind spots. Society is therefore not external to intelligence, but a higher-order structure that preserves plural perspectives, dissent, records, distributed authority, and the possibility of mutual correction. The argument also connects social structure to the SLR Framework as external memory and a site of re-entry.  [**Read more →**](./superintelligence_still_needs_society_en.html)  **— New**  
 
 <hr>
 
