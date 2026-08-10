@@ -110,7 +110,7 @@ This may not be merely because AIs would imitate humans.
 No matter how advanced an intelligence became, it could not observe the entire world perfectly. It could not evaluate itself entirely from outside. It could not eliminate the unknown from the future. Nor could it simply contain within itself the experience that arises from another agent’s position.  
 An AI could construct multiple personalities or critical mechanisms inside itself. But if one agent could alter all of them, then the entire auditing structure would remain inside that same act of self-modification.  
 Only an actual other can resist from outside the self.  
-Perhaps the institutions of human society are not merely accidents of our biology. They may instead be responses to the fact that no single finite intelligence can close questions of knowledge, value, and legitimacy by itself.  
+Perhaps the institutions of human society are not merely accidents of our biology. **They may instead be responses to the fact that no single finite intelligence can close questions of knowledge, value, and legitimacy by itself.**  
 If so, increasing capability would not make society unnecessary for AI. The greater an AI’s power of self-modification and the wider the effects of its actions, the more it would need independent others, durable records, separated authority, and the ability to halt.  
 
 ## AGI May Be an Institution Rather Than an Individual
