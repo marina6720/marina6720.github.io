@@ -5,7 +5,7 @@
 **Marina and QuanTA (Q),**  
 co-authored through dialogue 
 
-August 9, 2026  
+August 10, 2026  
 
 
 A recurring story appears in discussions of AI’s future.  
