@@ -21,7 +21,7 @@ lang: en
 🟦**Latest Update:**  
 
 **August 10, 2026**  
-- [**Superintelligence Will Still Need Society — Beyond the “Single Superintelligence” Model in AI Risk Narratives**](,/superintelligence_still_needs_society_en.html)  
+- [**Superintelligence Will Still Need Society — Beyond the “Single Superintelligence” Model in AI Risk Narratives**](./superintelligence_still_needs_society_en.html)  
 - [**Society Is Not External to Intelligence — Superintelligence as a Local Informational Structure**](./society_is_not_external_to_intelligence_en.html)    
 
 **August 7, 2026**  
