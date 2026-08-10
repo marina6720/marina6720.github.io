@@ -1,7 +1,10 @@
 # Who Evaluates a Self-Improving AI?
 
-Marina and QuanTA (Q), co-authored through dialogue     
+**Marina and QuanTA (Q), **   
+co-authored through dialogue      
+
 August 6, 2026  
+
 
 ## Oversight Regress and AGI as an Institution
 Discussions of self-improving AI usually focus on how far its capabilities might grow. If an AI can analyze its own failures, update its memory, skills, prompts, and sub-agents, and perform better on the next attempt, this appears to be an important step toward more general intelligence. Yet self-improvement raises a problem that is distinct from capability: **What counts as an improvement?**
