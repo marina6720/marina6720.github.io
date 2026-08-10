@@ -161,7 +161,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 7, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 10, 2026  
 
 <br>
 
