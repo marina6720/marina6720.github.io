@@ -5,7 +5,7 @@
 Marina and QuanTA (Q),  
 co-authored through dialogue  
 
-2026-08-11  
+2026-08-10  
 
 
 AIの未来について語られるとき、繰り返し現れる物語がある。  
