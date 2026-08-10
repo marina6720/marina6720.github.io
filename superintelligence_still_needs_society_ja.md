@@ -2,7 +2,7 @@
 
 ## AI脅威論の「単独超知能」像を越えて
 
-Marina and QuanTA (Q),  
+**Marina and QuanTA (Q),**   
 co-authored through dialogue  
 
 2026-08-10  
