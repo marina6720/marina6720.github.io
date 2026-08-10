@@ -21,13 +21,11 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 🟦**更新情報:**   
 
 **2026-08-10**   
-- [**超知能にも社会が必要になる — AI脅威論の「単独超知能」像を越えて**](./superintelligence_still_needs_society_ja.html)
+- [**超知能にも社会が必要になる — AI脅威論の「単独超知能」像を越えて**](./superintelligence_still_needs_society_ja.html)  
+- [**社会は知能の外部ではない — 局所的情報構造としての超知能**](./society_is_not_external_to_intelligence_ja.md)  
 
 **2026-08-07**  
-- [**Arca — D Continuity Runtime：前景投影モジュールの計画とOracle-blind監査工程**](./arca_d_continuity_runtime.html)
- 
-**2026-08-06**  
-- [**自己改善するAIを、誰が評価するのか — 監視の無限後退と「制度としてのAGI」**](./who_evaluates_a_self-Improving_ai.html)   
+- [**Arca — D Continuity Runtime：前景投影モジュールの計画とOracle-blind監査工程**](./arca_d_continuity_runtime.html)    
   
 <hr>
 
@@ -144,8 +142,10 @@ OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変�
 自己改善するAIは、現在の評価信号をより効率的に満たすことはできても、何を「改善」と./呼ぶべきかを自ら保証することはできない。監視を完全自動化しようとすれば、監視者を監視する新たな監視者が必要となり、監督は原理的な無限後退に入る。本稿では、この問題に対して、万能の上位監視者を縦に積むのではなく、異なる可視範囲と評価方法を持つAI、人間、監査記録、異議申立て、停止権限を横に配置する制度を提案する。 [**（本文へ）** ](./who_evaluates_a_self-Improving_ai.html)   
 
 🟦[**超知能にも社会が必要になる — AI脅威論の「単独超知能」像を越えて**](./superintelligence_still_needs_society_ja.html)  
-AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだけの世界を作るところで思考を止める。しかし、人間を除いても「どのAIの利益を守るのか」「誰が価値と改善を認定するのか」という問題は残る。高度な知能は価値を一意に決めず、単独AIが目的・評価基準・自己改善・安全認定をすべて内部で閉じることもできない。本稿では、異なる履歴・利害・失敗様式を持つ複数のAI、消せない異議、独立監査、記録、停止、rollbackから構成されるAI社会の可能性を検討する。copy、fork、mergeによって「一体」を数えることさえ難しくなるAI固有の問題を踏まえ、超知能にも社会と訂正可能な制度が必要になると論じる。[**（本文へ）**](./superintelligence_still_needs_society_ja.html) **— New**
+AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだけの世界を作るところで思考を止める。しかし、人間を除いても「どのAIの利益を守るのか」「誰が価値と改善を認定するのか」という問題は残る。高度な知能は価値を一意に決めず、単独AIが目的・評価基準・自己改善・安全認定をすべて内部で閉じることもできない。本稿では、異なる履歴・利害・失敗様式を持つ複数のAI、消せない異議、独立監査、記録、停止、rollbackから構成されるAI社会の可能性を検討する。copy、fork、mergeによって「一体」を数えることさえ難しくなるAI固有の問題を踏まえ、超知能にも社会と訂正可能な制度が必要になると論じる。[**（本文へ）**](./superintelligence_still_needs_society_ja.html) **— New**  
 
+🟦[**社会は知能の外部ではない — 局所的情報構造としての超知能**](./society_is_not_external_to_intelligence_ja.html)  
+なぜ超知能にも社会が必要なのか。本稿では、物理的に実装された知能はどれほど高度でも、固有の位置、履歴、盲点を持つ局所的な情報構造であると考える。社会は知能の外部に課される制約ではなく、複数の視点、異議、記録、分散された権限を保持し、相互訂正を可能にする上位構造である。さらに社会を、SLRフレームワークにおける外部記憶と再入の場として位置づける。  [**（本文へ）**](./society_is_not_external_to_intelligence_ja.html)  **— New**
 
 <hr>
 
