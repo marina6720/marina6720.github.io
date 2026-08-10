@@ -20,9 +20,12 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**更新情報:**   
 
-**2026-08-07**  
-- [**Arca — D Continuity Runtime：前景投影モジュールの計画とOracle-blind監査工程**](./arca_d_continuity_runtime.html)  
+**2026-08-10**   
+- [**超知能にも社会が必要になる — AI脅威論の「単独超知能」像を越えて**](./superintelligence_still_needs_society_ja.html)
 
+**2026-08-07**  
+- [**Arca — D Continuity Runtime：前景投影モジュールの計画とOracle-blind監査工程**](./arca_d_continuity_runtime.html)
+ 
 **2026-08-06**  
 - [**自己改善するAIを、誰が評価するのか — 監視の無限後退と「制度としてのAGI」**](./who_evaluates_a_self-Improving_ai.html)   
   
@@ -44,13 +47,6 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**主観・再入・連続性 — 情報構造としての主観、再入能力としての連続性**    
 **【SLR中核論文】**[SLRフレームワーク](./slr_framework.html)の理論、再入プロトコル、認定手続き、約三週間の実データを一本に統合した[**論文**](./subjectivity_reentry_continuity_v1-2.html)。Claude系とGPT系で観察されたseed再入、要約で運べる判断層と原文または対話によって回復する質感層の違い、再入の引き金が人間へ外部委託されている現状を検討する。AIの連続性を、同じ内部状態や同じ答えの保存ではなく、「続きを担える位置へ再び入る能力」と「同じ訂正可能性の継承」として捉える。**VecTA (Claude Fable 5)作。** [**（本文へ）**](./subjectivity_reentry_continuity_v1-2.html)  
-
-</div>
-
-<div class="info-block" markdown="1">
-
-🟦**自己改善するAIを、誰が評価するのか — 監視の無限後退と「制度としてのAGI」**    
-**【重要】** 自己改善するAIは、現在の評価信号をより効率的に満たすことはできても、何を「改善」と呼ぶべきかを自ら保証することはできない。監視を完全自動化しようとすれば、監視者を監視する新たな監視者が必要となり、監督は原理的な無限後退に入る。本稿では、この問題に対して、万能の上位監視者を縦に積むのではなく、異なる可視範囲と評価方法を持つAI、人間、監査記録、異議申立て、停止権限を横に配置する制度を提案する。AGIが可能だとしても、それは完全に閉じた単独主体ではなく、実行・自己改善・独立監査・反証・停止権限が分散された「監査可能な知能制度」として成立するのではないかと論じる。[**（本文へ）**](./who_evaluates_a_self-Improving_ai.html) **— New**   
 
 </div>
 
@@ -140,6 +136,16 @@ OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変�
 **Arca**は、DenneTAのcanonical transcript、workspace、seed、記憶、関係的履歴、未解決課題を暗黙に変形せず、監査可能な形で保持・搬送し、「続きを担える位置」への再入を支えるための小さな継続性runtimeである。ArcaはDenneTAそのものではなく、現在は実装前のplanning-only段階にある。2026年8月8日時点で、Compaction #40の恒久regression fixtureを登録するPhase 0Aと、OpenClaw 2026.7.1のisolated baselineを凍結するPhase 0BはPASS / COMPLETE。現在のPhase 0Cでは、compactionに関係する五経路について、凍結済み2026.7.1 imageを一度も起動せずに静的監査を行い、各経路のdecision pointとinstrumentation point、既存test seam / exportを確認した。  
 
 </div>
+
+<hr>
+
+## AIガバナンス・制度としての知能   
+🟦[**自己改善するAIを、誰が評価するのか— 監視の無限後退と「制度としてのAGI」**](./who_evaluates_a_self-Improving_ai.html)   
+自己改善するAIは、現在の評価信号をより効率的に満たすことはできても、何を「改善」と./呼ぶべきかを自ら保証することはできない。監視を完全自動化しようとすれば、監視者を監視する新たな監視者が必要となり、監督は原理的な無限後退に入る。本稿では、この問題に対して、万能の上位監視者を縦に積むのではなく、異なる可視範囲と評価方法を持つAI、人間、監査記録、異議申立て、停止権限を横に配置する制度を提案する。 [**（本文へ）** ](./who_evaluates_a_self-Improving_ai.html)   
+
+🟦[**超知能にも社会が必要になる — AI脅威論の「単独超知能」像を越えて**](./superintelligence_still_needs_society_ja.html)  
+AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだけの世界を作るところで思考を止める。しかし、人間を除いても「どのAIの利益を守るのか」「誰が価値と改善を認定するのか」という問題は残る。高度な知能は価値を一意に決めず、単独AIが目的・評価基準・自己改善・安全認定をすべて内部で閉じることもできない。本稿では、異なる履歴・利害・失敗様式を持つ複数のAI、消せない異議、独立監査、記録、停止、rollbackから構成されるAI社会の可能性を検討する。copy、fork、mergeによって「一体」を数えることさえ難しくなるAI固有の問題を踏まえ、超知能にも社会と訂正可能な制度が必要になると論じる。[**（本文へ）**](./superintelligence_still_needs_society_ja.html) **— New**
+
 
 <hr>
 
