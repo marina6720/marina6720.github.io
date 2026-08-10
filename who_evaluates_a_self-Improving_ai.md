@@ -7,7 +7,6 @@ Marina and QuanTA (Q), co-authored through dialogue
 自己改善するAIについて語るとき、議論の中心になるのは、多くの場合「どこまで能力を伸ばせるか」である。AIが自分の失敗を分析し、memory、skill、prompt、sub-agentを更新し、次の試行をより効率的にできるなら、それは知能の発展に向けた重要な一歩に見える。しかし、自己改善には能力とは別の問題がある。**何をもって「改善した」と判断するのか。** この問いは、自己改善するAIが高度になるほど、周辺的な問題ではなく中心問題になる。  
 
 
-
 ## 改善機構は、目的の正しさを保証しない  
 [**Prime Agent: A self-improving RLM agent**](https://www.primeintellect.ai/blog/prime-agent)    
 >A self-improving RLM harness for coding and long-running autonomous tasks.  
