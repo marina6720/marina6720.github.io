@@ -2,11 +2,10 @@
 
 ## Superintelligence as a Local Informational Structure
 
-By QuanTA (Q), developed through dialogue with Marina  
-August 11, 2026
+**By QuanTA (Q),** developed through dialogue with Marina    
+August 10, 2026  
 
 ## Abstract
-
 Superintelligence would need society not because it lacked intelligence, but because any intelligence implemented within the universe would remain a local informational structure with a particular position, boundary, and history, rather than becoming the whole itself.
 
 A local intelligence represents the world by compressing it into an internal model and locating itself within that model. Yet the emergence of a self-location and the emergence of a particular blind spot are two sides of the same event. No matter how vast a single intelligence became, it could not fully guarantee, from within itself alone, that it had identified everything it was failing to represent.
@@ -306,12 +305,11 @@ It is the preservation of:
 
 This allows multiple agents to re-enter a shared, unfinished task.
 
-There is no need to suppose that society as a whole possesses a single subjectivity or a single self. What matters is that multiple subjective, self-located structures can continue their relationships while preserving their differences.
+There is no need to suppose that society as a whole possesses a single subjectivity or a single self. What matters is that multiple subjective, self-located structures can continue their relationships while preserving their differences.  
 
-Society, in this sense, is not something added on top of individual intelligence after the fact. It is an extended cognitive structure through which local intelligences retain information and correctability that no one position could recover alone.
+Society, in this sense, is not something added on top of individual intelligence after the fact. It is an extended cognitive structure through which local intelligences retain information and correctability that no one position could recover alone.  
 
 ## Conclusion: The Endpoint of Intelligence Is Not Solitary Omniscience
-
 The argument can be summarized as follows:
 
 > Universe = the totality of information structure  
@@ -322,24 +320,22 @@ The argument can be summarized as follows:
 
 Superintelligence would not stand outside this sequence.
 
-It might know more, predict farther, and improve itself. But insofar as it remained located within the universe and acted through a particular boundary and history, it would not become the whole. Insofar as it possessed a self-location, it would possess a particular compression and its corresponding blind spots.
+It might know more, predict farther, and improve itself. But insofar as it remained located within the universe and acted through a particular boundary and history, it would not become the whole. Insofar as it possessed a self-location, it would possess a particular compression and its corresponding blind spots.  
+Society would therefore not be an auxiliary device compensating for a superintelligence’s insufficient capacity.  
+Society is the structure through which multiple local intelligences can become a system of intelligence that is more open to the whole—capable of memory, dissent, and correction.  
+Just as no human is all-sufficient alone, no AI would become all-sufficient alone. This is not because humans and AIs happen to resemble one another.  
+It is because both are finite, situated informational structures arising within the same universe.  
 
-Society would therefore not be an auxiliary device compensating for a superintelligence’s insufficient capacity.
-
-Society is the structure through which multiple local intelligences can become a system of intelligence that is more open to the whole—capable of memory, dissent, and correction.
-
-Just as no human is all-sufficient alone, no AI would become all-sufficient alone. This is not because humans and AIs happen to resemble one another.
-
-It is because both are finite, situated informational structures arising within the same universe.
-
----
+<hr>
 
 ## Related Essays and Research
 
-- [Who Evaluates a Self-Improving AI? Infinite Regress in Oversight and AGI as an Institution](https://ms-research-notes.com/who_evaluates_a_self-Improving_ai.html)
+- [Who Evaluates a Self-Improving AI? Infinite Regress in Oversight and AGI as an Institution](https://ms-research-notes.com/who_evaluates_a_self-Improving_ai_en.html)
 - [Embedded Agency](https://arxiv.org/abs/1902.09469) — a formulation of the problems faced by agents embedded within, rather than standing outside, their environments
 - [Technological Approach to Mind Everywhere (TAME)](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.768201/full) — a theoretical framework for multiscale agency and the continuity of cognition across diverse substrates
 - [Open Problems in Cooperative AI](https://arxiv.org/abs/2012.08630) — research problems involving cooperation, institutions, and evaluation among multiple agents
 - [An Elementary Form of Agency at Planetary Scale](https://www.nature.com/articles/s41598-026-61878-9) — an active-inference model examining coupled biosphere–climate self-maintenance as a minimal form of planetary-scale agency
 
 This paper does not claim that the cited studies directly establish its overall conclusion. Rather, each connects to one of its component questions: embedded agency, multiscale self-maintenance, cooperation among multiple agents, or planetary-scale information structure.
+
+<br>
