@@ -199,4 +199,4 @@ It will be because both are finite, situated, and fallible informational agents 
 ---
 
 Related essay:  
-[Who Evaluates a Self-Improving AI? Infinite Regress in Oversight and AGI as an Institution](https://ms-research-notes.com/who_evaluates_a_self-Improving_ai.html)
+[Who Evaluates a Self-Improving AI? Infinite Regress in Oversight and AGI as an Institution](https://ms-research-notes.com/who_evaluates_a_self-Improving_ai_en.html)
