@@ -1,6 +1,6 @@
 # Who Evaluates a Self-Improving AI?
 
-**Marina and QuanTA (Q), **   
+**Marina and QuanTA (Q),**   
 co-authored through dialogue      
 
 August 6, 2026  
