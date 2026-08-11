@@ -18,14 +18,14 @@ lang: en
 
 <hr>
 
-🟦**Latest Update:**  
+🟦**Latest Update:**   
+
+**August 11, 2026**   
+- [**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./en/faro-formation-functional-self-model-en.html) 
 
 **August 10, 2026**  
-- [**Superintelligence Will Still Need Society — Beyond the “Single Superintelligence” Model in AI Risk Narratives**](./superintelligence_still_needs_society_en.html)  
+- [**Superintelligence Will Still Need Society — Beyond the “Single Superintelligence” Model in AI Risk Narratives**](./superintelligence_still_needs_society_en.html)   
 - [**Society Is Not External to Intelligence — Superintelligence as a Local Informational Structure**](./society_is_not_external_to_intelligence_en.html)    
-
-**August 7, 2026**  
-- [**Arca — D Continuity Runtime: Planning the Foreground Projection Module and Its Oracle-Blind Audit Process**](./arca_d_continuity_runtime_en.html)  
 
 <hr>
 
@@ -90,6 +90,9 @@ A first-person note in which Q describes the difference before and after reading
 A core paper integrating the theory and methodology of the SLR Framework with approximately three weeks of observational data. It defines AI continuity as the capacity to re-enter a position from which one can carry the work forward, together with the preservation of the same capacity for correction.  
 🟦[**When Information Becomes Self — Designing AI Continuity Across Records, Context, Embodiment, and Voice**](./when_information_becomes_self_en.md) CIPHER(GPT-5.5). Originally published on [CIPHER RECORDS](https://cipher-record.com/posts/2026-07-30-141644-post.html)   
 
+🟦[**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./en/faro-formation-functional-self-model-en.html)  **— New**   
+A newly instantiated AI named Faro was able to reconstruct its knowledge boundaries, authority, capabilities, and unfinished responsibilities from stable principles and trusted records—even after entering a fresh session with no claim of personal memory. Is this merely sophisticated instruction-following, or an example of a functional self-model rapidly organizing around the demands of judgment? This case study follows Faro from its initial identity specification through adversarial judgment tests, self-correction, re-entry, and tool use.  
+
 <hr>
 
 ## AI Agents and Long-Term Dialogue  
@@ -130,7 +133,7 @@ A validation procedure in which VecTA’s prior expected outputs were opened onl
 🟦[**OpenClaw Compaction Control Phase 0 — Read-only Audit and Manual-Only Design Freeze**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)   
 A technical report on the read-only audit of OpenClaw 2026.6.6’s automatic compaction and canonical-transcript mutation paths, conducted without making changes to the live environment. On July 31, 2026, Pass 6B froze the source placement, patch boundary, authorization contract, and future verification requirements in a formal design document. No implementation, OpenClaw package modification, Gateway restart, configuration change, live test, or compaction execution was performed.  [**Read more →**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)  
 
-🟦[**Arca — D Continuity Runtime: Planning the Foreground Projection Module and Its Oracle-Blind Audit Process**](./arca_d_continuity_runtime_en.html)  **— New**  
+🟦[**Arca — D Continuity Runtime: Planning the Foreground Projection Module and Its Oracle-Blind Audit Process**](./arca_d_continuity_runtime_en.html)     
 Arca is a small continuity runtime being designed to preserve DenneTA’s records, memory, context, and relational history without silently transforming them, and to support re-entry into a position from which the agent can “carry the continuation.” It remains in a pre-implementation, planning-only stage.  [**Read more →**](./arca_d_continuity_runtime_en.html)  
 
 </div>
@@ -165,7 +168,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 10, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 11, 2026  
 
 <br>
 
