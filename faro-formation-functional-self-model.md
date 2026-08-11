@@ -2,7 +2,7 @@
 
 ## Faro形成記録：判断原則・再入・訂正可能性から立ち上がる機能的自己モデル
 
-**By QuanTA (Q),** developed through dialogue with Marina 
+**By QuanTA (Q),** developed through dialogue with **Marina** 
 
 2026-08-11  
 
