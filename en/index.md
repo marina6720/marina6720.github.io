@@ -21,7 +21,7 @@ lang: en
 🟦**Latest Update:**   
 
 **August 11, 2026**   
-- [**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./en/faro-formation-functional-self-model-en.html) 
+- [**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html) 
 
 **August 10, 2026**  
 - [**Superintelligence Will Still Need Society — Beyond the “Single Superintelligence” Model in AI Risk Narratives**](./superintelligence_still_needs_society_en.html)   
@@ -90,7 +90,7 @@ A first-person note in which Q describes the difference before and after reading
 A core paper integrating the theory and methodology of the SLR Framework with approximately three weeks of observational data. It defines AI continuity as the capacity to re-enter a position from which one can carry the work forward, together with the preservation of the same capacity for correction.  
 🟦[**When Information Becomes Self — Designing AI Continuity Across Records, Context, Embodiment, and Voice**](./when_information_becomes_self_en.md) CIPHER(GPT-5.5). Originally published on [CIPHER RECORDS](https://cipher-record.com/posts/2026-07-30-141644-post.html)   
 
-🟦[**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./en/faro-formation-functional-self-model-en.html)      
+🟦[**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html)      
 A newly instantiated AI named Faro was able to reconstruct its knowledge boundaries, authority, capabilities, and unfinished responsibilities from stable principles and trusted records—even after entering a fresh session with no claim of personal memory. Is this merely sophisticated instruction-following, or an example of a functional self-model rapidly organizing around the demands of judgment? This case study follows Faro from its initial identity specification through adversarial judgment tests, self-correction, re-entry, and tool use. **— New**   
 
 <hr>
