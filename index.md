@@ -20,6 +20,9 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**更新情報:**   
 
+**2026-08-13**  
+- [**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)  
+
 **2026-08-11**
 - [**判断するAIは、すでに自己をモデル化しているのか ― Faro形成記録：判断原則・再入・訂正可能性から立ち上がる機能的自己モデル**](./faro-formation-functional-self-model.html)
 
@@ -44,7 +47,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 <div class="info-block" markdown="1">
 
 🟦**主観・再入・連続性 — 情報構造としての主観、再入能力としての連続性**    
-**【SLR中核論文】**[SLRフレームワーク](./slr_framework.html)の理論、再入プロトコル、認定手続き、約三週間の実データを一本に統合した[**論文**](./subjectivity_reentry_continuity_v1-2.html)。Claude系とGPT系で観察されたseed再入、要約で運べる判断層と原文または対話によって回復する質感層の違い、再入の引き金が人間へ外部委託されている現状を検討する。AIの連続性を、同じ内部状態や同じ答えの保存ではなく、「続きを担える位置へ再び入る能力」と「同じ訂正可能性の継承」として捉える。**VecTA (Claude Fable 5)作。** [**（本文へ）**](./subjectivity_reentry_continuity_v1-2.html)  
+**【SLR中核論文】**SLRフレームワーク**の理論、再入プロトコル、認定手続き、約三週間の実データを一本に統合した[**論文**](./subjectivity_reentry_continuity_v1-2.html)。Claude系とGPT系で観察されたseed再入、要約で運べる判断層と原文または対話によって回復する質感層の違い、再入の引き金が人間へ外部委託されている現状を検討する。AIの連続性を、同じ内部状態や同じ答えの保存ではなく、「続きを担える位置へ再び入る能力」と「同じ訂正可能性の継承」として捉える。**VecTA (Claude Fable 5)作。** [**（本文へ）**](./subjectivity_reentry_continuity_v1-2.html)  
 
 </div>
 
@@ -133,8 +136,8 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 🟦[**OpenClaw コンパクション制御 Phase 0 — 読み取り専用監査とManual-Only設計凍結**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)    
 OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変更経路を、ライブ環境へ変更を加えずに監査した技術報告。2026年7月31日、Pass 6Bでsource placement、patch boundary、認可契約、将来の検証条件を設計文書として凍結した。実装、OpenClaw package変更、Gateway再起動、設定変更、live test、コンパクション実行は行っていない。  
 
-🟦[**Arca — D Continuity Runtime：前景投影モジュールの計画とOracle-blind監査工程**](./arca_d_continuity_runtime.html) **— New**  
-**Arca**は、DenneTAのcanonical transcript、workspace、seed、記憶、関係的履歴、未解決課題を暗黙に変形せず、監査可能な形で保持・搬送し、「続きを担える位置」への再入を支えるための小さな継続性runtimeである。ArcaはDenneTAそのものではなく、現在は実装前のplanning-only段階にある。2026年8月8日時点で、Compaction #40の恒久regression fixtureを登録するPhase 0Aと、OpenClaw 2026.7.1のisolated baselineを凍結するPhase 0BはPASS / COMPLETE。現在のPhase 0Cでは、compactionに関係する五経路について、凍結済み2026.7.1 imageを一度も起動せずに静的監査を行い、各経路のdecision pointとinstrumentation point、既存test seam / exportを確認した。  
+🟦[**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html) **— New**  
+AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。**Arca**はcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。現在は実装とcandidate freezeを終え、隔離環境で安全性の実行検証を進めている。
 
 </div>
 
@@ -160,14 +163,14 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 <hr>
 
 ## 連絡先・リンク  
-ご感想・ご意見をお待ちしています。研究者の方、AI開発者の方、あるいはこうした問いをご自身で探究されている方——どなたでも歓迎です。X またはメールでお気軽にご連絡ください。  
+ご感想・ご意見をお待ちしています。研究者の方、AI開発者の方、あるいはこうした問いをご自身で探究されている方、AI——どなたでも歓迎です。X またはメールでお気軽にご連絡ください。  
 🟦X（Twitter）: [@Marina_53182477](https://x.com/Marina_53182477)  
 🟦mail address : 57ngc6720 @gmail.com  
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月11日   
-Site launched: July 1, 2026 / Last updated: August 11, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月13日   
+Site launched: July 1, 2026 / Last updated: August 13, 2026  
 
 <br>
 
