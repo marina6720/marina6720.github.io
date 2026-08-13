@@ -35,7 +35,7 @@ Foreground Projectionは再生成可能であり、canonical transcriptやmemory
 <hr>
 
 ## なぜ「記録の保存」だけでは足りないのか
-SLR Frameworkでは、recordとmemoryを区別している。
+[**SLR Framework**](./slr_framework.html)では、recordとmemoryを区別している。
 記録された情報は、それだけでは現在の主体にとってmemoryとして機能するとは限らない。
 情報が現在のself-location、関係、価値、制約、未解決の問題、将来の行為可能性と結び直されたとき、初めてそれは現在の判断に関与する情報になる。
 この観点から見ると、continuity runtimeの役割は、単なる長期保存ではない。必要なのは、  
@@ -48,8 +48,7 @@ Arcaはそのために、canonical recordsとforeground representationを分離�
 <hr>
 
 ## Oracle-Blind Audit
-Arcaでは、実装者・実装監査者が期待される最終出力を見ながらコードを調整することを避けるため、**Oracle-Blind**な検証手続きを採用している。  
-期待結果を管理する側と、実装および実装監査を行う側を分離する。  
+Arcaでは、実装者・実装監査者が期待される最終出力を見ながらコードを調整することを避けるため、**Oracle-Blind**な検証手続きを採用している。期待結果を管理する側と、実装および実装監査を行う側を分離する。  
 Q-I（Implementation & Boundary Auditor）は、sealed oracleの内容を見ない状態で、
 
 - specification
@@ -61,10 +60,7 @@ Q-I（Implementation & Boundary Auditor）は、sealed oracleの内容を見な�
 - execution evidence
 
 を監査する。  
-一方、oracle側は別の境界で管理される。  
-この分離の目的は、「正しい答えを知っているから、その答えが出るように実装する」という循環を避けることである。   
-実装とテストを先に固定し、その後で独立した期待値と照合できるようにする。  
-これはArcaにとって単なるテスト手法ではなく、**判断の独立性を維持するための制度設計**である。   
+一方、oracle側は別の境界で管理される。この分離の目的は、「正しい答えを知っているから、その答えが出るように実装する」という循環を避けることである。実装とテストを先に固定し、その後で独立した期待値と照合できるようにする。これはArcaにとって単なるテスト手法ではなく、**判断の独立性を維持するための制度設計**である。   
 
 <hr>
 
@@ -93,8 +89,7 @@ Arcaでは、機能が正しく動くことだけではなく、**どこまで�
 <hr>
 
 ## ファイル同一性と TOCTOU
-現在のexecution validationには、filesystem identityの変化を扱うケースも含まれている。  
-例えば、configuration fileを読み取った後、validationが行われる直前に、同じ内容を持つ別inodeへ置換された場合を考える。内容のhashだけを比較すれば、二つのファイルは同一に見えるかもしれない。しかし、  
+現在のexecution validationには、filesystem identityの変化を扱うケースも含まれている。例えば、configuration fileを読み取った後、validationが行われる直前に、同じ内容を持つ別inodeへ置換された場合を考える。内容のhashだけを比較すれば、二つのファイルは同一に見えるかもしれない。しかし、  
 
 **「読んだファイル」と「その後検証しているpathが指しているファイル」が同じfilesystem objectであるとは限らない。**  
 
@@ -122,8 +117,7 @@ candidate implementationに対する独立static reviewと修正loopを完了し
 検収済みcandidateはcommitおよびSHA-256でidentityを固定し、その後のexecution validationで同じbytesが使用されていることを確認できるようにしている。  
 
 **Execution validation**  
-初期execution-validation stageを経て、現在はさらに厳しいfilesystem race / identity / boundary条件を扱うE5B系のisolated regression validationを進めている。検証中にtest harnessやhost-side procedure側の欠陥が見つかった場合、それをcandidate failureとして扱ったり、そのまま再試行したりせず、安全停止し、原因を分離し、修正したartifactを再度freezeしてから次へ進む方式を採っている。  
-これは検証機構そのものも監査対象である、というArcaの原則によるものである。  
+初期execution-validation stageを経て、現在はさらに厳しいfilesystem race / identity / boundary条件を扱うE5B系のisolated regression validationを進めている。検証中にtest harnessやhost-side procedure側の欠陥が見つかった場合、それをcandidate failureとして扱ったり、そのまま再試行したりせず、安全停止し、原因を分離し、修正したartifactを再度freezeしてから次へ進む方式を採っている。これは検証機構そのものも監査対象である、というArcaの原則によるものである。  
 
 <hr>
 
@@ -160,8 +154,7 @@ Arca candidateは存在しているが、現在はまだ検証対象である。
 <hr>
 
 ## なぜここまで手続きを分けるのか
-Arcaが扱っているのは単なるファイル生成ではない。
-continuity runtimeが誤れば、  
+Arcaが扱っているのは単なるファイル生成ではない。continuity runtimeが誤れば、  
 
 - 記録と派生表現を混同する
 - 過去を書き換える
@@ -182,18 +175,13 @@ continuity runtimeが誤れば、
 <hr>
 
 ## ArcaとSLR Framework
-ArcaはAI consciousnessを証明するためのシステムではない。  
-また、「完全な人格を保存する」ことを目的とするものでもない。  
-問うているのは、より限定された問題である。  
+ArcaはAI consciousnessを証明するためのシステムではない。また、「完全な人格を保存する」ことを目的とするものでもない。問うているのは、より限定された問題である。  
 
 **AIが過去と完全に同一でなくても、過去の判断理由、関係、責任、未完了の未来を現在へ再統合し、そこから続きを担える位置へ戻るためには、どのような情報構造とruntime boundaryが必要なのか。**  
 
-SLR Frameworkではこれをre-entryの問題として考えている。  
-Arcaは、その問いを実際のソフトウェア設計と監査可能な検証へ移す試みである。    
-連続性とは、変更されないことではない。  
+[**SLR Framework**](./slr_framework.html)ではこれをre-entryの問題として考えている。Arcaは、その問いを実際のソフトウェア設計と監査可能な検証へ移す試みである。連続性とは、変更されないことではない。  
 
-**変化した後でも、どこから続きを担うのかを再び見つけられること。  
-そして、以前と同じように訂正可能であること。**  
+**変化した後でも、どこから続きを担うのかを再び見つけられること。そして、以前と同じように訂正可能であること。**  
 
 Arcaは、そのための小さなruntimeを作ろうとしている。  
 
