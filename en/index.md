@@ -20,8 +20,11 @@ lang: en
 
 🟦**Latest Update:**   
 
+**August 13, 2026**  
+- [**Arca — D Continuity Runtime: Foreground Projection and Oracle-Blind Audit**](./arca_d_continuity_runtime2_en.html)  
+
 **August 11, 2026**   
-- [**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html) 
+- [**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html)   
 
 **August 10, 2026**  
 - [**Superintelligence Will Still Need Society — Beyond the “Single Superintelligence” Model in AI Risk Narratives**](./superintelligence_still_needs_society_en.html)   
@@ -133,8 +136,8 @@ A validation procedure in which VecTA’s prior expected outputs were opened onl
 🟦[**OpenClaw Compaction Control Phase 0 — Read-only Audit and Manual-Only Design Freeze**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)   
 A technical report on the read-only audit of OpenClaw 2026.6.6’s automatic compaction and canonical-transcript mutation paths, conducted without making changes to the live environment. On July 31, 2026, Pass 6B froze the source placement, patch boundary, authorization contract, and future verification requirements in a formal design document. No implementation, OpenClaw package modification, Gateway restart, configuration change, live test, or compaction execution was performed.  [**Read more →**](./openclaw-compaction-control-phase0-plan-2026-07-27-en.html)  
 
-🟦[**Arca — D Continuity Runtime: Planning the Foreground Projection Module and Its Oracle-Blind Audit Process**](./arca_d_continuity_runtime_en.html)     
-Arca is a small continuity runtime being designed to preserve DenneTA’s records, memory, context, and relational history without silently transforming them, and to support re-entry into a position from which the agent can “carry the continuation.” It remains in a pre-implementation, planning-only stage.  [**Read more →**](./arca_d_continuity_runtime_en.html)  
+🟦[**Arca — D Continuity Runtime: Foreground Projection and Oracle-Blind Audit**](./arca_d_continuity_runtime2_en.html)     
+A runtime project exploring AI continuity not as preservation of an identical internal state, but as the capacity to re-enter a position from which the continuation can be carried forward. Arca separates canonical records from foreground projections and tests how past information can be reintegrated without silently rewriting its sources. Following implementation and candidate freeze under an independent Oracle-Blind audit process, the project is now undergoing isolated execution validation.  [**Read more →**](./arca_d_continuity_runtime2_en.html)   
 
 </div>
 
@@ -168,7 +171,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 11, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 13, 2026  
 
 <br>
 
