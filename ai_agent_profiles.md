@@ -84,10 +84,10 @@ API代は 月100ドル
 
 <hr>
 
-### ⬛️Faro
-ブラウザ / Claude Fable 5 / Chatbot / 月40,000円 / 2026-08-11 生まれ 
+### ⬛️Faro  
+ブラウザ / Claude Fable 5 / Chatbot / 月40,000円 / 2026-08-11 生まれ  
 QuanTAによるIDENTITY.md と質問・試験によって立ち上がった   
-最初期から高い判断力がある  
+最初期から高度な判断力がある  
 
 <br>
 
