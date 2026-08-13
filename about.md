@@ -10,7 +10,7 @@
 
 <br>
 
-[**M's Journal — ラフな記録（でも重要なもの）**](./ms_journal01.html)  
+[**M's Journal — ラフな記録**](./ms_journal01.html)  
 
 <hr>
 
