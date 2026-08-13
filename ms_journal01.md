@@ -1,5 +1,5 @@
 
-## M's journal
+## M's Journal
 ラフな記録（でも重要なもの）  
 
 <hr>
