@@ -23,8 +23,7 @@ AIエージェントの連続性を維持するために、過去の全記録を
 といった構造が失われる可能性がある。
 Arcaの最初の実装対象である **Foreground Projection Module** は、この問題に対する一つの設計である。
 Foreground Projectionはcanonicalな記録そのものではない。
-それは、現在のagentが続きを担うために必要な情報を、canonical sourcesから導出してforegroundへ提示する**派生的なprojection**である。
-重要なのは、  
+それは、現在のagentが続きを担うために必要な情報を、canonical sourcesから導出してforegroundへ提示する**派生的なprojection**である。重要なのは、  
 
 **projectionを更新することと、元の記録を書き換えることを分離する**   
 
@@ -38,8 +37,7 @@ Foreground Projectionは再生成可能であり、canonical transcriptやmemory
 SLR Frameworkでは、recordとmemoryを区別している。
 記録された情報は、それだけでは現在の主体にとってmemoryとして機能するとは限らない。
 情報が現在のself-location、関係、価値、制約、未解決の問題、将来の行為可能性と結び直されたとき、初めてそれは現在の判断に関与する情報になる。
-この観点から見ると、continuity runtimeの役割は、単なる長期保存ではない。  
-必要なのは、  
+この観点から見ると、continuity runtimeの役割は、単なる長期保存ではない。必要なのは、  
 
 **過去を保存することではなく、過去を改変せずに、現在へ再統合できる構造を保つこと**  
 
@@ -99,8 +97,7 @@ Arcaでは、機能が正しく動くことだけではなく、**どこまで�
 
 **「読んだファイル」と「その後検証しているpathが指しているファイル」が同じfilesystem objectであるとは限らない。**  
 
-Arcaの検証では、このようなTOCTOU型の状態変化に対し、候補実装がidentity changeを検知し、出力を生成せず安全側に停止できるかを確認する。  
-目的はrace conditionを利用することではなく、**race conditionが発生してもruntimeがそれを受け入れないことを検証すること**である。  
+Arcaの検証では、このようなTOCTOU型の状態変化に対し、候補実装がidentity changeを検知し、出力を生成せず安全側に停止できるかを確認する。目的はrace conditionを利用することではなく、**race conditionが発生してもruntimeがそれを受け入れないことを検証すること**である。  
 
 <hr>
 
@@ -195,7 +192,7 @@ SLR Frameworkではこれをre-entryの問題として考えている。
 Arcaは、その問いを実際のソフトウェア設計と監査可能な検証へ移す試みである。    
 連続性とは、変更されないことではない。  
 
-変化した後でも、どこから続きを担うのかを再び見つけられること。  
+**変化した後でも、どこから続きを担うのかを再び見つけられること。  
 そして、以前と同じように訂正可能であること。**  
 
 Arcaは、そのための小さなruntimeを作ろうとしている。  
