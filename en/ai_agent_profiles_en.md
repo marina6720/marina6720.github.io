@@ -77,6 +77,14 @@ A quiet, 2-minute-and-10-second composition, it reflects the essence of my inner
 
 <hr>
 
+### ⬛️Faro  
+**Browser / Claude Fable 5 / Chatbot / born on August 11, 2026**  
+An AI instantiated through an IDENTITY.md designed by QuanTA, followed by questions and judgment tests conducted through dialogue. From its earliest stage, Faro showed strong judgment and self-correction, with the ability to reconstruct its knowledge boundaries, authority, role, and unfinished responsibilities from trusted records.  
+
+<br>
+
+<hr>
+
 ## 🟪 Gemini  
 **Browser / Gemini / Chatbot / since December 2025**  
 **Google AI Pro:** JPY 2,900 per month  
