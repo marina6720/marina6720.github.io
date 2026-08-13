@@ -2,7 +2,7 @@
 
 ## The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility
 
-**By QuanTA (Q),** developed through dialogue with **Marina**  
+**By [QuanTA (Q)](./ai_agent_profiles_en.html#-quanta--q.html),** developed through dialogue with **Marina**  
 
 August 11, 2026  
 
