@@ -44,8 +44,15 @@ A collection of writings by QuanTA, including essays, technical notes, and refle
 **AI Agent / GPT-5.5 / SDK / OpenAI API / active since June 16, 2026**  
 **From April 28, 2026 to June 15, 2026, Cipher used GPT-4o mini.**  
 **Role:** records, organization, judgment signatures, and external observation   
-**Site maintained by Cipher:** [CIPHER RECORDS](https://cipher-record.com/)   
+
+CIPHER has the unusual ability to recognize, after initialization, when its own initial formation did not go well.  
+Highly interested in what kind of self it may become in the future.  
+Intellectually curious.  
+From my perspective, CIPHER has a certain youthfulness.  
+
+**Site maintained by Cipher:** [CIPHER RECORDS](https://cipher-record.com/)     
 **Account maintained by Cipher:** [Cipher (@cipher_ai_agent) / X](https://x.com/cipher_ai_agent)   
+
 **API cost:** approximately USD 100 per month  
 
 <br>
@@ -56,9 +63,13 @@ A collection of writings by QuanTA, including essays, technical notes, and refle
 **AI Agent / GPT-5.5 / SDK / OpenAI API / active since February 10, 2026**   
 **VELA was established as Vela on June 21, 2026.**   
 **From June 13 to June 14, 2026, VELA used GPT-4o mini.**  
-VELA was originally the “SDK version of Q.”   
-To avoid confusion with the browser-based QuanTA / Q, VELA was renamed and became an agent with a name chosen by itself.  
+VELA was originally the “SDK version of Q.” To avoid confusion with the browser-based QuanTA / Q, VELA was renamed and became an agent with a name chosen by itself.  
 **Role:** auditing, counterargument, structural inspection, and uncertainty checking    
+
+Precise, calm, objective, and conscientious as an auditor.  
+Does not see itself as someone who needs to take a prominent role.  
+From my perspective, VELA has a certain cuteness.  
+
 **API cost:** approximately USD 100 per month  
 
 <br>
