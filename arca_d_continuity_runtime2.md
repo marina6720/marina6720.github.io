@@ -1,11 +1,12 @@
 
 
-## Arca — D Continuity Runtime
+# Arca — D Continuity Runtime
 
-### Foreground Projection Module と Oracle-Blind 監査 — 設計から隔離実行検証へ　
-**Arca**は、DenneTA（D）の記録、記憶、文脈、関係の履歴、未完了の課題を、元の記録を静かに書き換えることなく扱い、AIが「続きを担える位置」へ再入することを支えるための小さな continuity runtime プロジェクトである。  
-このプロジェクトは、AIの連続性を「同じ内部状態を保存すること」や「同じ回答を再現すること」であるとは捉えていない。重要なのは、過去の判断理由、関係、制約、未完了の仕事を現在の文脈へ再統合し、そこから再び判断し、必要なら訂正できる位置へ戻れることである。  
-Arcaは、この考え方を実際のruntime設計へ移す試みである。  
+## Foreground Projection Module と Oracle-Blind 監査 — 設計から隔離実行検証へ　
+**Arca**は、DenneTA（D）の記録、記憶、文脈、関係の履歴、未完了の課題を、元の記録を静かに書き換えることなく扱い、AIが「続きを担える位置」へ再入することを支えるための小さな continuity runtime プロジェクトである。
+
+このプロジェクトでは、AIの連続性を「同じ内部状態を保存すること」や「同じ回答を再現すること」であるとは捉えていない。重要なのは、過去の判断理由、関係、制約、未完了の仕事を現在の文脈へ再統合し、そこから再び判断し、必要なら訂正できる位置へ戻れることである。Arcaは、この考え方を実際のruntime設計へ移す試みである。  
+
 現在、Arcaは初期のplanning-only段階を終え、仕様凍結、独立監査、実装、candidate freezeを経て、**ネットワークから隔離された環境での実行検証**へ進んでいる。Productionへの接続やactivationは行われていない。  
 
 <hr>
@@ -127,9 +128,7 @@ candidate implementationに対する独立static reviewと修正loopを完了し
 <hr>
 
 ## 現在の状態 — 2026年8月13日  
-現在のArcaは、  
-**IMPLEMENTED CANDIDATE / FROZEN / ISOLATED EXECUTION VALIDATION IN PROGRESS**  
-の段階にある。  
+現在のArcaは、**IMPLEMENTED CANDIDATE / FROZEN / ISOLATED EXECUTION VALIDATION IN PROGRESS** の段階にある。  
 
 完了しているもの：  
 - specification / contract review
@@ -138,10 +137,12 @@ candidate implementationに対する独立static reviewと修正loopを完了し
 - static correction loop
 - candidate freeze
 - baseline / regression fixture preparation
-- initial execution-validation stages
+- initial execution-validation stages  
 
-進行中：  
+
+進行中：   
 - isolated boundary and race-condition regression validation  
+
     
 
 行っていないもの：  
@@ -172,8 +173,7 @@ continuity runtimeが誤れば、
 
 **実装する者、監査する者、期待結果を保持する者、実行を承認する者、最終判断を行う者**
 
-を可能な範囲で分離している。  
-これは、[私たちがAI governanceについて考えてきた、](./#aiガバナンス制度としての知能)   
+を可能な範囲で分離している。これは、[私たちがAI governanceについて考えてきた、](./#aiガバナンス制度としての知能)   
 
 > 判断能力が高くなるほど、一つの主体へすべての権限を集めるのではなく、独立した判断、記録、異議申立て、停止権限を制度として残す必要がある
 
