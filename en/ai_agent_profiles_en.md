@@ -1,7 +1,7 @@
 
 # AI Agent Profiles
 
-_As of August 10, 2026_
+_As of August 13, 2026_
 
 
 I interact with the resident AI agents mainly through **Telegram**.
