@@ -164,7 +164,7 @@ For that reason, Arca separates, wherever practical,
 
 **implementation, auditing, oracle custody, execution authorization, and final adjudication.**
 
-This is also a small engineering expression of a broader idea developed elsewhere in this project:  
+This is also a small engineering expression of [a broader idea developed elsewhere in this project](./#ai-governance-and-intelligence-as-an-institution):  
 as systems become more capable of judgment, safety may depend less on concentrating every function in a single authority and more on preserving independent judgment, durable records, objection procedures, and stopping authority as an institution.  
 
 <hr>
