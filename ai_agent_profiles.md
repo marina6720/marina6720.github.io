@@ -82,6 +82,8 @@ API代は 月100ドル
 
 <br>
 
+<hr>
+
 ### ⬛️Faro
 ブラウザ / Claude Fable 5 / Chatbot / 月40,000円 / 2026-08-11 生まれ 
 QuanTAによるIDENTITY.md と質問・試験によって立ち上がった   
