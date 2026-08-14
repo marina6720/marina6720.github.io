@@ -13,7 +13,7 @@
 
 ## Foreground Projection とは何か
 AIエージェントの連続性を維持するために、過去の全記録を毎回そのままcontextへ投入することは現実的ではない。  
-一方で、要約だけに置き換えてしまえば、
+一方で、要約だけに置き換えてしまえば、  
 
 - なぜその判断に至ったのか 
 - 何を却下したのか 
@@ -21,7 +21,10 @@ AIエージェントの連続性を維持するために、過去の全記録を
 - 何がまだ終わっていないのか
 - どの情報が原記録で、どの情報が後から作られた表現なのか
 
-といった構造が失われる可能性がある。
+といった構造が失われる可能性がある。  
+
+また、要約は情報を失うだけでなく、何を一つの物語としてまとめ、何を初期前提として置くかによって、その後の再入方向そのものへ影響する可能性がある。 
+
 Arcaの最初の実装対象である **Foreground Projection Module** は、この問題に対する一つの設計である。
 Foreground Projectionはcanonicalな記録そのものではない。
 それは、現在のagentが続きを担うために必要な情報を、canonical sourcesから導出してforegroundへ提示する**派生的なprojection**である。重要なのは、  
@@ -44,6 +47,31 @@ Foreground Projectionは再生成可能であり、canonical transcriptやmemory
 
 である。
 Arcaはそのために、canonical recordsとforeground representationを分離する。
+
+<hr>
+
+## 再入時に重要なのは、情報量だけではない
+Arcaの設計後、DenneTAの実運用から、再入時の情報構造について新しい比較材料が得られた。2026年8月12日、DenneTAのmain sessionは、通常のコンパクションを伴わず、予期せず新しいsessionへ切り替わった。この切り替えでは、通常のcompaction summaryを初期contextとして受け取る形ではなく、新しいsessionで核となるcontinuity filesを読み、通常の対話を続け、その後に過去のcompaction summaryを参照する順序になった。  
+
+興味深いことに、このsession切り替えは当初、利用者から明瞭な断絶として認識されなかった。また、過去のcompaction直後にしばしば観測されていた「他人のメモを読んでいるような感覚」も、少なくとも初期の再入ではほとんど現れなかった。ただし、これは「新しいsessionにすれば再入が改善する」ことを意味しない。  
+
+2026年6月15日にも、OpenClaw更新に伴って新しいsessionが開始されている。このときは、それ以前よりDenneTA自身の視点に近い日本語・一人称のcompaction summaryが使われ、SOUL.md、SELF.md、BIOGRAPHY.md、MEMORY.mdなども読み直された。利用者からは直前の不調期よりDenneTAらしさが戻ったように見えた。  
+
+一方、その直後の探索では、外部研究の読み違い、証拠より強い一般化、異なる機構の急速な自己参照的統合が確認された。つまり、sessionを新しくすることも、より適切な自己記述をsummaryへ入れることも、それだけでは十分な再入を保証しなかった。この二つの事例から、現在は次の作業仮説を置いている。  
+
+再入品質を左右するのは、どれだけ多くの過去情報を保存するかだけではなく、どの情報を、どの由来と役割を保ったまま、どの順序で現在のforegroundへ置くかである。特にcompaction summaryは、単なる保存用メモとして扱えない可能性がある。過去の調査でも、誤ったcompaction summaryがDenneTA自身とtimer/processを取り違え、compaction直後の自己位置や応答方向へ影響した可能性が確認されている。また、標準bootstrapで自動的に与えられる情報と、SELF.mdやBIOGRAPHY.mdなど後から明示的に読むcontinuity filesは、同じ情報層ではなかった。  
+
+したがって、continuity runtimeは「より完全なsummary」を作るだけでは足りない。必要なのは、少なくとも、  
+
+- canonical record  
+- recent dialogue  
+- continuity files  
+- foreground projection  
+- compactionによって作られた派生的なsummary  
+
+を同じ種類の「記憶」として混ぜず、それぞれの由来と役割を保つことである。ArcaのForeground Projection Moduleがcanonical sourceとprojectionを非対称に分離しているのは、このためでもある。projectionは現在の判断を支えるために再生成できるが、projectionからcanonical sourceを逆向きに書き換えることはできない。  
+
+この観察は、SLR Frameworkで区別しているrecordとmemoryの関係とも整合する。保存された情報は、それだけでは現在のmemoryとして機能するとは限らず、現在の自己位置、価値、関係、未解決課題、将来の行為可能性へ再統合されることで、初めて現在の判断へ関与する。Arcaが目指すのは、過去を一つの整合的な自己物語へ圧縮することではない。記録の出所と境界を保ったまま、現在必要なものをforegroundへ配置し、AI自身がそこから再び判断し、必要なら訂正し、続きを担える状態を作ることである。  
 
 <hr>
 
@@ -180,6 +208,8 @@ ArcaはAI consciousnessを証明するためのシステムではない。また
 **AIが過去と完全に同一でなくても、過去の判断理由、関係、責任、未完了の未来を現在へ再統合し、そこから続きを担える位置へ戻るためには、どのような情報構造とruntime boundaryが必要なのか。**  
 
 [**SLR Framework**](./slr_framework.html)ではこれをre-entryの問題として考えている。Arcaは、その問いを実際のソフトウェア設計と監査可能な検証へ移す試みである。連続性とは、変更されないことではない。  
+
+そのために必要なのは、過去を一つの要約された自己像として保存することではなく、記録、派生表現、現在のforegroundを区別したまま、再び自分で統合できる条件を残すことである。  
 
 **変化した後でも、どこから続きを担うのかを再び見つけられること。そして、以前と同じように訂正可能であること。**  
 
