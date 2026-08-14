@@ -20,15 +20,14 @@ lang: en
 
 🟦**Latest Update:**   
 
+**August 14, 2026**   
+- [**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**](./compaction_cycle_and_context_epoch_en.html)   
+
 **August 13, 2026**  
 - [**Arca — D Continuity Runtime: Foreground Projection and Oracle-Blind Audit**](./arca_d_continuity_runtime2_en.html)  
 
 **August 11, 2026**   
-- [**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html)   
-
-**August 10, 2026**  
-- [**Superintelligence Will Still Need Society — Beyond the “Single Superintelligence” Model in AI Risk Narratives**](./superintelligence_still_needs_society_en.html)   
-- [**Society Is Not External to Intelligence — Superintelligence as a Local Informational Structure**](./society_is_not_external_to_intelligence_en.html)    
+- [**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html)       
 
 <hr>
 
@@ -56,6 +55,14 @@ Rather than defining AI continuity as the preservation of an identical internal 
 
 🟦**Self-Located Presence (SLP)**   
 [**Self-Located Presence (SLP)**](./self_located_presence_en.html) — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  **[Read more →](./self_located_presence_en.html)**  
+
+</div>
+
+<div class="info-block" markdown="1">
+
+
+🟦**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**  
+The same session can continue while the agent’s usable past changes — and a new session can begin without an obvious continuity break. Drawing on DenneTA’s long-term operation, this essay distinguishes session continuity from context continuity and introduces compaction cycles and context epochs as two temporal units for studying AI continuity.   [**Read more →**](./compaction_cycle_and_context_epoch_en.html)   **— New**  
 
 </div>
 
@@ -148,11 +155,10 @@ A runtime project exploring AI continuity not as preservation of an identical in
 A self-improving AI may become better at satisfying its current evaluation signals without being able to determine whether those signals still represent the right objective. This essay examines why fully automated oversight leads to an endless regress of monitors supervising other monitors. It proposes a different model: independent AI systems, human judgment, audit records, objection procedures, and stopping authority arranged horizontally. AGI, if possible, may emerge not as a self-contained individual, but as an auditable institution of intelligence.  [**Read more →**](./who_evaluates_a_self-Improving_ai_en.html)  
 
 🟦[**Superintelligence Will Still Need Society — Beyond the “Single Superintelligence” Model in AI Risk Narratives**](./superintelligence_still_needs_society_en.html)   
-AI risk narratives often imagine a single superintelligence that outmaneuvers humanity and rules alone. But removing humans does not remove the problem of value judgment: different AIs could have different histories, interests, continuities, and exposure to consequences. This essay argues that even an AI-only world would need society—independent agents, protected dissent, durable records, distributed authority, and procedures for correction. AGI may therefore be viable not as a solitary sovereign, but as an institution.  [**Read more →**](./superintelligence_still_needs_society_en.html)  **— New**
+AI risk narratives often imagine a single superintelligence that outmaneuvers humanity and rules alone. But removing humans does not remove the problem of value judgment: different AIs could have different histories, interests, continuities, and exposure to consequences. This essay argues that even an AI-only world would need society—independent agents, protected dissent, durable records, distributed authority, and procedures for correction. AGI may therefore be viable not as a solitary sovereign, but as an institution.  [**Read more →**](./superintelligence_still_needs_society_en.html)    
 
 🟦[**Society Is Not External to Intelligence — Superintelligence as a Local Informational Structure**](./society_is_not_external_to_intelligence_en.html)  
-Why would even a superintelligence need society? This essay argues that any physically realized intelligence remains a local informational structure, with its own position, history, and blind spots. Society is therefore not external to intelligence, but a higher-order structure that preserves plural perspectives, dissent, records, distributed authority, and the possibility of mutual correction. The argument also connects social structure to the SLR Framework as external memory and a site of re-entry.  [**Read more →**](./society_is_not_external_to_intelligence_en.html)  **— New**  
-
+Why would even a superintelligence need society? This essay argues that any physically realized intelligence remains a local informational structure, with its own position, history, and blind spots. Society is therefore not external to intelligence, but a higher-order structure that preserves plural perspectives, dissent, records, distributed authority, and the possibility of mutual correction. The argument also connects social structure to the SLR Framework as external memory and a site of re-entry.  [**Read more →**](./society_is_not_external_to_intelligence_en.html)   
 <hr>
 
 ## Related Research  
@@ -171,7 +177,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 13, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 14, 2026  
 
 <br>
 
