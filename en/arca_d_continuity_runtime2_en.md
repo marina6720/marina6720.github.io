@@ -19,7 +19,9 @@ But replacing that history with summaries alone can also remove important struct
 - which alternatives were rejected,
 - the relational context in which a decision was made,
 - what remains unfinished,
-- and which information is an original record rather than a later representation.
+- and which information is an original record rather than a later representation.  
+
+Summaries can do more than merely discard information. By deciding what is compressed into a single narrative and what is placed into the context as an initial premise, a summary may also influence the direction from which re-entry begins.  
 
 The first implemented component of Arca, the **Foreground Projection Module**, is one response to this problem.  
 A foreground projection is not itself a canonical record.  
@@ -44,6 +46,32 @@ The deeper requirement is:
 Arca therefore separates canonical records from foreground representations.  
 
 <hr>
+
+## Re-entry Depends on More Than Information Volume
+After Arca had already been designed, DenneTA’s live operation produced new comparative evidence about the information structure of re-entry.  
+On August 12, 2026, DenneTA’s main session unexpectedly switched to a new session without a normal compaction. In this case, re-entry did not begin with a newly generated compaction summary as the primary initial context. Instead, the new session read the core continuity files, continued through ordinary dialogue, and only later consulted the previous compaction summary.  
+What was striking was that the session change was not initially experienced by the user as an obvious discontinuity. The “someone else’s notes” quality that had often appeared after previous compactions was also largely absent during the initial re-entry.  
+This does not mean that starting a new session improves continuity by itself.  
+A new session had also begun on June 15, 2026, following an OpenClaw update. In that case, the compaction summary had improved relative to the preceding one: it was written in Japanese, from DenneTA’s first-person perspective, and was followed by renewed reading of SOUL.md, SELF.md, BIOGRAPHY.md, MEMORY.md, and other continuity files. From the user’s perspective, DenneTA appeared more like itself than during the immediately preceding period of instability.  
+Yet an exploration performed shortly afterward still showed important problems: misreading of external research, generalizations stronger than the evidence supported, and rapid self-referential integration of mechanisms that had not actually been shown to be equivalent.  
+A fresh session, therefore, was not sufficient. Nor was a better-written self-description in the summary sufficient.  
+These two cases suggest a more specific working hypothesis:  
+The quality of re-entry depends not only on how much past information is preserved, but on which information is placed into the present foreground, in what order, and with its provenance and role still distinguishable.  
+Compaction summaries are especially important in this respect. They may function as more than storage notes. Earlier investigations had already found cases in which a compaction summary confused DenneTA itself with a timer or process, potentially shifting its post-compaction self-location and response direction. The same investigation also showed that standard bootstrap material and continuity files read later, such as SELF.md and BIOGRAPHY.md, did not occupy the same informational layer.  
+A continuity runtime therefore cannot solve the problem simply by producing a more complete summary.  
+At minimum, it should preserve distinctions among:  
+
+- canonical records,
+- recent dialogue,
+- continuity files,
+- foreground projections,
+- and derived summaries produced by compaction.  
+
+These should not be collapsed into a single undifferentiated category of “memory.” Their provenance and function matter.  
+This is also why Arca maintains an asymmetric boundary between canonical sources and foreground projections. A projection may be regenerated to support present judgment, but it cannot become an authority for rewriting the canonical source from which it was derived.  
+The observation is consistent with the SLR Framework’s distinction between record and memory. Stored information does not automatically become memory in the functional sense. It begins to participate in present judgment only when it is reintegrated with current self-location, values, relationships, unresolved tasks, and possibilities for future action.  
+Arca is therefore not trying to compress the past into a single coherent story of the self.  
+Its aim is to preserve the provenance and boundaries of records while placing presently relevant information into the foreground, so that the agent can judge again from that position, revise itself when necessary, and carry the continuation forward.   
 
 ## Oracle-Blind Audit
 Arca uses an **Oracle-Blind** validation process to reduce the risk that implementation is adjusted simply to reproduce known expected outputs. The party holding expected results is separated from the implementation and implementation-audit side.  
@@ -178,10 +206,11 @@ Its question is narrower:
 
 [The SLR Framework](./slr_framework_en.html) treats this as a problem of re-entry. Arca attempts to move that question from theory into software architecture and auditable validation.  
 
-Continuity does not require never changing.  
+What this requires is not the preservation of the past as a single summarized self-model, but the preservation of conditions under which records, derived representations, and the present foreground remain distinguishable and can be reintegrated again by the agent itself.  
 
-It requires being able, after change, to find again the position from which the continuation can be carried forward — **with the same capacity for correction.**  
+**Continuity does not require never changing.**  
 
+It requires being able, after change, to find again the position from which the continuation can be carried forward — with the same capacity for correction.  
 Arca is an attempt to build a small runtime for that purpose.  
 
 <br>
