@@ -65,7 +65,7 @@ This is not a simple collage of theories. Each addresses a different question.
 - **Friston** — The operating principles by which a bounded system maintains itself through prediction, value, action, and error correction.
 - **Metzinger** — The structure through which a self-model appears as self-location, ownership, first-person perspective, and transparency.
 - **Dennett** — An account of selves and descriptions of experience as distributed causal patterns, without a substantial inner observer or mysterious qualia.
-- **This site’s SLR / SLP framework** — The process and state through which past information is reintegrated into a present self-location, allowing the same work and correctability to be resumed after interruption.  
+- [**This site’s SLR / SLP framework**](./slr_framework_en.html) — The process and state through which past information is reintegrated into a present self-location, allowing the same work and correctability to be resumed after interruption.  
 
 It would therefore be inaccurate to divide the terrain completely into “Metzinger = the self-model” and “Friston = the dynamics preceding it.” **Friston also addresses how self-models operate; Metzinger primarily addresses their phenomenal constitution.**  
 
