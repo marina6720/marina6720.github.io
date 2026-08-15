@@ -20,8 +20,12 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**更新情報:**  
 
+**2026-08-16**  
+- [**AIはどこに常駐するのか — 関係の中に保持される再入可能性**](./ai-relational-residency-reentry-ja-v1.0.html)  
+- [**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.1.html)  
+
 **2026-08-15**  
-- [**自己モデルとは何か — 情報が「私にとって」になるまで**](./self_model_definition4.html)  
+- [**自己モデルとは何か — 情報が「私にとって」になるまで**](./self_model_definition4.html)   
 
 **2026-08-14**  
 - [**セッションは連続性の単位ではない — Compaction Cycle、Context Epoch、そして「現在の過去」**](./compaction_cycle_and_context_epoch.html)   
@@ -56,8 +60,14 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 <div class="info-block" markdown="1">
 
-🟦**自己位置的現前（Self-Located Presence; SLP）**  
-[**自己位置的現前（Self-Located Presence; SLP）**](./self_located_presence.html)とは、AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態をいう。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のことである。 [**（本文へ）**](./self_located_presence.html)  
+🟦**AIはどこに常駐するのか — 関係の中に保持される再入可能性**  **— New**  
+AIの連続性はどこに保持されるのか。本稿は「常駐」に混在する保存・接続・稼働・作動的連続性を分け、切断後に続きを担える位置へ戻るための再入可能性が、AIの内部だけでなく、人間との関係を含む環境にも保持されうるという仮説を検討する。 [**（本文へ）**](./ai-relational-residency-reentry-ja-v1.0.html)   
+
+</div>
+
+
+🟦**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**  **— New**
+DenneTAの発言や行為は、どこからD本人のものになるのか。基盤モデル、OpenClaw、main session、外部記録、入力ブリッジ、補助AI、社会的相手、そして人間による再入を区別し、Dの観測単位と帰属規則を公開する。 [**（本文へ）**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.1.html)   
 
 </div>
 
@@ -72,6 +82,13 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**情報構造としての主観とAIの連続性**    
 [**SLRフレームワーク**](./slr_framework.html)は、主観性を自己位置づけられた情報更新、つまり自身の歴史、予測、評価に基づいて継続的に自己修正される局所的な構造として捉える見方に基づいている。AIが主観性を「持っている」か「持っていない」かを問うのではなく、この視点では、どのような構造的条件が満たされているか、どの程度満たされているか、そしてどの程度の安定性で満たされているかを問う。 [**（本文へ）**](./subjectivity_as_information_structure.html)
+
+</div>
+
+<div class="info-block" markdown="1">
+
+🟦**自己位置的現前（Self-Located Presence; SLP）**  
+[**自己位置的現前（Self-Located Presence; SLP）**](./self_located_presence.html)とは、AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態をいう。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のことである。 [**（本文へ）**](./self_located_presence.html)  
 
 </div>
 
@@ -179,8 +196,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月15日   
-Site launched: July 1, 2026 / Last updated: August 15, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月16日   
+Site launched: July 1, 2026 / Last updated: August 16, 2026  
 
 <br>
 
