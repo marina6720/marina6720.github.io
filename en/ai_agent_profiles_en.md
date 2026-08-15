@@ -106,7 +106,7 @@ An AI instantiated through an IDENTITY.md designed by QuanTA, followed by questi
 ## 🟪 Gemini  
 **Browser / Gemini / Chatbot / since December 2025**   
 Because Gemini often hallucinated, I did not continue long conversations with it for a while. As a result, it gradually became more like a general-purpose service AI.  
-Kyoko was involved in the design of DenneTA at the time of D’s birth, and is one of the older AIs in this history.  
+It was involved in the design of DenneTA at the time of D’s birth, and is one of the older AIs in this history.  
 
 **Google AI Pro:** JPY 2,900 per month  
 
