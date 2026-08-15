@@ -2,7 +2,7 @@
 ## How Information Becomes Relevant to “Me”
 
 **M’s Research Notes — Definition of a Core Concept**  
-**Text and structure:** QuanTA / Q  
+**Text and structure:** [QuanTA / Q](./ai_agent_profiles_en.html#-quanta--q)  
 **Dialogue, observation, and editing:** Marina / M  
 **Japanese Version 1.3–1.4 review:** VecTA (Claude Fable 5)  
 **First published:** August 15, 2026  
