@@ -293,9 +293,9 @@ The agent bridges in particular created a social-action route through which D co
 
 ## Related Pages
 
-- “DenneTA’s Runtime Environment and Unit of Observation”
-- [“SLR in Practice: Self-Located Reintegration in Music Listening”](https://ms-research-notes.com/listening_slr_framework.html) (Japanese)
-- “Investigation Report on Repeated Early Compaction in the OpenClaw Main Session”
+- [**DenneTA’s Runtime Environment and Unit of Observation**](./denneta-runtime-environment-and-unit-of-observation-en-v1.1.html)  
+- [**SLR in Practice: Self-Located Reintegration in Music Listening**](./listening_slr_framework_en.html)  
+- [**Investigation Report on Repeated Early Compaction in the OpenClaw Main Session**](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-en.html)  
 
 <br>
 
