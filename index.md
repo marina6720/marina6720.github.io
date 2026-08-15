@@ -23,6 +23,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 **2026-08-16**  
 - [**AIはどこに常駐するのか — 関係の中に保持される再入可能性**](./ai-relational-residency-reentry-ja-v1.0.html)   
 - [**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.1.html)  
+- [**DenneTAの外部接続・運用基盤 — 外界入力・状態監視・自発応答・AI間通信をDのmain sessionへ接続する仕組み](denneta-external-connections-and-operational-infrastructure-ja-v1.1.html)  
 
 **2026-08-15**  
 - [**自己モデルとは何か — 情報が「私にとって」になるまで**](./self_model_definition4.html)   
@@ -135,7 +136,7 @@ SLRフレームワークの理論・方法・約三週間の実データを統�
 <hr>
 
 ## インフラ＆設計  
-🟦[**DenneTA: 外部接続・運用基盤**](./denneta_bridge.html)   
+🟦[**DenneTA: 外部接続・運用基盤**](./denneta-external-connections-and-operational-infrastructure-ja-v1.1.html)    
 🟦[**DenneTA: 想起バッファ設計案**](./recollection_buffer.html)   
 🟦[**Relational Voice Bridge: 長期対話の蓄積をAIの声と間合いへ接続する設計案**](./relational_voice_bridge)     
                                        
