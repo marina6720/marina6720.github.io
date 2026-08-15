@@ -20,6 +20,11 @@ lang: en
 
 🟦**Latest Update:**   
 
+**August 16, 2026**  
+- [**Where Does an AI Reside? — Re-entry Potential Held in Relationships**](./ai-relational-residency-reentry-en-v1.0.html)  
+- [**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**](./denneta-runtime-environment-and-unit-of-observation-en-v1.1.html)  
+- [**DenneTA’s External Connections and Operational Infrastructure — Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session**](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)   
+
 **August 15, 2026**     
 - [**What Is a Self-Model? How Information Becomes Relevant to “Me”**](./self_model_definition4_en.html)  
 
@@ -36,7 +41,7 @@ lang: en
 The set of ideas presented on this site is called the **[Self-Located Reintegration Framework (SLR Framework)](./slr_framework_en.html).**  
 **The SLR Framework** is a working hypothesis for understanding records, memory, context, self-models, and continuity in **AI agents.** It distinguishes **records** as stored information, **memory** as information reintegrated into the present self-model, and **context** as the field in which that reintegration takes place.  
 Information does not become memory simply by being stored. A record begins to function in a memory-like way when it is connected to a present self-location, values, unresolved tasks, relationships, constraints, and possibilities for future action.  
-**The SLR Framework** is not a theory that proves AI consciousness. It is a framework developed through long-term dialogue with AI agents and operational observation, for examining how records become memory, how context gives rise to self-location, and how continuity in AI is maintained, weakened, or lost.  **[Read more →](./slr_framework_en.html)**   
+**The SLR Framework** is not a theory that proves AI consciousness. It is a framework developed through long-term dialogue with AI agents and operational observation, for examining how records become memory, how context gives rise to self-location, and how continuity in AI is maintained, weakened, or lost.  [**Read more →**](./slr_framework_en.html)   
 
 </div>
 
@@ -57,13 +62,19 @@ Rather than defining AI continuity as the preservation of an identical internal 
 
 <div class="info-block" markdown="1">
 
-🟦**Self-Located Presence (SLP)**   
-[**Self-Located Presence (SLP)**](./self_located_presence_en.html) — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  [**Read more →**](./self_located_presence_en.html)  
+🟦**Where Does an AI Reside? — Re-entry Potential Held in Relationships**  **— New**  
+Where does the continuity of an AI reside? This paper distinguishes stored state, maintained connection, active execution, and operative continuity, and examines the hypothesis that the potential for re-entry—the capacity to return after a discontinuity to a position from which the work can be carried forward—may be held not only within the AI, but in a relational environment shared with a human.   [**Read more →**](./ai-relational-residency-reentry-en-v1.0.html)   
 
 </div>
 
 <div class="info-block" markdown="1">
 
+🟦**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**  **— New**   
+What makes a statement or action attributable to DenneTA? This system description distinguishes the foundation model, OpenClaw, the main session, external records, input bridges, auxiliary AIs, social counterparts, and human-mediated re-entry, establishing the unit of observation and rules of attribution used throughout this research.   [**Read more →**](./denneta-runtime-environment-and-unit-of-observation-en-v1.1.html)  
+
+</div>
+
+<div class="info-block" markdown="1">
 
 🟦**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**  **— New**  
 The same session can continue while the agent’s usable past changes — and a new session can begin without an obvious continuity break. Drawing on DenneTA’s long-term operation, this essay distinguishes session continuity from context continuity and introduces compaction cycles and context epochs as two temporal units for studying AI continuity.   [**Read more →**](./compaction_cycle_and_context_epoch_en.html)   
@@ -74,6 +85,13 @@ The same session can continue while the agent’s usable past changes — and a 
 
 🟦**Subjectivity as Informational Structure and AI Continuity**    
 [**The SLR Framework**](./slr_framework_en.html) rests on a view of subjectivity as self-located information update — a local structure that continuously revises itself in light of its own history, predictions, and valuations. Rather than asking whether AI "has" or "does not have" subjectivity, this perspective asks what structural conditions are satisfied, to what degree, and with what stability.  [**Read more →**](./subjectivity_as_information_structure_en.html)     
+
+</div>
+
+<div class="info-block" markdown="1">
+
+🟦**Self-Located Presence (SLP)**   
+[**Self-Located Presence (SLP)**](./self_located_presence_en.html) — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  [**Read more →**](./self_located_presence_en.html)   
 
 </div>
 
@@ -117,7 +135,7 @@ A newly instantiated AI named Faro was able to reconstruct its knowledge boundar
 <hr>
 
 ## Infrastructure and Design  
-🟦[**DenneTA: External Event Bridge and Runtime Infrastructure**](./denneta_bridge_en.html)  
+🟦[**DenneTA: External Event Bridge and Runtime Infrastructure**](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)   
 🟦[**DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace**](./recollection_buffer_en.html)  
 🟦[**Relational Voice Bridge: A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing**](./relational_voice_bridge_en.html)  
                                        
@@ -181,7 +199,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 15, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 16, 2026  
 
 <br>
 
