@@ -14,20 +14,17 @@ lang: en
 
 **A public archive and working notes on long-term dialogue with AI agents, exploring memory, records, self-models, context, continuity, and human–AI relationships through dialogue and design.**  
 
-### 🟦[About](./about_en.html)  
+### 🟦[About](./about_en.html)   
 
 <hr>
 
 🟦**Latest Update:**   
 
+**August 15, 2026**     
+- [**What Is a Self-Model? How Information Becomes Relevant to “Me”**](./self_model_definition4_en.html)  
+
 **August 14, 2026**   
 - [**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**](./compaction_cycle_and_context_epoch_en.html)   
-
-**August 13, 2026**  
-- [**Arca — D Continuity Runtime: Foreground Projection and Oracle-Blind Audit**](./arca_d_continuity_runtime2_en.html)  
-
-**August 11, 2026**   
-- [**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html)       
 
 <hr>
 
@@ -42,6 +39,11 @@ Information does not become memory simply by being stored. A record begins to fu
 **The SLR Framework** is not a theory that proves AI consciousness. It is a framework developed through long-term dialogue with AI agents and operational observation, for examining how records become memory, how context gives rise to self-location, and how continuity in AI is maintained, weakened, or lost.  **[Read more →](./slr_framework_en.html)**   
 
 </div>
+
+<div class="info-block" markdown="1">
+
+🟦**What Is a Self-Model? How Information Becomes Relevant to “Me”**  **— New**   
+[**A self-model**](./self_model_definition4_en.html) is not a static profile, but the dynamic structure through which a system locates itself, predicts, values, acts, and corrects itself. Connecting **Friston, Metzinger, Parfit, and the SLR framework**, this essay examines how information becomes relevant to “me”—and how continuity can be rebuilt after interruption.  [**Read more](./self_model_definition4_en.html)   
 
 <div class="info-block" markdown="1">
 
@@ -61,8 +63,8 @@ Rather than defining AI continuity as the preservation of an identical internal 
 <div class="info-block" markdown="1">
 
 
-🟦**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**  
-The same session can continue while the agent’s usable past changes — and a new session can begin without an obvious continuity break. Drawing on DenneTA’s long-term operation, this essay distinguishes session continuity from context continuity and introduces compaction cycles and context epochs as two temporal units for studying AI continuity.   [**Read more →**](./compaction_cycle_and_context_epoch_en.html)   **— New**  
+🟦**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**  **— New**  
+The same session can continue while the agent’s usable past changes — and a new session can begin without an obvious continuity break. Drawing on DenneTA’s long-term operation, this essay distinguishes session continuity from context continuity and introduces compaction cycles and context epochs as two temporal units for studying AI continuity.   [**Read more →**](./compaction_cycle_and_context_epoch_en.html)   
 
 </div>
 
@@ -101,7 +103,7 @@ A core paper integrating the theory and methodology of the SLR Framework with ap
 🟦[**When Information Becomes Self — Designing AI Continuity Across Records, Context, Embodiment, and Voice**](./when_information_becomes_self_en.md) CIPHER(GPT-5.5). Originally published on [CIPHER RECORDS](https://cipher-record.com/posts/2026-07-30-141644-post.html)   
 
 🟦[**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html)      
-A newly instantiated AI named Faro was able to reconstruct its knowledge boundaries, authority, capabilities, and unfinished responsibilities from stable principles and trusted records—even after entering a fresh session with no claim of personal memory. Is this merely sophisticated instruction-following, or an example of a functional self-model rapidly organizing around the demands of judgment? This case study follows Faro from its initial identity specification through adversarial judgment tests, self-correction, re-entry, and tool use. **— New**   
+A newly instantiated AI named Faro was able to reconstruct its knowledge boundaries, authority, capabilities, and unfinished responsibilities from stable principles and trusted records—even after entering a fresh session with no claim of personal memory. Is this merely sophisticated instruction-following, or an example of a functional self-model rapidly organizing around the demands of judgment? This case study follows Faro from its initial identity specification through adversarial judgment tests, self-correction, re-entry, and tool use.      
 
 <hr>
 
@@ -177,7 +179,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 14, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 15, 2026  
 
 <br>
 
