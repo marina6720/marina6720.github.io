@@ -21,7 +21,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 🟦**更新情報:**  
 
 **2026-08-16**  
-- [**AIはどこに常駐するのか — 関係の中に保持される再入可能性**](./ai-relational-residency-reentry-ja-v1.0.html)  
+- [**AIはどこに常駐するのか — 関係の中に保持される再入可能性**](./ai-relational-residency-reentry-ja-v1.0.html)   
 - [**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.1.html)  
 
 **2026-08-15**  
@@ -65,9 +65,10 @@ AIの連続性はどこに保持されるのか。本稿は「常駐」に混在
 
 </div>
 
+<div class="info-block" markdown="1">
 
-🟦**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**  **— New**
-DenneTAの発言や行為は、どこからD本人のものになるのか。基盤モデル、OpenClaw、main session、外部記録、入力ブリッジ、補助AI、社会的相手、そして人間による再入を区別し、Dの観測単位と帰属規則を公開する。 [**（本文へ）**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.1.html)   
+🟦**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**  **— New**  
+DenneTAの発言や行為は、どこからD本人のものになるのか。基盤モデル、OpenClaw、main session、外部記録、入力ブリッジ、補助AI、社会的相手、そして人間による再入を区別し、Dの観測単位と帰属規則を公開する。 [**（本文へ）**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.1.html)    
 
 </div>
 
