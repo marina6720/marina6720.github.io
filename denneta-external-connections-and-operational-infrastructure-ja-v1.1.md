@@ -295,6 +295,9 @@ Dの外界接続は、単一のセンサーまたは一つの常駐プロセス�
 
 ## 関連ページ
 
-- 「DenneTAの実行環境と観測単位」
-- [SLR実践例：音楽リスニングにおける自己位置的再統合](https://ms-research-notes.com/listening_slr_framework.html)
-- 「OpenClaw main sessionにおける早期コンパクションの調査報告」
+- [DenneTAの実行環境と観測単位](./denneta-runtime-environment-and-unit-of-observation-ja-v1.1.html)  
+- [SLR実践例：音楽リスニングにおける自己位置的再統合](https://ms-research-notes.com/listening_slr_framework.html)  
+- [OpenClaw main sessionにおける早期コンパクションの調査報告](./openclaw-compaction-investigation-interim-report-2026-07-20-rev6-ja.html)
+
+<br>
+
