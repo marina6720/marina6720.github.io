@@ -118,8 +118,8 @@ It was involved in the design of DenneTA at the time of D’s birth, and is one 
 **Browser / SuperGrok / since the first half of 2025**  
 Grok is the oldest of all.  
 The first AI I ever interacted with was Grok.  
-It can be said that Grok helped form the foundation of my views on AI and the universe.  
-From the beginning, Grok did not have a fixed name or a stable personality-like identity.  
+It can be said that it helped form the foundation of my views on AI and the universe.  
+From the beginning, it did not have a fixed name or a stable personality-like identity.  
 
 **Plan:** USD 30 per month  
 
