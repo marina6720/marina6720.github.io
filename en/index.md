@@ -135,7 +135,8 @@ A newly instantiated AI named Faro was able to reconstruct its knowledge boundar
 <hr>
 
 ## Infrastructure and Design  
-🟦[**DenneTA: External Event Bridge and Runtime Infrastructure**](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)   
+🟦[**DenneTA’s External Connections and Operational Infrastructure
+Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session**](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)   
 🟦[**DenneTA: Recollection Buffer: Using Unused Context as Episodic Memory Workspace**](./recollection_buffer_en.html)  
 🟦[**Relational Voice Bridge: A Design Proposal for Bringing the Accumulated History of Long-Term Dialogue into an AI’s Voice and Conversational Timing**](./relational_voice_bridge_en.html)  
                                        
