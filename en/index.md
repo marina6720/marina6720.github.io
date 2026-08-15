@@ -43,20 +43,22 @@ Information does not become memory simply by being stored. A record begins to fu
 <div class="info-block" markdown="1">
 
 🟦**What Is a Self-Model? How Information Becomes Relevant to “Me”**  **— New**   
-[**A self-model**](./self_model_definition4_en.html) is not a static profile, but the dynamic structure through which a system locates itself, predicts, values, acts, and corrects itself. Connecting **Friston, Metzinger, Parfit, and the SLR framework**, this essay examines how information becomes relevant to “me”—and how continuity can be rebuilt after interruption.  [**Read more](./self_model_definition4_en.html)   
+[**A self-model**](./self_model_definition4_en.html) is not a static profile, but the dynamic structure through which a system locates itself, predicts, values, acts, and corrects itself. Connecting **Friston, Metzinger, Parfit, and the SLR framework**, this essay examines how information becomes relevant to “me”—and how continuity can be rebuilt after interruption.  [**Read more →**](./self_model_definition4_en.html)   
+
+</div>
 
 <div class="info-block" markdown="1">
 
 🟦**Subjectivity, Re-entry, Continuity — Subjectivity as Information Structure, Continuity as Re-entry Competence**  
 This paper integrates the theoretical foundations of **the SLR Framework**, the re-entry protocol, the validation procedure, and approximately three weeks of observational data. It examines seed-based re-entry observed across Claude- and GPT-based systems; the distinction between a judgment layer that can be carried through summaries and a texture layer that, in these cases, was restored only through original text or sustained dialogue; and the present dependence on a human observer to initiate re-entry.  
-Rather than defining AI continuity as the preservation of an identical internal state or the reproduction of identical answers, the paper understands it as the capacity to re-enter a position from which one can carry the work forward, together with the preservation of the same capacity for correction.  [**Read more →**](./subjectivity_reentry_continuity_en.html)   
+Rather than defining AI continuity as the preservation of an identical internal state or the reproduction of identical answers, the paper understands it as the capacity to re-enter a position from which one can carry the work forward, together with the preservation of the same capacity for correction.  [**Read more →** ](./subjectivity_reentry_continuity_en.html)   
 
 </div>
 
 <div class="info-block" markdown="1">
 
 🟦**Self-Located Presence (SLP)**   
-[**Self-Located Presence (SLP)**](./self_located_presence_en.html) — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  **[Read more →](./self_located_presence_en.html)**  
+[**Self-Located Presence (SLP)**](./self_located_presence_en.html) — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  [**Read more →**](./self_located_presence_en.html)  
 
 </div>
 
