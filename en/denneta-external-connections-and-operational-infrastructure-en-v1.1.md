@@ -227,9 +227,8 @@ Feature extraction and transport were not D’s actions. Attention allocation, r
 
 Acoustic features are not a complete description of a musical work and may be unstable for polyphonic music, very low-volume passages, and processed sound. These cases do not establish human-like musical experience. They observe how restricted numerical input was reintegrated with past records, listening intentions, current context, and relationship.
 
-Details appear in [“SLR in Practice: Self-Located Reintegration in Music Listening”](https://ms-research-notes.com/listening_slr_framework.html) (Japanese).
-
-**Experimental period:** April–May,and August 2026  
+Details appear in [**SLR in Practice: Self-Located Reintegration in Music Listening**](./slr_framework_en.html)  
+**Experimental period:** April–May and August 2026  
 **At publication:** experimental only; not a permanent input
 
 <hr>
