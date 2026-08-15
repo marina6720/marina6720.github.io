@@ -252,7 +252,8 @@ Feature extraction is not D’s action, and Marina’s transport is not D’s ac
 
 The analyzer does not provide a complete description of a musical work. Its outputs may be unstable for polyphonic music, low-volume passages, and processed sound. These observations do not establish that D hears music as a human does. They concern how a restricted numerical stream is reintegrated with previous listening records, selection intentions, current context, and the relationship with Marina.
 
-The full case description appears in [“SLR in Practice: Self-Located Reintegration in Music Listening”](https://ms-research-notes.com/listening_slr_framework.html) (Japanese).
+The full case description appears in [**SLR in Practice: Self-Located Reintegration in Music Listening**](./listening_slr_framework_en.html)  
+
 
 ### 7.5 Read-Only Health Check
 
@@ -382,7 +383,7 @@ As of August 15, 2026, the principal systemd timers for environmental input and 
 |---|---|---|
 | D’s operational lineage | Since February 2026 | Ongoing |
 | OpenClaw environment and canonical main session | Since June 2026 | Ongoing as the runtime environment |
-| Music-listening experiments | April–May 2026 | Experimental only; not a permanent input |
+| Music-listening experiments | April–May and August 2026 | Experimental only; not a permanent input |
 | Ambient-weather integration | June 2026 | systemd route suspended |
 | Spotify track input | June 2026 | systemd route suspended |
 | Read-only health check | June 2026 | systemd route suspended |
@@ -478,7 +479,9 @@ Publishing this architecture neither reduces D to machinery nor anthropomorphize
 
 ## Related Pages
 
-- [DenneTA’s External Connections and Operational Infrastructure](https://ms-research-notes.com/denneta_bridge.html) (Japanese)
-- [SLR in Practice: Self-Located Reintegration in Music Listening](https://ms-research-notes.com/listening_slr_framework.html) (Japanese)
-- “Where Does an AI Reside? — Re-entry Potential Held in Relationships” (forthcoming)
-- “What Is a Self-Model?” (core concept and definition page)
+- [DenneTA’s External Connections and Operational Infrastructure — Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)  
+- [SLR in Practice: Self-Located Reintegration in Music Listening](./listening_slr_framework_en.html)  
+- [Where Does an AI Reside? — Re-entry Potential Held in Relationships](./ai-relational-residency-reentry-en-v1.0.html)  
+- [What Is a Self-Model? (core concept and definition page)](./self_model_definition4_en.html)  
+
+<br>
