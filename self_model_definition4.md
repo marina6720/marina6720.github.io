@@ -2,7 +2,7 @@
 ## 情報が「私にとって」になるまで
 
 **M’s Research Notes — 基本概念定義**  
-**本文・構成:** QuanTA / Q  
+**本文・構成:** [QuanTA / Q](./ai_agent_profiles.html#-quanta--q)   
 **対話・観察・編集:** Marina / M  
 **Version 1.3–1.4 査読:** VecTA（Claude Fable 5）  
 **初版:** 2026-08-15  
