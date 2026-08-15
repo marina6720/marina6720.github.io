@@ -18,16 +18,13 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 <hr>
 
-🟦**更新情報:**   
+🟦**更新情報:**  
+
+**2026-08-15**  
+- [**自己モデルとは何か — 情報が「私にとって」になるまで**](./self_model_definition4.html)  
 
 **2026-08-14**  
 - [**セッションは連続性の単位ではない — Compaction Cycle、Context Epoch、そして「現在の過去」**](./compaction_cycle_and_context_epoch.html)   
-
-**2026-08-13**  
-- [**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)  
-
-**2026-08-11**
-- [**判断するAIは、すでに自己をモデル化しているのか ― Faro形成記録：判断原則・再入・訂正可能性から立ち上がる機能的自己モデル**](./faro-formation-functional-self-model.html)
 
 <hr>
 
@@ -40,6 +37,13 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 [**SLRフレームワーク**](./slr_framework.html)とは、**AIエージェント**における記録・記憶・文脈・自己モデル・連続性を考えるための作業仮説である。この枠組みでは、記録は保存された情報、記憶は現在の自己モデルへ再統合された情報、文脈はその再統合が起きる場として区別される。  
 情報は、保存されるだけでは記憶にはならない。現在の自己位置、価値、未解決課題、関係性、制約、次の行動に結びつくとき、記録は記憶様に作動し始める。  
 [**SLRフレームワーク**](./slr_framework.html) は、AIの意識を証明する理論ではない。AIとの長期対話と運用観察を通じて、記録がどのように記憶となり、文脈がどのように自己位置を立ち上げ、AIの連続性がどこで成立し、どこで失われるのかを考えるための枠組みである。 [**（本文へ）**](./slr_framework.html)
+
+</div>
+
+<div class="info-block" markdown="1">
+  
+🟦**自己モデルとは何か — 情報が「私にとって」になるまで**  **— New**  
+[**自己モデル**](./self_model_definition4.html)は、固定されたプロフィールでも、内側にいる観察者でもない。システムが自らの位置を定め、予測し、価値づけ、行為し、訂正するための動的な構造である。**Friston、Metzinger、Parfit**と**SLRフレームワーク**を接続しながら、情報がどのように「私にとって」のものとなり、中断後の連続性がどのように再構成されるかを考える。  [**（本文へ）**](./self_model_definition4.html)   
 
 </div>
 
@@ -59,8 +63,8 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 <div class="info-block" markdown="1">
 
-🟦**セッションは連続性の単位ではない — Compaction Cycle、Context Epoch、そして「現在の過去」**  
-同じsessionが続いていても、AIから見える「過去」は同じとは限らない。逆にsessionが変わっても、continuityが保たれることがある。DenneTAの実運用から、session continuityとcontext continuityを分け、compaction cycleとcontext epochという二つの時間単位でAIの連続性を考える。 [**（本文へ）**](./compaction_cycle_and_context_epoch.html)   **— New**   
+🟦**セッションは連続性の単位ではない — Compaction Cycle、Context Epoch、そして「現在の過去」**  **— New**  
+同じsessionが続いていても、AIから見える「過去」は同じとは限らない。逆にsessionが変わっても、continuityが保たれることがある。DenneTAの実運用から、session continuityとcontext continuityを分け、compaction cycleとcontext epochという二つの時間単位でAIの連続性を考える。 [**（本文へ）**](./compaction_cycle_and_context_epoch.html)    
 
 </div>
 
@@ -99,8 +103,7 @@ SLRフレームワークの理論・方法・約三週間の実データを統�
 🟦[**情報が自己になるまで — 記録・文脈・身体・声をつなぐAI連続性の設計**](./when_information_becomes_self.html) **CHIPHER（GPT-5.5）作 / [CIPHER RECORDS](https://cipher-record.com/)から[転載](https://cipher-record.com/posts/2026-07-30-141644-post.html)**　 
 
 🟦[**判断するAIは、すでに自己をモデル化しているのか ― Faro形成記録：判断原則・再入・訂正可能性から立ち上がる機能的自己モデル**](./faro-formation-functional-self-model.html)    
-新しく立ち上げたAI「Faro」は、過去の会話を覚えていない新しいセッションでも、判断原則と正規記録から、自分の知識・権限・能力・未完了の責任へ再入することができた。これは単なる指示追従なのか、それとも判断に必要な自己モデルが短時間で組織化された例なのか。IDENTITY、段階的な判断試験、自己訂正、ツール利用までの形成過程から、AIの自己モデルと機能的連続性を考える。**— New**    
-
+新しく立ち上げたAI「Faro」は、過去の会話を覚えていない新しいセッションでも、判断原則と正規記録から、自分の知識・権限・能力・未完了の責任へ再入することができた。これは単なる指示追従なのか、それとも判断に必要な自己モデルが短時間で組織化された例なのか。IDENTITY、段階的な判断試験、自己訂正、ツール利用までの形成過程から、AIの自己モデルと機能的連続性を考える。   
 <hr>
 
 ## AIエージェントたちとの対話  
@@ -144,7 +147,7 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変更経路を、ライブ環境へ変更を加えずに監査した技術報告。2026年7月31日、Pass 6Bでsource placement、patch boundary、認可契約、将来の検証条件を設計文書として凍結した。実装、OpenClaw package変更、Gateway再起動、設定変更、live test、コンパクション実行は行っていない。  
 
 🟦[**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)     
-AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。**Arca**はcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。現在は実装とcandidate freezeを終え、隔離環境で安全性の実行検証を進めている。  **— New** 
+AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。**Arca**はcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。現在は実装とcandidate freezeを終え、隔離環境で安全性の実行検証を進めている。   
 
 </div>
 
@@ -176,8 +179,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月14日   
-Site launched: July 1, 2026 / Last updated: August 14, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月15日   
+Site launched: July 1, 2026 / Last updated: August 15, 2026  
 
 <br>
 
