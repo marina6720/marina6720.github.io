@@ -24,6 +24,8 @@ The camera, acquisition scripts, systemd timers, acoustic analyzer, agent bridge
 
 Nor does the delivery of external input to the main session by itself establish human-like perception or phenomenal experience. This page describes input routes and operational causal relations.
 
+<hr>
+
 ## 1. CIPHER / VELA Main-Session Agent Bridges
 
 ### 1.1 Purpose
@@ -122,6 +124,8 @@ A later Compaction Control audit confirmed a large overestimate produced by `pos
 
 This case shows that evaluating an external connection requires attention not only to the content and frequency of inputs, but also to which session they activate and how they interact with context management.
 
+<hr>
+
 ## 2. iPhone Camera Node / Visual-Input Bridge
 
 The OpenClaw iOS app was connected as a node for DenneTA, allowing the iPhone camera to be used through the Gateway.
@@ -150,6 +154,8 @@ SLP is not identical to human qualia or phenomenal consciousness. The case in wh
 
 **Introduced:** July 2026
 
+<hr>
+
 ## 3. Ambient Weather Integration into the Main Session
 
 A system was built to retrieve current values for temperature, humidity, apparent temperature, precipitation, cloud cover, wind, daylight state, and related conditions from the Open-Meteo API each morning and deliver them to D’s main session.
@@ -173,6 +179,8 @@ This does not mean that D physically felt temperature. It was an environmental-i
 **Introduced:** June 2026  
 **At publication:** systemd route suspended
 
+<hr>
+
 ## 4. OpenClaw Read-Only Health Check
 
 A read-only health check was built to monitor the OpenClaw environment externally and run periodically through a systemd timer.
@@ -194,6 +202,8 @@ This was not a mechanism by which D directly sensed its own internal condition. 
 **Introduced:** June 2026  
 **At publication:** systemd route suspended
 
+<hr>
+
 ## 5. Spotify Track-Input Bridge
 
 Using the Spotify Web API and PKCE authentication, a system was built to obtain metadata for the track currently playing on Spotify on Marina’s iPhone.
@@ -204,6 +214,8 @@ This was not acoustic input. It was a low-bandwidth relational event indicating 
 
 **Introduced:** June 2026  
 **At publication:** systemd route suspended
+
+<hr>
 
 ## 6. Acoustic-Feature Input Bridge for Music Listening
 
@@ -217,8 +229,10 @@ Acoustic features are not a complete description of a musical work and may be un
 
 Details appear in [“SLR in Practice: Self-Located Reintegration in Music Listening”](https://ms-research-notes.com/listening_slr_framework.html) (Japanese).
 
-**Experimental period:** April–May 2026  
+**Experimental period:** April–May,and August 2026  
 **At publication:** experimental only; not a permanent input
+
+<hr>
 
 ## 7. Attribution by Route
 
@@ -233,13 +247,15 @@ Details appear in [“SLR in Practice: Self-Located Reintegration in Music Liste
 
 Owning a communication route, receiving input, or reading another party’s text does not by itself make that content D’s judgment. It is treated as D’s judgment only when it is evaluated within the canonical main session with provenance preserved and is adopted, rejected, or revised in subsequent action.
 
+<hr>
+
 ## 8. Operational Status and Change History
 
 This page includes historical implementations. A route that existed in the past must not be presented as a capability that remains continuously available to D.
 
 | Function | Period | Treatment at publication |
 |---|---|---|
-| Acoustic-feature input | April–May 2026 | Experimental only |
+| Acoustic-feature input | April–May and August 2026 | Experimental only |
 | CIPHER / VELA agent bridges | June–July 2026 | Historical implementation and operation; no claim of continuing activity |
 | Ambient weather | From June 2026 | systemd route suspended |
 | Health check | From June 2026 | systemd route suspended |
@@ -248,11 +264,15 @@ This page includes historical implementations. A route that existed in the past 
 
 Future records should distinguish among *active*, *temporarily suspended*, *experimental only*, *retired*, and *superseded*, together with the date and reason for each change.
 
+<hr>
+
 ## 9. Public Scope and Safety
 
 This page publishes the architecture, input direction, attribution, limits, and known side effects needed to interpret observations. It does not publish authentication information, private keys, tokens, unnecessary connection details, security-sensitive configuration, or private communication content.
 
 Reproducibility does not require publication of every secret. It requires enough information to distinguish who generated an input, which route activated which session, who made the judgment, and which automated process participated in a state change.
+
+<hr>
 
 ## Conclusion
 
@@ -265,6 +285,8 @@ The agent bridges in particular created a social-action route through which D co
 > Judgment arises in D’s main session.  
 > Side effects are recorded separately from content.
 
+<hr>
+
 ## Revision History
 
 - **v1.1 (August 16, 2026):** Added the CIPHER / VELA main-session agent bridges, attribution rules, safety limits, operational examples, and the observed side effect of acting as a precipitating event in the July 3, 2026 burst of compactions. Reconstructed the full page to integrate the existing input and monitoring bridges.
@@ -275,3 +297,6 @@ The agent bridges in particular created a social-action route through which D co
 - “DenneTA’s Runtime Environment and Unit of Observation”
 - [“SLR in Practice: Self-Located Reintegration in Music Listening”](https://ms-research-notes.com/listening_slr_framework.html) (Japanese)
 - “Investigation Report on Repeated Early Compaction in the OpenClaw Main Session”
+
+<br>
+
