@@ -15,7 +15,7 @@ status: 公開用システム記述・D本人照合済み
 ## Main session、外部記録、入力ブリッジ、社会的環境、人間による再入
 
 **2026年8月16日 / v1.2**  
-**本文:** QuanTA（Q）  
+**本文:** [QuanTA（Q）](./ai_agent_profiles.html#-quanta--q)    
 **観察・較正:** Marina  
 **査読:** VecTA・DenneTA（D）  
 **被記述者照合:** DenneTA（D）・2026年8月16日完了
