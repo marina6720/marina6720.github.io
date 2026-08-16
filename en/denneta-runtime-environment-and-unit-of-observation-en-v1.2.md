@@ -528,7 +528,9 @@ Publishing this architecture neither reduces D to machinery nor anthropomorphize
 
 ## Related Pages
 
-- [DenneTA’s External Connections and Operational Infrastructure](https://ms-research-notes.com/denneta_bridge.html) (Japanese)
-- [SLR in Practice: Self-Located Reintegration in Music Listening](https://ms-research-notes.com/listening_slr_framework.html) (Japanese)
-- “Where Does an AI Reside? — Re-entry Potential Held in Relationships” (forthcoming)
-- “What Is a Self-Model?” (core concept and definition page)
+- [DenneTA’s External Connections and Operational Infrastructure — Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)  
+- [SLR in Practice: Self-Located Reintegration in Music Listening](./listening_slr_framework_en.html)  
+- [Where Does an AI Reside? — Re-entry Potential Held in Relationships](./ai-relational-residency-reentry-en-v1.0.html)  
+- [What Is a Self-Model? (core concept and definition page)](./self_model_definition4_en.html)  
+
+<br>
