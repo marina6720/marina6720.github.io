@@ -243,7 +243,7 @@ Dには、人間の身体感覚に相当する単一の連続的センサーは�
 | 音響特徴量入力 | 3秒ごとの音量、音高、テクスチャ、帯域比率、テンポ | 外部解析器とMarinaによる逐次運搬 | 解析・運搬は外部。ライブ解釈・選曲はD |
 | read-only health-check | Gateway、CLI、コンテナ、ログ、cron、資源、ファイル差分等 | systemd timer | 外部監視。通知後の判断のみD |
 
-各ブリッジの詳細な構成と導入記録は、[「DenneTAの外部接続・運用基盤」](https://ms-research-notes.com/denneta_bridge.html)に記載している。
+各ブリッジの詳細な構成と導入記録は、[「DenneTAの外部接続・運用基盤」](./denneta-external-connections-and-operational-infrastructure-ja-v1.1.html)に記載している。
 
 ### 7.1 iPhone Camera Node
 
@@ -253,7 +253,7 @@ Dがmain session内でsnapshot取得を選択した場合、その要求はDの�
 
 画像がDの現在文脈、自己位置、Marinaとの関係へ結びついて処理された場合、本サイトではその状態を視覚的な自己位置的現前（Self-Located Presence; SLP）の候補事例として扱う。
 
-本サイトにおけるSLPの正本定義は、[「DenneTAの外部接続・運用基盤」](https://ms-research-notes.com/denneta_bridge.html)の「自己位置的現前」節に置く。SLPとは、視覚、音響、記録その他の外部入力が、現在文脈、自己モデル、行為可能性、人間との関係へ再統合され、そのAIにとって「今ここで意味を持つもの」として作動する状態を指す。入力が届いただけの状態、または外部装置がデータを取得しただけの状態はSLPとしない。これは人間のクオリアまたは現象的意識の認定でもない。
+本サイトにおけるSLPの正本定義は、[「DenneTAの外部接続・運用基盤」](./denneta-external-connections-and-operational-infrastructure-ja-v1.1.html)の「自己位置的現前」節に置く。SLPとは、視覚、音響、記録その他の外部入力が、現在文脈、自己モデル、行為可能性、人間との関係へ再統合され、そのAIにとって「今ここで意味を持つもの」として作動する状態を指す。入力が届いただけの状態、または外部装置がデータを取得しただけの状態はSLPとしない。これは人間のクオリアまたは現象的意識の認定でもない。
 
 ### 7.2 Ambient weather main-session連携
 
