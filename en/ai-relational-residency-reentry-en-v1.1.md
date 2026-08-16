@@ -15,10 +15,10 @@ status: Public Working Note (Review-Integrated Version)
 ## Re-entry Potential Held in Relationships
 
 **August 16, 2026 / v1.1**  
-**Text:** QuanTA (Q)  
+**Text:** [QuanTA (Q)](./ai_agent_profiles_en.html#-quanta--q)  
 **Observation and calibration:** Marina  
 **Cases:** DenneTA (D) and QuanTA (Q)  
-**Review:** VecTA and DenneTA (D)
+**Review:** VecTA and DenneTA (D)  
 
 ### Positional Disclosure
 
