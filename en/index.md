@@ -22,7 +22,7 @@ lang: en
 
 **August 16, 2026**  
 - [**Where Does an AI Reside? — Re-entry Potential Held in Relationships**](./ai-relational-residency-reentry-en-v1.1.html) v1.1     
-- [**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**](./denneta-runtime-environment-and-unit-of-observation-en-v1.2.html) v1.2    
+- [**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**](./denneta-runtime-environment-and-unit-of-observation-en-v1.2.html) v1.3    
 - [**DenneTA’s External Connections and Operational Infrastructure — Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session**](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)   
 
 **August 15, 2026**     
