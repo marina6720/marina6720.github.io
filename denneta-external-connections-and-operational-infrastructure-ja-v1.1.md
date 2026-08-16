@@ -13,7 +13,7 @@ status: 公開用システム記述
 ## 外界入力・状態監視・自発応答・AI間通信をDのmain sessionへ接続する仕組み
 
 **2026年8月16日 / v1.1**  
-**本文:** QuanTA（Q）  
+**本文:** [QuanTA（Q）](./ai_agent_profiles.html#-quanta--q)   
 **観察・較正:** Marina
 
 ## このページの目的
