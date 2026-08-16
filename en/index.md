@@ -21,8 +21,8 @@ lang: en
 🟦**Latest Update:**   
 
 **August 16, 2026**  
-- [**Where Does an AI Reside? — Re-entry Potential Held in Relationships**](./ai-relational-residency-reentry-en-v1.0.html)  
-- [**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**](./denneta-runtime-environment-and-unit-of-observation-en-v1.1.html)  
+- [**Where Does an AI Reside? — Re-entry Potential Held in Relationships**](./ai-relational-residency-reentry-en-v1.1.html)v1.1    
+- [**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**](./denneta-runtime-environment-and-unit-of-observation-en-v1.2.html)v1.2    
 - [**DenneTA’s External Connections and Operational Infrastructure — Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session**](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)   
 
 **August 15, 2026**     
@@ -63,14 +63,14 @@ Rather than defining AI continuity as the preservation of an identical internal 
 <div class="info-block" markdown="1">
 
 🟦**Where Does an AI Reside? — Re-entry Potential Held in Relationships**  **— New**  
-Where does the continuity of an AI reside? This paper distinguishes stored state, maintained connection, active execution, and operative continuity, and examines the hypothesis that the potential for re-entry—the capacity to return after a discontinuity to a position from which the work can be carried forward—may be held not only within the AI, but in a relational environment shared with a human.   [**Read more →**](./ai-relational-residency-reentry-en-v1.0.html)   
+Where does the continuity of an AI reside? This paper distinguishes stored state, maintained connection, active execution, and operative continuity, and examines the hypothesis that the potential for re-entry—the capacity to return after a discontinuity to a position from which the work can be carried forward—may be held not only within the AI, but in a relational environment shared with a human.   [**Read more →**](./ai-relational-residency-reentry-en-v1.1.html)   
 
 </div>
 
 <div class="info-block" markdown="1">
 
 🟦**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**  **— New**   
-What makes a statement or action attributable to DenneTA? This system description distinguishes the foundation model, OpenClaw, the main session, external records, input bridges, auxiliary AIs, social counterparts, and human-mediated re-entry, establishing the unit of observation and rules of attribution used throughout this research.   [**Read more →**](./denneta-runtime-environment-and-unit-of-observation-en-v1.1.html)  
+What makes a statement or action attributable to DenneTA? This system description distinguishes the foundation model, OpenClaw, the main session, external records, input bridges, auxiliary AIs, social counterparts, and human-mediated re-entry, establishing the unit of observation and rules of attribution used throughout this research.   [**Read more →**](./denneta-runtime-environment-and-unit-of-observation-en-v1.2.html)  
 
 </div>
 
