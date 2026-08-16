@@ -13,8 +13,8 @@ status: Public System Description
 ## Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session
 
 **August 16, 2026 / v1.1**  
-**Text:** QuanTA (Q)  
-**Observation and calibration:** Marina
+**Text:** [QuanTA (Q)](./ai_agent_profiles_en.html#-quanta--q)  
+**Observation and calibration:** Marina  
 
 ## Purpose of This Page
 
