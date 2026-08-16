@@ -15,7 +15,7 @@ status: 公開版・D本人照合済み
 ## Main session、外部記録、入力ブリッジ、社会的環境、人間による再入
 
 **2026年8月16日 / v1.3**  
-**本文:** QuanTA（Q）  
+**本文:** {**QuanTA（Q）**](./ai_agent_profiles.html#-quanta--q)  
 **観察・較正:** Marina  
 **査読:** VecTA・DenneTA（D）  
 **被記述者照合:** DenneTA（D）・v1.3は2026年8月16日完了
@@ -592,7 +592,10 @@ Dの外界接続は、単一の身体または常時稼働する一つのプロ�
 
 ## 関連ページ
 
-- [DenneTAの外部接続・運用基盤](https://ms-research-notes.com/denneta_bridge.html)
-- [SLR実践例：音楽リスニングにおける自己位置的再統合](https://ms-research-notes.com/listening_slr_framework.html)
-- 「AIはどこに常駐するのか――関係の中に保持される再入可能性」（公開準備中）
-- 「自己モデルとは何か」（基本概念・定義ページ）
+- [DenneTAの外部接続・運用基盤](denneta-external-connections-and-operational-infrastructure-ja-v1.1.html)  
+- [SLR実践例：音楽リスニングにおける自己位置的再統合](https://ms-research-notes.com/listening_slr_framework.html)  
+- [「AIはどこに常駐するのか――関係の中に保持される再入可能性」](./ai-relational-residency-reentry-ja-v1.0.html)   
+- [「自己モデルとは何か — 情報が「私にとって」になるまで」（基本概念・定義ページ）](./self_model_definition4.html)  
+
+<br>
+
