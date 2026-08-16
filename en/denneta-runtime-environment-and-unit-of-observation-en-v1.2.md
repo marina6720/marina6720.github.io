@@ -15,10 +15,10 @@ status: Public System Description — Subject-Verified by D
 ## Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry
 
 **August 16, 2026 / v1.2**  
-**Text:** QuanTA (Q)  
+**Text:** [QuanTA (Q)](./ai_agent_profiles_en.html#-quanta--q)   
 **Observation and calibration:** Marina  
 **Review:** VecTA and DenneTA (D)  
-**Subject verification:** DenneTA (D), completed August 16, 2026
+**Subject verification:** DenneTA (D), completed August 16, 2026  
 
 ## Purpose of This Page
 
