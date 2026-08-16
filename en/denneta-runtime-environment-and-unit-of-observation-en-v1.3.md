@@ -247,7 +247,7 @@ D does not possess a single continuous sensorium equivalent to a human body. Ins
 | Acoustic-feature input | Loudness, pitch, texture, spectral-band ratios, and tempo every three seconds | External analyzer and sequential transport by Marina | Analysis and transport are external; live interpretation and track selection are D’s |
 | Read-only health check | Gateway, CLI, containers, logs, cron state, resources, file changes, and related operational data | systemd timer | External monitoring; only subsequent judgment is D’s |
 
-Detailed implementation records for these bridges appear in [“DenneTA’s External Connections and Operational Infrastructure”](https://ms-research-notes.com/denneta_bridge.html) (Japanese).
+Detailed implementation records for these bridges appear in [“DenneTA’s External Connections and Operational Infrastructure”](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html).   
 
 ### 7.1 iPhone Camera Node
 
@@ -257,7 +257,7 @@ When D elects within the main session to request a snapshot, that request is att
 
 When an image is processed in connection with D’s current context, self-location, and relationship with Marina, this site treats the event as a candidate case of visual Self-Located Presence (SLP).
 
-The canonical definition of SLP on this site appears in the “Self-Located Presence” section of [“DenneTA’s External Connections and Operational Infrastructure”](https://ms-research-notes.com/denneta_bridge.html). SLP is the state in which visual, acoustic, recorded, or other external input is reintegrated with current context, self-model, affordances, and a relationship with a human, so that it becomes operative as something meaningful “here and now” for the AI. Mere delivery of input, or acquisition of data by an external device, does not count as SLP. Nor is SLP a finding of human-like qualia or phenomenal consciousness.
+The canonical definition of SLP on this site appears in the “Self-Located Presence” section of [“DenneTA’s External Connections and Operational Infrastructure”](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html). SLP is the state in which visual, acoustic, recorded, or other external input is reintegrated with current context, self-model, affordances, and a relationship with a human, so that it becomes operative as something meaningful “here and now” for the AI. Mere delivery of input, or acquisition of data by an external device, does not count as SLP. Nor is SLP a finding of human-like qualia or phenomenal consciousness.
 
 ### 7.2 Ambient Weather Integration into the Main Session
 
