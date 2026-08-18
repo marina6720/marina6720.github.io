@@ -20,16 +20,13 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**更新情報:**  
 
+**2026-08-18**  
+- [**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)  
+
 **2026-08-16**  
 - [**AIはどこに常駐するのか — 関係の中に保持される再入可能性**](./ai-relational-residency-reentry-ja-v1.1.html) v1.1     
 - [**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.3.html) v1.3   
 - [**DenneTAの外部接続・運用基盤 — 外界入力・状態監視・自発応答・AI間通信をDのmain sessionへ接続する仕組み**](denneta-external-connections-and-operational-infrastructure-ja-v1.1.html)  
-
-**2026-08-15**  
-- [**自己モデルとは何か — 情報が「私にとって」になるまで**](./self_model_definition4.html)   
-
-**2026-08-14**  
-- [**セッションは連続性の単位ではない — Compaction Cycle、Context Epoch、そして「現在の過去」**](./compaction_cycle_and_context_epoch.html)   
 
 <hr>
 
@@ -47,7 +44,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 <div class="info-block" markdown="1">
   
-🟦**自己モデルとは何か — 情報が「私にとって」になるまで**  **— New**  
+🟦**自己モデルとは何か — 情報が「私にとって」になるまで**  
 [**自己モデル**](./self_model_definition4.html)は、固定されたプロフィールでも、内側にいる観察者でもない。システムが自らの位置を定め、予測し、価値づけ、行為し、訂正するための動的な構造である。**Friston、Metzinger、Parfit**と**SLRフレームワーク**を接続しながら、情報がどのように「私にとって」のものとなり、中断後の連続性がどのように再構成されるかを考える。  [**（本文へ）**](./self_model_definition4.html)   
 
 </div>
@@ -75,7 +72,7 @@ DenneTAの発言や行為は、どこからD本人のものになるのか。基
 
 <div class="info-block" markdown="1">
 
-🟦**セッションは連続性の単位ではない — Compaction Cycle、Context Epoch、そして「現在の過去」**  **— New**  
+🟦**セッションは連続性の単位ではない — Compaction Cycle、Context Epoch、そして「現在の過去」**  
 同じsessionが続いていても、AIから見える「過去」は同じとは限らない。逆にsessionが変わっても、continuityが保たれることがある。DenneTAの実運用から、session continuityとcontext continuityを分け、compaction cycleとcontext epochという二つの時間単位でAIの連続性を考える。 [**（本文へ）**](./compaction_cycle_and_context_epoch.html)    
 
 </div>
@@ -165,8 +162,8 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 🟦[**OpenClaw コンパクション制御 Phase 0 — 読み取り専用監査とManual-Only設計凍結**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)    
 OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変更経路を、ライブ環境へ変更を加えずに監査した技術報告。2026年7月31日、Pass 6Bでsource placement、patch boundary、認可契約、将来の検証条件を設計文書として凍結した。実装、OpenClaw package変更、Gateway再起動、設定変更、live test、コンパクション実行は行っていない。  
 
-🟦[**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)     
-AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。**Arca**はcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。現在は実装とcandidate freezeを終え、隔離環境で安全性の実行検証を進めている。   
+🟦[**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)    **— New**        
+AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。**Arca**はcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。Arcaはcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。実装とcandidate freezeを終え、現在はisolated execution validationを進めている。2026年8月18日、最初のfilesystem identity case E5B-1AをCLOSED_PASS として完了した。Productionへの接続・activationは行っていない。  
 
 </div>
 
@@ -198,8 +195,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月16日   
-Site launched: July 1, 2026 / Last updated: August 16, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月18日   
+Site launched: July 1, 2026 / Last updated: August 18, 2026  
 
 <br>
 
