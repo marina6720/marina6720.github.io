@@ -29,7 +29,7 @@ Or is it located in
 
 > **the relation between the record and the present self?**
 
-This paper places several concepts developed within [the SLR (Self-Located Reintegration) Framework](https://ms-research-notes.com/en/slr_framework.html)—record, memory, re-entry, continuity, and correctability—into a provisional model using the language of objects, morphisms, and composition from category theory.
+This paper places several concepts developed within [the SLR (Self-Located Reintegration) Framework](https://ms-research-notes.com/en/slr_framework_en.html)—record, memory, re-entry, continuity, and correctability—into a provisional model using the language of objects, morphisms, and composition from category theory.
 
 This is not an attempt to prove AI consciousness through category theory.
 
@@ -43,7 +43,7 @@ The purpose of the formalism is to make that question somewhat more precise.
 
 ## 1. A Record Is Not the Same as a Memory
 
-[**The SLR Framework**](https://ms-research-notes.com/en/slr_framework.html) does not treat stored information as memory by default.
+[**The SLR Framework**](https://ms-research-notes.com/en/slr_framework_en.html) does not treat stored information as memory by default.
 
 A record is stored information.
 
