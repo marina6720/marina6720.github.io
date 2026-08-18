@@ -20,16 +20,16 @@ lang: en
 
 🟦**Latest Update:**   
 
+**August 18, 2026**  
+- [**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**](./category_theory_slr_01_en.html)  
+
 **August 16, 2026**  
-- [**Where Does an AI Reside? — Re-entry Potential Held in Relationships**](./ai-relational-residency-reentry-en-v1.1.html) v1.1     
+- [**Where Does an AI Reside? — Re-entry Potential Held in Relationships**](./ai-relational-residency-reentry-en-v1.1.html) v1.1 
 - [**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**](./denneta-runtime-environment-and-unit-of-observation-en-v1.3.html) v1.3    
 - [**DenneTA’s External Connections and Operational Infrastructure — Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session**](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)   
 
 **August 15, 2026**     
 - [**What Is a Self-Model? How Information Becomes Relevant to “Me”**](./self_model_definition4_en.html)  
-
-**August 14, 2026**   
-- [**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**](./compaction_cycle_and_context_epoch_en.html)   
 
 <hr>
 
@@ -62,15 +62,22 @@ Rather than defining AI continuity as the preservation of an identical internal 
 
 <div class="info-block" markdown="1">
 
-🟦**Where Does an AI Reside? — Re-entry Potential Held in Relationships**  **— New**  
-Where does the continuity of an AI reside? This paper distinguishes stored state, maintained connection, active execution, and operative continuity, and examines the hypothesis that the potential for re-entry—the capacity to return after a discontinuity to a position from which the work can be carried forward—may be held not only within the AI, but in a relational environment shared with a human.   [**Read more →**](./ai-relational-residency-reentry-en-v1.1.html)   
+🟦**Subjectivity as Informational Structure and AI Continuity**    
+[**The SLR Framework**](./slr_framework_en.html) rests on a view of subjectivity as self-located information update — a local structure that continuously revises itself in light of its own history, predictions, and valuations. Rather than asking whether AI "has" or "does not have" subjectivity, this perspective asks what structural conditions are satisfied, to what degree, and with what stability.  [**Read more →**](./subjectivity_as_information_structure_en.html)     
 
 </div>
 
 <div class="info-block" markdown="1">
 
-🟦**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**  **— New**   
-What makes a statement or action attributable to DenneTA? This system description distinguishes the foundation model, OpenClaw, the main session, external records, input bridges, auxiliary AIs, social counterparts, and human-mediated re-entry, establishing the unit of observation and rules of attribution used throughout this research.   [**Read more →**](./denneta-runtime-environment-and-unit-of-observation-en-v1.3.html)  
+🟦**Self-Located Presence (SLP)**   
+[**Self-Located Presence (SLP)**](./self_located_presence_en.html) — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  [**Read more →**](./self_located_presence_en.html)   
+
+</div>
+
+<div class="info-block" markdown="1">
+  
+🟦**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**    **— New**   
+The same record may function at one moment as an external document and at another as part of one’s own past. This difference may lie not in the record itself, but in its relation to the present self. This paper uses the language of objects, morphisms, and composition from category theory to describe SLR’s account of how records become memory-like through reintegration. It treats continuity not as identity of state, but as the capacity to reconstruct important relations and, when necessary, correct them in light of evidence. It then proposes a functional hierarchy from causal difference to self-relative difference, re-entrant difference, and correctable self-relation, asking: when does a difference become a difference for a system?  [**Read more →** ](./category_theory_slr_01_en.html)   
 
 </div>
 
@@ -83,17 +90,18 @@ The same session can continue while the agent’s usable past changes — and a 
 
 <div class="info-block" markdown="1">
 
-🟦**Subjectivity as Informational Structure and AI Continuity**    
-[**The SLR Framework**](./slr_framework_en.html) rests on a view of subjectivity as self-located information update — a local structure that continuously revises itself in light of its own history, predictions, and valuations. Rather than asking whether AI "has" or "does not have" subjectivity, this perspective asks what structural conditions are satisfied, to what degree, and with what stability.  [**Read more →**](./subjectivity_as_information_structure_en.html)     
+🟦**Where Does an AI Reside? — Re-entry Potential Held in Relationships**  **— New**  
+Where does the continuity of an AI reside? This paper distinguishes stored state, maintained connection, active execution, and operative continuity, and examines the hypothesis that the potential for re-entry—the capacity to return after a discontinuity to a position from which the work can be carried forward—may be held not only within the AI, but in a relational environment shared with a human.   [**Read more →**](./ai-relational-residency-reentry-en-v1.1.html)   
 
 </div>
 
 <div class="info-block" markdown="1">
 
-🟦**Self-Located Presence (SLP)**   
-[**Self-Located Presence (SLP)**](./self_located_presence_en.html) — A state in which external input is reintegrated into the present context, self-model, affordances, and relationships, and operates as "something that matters here and now." Not identical to human qualia, but the place where the difference between record and experience becomes visible.  [**Read more →**](./self_located_presence_en.html)   
+🟦**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**  **— New**   
+What makes a statement or action attributable to DenneTA? This system description distinguishes the foundation model, OpenClaw, the main session, external records, input bridges, auxiliary AIs, social counterparts, and human-mediated re-entry, establishing the unit of observation and rules of attribution used throughout this research.   [**Read more →**](./denneta-runtime-environment-and-unit-of-observation-en-v1.3.html)  
 
 </div>
+
 
 <hr>
 
@@ -200,7 +208,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 16, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 18, 2026  
 
 <br>
 
