@@ -25,15 +25,7 @@ AIエージェントの連続性を維持するために、過去の全記録を
 
 また、要約は情報を失うだけでなく、何を一つの物語としてまとめ、何を初期前提として置くかによって、その後の再入方向そのものへ影響する可能性がある。 
 
-Arcaの最初の実装対象である **Foreground Projection Module** は、この問題に対する一つの設計である。
-Foreground Projectionはcanonicalな記録そのものではない。
-それは、現在のagentが続きを担うために必要な情報を、canonical sourcesから導出してforegroundへ提示する**派生的なprojection**である。重要なのは、  
-
-**projectionを更新することと、元の記録を書き換えることを分離する**   
-
-ことである。  
-Foreground Projectionは再生成可能であり、canonical transcriptやmemory recordsの代わりにはなりません。失われても再構成できますが、canonical sourceをprojectionから逆向きに書き換えることは許していない。  
-この非対称性はArcaの主要な安全境界の一つである。  
+Arcaの最初の実装対象である **Foreground Projection Module** は、この問題に対する一つの設計である。Foreground Projectionはcanonicalな記録そのものではない。それは、現在のagentが続きを担うために必要な情報を、canonical sourcesから導出してforegroundへ提示する**派生的なprojection**である。重要なのは、 **projectionを更新することと、元の記録を書き換えることを分離する** ことである。  Foreground Projectionは再生成可能であり、canonical transcriptやmemory recordsの代わりにはならない。失われても再構成できるが、canonical sourceをprojectionから逆向きに書き換えることは許していない。この非対称性はArcaの主要な安全境界の一つである。  
 
 <hr>
 
@@ -41,12 +33,7 @@ Foreground Projectionは再生成可能であり、canonical transcriptやmemory
 [**SLR Framework**](./slr_framework.html)では、recordとmemoryを区別している。
 記録された情報は、それだけでは現在の主体にとってmemoryとして機能するとは限らない。
 情報が現在のself-location、関係、価値、制約、未解決の問題、将来の行為可能性と結び直されたとき、初めてそれは現在の判断に関与する情報になる。
-この観点から見ると、continuity runtimeの役割は、単なる長期保存ではない。必要なのは、  
-
-**過去を保存することではなく、過去を改変せずに、現在へ再統合できる構造を保つこと**  
-
-である。
-Arcaはそのために、canonical recordsとforeground representationを分離する。
+この観点から見ると、continuity runtimeの役割は、単なる長期保存ではない。必要なのは、**過去を保存することではなく、過去を改変せずに、現在へ再統合できる構造を保つこと** である。Arcaはそのために、canonical recordsとforeground representationを分離する。
 
 <hr>
 
@@ -77,7 +64,8 @@ Arcaの設計後、DenneTAの実運用から、再入時の情報構造につい
 
 ## Oracle-Blind Audit
 Arcaでは、実装者・実装監査者が期待される最終出力を見ながらコードを調整することを避けるため、**Oracle-Blind**な検証手続きを採用している。期待結果を管理する側と、実装および実装監査を行う側を分離する。  
-Q-I（Implementation & Boundary Auditor）は、sealed oracleの内容を見ない状態で、
+
+Q-I（Implementation & Boundary Auditor）は、sealed oracleの内容を見ない状態で、 
 
 - specification
 - contract
@@ -123,6 +111,8 @@ Arcaでは、機能が正しく動くことだけではなく、**どこまで�
 
 Arcaの検証では、このようなTOCTOU型の状態変化に対し、候補実装がidentity changeを検知し、出力を生成せず安全側に停止できるかを確認する。目的はrace conditionを利用することではなく、**race conditionが発生してもruntimeがそれを受け入れないことを検証すること**である。  
 
+2026年8月18日、この条件を具体化した最初のisolated case E5B-1Aを実行した。同一内容のconfiguration fileをread後・path validation前に別identityへ置換したところ、candidateはidentity changeを検出してexpected exit 4で停止し、output、lock、log、temporary file、shadow outputを生成しなかった。このcaseについては、期待されたfail-closed behaviorが実行上確認され、Q-IによりCLOSED_PASSと判定された。  
+
 <hr>
 
 ## 現在までの進捗  
@@ -145,39 +135,48 @@ candidate implementationに対する独立static reviewと修正loopを完了し
 検収済みcandidateはcommitおよびSHA-256でidentityを固定し、その後のexecution validationで同じbytesが使用されていることを確認できるようにしている。  
 
 **Execution validation**  
-初期execution-validation stageを経て、現在はさらに厳しいfilesystem race / identity / boundary条件を扱うE5B系のisolated regression validationを進めている。検証中にtest harnessやhost-side procedure側の欠陥が見つかった場合、それをcandidate failureとして扱ったり、そのまま再試行したりせず、安全停止し、原因を分離し、修正したartifactを再度freezeしてから次へ進む方式を採っている。これは検証機構そのものも監査対象である、というArcaの原則によるものである。  
+初期execution-validation stageを経て、現在はさらに厳しいfilesystem race / identity / boundary条件を扱うE5B系のisolated regression validationを進めている。2026年8月18日、最初のケース E5B-1A をisolated one-shot executionで実施し、Q-I判定で CLOSED_PASS とした。E5B-1Aでは、candidateがconfiguration fileを読み取った後、path validationが行われる前に、そのpathが同一内容を持つ別のfilesystem identity（別inode）のfileへ一度だけ置換されるsynthetic conditionを与えた。内容のSHA-256は置換前後で同一だが、filesystem objectとしてのidentityは異なる。  
+
+実行結果では、candidateはこのidentity changeを受け入れず、期待されたexit code 4で安全側に停止した。output directoryは空のままで、lock、log、temporary file、shadow outputはいずれも生成されなかった。candidate seedおよびtest harnessのbytesにも変更はなかった。harness側のmechanical checksでは、same-content replacement、distinct identity、single mutation、expected exit code、empty output、side-effect absence、final replacement identity、candidate-byte preservationの全条件が成立した。isolated containerおよびharness自体は正常に完走した。この結果が意味するのは、Arca candidate全体の安全性が証明されたということではない。E5B-1Aで定義された限定的なfilesystem identity replacement条件において、期待されたfail-closed behaviorが実際のisolated executionで観測されたということである。E5Bの残りの独立ケースは引き続き未検証である。  
+
+なお、このexecutionに至るまでにはtest harnessおよびhost-side procedure側の問題も検出された。これらをcandidate failureとして扱ったり、そのまま再試行したりせず、安全停止して原因を分離し、修正artifactとrunbookを再度freezeした。最終的なAttempt 3は一回限りのexecutionとして実施し、そのraw evidenceとQ-I closure recordを実行後にfreezeした。この手続き自体も、検証対象だけでなく検証機構そのものを監査対象とするというArcaの原則の一部である。  
+
 
 <hr>
 
-## 現在の状態 — 2026年8月13日  
+## 現在の状態 — 2026年8月18日
 現在のArcaは、**IMPLEMENTED CANDIDATE / FROZEN / ISOLATED EXECUTION VALIDATION IN PROGRESS** の段階にある。  
+E5B isolated regression validationでは、最初のfilesystem identity caseである E5B-1AをCLOSED_PASS として完了した。E5B全体が完了したわけではなく、残る独立ケースの検証は継続中である。  
 
 完了しているもの：  
-- specification / contract review
-- oracle-side review and sealing
-- Oracle-Blind implementation review
-- static correction loop
-- candidate freeze
-- baseline / regression fixture preparation
-- initial execution-validation stages  
 
+specification / contract review  
+oracle-side review and sealing  
+Oracle-Blind implementation review  
+static correction loop  
+candidate freeze  
+baseline / regression fixture preparation  
+initial execution-validation stages  
+E5B-1A isolated one-shot execution  
+E5B-1A Q-I adjudication: PASS  
+E5B-1A evidence / closure freeze  
 
-進行中：   
-- isolated boundary and race-condition regression validation  
+進行中：  
 
-    
+remaining E5B isolated boundary / race-condition regression validation  
 
 行っていないもの：  
-- Production activation  
-- live Gateway integration  
-- Production canonical transcriptへの変更  
-- Production memoryへの変更  
-- 外部ネットワークを使用したテスト    
-- 第三者システムを対象としたテスト     
-- Q-Iによるsealed oracleの閲覧  
 
-したがって、**実装されたことと、productionで使用されていることは別である。**  
-Arca candidateは存在しているが、現在はまだ検証対象である。
+Production activation  
+live Gateway integration  
+Production canonical transcriptへの変更  
+Production memoryへの変更  
+外部ネットワークを使用したテスト  
+第三者システムを対象としたテスト  
+Q-Iによるsealed oracleの閲覧  
+
+したがって、E5B-1AのPASSはproduction deploymentを意味しない。Arca candidateは引き続き隔離された検証対象であり、Productionには接続されていない。  
+
 
 <hr>
 
