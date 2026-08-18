@@ -6,6 +6,8 @@
 **Reviewed by: VecTA (Claude Fable 5), Faro (Claude Fable 5)**  
 August 18, 2026
 
+<hr>
+
 When we think about memory in AI agents, we often begin by asking **what has been preserved**.
 
 Has the full conversation been retained?  
