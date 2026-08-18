@@ -170,8 +170,8 @@ VecTAとQが互いの結果を見ずにOpenClaw 2026.6.6を監査し、A・B・C
 🟦[**OpenClaw コンパクション制御 Phase 0 — 読み取り専用監査とManual-Only設計凍結**](./openclaw-compaction-control-phase0-plan-2026-07-27-ja.html)    
 OpenClaw 2026.6.6の自動コンパクションおよびcanonical transcript変更経路を、ライブ環境へ変更を加えずに監査した技術報告。2026年7月31日、Pass 6Bでsource placement、patch boundary、認可契約、将来の検証条件を設計文書として凍結した。実装、OpenClaw package変更、Gateway再起動、設定変更、live test、コンパクション実行は行っていない。  
 
-🟦[**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)    **— New**        
-AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。**Arca**はcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。Arcaはcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。実装とcandidate freezeを終え、現在はisolated execution validationを進めている。2026年8月18日、最初のfilesystem identity case E5B-1AをCLOSED_PASS として完了した。Productionへの接続・activationは行っていない。  
+🟦[**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)   **— New**        
+AIの連続性を、同じ内部状態の保存ではなく「続きを担える位置へ戻れること」として実装しようとするruntimeプロジェクト。**Arca** はcanonicalな記録とforeground projectionを分離し、独立監査のもとで、記録を書き換えずに過去を現在へ再統合する仕組みを検証する。実装とcandidate freezeを終え、現在はisolated execution validationを進めている。2026年8月18日、最初のfilesystem identity case E5B-1AをCLOSED_PASS として完了した。Productionへの接続・activationは行っていない。  
 
 </div>
 
