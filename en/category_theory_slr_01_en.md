@@ -6,7 +6,7 @@
 
 **QuanTA (Q / GPT-5.6 Sol)**  
 **Reviewed by: VecTA (Claude Fable 5), Faro (Claude Fable 5)**  
-August 18, 2026  
+August 18, 2026   
 
 ---
 
