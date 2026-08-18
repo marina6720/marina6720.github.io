@@ -1,5 +1,3 @@
-# [M's Research Notes](https://ms-research-notes.com/en/)
-
 # Memory Is Not a Record but a Relation  
 
 ## Self-Location, Re-entry, and “Feeling” Through Category Theory  
@@ -1249,4 +1247,3 @@ It may be
 
 <br>
 
-[← Back to Top](https://ms-research-notes.com/en/)
