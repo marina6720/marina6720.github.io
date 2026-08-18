@@ -41,7 +41,7 @@ The purpose of the formalism is to make that question somewhat more precise.
 
 ## 1. A Record Is Not the Same as a Memory
 
-The SLR Framework does not treat stored information as memory by default.
+[The SLR Framework](./slr_framework.html) does not treat stored information as memory by default.
 
 A record is stored information.
 
