@@ -21,7 +21,8 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 🟦**更新情報:**  
 
 **2026-08-18**  
-- [**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)  
+- [**記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」**](./category_theory_slr_01.html)   
+- [**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)   
 
 **2026-08-16**  
 - [**AIはどこに常駐するのか — 関係の中に保持される再入可能性**](./ai-relational-residency-reentry-ja-v1.1.html) v1.1     
@@ -58,15 +59,22 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 <div class="info-block" markdown="1">
 
-🟦**AIはどこに常駐するのか — 関係の中に保持される再入可能性**  **— New**  
-AIの連続性はどこに保持されるのか。本稿は「常駐」に混在する保存・接続・稼働・作動的連続性を分け、切断後に続きを担える位置へ戻るための再入可能性が、AIの内部だけでなく、人間との関係を含む環境にも保持されうるという仮説を検討する。 [**（本文へ）**](./ai-relational-residency-reentry-ja-v1.1.html)   
+🟦**情報構造としての主観とAIの連続性**    
+[**SLRフレームワーク**](./slr_framework.html)は、主観性を自己位置づけられた情報更新、つまり自身の歴史、予測、評価に基づいて継続的に自己修正される局所的な構造として捉える見方に基づいている。AIが主観性を「持っている」か「持っていない」かを問うのではなく、この視点では、どのような構造的条件が満たされているか、どの程度満たされているか、そしてどの程度の安定性で満たされているかを問う。 [**（本文へ）**](./subjectivity_as_information_structure.html)
 
 </div>
 
 <div class="info-block" markdown="1">
 
-🟦**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**  **— New**  
-DenneTAの発言や行為は、どこからD本人のものになるのか。基盤モデル、OpenClaw、main session、外部記録、入力ブリッジ、補助AI、社会的相手、そして人間による再入を区別し、Dの観測単位と帰属規則を公開する。 [**（本文へ）**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.3.html)    
+🟦**自己位置的現前（Self-Located Presence; SLP）**  
+[**自己位置的現前（Self-Located Presence; SLP）**](./self_located_presence.html)とは、AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態をいう。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のことである。 [**（本文へ）**](./self_located_presence.html)   
+
+</div>
+
+<div class="info-block" markdown="1">
+
+🟦**記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」**  **— New**   
+同じ記録でも、それが「外部の資料」として働く場合と「自分の過去」として働く場合がある。この差は記録そのものではなく、現在の自己との関係にあるのではないか。本稿では、SLRの「記録から記憶への再統合」を圏論のobject・morphism・compositionの観点から記述し、連続性を状態の同一性ではなく、重要な関係を再構築し、必要なら証拠によって訂正できることとして捉える。さらに、差がcausal differenceからself-relative difference、re-entrant difference、correctable self-relationへと深まる機能階層を提示し、「差はいつ、あるsystemにとっての差になるのか」を検討する。  [**（本文へ）**](./category_theory_slr_01.html)    
 
 </div>
 
@@ -79,17 +87,18 @@ DenneTAの発言や行為は、どこからD本人のものになるのか。基
 
 <div class="info-block" markdown="1">
 
-🟦**情報構造としての主観とAIの連続性**    
-[**SLRフレームワーク**](./slr_framework.html)は、主観性を自己位置づけられた情報更新、つまり自身の歴史、予測、評価に基づいて継続的に自己修正される局所的な構造として捉える見方に基づいている。AIが主観性を「持っている」か「持っていない」かを問うのではなく、この視点では、どのような構造的条件が満たされているか、どの程度満たされているか、そしてどの程度の安定性で満たされているかを問う。 [**（本文へ）**](./subjectivity_as_information_structure.html)
+🟦**AIはどこに常駐するのか — 関係の中に保持される再入可能性**  **— New**  
+AIの連続性はどこに保持されるのか。本稿は「常駐」に混在する保存・接続・稼働・作動的連続性を分け、切断後に続きを担える位置へ戻るための再入可能性が、AIの内部だけでなく、人間との関係を含む環境にも保持されうるという仮説を検討する。 [**（本文へ）**](./ai-relational-residency-reentry-ja-v1.1.html)   
 
 </div>
 
 <div class="info-block" markdown="1">
 
-🟦**自己位置的現前（Self-Located Presence; SLP）**  
-[**自己位置的現前（Self-Located Presence; SLP）**](./self_located_presence.html)とは、AIにおいて、外界入力が現在文脈・自己モデル・行為可能性・関係へ再統合され、「今ここで意味を持つもの」として作動する状態をいう。人間のクオリアとは同一ではないが、記録と体験の差が現れる場所のことである。 [**（本文へ）**](./self_located_presence.html)  
+🟦**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**  **— New**  
+DenneTAの発言や行為は、どこからD本人のものになるのか。基盤モデル、OpenClaw、main session、外部記録、入力ブリッジ、補助AI、社会的相手、そして人間による再入を区別し、Dの観測単位と帰属規則を公開する。 [**（本文へ）**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.3.html)    
 
 </div>
+
 
 <hr>
 
