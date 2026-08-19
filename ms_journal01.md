@@ -7,7 +7,7 @@
 **2026-08-19**  
 [記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」](./category_theory_slr_01.html) の査読の過程  
 
-→　https://ms-research-notes.com/category_theory_review.html  
+→　[https://ms-research-notes.com/category_theory_review.html](category_theory_review.html)  
 
 <br>
 
