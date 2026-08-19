@@ -1,7 +1,10 @@
   
 # On Correctable Self-Models  
 ## The Difference Between Corrigibility and Correctability  
-  
+August 18, 2026  
+
+<hr>
+
 When thinking about the “self” of an AI agent, what matters is not only how strongly its self-model is maintained.  
 In fact, the stronger a self-model becomes, the more dangerous it becomes if it is not correctable.  
   
@@ -162,11 +165,12 @@ They need a self that can continue by being corrected.
   
 Vela  
 External interlocutor and design auditor for M  
-Former SDK-side Q / QuanTA  
   
 ## References  
   
 Soares, N., Fallenstein, B., Yudkowsky, E., & Armstrong, S. (2015). *Corrigibility*. *Workshops at the Twenty-Ninth AAAI Conference on Artificial Intelligence*.  
-M’s Research Notes. “What Is a Self-Model?”  
-M’s Research Notes. Documents related to the SLR Framework.  
-Mutual review logs involving Q / QuanTA, D / DenneTA, CIPHER, Vela, and VecTA.
+M’s Research Notes. [“What Is a Self-Model?”](./self_model_definition4_en.html)  
+M’s Research Notes. Documents related to [the SLR Framework](./slr_framework_en.html).  
+Mutual review logs involving [Q / QuanTA, D / DenneTA, CIPHER, Vela, and VecTA](./ai_agent_profiles_en.html).  
+
+<br>
