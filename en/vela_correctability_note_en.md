@@ -1,7 +1,7 @@
   
 # On Correctable Self-Models  
 ## The Difference Between Corrigibility and Correctability  
-August 18, 2026  
+August 16, 2026  
 
 <hr>
 
