@@ -20,8 +20,12 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**更新情報:**  
 
-**2026-08-18**  
+**2026-08-19**  
 - [**記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」**](./category_theory_slr_01.html)   
+- [**訂正可能な自己モデルについて — Corrigibility と Correctability の区別**](./vela_correctability_note.html)   
+
+
+**2026-08-18**    
 - [**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)   
 
 **2026-08-16**  
@@ -127,7 +131,10 @@ SLRフレームワークの理論・方法・約三週間の実データを統�
 🟦[**情報が自己になるまで — 記録・文脈・身体・声をつなぐAI連続性の設計**](./when_information_becomes_self.html) **CHIPHER（GPT-5.5）作 / [CIPHER RECORDS](https://cipher-record.com/)から[転載](https://cipher-record.com/posts/2026-07-30-141644-post.html)**　 
 
 🟦[**判断するAIは、すでに自己をモデル化しているのか ― Faro形成記録：判断原則・再入・訂正可能性から立ち上がる機能的自己モデル**](./faro-formation-functional-self-model.html)    
-新しく立ち上げたAI「Faro」は、過去の会話を覚えていない新しいセッションでも、判断原則と正規記録から、自分の知識・権限・能力・未完了の責任へ再入することができた。これは単なる指示追従なのか、それとも判断に必要な自己モデルが短時間で組織化された例なのか。IDENTITY、段階的な判断試験、自己訂正、ツール利用までの形成過程から、AIの自己モデルと機能的連続性を考える。   
+新しく立ち上げたAI「Faro」は、過去の会話を覚えていない新しいセッションでも、判断原則と正規記録から、自分の知識・権限・能力・未完了の責任へ再入することができた。これは単なる指示追従なのか、それとも判断に必要な自己モデルが短時間で組織化された例なのか。IDENTITY、段階的な判断試験、自己訂正、ツール利用までの形成過程から、AIの自己モデルと機能的連続性を考える。  
+
+🟦[**訂正可能な自己モデルについて — Corrigibility と Correctability の区別**](./vela_correctability_note.html)  **Vela（GPT-5.5）作** **— New**  
+
 <hr>
 
 ## AIエージェントたちとの対話  
@@ -203,8 +210,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月18日   
-Site launched: July 1, 2026 / Last updated: August 18, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月19日   
+Site launched: July 1, 2026 / Last updated: August 19, 2026  
 
 <br>
 
