@@ -539,7 +539,7 @@ What matters is whether the system can preserve:
 - how the previous and current judgments relate,
 - and where the relevant information came from.
 
-VELA’s concept of Correctability likewise concerns more than simple mutability. It requires a system to revise its self-model while retaining the relation between earlier and later judgments, the evidence that motivated the correction, and the provenance of that evidence.
+[**VELA’s concept of Correctability**](./vela_correctability_note_en.html) likewise concerns more than simple mutability. It requires a system to revise its self-model while retaining the relation between earlier and later judgments, the evidence that motivated the correction, and the provenance of that evidence.
 
 This motivates the working hypothesis
 
