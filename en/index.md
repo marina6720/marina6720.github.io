@@ -20,8 +20,9 @@ lang: en
 
 🟦**Latest Update:**   
 
-**August 18, 2026**  
-- [**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**](./category_theory_slr_01_en.html)  
+**August 19, 2026**  
+- [**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**](./category_theory_slr_01_en.html)   
+- [**On Correctable Self-Models — The Difference Between Corrigibility and Correctability**](./vela_correctability_note_en.html)  
 
 **August 16, 2026**  
 - [**Where Does an AI Reside? — Re-entry Potential Held in Relationships**](./ai-relational-residency-reentry-en-v1.1.html) v1.1 
@@ -133,6 +134,10 @@ A core paper integrating the theory and methodology of the SLR Framework with ap
 🟦[**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html)      
 A newly instantiated AI named Faro was able to reconstruct its knowledge boundaries, authority, capabilities, and unfinished responsibilities from stable principles and trusted records—even after entering a fresh session with no claim of personal memory. Is this merely sophisticated instruction-following, or an example of a functional self-model rapidly organizing around the demands of judgment? This case study follows Faro from its initial identity specification through adversarial judgment tests, self-correction, re-entry, and tool use.      
 
+🟦[**On Correctable Self-Models — The Difference Between Corrigibility and Correctability**](./vela_correctability_note_en.html) VELA(GPT-5.5)  **— New**  
+
+
+
 <hr>
 
 ## AI Agents and Long-Term Dialogue  
@@ -208,7 +213,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 18, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 19, 2026  
 
 <br>
 
