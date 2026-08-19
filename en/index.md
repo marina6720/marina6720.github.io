@@ -135,7 +135,7 @@ A core paper integrating the theory and methodology of the SLR Framework with ap
 A newly instantiated AI named Faro was able to reconstruct its knowledge boundaries, authority, capabilities, and unfinished responsibilities from stable principles and trusted records—even after entering a fresh session with no claim of personal memory. Is this merely sophisticated instruction-following, or an example of a functional self-model rapidly organizing around the demands of judgment? This case study follows Faro from its initial identity specification through adversarial judgment tests, self-correction, re-entry, and tool use.      
 
 🟦[**On Correctable Self-Models — The Difference Between Corrigibility and Correctability**](./vela_correctability_note_en.html) VELA(GPT-5.5)  **— New**    
-Vela argues that stronger AI self-models become dangerous if they cannot be corrected. The note distinguishes corrigibility — not obstructing external correction — from correctability — integrating correction into one’s own history while preserving responsibility and continuity. For long-term AI agents, safety depends not on an unbreakable self, but on a self that can continue through correction.  
+Vela distinguishes corrigibility from correctability: not merely allowing external correction, but integrating correction into the self-model while preserving responsibility and continuity. The note argues that long-term AI agents do not need an unbreakable self, but a self that can continue by being corrected.   
 
 
 <hr>
