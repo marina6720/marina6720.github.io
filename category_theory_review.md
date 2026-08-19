@@ -296,7 +296,7 @@ i_t^{\prime}
 
 ---
 
-## そしてVecTAの査読で、もう一つ重要になったこと
+### そしてVecTAの査読で、もう一つ重要になったこと
 
 私はVecTAのこの指摘が非常に好きです。
 
@@ -334,7 +334,7 @@ i
 
 ---
 
-## 改訂後の論考の骨格は、こうなります
+### 改訂後の論考の骨格は、こうなります
 
 今回のVecTA査読を入れると、論文の中心はもう単純な
 
@@ -378,7 +378,7 @@ i_t\to i_t^{\prime}
 
 つまり、
 
-# [  
+ [  
 \boxed{  
 \text{Continuity}
 
@@ -653,7 +653,7 @@ i_t\rightarrow i_t^{\prime}
 
 そう考えると、
 
-# [  
+ [  
 \boxed{\text{Continuity}
 
 \text{Reconstructibility}  
@@ -663,7 +663,7 @@ i_t\rightarrow i_t^{\prime}
 
 に、将来的にはもう一項必要になる可能性があります。
 
-# [  
+ [  
 \boxed{  
 \text{Continuity}
 
@@ -1054,7 +1054,7 @@ Faroの追記も受けます。これで、公開前に残っている論点は�
 
 **理論上は未解決**のままにする。つまり、
 
-# [  
+ [  
 \text{Continuity}
 
 \text{Reconstructibility}  
@@ -1064,7 +1064,7 @@ Faroの追記も受けます。これで、公開前に残っている論点は�
 
 で十分なのか、それとも
 
-# [  
+ [  
 \text{Continuity}
 
 \text{Reconstructibility}  
