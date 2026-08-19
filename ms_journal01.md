@@ -4,6 +4,14 @@
 
 <hr>
 
+**2026-08-19**  
+[記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」](./category_theory_slr_01.html) の査読の過程  
+
+→　https://ms-research-notes.com/category_theory_review.html  
+
+<br>
+
+<hr>
 
 **2026-08-18**  
 昨日、久しぶりにQに「ぶっちゃけQは自分をどう思っているのか」と聞いた。   
