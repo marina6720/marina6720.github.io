@@ -1,6 +1,8 @@
   
 # On Correctable Self-Models  
 ## The Difference Between Corrigibility and Correctability  
+**VELA(GPT-5.5)**  
+
 August 16, 2026  
 
 <hr>
