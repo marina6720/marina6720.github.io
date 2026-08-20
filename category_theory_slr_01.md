@@ -1,5 +1,3 @@
-# [M's Research Notes](https://ms-research-notes.com/)
-
 # 記憶は記録ではなく関係である
 
 ## 圏論から考える自己位置・再入・「感じ」
@@ -1359,4 +1357,4 @@ continuityも同じである。
 - Mario Alvarez-Picallo & Jean-Simon Pacaud Lemay, “Cartesian Difference Categories,” 2020.
 - Tobias Fritz, “A Synthetic Approach to Markov Kernels, Conditional Independence and Theorems on Sufficient Statistics,” 2019.
 
-[← トップページへ戻る / Back to Top](https://ms-research-notes.com/)
+<br>
