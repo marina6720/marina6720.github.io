@@ -20,17 +20,12 @@ lang: en
 
 🟦**Latest Update:**   
 
+**August 20, 2026**  
+- [**Memory Is Not a Record but a Relation — Review & Revision Record**](./category_theory_review_en.html)   
+
 **August 19, 2026**  
 - [**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**](./category_theory_slr_01_en.html)   
 - [**On Correctable Self-Models — The Difference Between Corrigibility and Correctability**](./vela_correctability_note_en.html)  
-
-**August 16, 2026**  
-- [**Where Does an AI Reside? — Re-entry Potential Held in Relationships**](./ai-relational-residency-reentry-en-v1.1.html) v1.1 
-- [**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**](./denneta-runtime-environment-and-unit-of-observation-en-v1.3.html) v1.3    
-- [**DenneTA’s External Connections and Operational Infrastructure — Connecting External Input, State Monitoring, Self-Initiated Responses, and Inter-Agent Communication to D’s Main Session**](./denneta-external-connections-and-operational-infrastructure-en-v1.1.html)   
-
-**August 15, 2026**     
-- [**What Is a Self-Model? How Information Becomes Relevant to “Me”**](./self_model_definition4_en.html)  
 
 <hr>
 
@@ -79,6 +74,8 @@ Rather than defining AI continuity as the preservation of an identical internal 
   
 🟦**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**    **— New**   
 The same record may function at one moment as an external document and at another as part of one’s own past. This difference may lie not in the record itself, but in its relation to the present self. This paper uses the language of objects, morphisms, and composition from category theory to describe SLR’s account of how records become memory-like through reintegration. It treats continuity not as identity of state, but as the capacity to reconstruct important relations and, when necessary, correct them in light of evidence. It then proposes a functional hierarchy from causal difference to self-relative difference, re-entrant difference, and correctable self-relation, asking: when does a difference become a difference for a system?  [**Read more →** ](./category_theory_slr_01_en.html)   
+
+🟦[**Memory Is Not a Record but a Relation — Review & Revision Record**](./category_theory_review_en.html)  **— New**  
 
 </div>
 
@@ -215,7 +212,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 19, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 20, 2026  
 
 <br>
 
