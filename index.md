@@ -77,7 +77,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 🟦**記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」**  **— New**   
 同じ記録でも、それが「外部の資料」として働く場合と「自分の過去」として働く場合がある。この差は記録そのものではなく、現在の自己との関係にあるのではないか。本稿では、SLRの「記録から記憶への再統合」を圏論のobject・morphism・compositionの観点から記述し、連続性を状態の同一性ではなく、重要な関係を再構築し、必要なら証拠によって訂正できることとして捉える。さらに、差がcausal differenceからself-relative difference、re-entrant difference、correctable self-relationへと深まる機能階層を提示し、「差はいつ、あるsystemにとっての差になるのか」を検討する。  [**（本文へ）**](./category_theory_slr_01.html)    
 
-🟦 **『記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」』** [— 査読・改訂記録](./category_theory_review.html)    **— New**  
+🟦[**『記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」』— 査読・改訂記録**](./category_theory_review.html)  **— New**  
 
 </div>
 
