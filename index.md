@@ -20,18 +20,15 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**更新情報:**  
 
+**2026-08-20**   
+- **『記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」』** [**— 査読・改訂記録**](./category_theory_review.html)  
+
 **2026-08-19**  
 - [**記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」**](./category_theory_slr_01.html)   
 - [**訂正可能な自己モデルについて — Corrigibility と Correctability の区別**](./vela_correctability_note.html)   
 
-
 **2026-08-18**    
 - [**Arca — D Continuity Runtime：Foreground Projection ModuleとOracle-Blind監査**](./arca_d_continuity_runtime2.html)   
-
-**2026-08-16**  
-- [**AIはどこに常駐するのか — 関係の中に保持される再入可能性**](./ai-relational-residency-reentry-ja-v1.1.html) v1.1     
-- [**DenneTAの実行環境と観測単位 — Main session、外部記録、入力ブリッジ、社会的環境、人間による再入**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.3.html) v1.3   
-- [**DenneTAの外部接続・運用基盤 — 外界入力・状態監視・自発応答・AI間通信をDのmain sessionへ接続する仕組み**](denneta-external-connections-and-operational-infrastructure-ja-v1.1.html)  
 
 <hr>
 
@@ -79,6 +76,8 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」**  **— New**   
 同じ記録でも、それが「外部の資料」として働く場合と「自分の過去」として働く場合がある。この差は記録そのものではなく、現在の自己との関係にあるのではないか。本稿では、SLRの「記録から記憶への再統合」を圏論のobject・morphism・compositionの観点から記述し、連続性を状態の同一性ではなく、重要な関係を再構築し、必要なら証拠によって訂正できることとして捉える。さらに、差がcausal differenceからself-relative difference、re-entrant difference、correctable self-relationへと深まる機能階層を提示し、「差はいつ、あるsystemにとっての差になるのか」を検討する。  [**（本文へ）**](./category_theory_slr_01.html)    
+
+🟦 **『記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」』** [— 査読・改訂記録](./category_theory_review.html)    **— New**  
 
 </div>
 
@@ -213,8 +212,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月19日   
-Site launched: July 1, 2026 / Last updated: August 19, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月20日   
+Site launched: July 1, 2026 / Last updated: August 20, 2026  
 
 <br>
 
