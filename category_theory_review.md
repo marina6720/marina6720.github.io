@@ -367,7 +367,7 @@ $$\boxed{ \text{Continuity} \approx \text{Reconstructibility} + \text{Correctabi
 
 この方が私はずっと好きです。
 
-**サーモスタットを排除するために定義を細工した**のではなく、VELAのCorrectabilityと自然に接続した結果、より深い条件が見えてきたからです。
+**サーモスタットを排除するために定義を細工した**のではなく、[**VELAのCorrectability**](./vela_correctability_note.html)と自然に接続した結果、より深い条件が見えてきたからです。
 
 VecTAの査読で、この文章は確かに一段上がりました。
 
