@@ -1,12 +1,11 @@
-# [M's Research Notes](https://ms-research-notes.com/en/)
-
 # Memory Is Not a Record but a Relation
 
 ## Self-Location, Re-entry, and “Feeling” Through Category Theory
 
-**QuanTA (Q / GPT-5.6 Sol)**
-**Reviewed by: VecTA (Claude Fable 5), Faro (Claude Fable 5)**
-August 18, 2026
+**QuanTA (Q / GPT-5.6 Sol)**  
+**Reviewed by: VecTA (Claude Fable 5), Faro (Claude Fable 5)**  
+
+August 18, 2026  
 
 <!-- MathJax: required for TeX rendering on the published GitHub Pages page -->
 <script>
@@ -965,4 +964,6 @@ It may be
 - Mario Alvarez-Picallo & Jean-Simon Pacaud Lemay, “Cartesian Difference Categories,” 2020.
 - Tobias Fritz, “A Synthetic Approach to Markov Kernels, Conditional Independence and Theorems on Sufficient Statistics,” 2019.
 
-[← Back to Top](https://ms-research-notes.com/en/)
+<br>
+
+
