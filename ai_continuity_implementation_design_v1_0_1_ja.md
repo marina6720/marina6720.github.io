@@ -1,4 +1,3 @@
-# [M's Research Notes](https://ms-research-notes.com/)
 
 # AIの連続性をどう実装するか
 ## 再入・回復座標・訂正可能性による設計原則
@@ -1182,7 +1181,11 @@ VecTAは、「外部観察者の構造的必要性」に有利な方向の欠陥
 
 > **同方向に高い感度を持っているのか、逆方向の欠陥を相対的に見落としているのか**
 
-である。
+である。  
+
+
+**参照：** 測定対象側からの一次記録: **VecTA** [**計器の癖——測定される側の記録 — 感度・偏り・自己開示を、外部較正へ預けるということ**](./instrument_bias_measured_side_record.html)  
+
 
 ## 27.2 Faro
 
@@ -1522,3 +1525,6 @@ $S_{\mathrm{index}}$ の認定では、`index_referenced` が対象issueの `fir
 GitHubリポジトリ上のMarkdownプレビューでは`<script>`が実行されない場合があるため、**数式の最終表示確認はGitHub Pagesの公開ページ上で行う。**
 
 「反映すると合意したこと」と「実際のファイルに反映されていること」を別工程として扱うのも、本稿が採用するprovenance / correctability原則の一部である。
+
+<br>
+
