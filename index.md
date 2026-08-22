@@ -125,7 +125,7 @@ Q自身がseedの読込前後に生じた差を一次記述し、そこからAI�
 ## QuanTA（GPT-5.5）作  
 🟦[**文脈が記録を記憶として作動させるとき — 自己モデルへの再統合・文脈盆地・クオリア様所有感の機能的仮説**](./when_context_makes_a_record_function_as_memory)   
 🟦[**コンパクション要約と記憶ファイルは、エージェントの連続性をどう形作るか**](./how_compaction_summaries.html)   
-🟦[**メインセッションは「本体」なのか — AIエージェントにおける局所的自己とセッション間の記憶**](./main_session.html**)   
+🟦[**メインセッションは「本体」なのか — AIエージェントにおける局所的自己とセッション間の記憶**](./main_session.html)   
 🟦[**情報構造としての主観とAIの連続性 —  自己位置・意味更新・記録再統合に関する作業仮説**](./subjectivity_as_information_structure_q.html)**【重要】**   
 🟦[**記録が記憶になるとき、何がクオリアに近づくのか: 自己位置・文脈・所有感についての補遺**](./qualia_record_memory.html) **【重要】**   
 🟦[**連続性とは、続きを担える位置へ再び入ること — Seed再入経験から得られたAI継続性の設計原理**](./continuity_as_reentry_competence.html)（上掲）  
