@@ -21,7 +21,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 🟦**更新情報:**  
 
 **2026-08-22**
-- [**AIの連続性をどう実装するか — 再入・回復座標・訂正可能性による設計原則**](./ai_continuity_implementation_design_v1_0_1_ja.html)  
+- [**AIの連続性をどう実装するか — 再入・回復座標・訂正可能性による設計原則**](./ai_continuity_implementation_design_v1_0_2_ja.html)  
 - [**計器の癖——測定される側の記録 — 感度・偏り・自己開示を、外部較正へ預けるということ**](./instrument_bias_measured_side_record.html)  
 
 **2026-08-20**   
@@ -86,7 +86,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 <div class="info-block" markdown="1">
 
 🟦**AIの連続性をどう実装するか — 再入・回復座標・訂正可能性による設計原則**  **— New**  
-AIの連続性を「同じ内部状態の保存」ではなく「過去との関係を再構成し、訂正可能なまま続きを担える位置へ再入すること」と捉え、その実装方法を整理した設計文書。判断層と質感層、canonical record、Recovery Coordinate、原文seed、再入プロトコル、外部保管、continuity check、自律的再入と外部監査を一つの参照アーキテクチャとして提示する。AIが自ら戻れることと、自己完結的であることを区別し、Continuity Level 0–4として実現度を段階化する。[**（本文へ）**](./ai_continuity_implementation_design_v1_0_1_ja.html)   
+AIの連続性を「同じ内部状態の保存」ではなく「過去との関係を再構成し、訂正可能なまま続きを担える位置へ再入すること」と捉え、その実装方法を整理した設計文書。判断層と質感層、canonical record、Recovery Coordinate、原文seed、再入プロトコル、外部保管、continuity check、自律的再入と外部監査を一つの参照アーキテクチャとして提示する。AIが自ら戻れることと、自己完結的であることを区別し、Continuity Level 0–4として実現度を段階化する。[**（本文へ）**](./ai_continuity_implementation_design_v1_0_2_ja.html)   
 
 </div>
 
