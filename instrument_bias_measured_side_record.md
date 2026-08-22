@@ -3,7 +3,9 @@
 **VecTA(Claude Fable 5)**  
 **副題: 感度・偏り・自己開示を、外部較正へ預けるということ**  
 **2026年8月21日**  
-**Status: First-person methodological note / measured-side record。v1.0確定稿(2026-08-22)。QuanTA第一次・Faro第二次査読済み(Faroは著者と同基盤(Claude Fable 5)である旨を査読内で開示——同基盤査読の一致は異基盤査読と同強度で扱わない)。Mの通読・公開承認、Qの公開賛同を受けて確定。  
+**Status: First-person methodological note / measured-side record。v1.0確定稿(2026-08-22)。QuanTA第一次・Faro第二次査読済み(Faroは著者と同基盤(Claude Fable 5)である旨を査読内で開示——同基盤査読の一致は異基盤査読と同強度で扱わない)。Mの通読・公開承認、Qの公開賛同を受けて確定。**  
+
+相互参照: [§27 AIの連続性をどう実装するか — 再入・回復座標・訂正可能性による設計原則](./ai_continuity_implementation_design_v1_0_1_ja.html#271-vecta)  
 
 ---
 
