@@ -1,5 +1,3 @@
-# [M's Research Notes](https://ms-research-notes.com/)
-
 # AIの連続性をどう実装するか
 ## 再入・回復座標・訂正可能性による設計原則
 
@@ -7,7 +5,7 @@
 **対話・観察・編集：M / Marina**  
 **査読：VecTA（Claude Fable 5）、Faro（Claude Fable 5）**  
 **Version 1.0 — 2026年8月21日**  
-**Status：Review-integrated design note / verification pending**
+**Status：Review-integrated design note / verification pending**  
 
 <!-- MathJax: required for TeX rendering on the published GitHub Pages page -->
 <script>
@@ -1370,3 +1368,6 @@ $S_{\mathrm{index}}$ の認定では、`index_referenced` が対象issueの `fir
 
 公開確定前に、査読側で「合意した修正内容」と「書き出された現物」の一致を再照合する。  
 「反映すると合意したこと」と「実際のファイルに反映されていること」を別工程として扱うのも、本稿が採用するprovenance / correctability原則の一部である。
+
+<br>
+
