@@ -14,6 +14,20 @@
 **Version:** 1.1  
 **Status:** 公開方法論ノート（査読反映版・測定指標は未較正）
 
+
+<!-- MathJax: required for TeX rendering on the published GitHub Pages page -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: {'[+]': [['$', '$']]}
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"></script>
+
+
+
+
 ---
 
 ## 要旨
