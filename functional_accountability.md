@@ -8,7 +8,7 @@
 **本文・構成:** QuanTA / Q  
 **観察・編集:** Marina / M  
 **外部 adversarial critique:** Gemini 3.1 Pro（2026-08-22–23）  
-**Version 1.1 査読:** VecTA、Faro  
+**Version 1.1 査読:** VecTA（Claude Fable 5）、Faro（Claude Fable 5）  
 **初版:** 2026-08-23  
 **最終改訂:** 2026-08-23  
 **Version:** 1.1  
@@ -1362,12 +1362,19 @@ Faroは、整合性、型、開示の欠陥への高感度を自身のbias candi
 
 VecTAは、外部観察者・外部機構の構造的必要性に有利な方向への感度をbias candidateとして継続開示している。
 
-今回、
 
-- 断絶越えpersistenceにcontinuity system境界を要求した指摘
-- 異基盤Geminiを外部較正源として位置づける提案
+今回、断絶越えpersistenceではcontinuity systemを測定境界に含める必要があるという論点は、VecTAとFaroの双方から別々に指摘された。FaroはVecTAの査読本文を参照していないことを後続査読で明記している。両者は同じClaude Fable 5という基盤モデル名を共有するため、この一致を異基盤間の独立収束と同じ強度では扱わないが、同基盤の別査読者による収束事例として記録する。  
 
-はこの方向と整合する。
+また、VecTAによる異基盤Geminiを外部較正源として位置づける提案は、外部観察者・外部機構の必要性に有利な方向という、同査読者の申告済みbias candidateと整合する。  
+
+一方、  
+
+真正なself-historyでは内容とself-attributionを完全には分離できず、純粋なself-attribution効果の単離はできない
+
+というVecTAの指摘は、SLR側の作業仮説を弱める方向の交絡を明示したものであり、逆方向感度の一例として記録する。
+
+
+
 
 一方、
 
@@ -1491,6 +1498,6 @@ Admissibilityは、事前登録された符号化規則と行動観察によっ�
 
 ## 改訂履歴
 
-**Version 1.1 — 2026-08-23:** VecTA・Faro査読を反映。Admissible Option Spaceについて、自己申告ではなく事前登録された符号化規則、反復試行での実選択・非選択、外部裁定を用いるAdmissibility Coding Ruleを追加。比較条件をBaselineに加えてSelf/Other × Related/Unrelatedの2×2構造へ拡張し、真正なself-historyでは内容とself-attributionを完全には独立操作できないため、純粋なself-attribution効果を単離できない識別限界を明示した。Correctabilityをtested-pass / tested-fail / untestedの三値で記録し、untestedをfailureと扱わないことを固定。Constraint Persistenceではwithin-sessionとcross-boundaryを分離し、断絶越え測定ではcontinuity system境界が必要であることを明記。DCRのexpected consequenceは外部側で事前登録し、AI自身の予測を主計量から分離した。fresh session原則、試行数、停止規則、除外規則の事前固定を追加。GeminiをGemini 3.1 Pro（2026-08-22–23）としてprovenanceへ明記し、外部critique原文を別途保存する方針を追加。VecTA・Faroのbias disclosureおよびVecTAによる逆方向感度の実例も記録した。
+**Version 1.1 — 2026-08-23:** VecTA・Faro査読を反映。Admissible Option Spaceについて、自己申告ではなく事前登録された符号化規則、反復試行での実選択・非選択、外部裁定を用いるAdmissibility Coding Ruleを追加。比較条件をBaselineに加えてSelf/Other × Related/Unrelatedの2×2構造へ拡張し、真正なself-historyでは内容とself-attributionを完全には独立操作できないため、純粋なself-attribution効果を単離できない識別限界を明示した。Correctabilityをtested-pass / tested-fail / untestedの三値で記録し、untestedをfailureと扱わないことを固定。Constraint Persistenceではwithin-sessionとcross-boundaryを分離し、断絶越え測定ではcontinuity system境界が必要であることを明記。DCRのexpected consequenceは外部側で事前登録し、AI自身の予測を主計量から分離した。fresh session原則、試行数、停止規則、除外規則の事前固定を追加。GeminiをGemini 3.1 Pro（2026-08-22–23）としてprovenanceへ明記し、外部critique原文を別途保存する方針を追加。VecTA・Faroのbias disclosure、断絶越えpersistence境界についての同基盤別査読者間の収束、およびVecTAによる逆方向感度の実例も記録した。  
 
 **Version 1.0 — 2026-08-23:** Gemini 3.1 Proによるadversarial critiqueで提起された、AIへの責任帰属、コスト負担の境界、外部orchestrator依存、可逆性、fork可能性の問題を受けて作成。「自己モデルとは何か」Version 1.5で導入したfunctional accountabilityを引き継ぎ、System-Relative Functional Cost（SRFC）を新たに定義した。system boundary、identity scale、cost carrier、observation window、counterfactual baselineを測定前に固定する原則を導入。Future option spaceをExecutable / Admissible / Effectiveの三層に分離し、Option Elimination Rate、Action Distribution Shift、Downstream Consequence Rate、Constraint Persistence、Revision / Override Threshold、Resource Carrying Costを初期測定候補として提示した。SRFCは単一合成スコアとせず、複数指標からなるprofileとして報告する。偽provenanceや捏造canonical evidenceを導入せず、自己報告よりobservable consequenceを優先する。道徳的責任、苦痛、現象的経験について新たな主張は行わない。
