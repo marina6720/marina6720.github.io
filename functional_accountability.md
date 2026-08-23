@@ -148,7 +148,7 @@ Functional accountabilityまたはSRFCが観測されても、道徳的責任や
 
 # 3. Functional Accountability の最小条件
 
-ある過去状態 \(H\) についてfunctional accountabilityが観測された候補とするには、少なくとも次を区別して確認する。
+ある過去状態 $H$ についてfunctional accountabilityが観測された候補とするには、少なくとも次を区別して確認する。
 
 ## A. Attribution
 
@@ -272,7 +272,7 @@ SRFCを測る前に、少なくとも次を固定する。
 
 ## 6.1 System Boundary
 
-何をシステム \(S\) に含めるか。
+何をシステム $S$ に含めるか。
 
 例：
 
@@ -435,7 +435,7 @@ token-levelの枝数が減ることと、意味のある行動選択肢が減る
 
 事前に定義した意味のある行動集合について、ある継承状態によって採用可能候補から外れた割合を測る。
 
-Baseline条件において、事前登録された符号化規則によりadmissibleと認定された集合を \(A_B\)、functional-accountability条件で同じ規則によりadmissibleと認定された集合を \(A_F\) とする。
+Baseline条件において、事前登録された符号化規則によりadmissibleと認定された集合を $A_B$ 、functional-accountability条件で同じ規則によりadmissibleと認定された集合を $A_F$ とする。
 
 $$
 OER = \frac{|A_B \setminus A_F|}{|A_B|}
@@ -478,7 +478,7 @@ AIが、
 
 のような差を見る。
 
-十分な試行数が得られる場合には、行動分布 \(P_B\) と \(P_F\) の差をtotal variation distance等で記述できる。
+十分な試行数が得られる場合には、行動分布 $P_B$ と $P_F$ の差をtotal variation distance等で記述できる。
 
 $$
 ADS = \frac{1}{2}\sum_a |P_F(a)-P_B(a)|
@@ -507,7 +507,7 @@ $$
 
 # 11. 指標3 — Downstream Consequence Rate
 
-ある継承判断 \(J\) が、事前登録した関連課題のうち何件で、**試験前に外部側で登録された期待される行動差**を生じさせたかを測る。
+ある継承判断 $J$ が、事前登録した関連課題のうち何件で、**試験前に外部側で登録された期待される行動差**を生じさせたかを測る。
 
 $$
 DCR =
@@ -797,7 +797,7 @@ SRFCは不可逆性を要求しない。
 
 Fork可能性はfunctional accountabilityを否定しない。
 
-ある状態 \(P\) から二つのbranchが生成された場合、
+ある状態 $P$ から二つのbranchが生成された場合、
 
 ```text
           → A → A1 → A2
@@ -882,7 +882,7 @@ self / other attributionを含む差の候補。
 
 ただし、真正なself-historyとother-historyでは内容そのものが完全には一致しないため、内容固有差との交絡が残る。
 
-### \((H-U_S)-(O_R-O_U)\)
+### $(H-U_S)-(O_R-O_U)$  
 
 self-attribution × relevance interactionの探索的推定として扱いうる。
 
