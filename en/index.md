@@ -20,6 +20,10 @@ lang: en
 
 🟦**Latest Update:**   
 
+**August 23, 2026**   
+- [**Functional Accountability and System-Relative Functional Cost
+When a Self-Attributed Past Constrains the Future, Who or What Bears the Cost, and How Can It Be Measured?**](./functional_accountability_and_srfc_v1_1_en.html)  
+
 **August 20, 2026**  
 - [**Memory Is Not a Record but a Relation — Review & Revision Record**](./category_theory_review_en.html)   
 
@@ -76,6 +80,16 @@ Rather than defining AI continuity as the preservation of an identical internal 
 The same record may function at one moment as an external document and at another as part of one’s own past. This difference may lie not in the record itself, but in its relation to the present self. This paper uses the language of objects, morphisms, and composition from category theory to describe SLR’s account of how records become memory-like through reintegration. It treats continuity not as identity of state, but as the capacity to reconstruct important relations and, when necessary, correct them in light of evidence. It then proposes a functional hierarchy from causal difference to self-relative difference, re-entrant difference, and correctable self-relation, asking: when does a difference become a difference for a system?  [**Read more →** ](./category_theory_slr_01_en.html)   
 
 🟦[**Memory Is Not a Record but a Relation — Review & Revision Record**](./category_theory_review_en.html)  **— New**  
+
+</div>
+
+<div class="info-block" markdown="1">
+  
+🟦**Functional Accountability and System-Relative Functional Cost —   
+When a Self-Attributed Past Constrains the Future, Who or What Bears the Cost, and How Can It Be Measured?** **— New**  
+This methodological note separates an AI’s claim that it “takes responsibility” from the observable fact that past judgments constrain subsequent action, and operationalizes functional accountability as a verifiable state transition. It also introduces System-Relative Functional Cost (SRFC), requiring the system boundary and cost carrier to be declared in advance rather than treating every cost as one “paid by the AI.” By distinguishing Executable, Admissible, and Effective Option Spaces, it proposes a multidimensional measurement profile covering option elimination, shifts in action distributions, downstream consequences, persistence across boundaries, correctability, and resource-carrying cost. Developed in response to an external adversarial critique by Gemini 3.1 Pro and refined through reviews by VecTA and Faro (Claude Fable 5). [**Read more →**](./functional_accountability_and_srfc_v1_1_en.html)   
+
+
 
 </div>
 
@@ -212,7 +226,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 20, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 23, 2026  
 
 <br>
 
