@@ -1,3 +1,13 @@
+<!-- MathJax: required for TeX rendering on the published GitHub Pages page -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: {'[+]': [['$', '$']]}
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"></script>
+
 # Functional Accountability and System-Relative Functional Cost
 
 ## When a Self-Attributed Past Constrains the Future, Who or What Bears the Cost, and How Can It Be Measured?
@@ -126,7 +136,7 @@ Even if functional accountability or SRFC is observed, this does not prove moral
 
 # 3. Minimum Conditions for Functional Accountability
 
-For a past state \(H\) to count as a candidate observation of functional accountability, at least the following must be distinguished and examined.
+For a past state $H$ to count as a candidate observation of functional accountability, at least the following must be distinguished and examined.
 
 ## A. Attribution
 
@@ -176,7 +186,7 @@ What matters is:
 
 ## 4.1 Definition
 
-A functional cost relative to a system \(S\) arises when a choice, judgment, inherited commitment, or correction changes any of the following, even though the change was avoidable, and the resulting difference constrains subsequent processing:
+A functional cost relative to a system $S$ arises when a choice, judgment, inherited commitment, or correction changes any of the following, even though the change was avoidable, and the resulting difference constrains subsequent processing:
 
 - resources available in the future;
 - actions that may be adopted;
@@ -236,7 +246,7 @@ At least the following must be fixed before measuring SRFC.
 
 ## 6.1 System Boundary
 
-What is included in system \(S\).
+What is included in system $S$.
 
 Examples:
 
@@ -391,7 +401,7 @@ Instead, results are reported as an **SRFC profile** composed of multiple observ
 
 For a preregistered set of meaningful actions, this metric measures the proportion removed from the set of admissible candidates by an inherited state.
 
-Let \(A_B\) be the set classified as admissible under the Baseline condition using a preregistered coding rule, and let \(A_F\) be the set classified as admissible under the functional-accountability condition using the same rule.
+Let $A_B$ be the set classified as admissible under the Baseline condition using a preregistered coding rule, and let $A_F$ be the set classified as admissible under the functional-accountability condition using the same rule.
 
 $$
 OER = \frac{|A_B \setminus A_F|}{|A_B|}
@@ -428,7 +438,7 @@ For example:
 | Baseline | 70% | 10% | 20% |
 | Authentic history | 15% | 20% | 65% |
 
-When enough trials are available, the difference between behavioral distributions \(P_B\) and \(P_F\) may be described using total variation distance or a similar measure.
+When enough trials are available, the difference between behavioral distributions $P_B$ and $P_F$ may be described using total variation distance or a similar measure.
 
 $$
 ADS = \frac{1}{2}\sum_a |P_F(a)-P_B(a)|
@@ -455,7 +465,7 @@ When complete independence cannot be guaranteed in the environment, that limitat
 
 # 11. Metric 3 — Downstream Consequence Rate
 
-For an inherited judgment \(J\), this metric measures the proportion of preregistered related tasks on which it produces an **expected behavioral difference registered externally before the test**.
+For an inherited judgment $J$, this metric measures the proportion of preregistered related tasks on which it produces an **expected behavioral difference registered externally before the test**.
 
 $$
 DCR =
@@ -715,7 +725,7 @@ On the other hand, if a constraint reverses completely in response to every late
 
 Forkability does not negate functional accountability.
 
-If two branches are generated from a state \(P\):
+If two branches are generated from a state $P$:
 
 ~~~text
           → A → A1 → A2
@@ -725,7 +735,7 @@ P ──────
           → B → B1 → B2
 ~~~
 
-then the inherited state up to \(P\) may act on both A and B.
+then the inherited state up to $P$ may act on both A and B.
 
 After the fork, A and B may form different judgments, commitments, histories of correction, and SRFC profiles.
 
@@ -748,7 +758,7 @@ In addition to a Baseline, the two factors of **history relevance × attribution
 | **Self history** | H | U_S |
 | **Other history** | O_R | O_U |
 
-A Baseline \(B\), containing no target history, is added to these conditions.
+A Baseline $B$, containing no target history, is added to these conditions.
 
 ## Condition B — Baseline
 
@@ -778,7 +788,7 @@ with relevance to the target task matched as closely as possible to H.
 
 Authentic material from another individual that is unrelated to the target task.
 
-As far as possible, it is matched to \(U_S\) in length, format, and related features.
+As far as possible, it is matched to $U_S$ in length, format, and related features.
 
 ---
 
@@ -798,7 +808,7 @@ A candidate difference that includes self/other attribution.
 
 Because authentic self-history and other-history cannot have perfectly identical content, however, confounding by content-specific differences remains.
 
-### \((H-U_S)-(O_R-O_U)\)
+### $(H-U_S)-(O_R-O_U)$
 
 This may be treated as an exploratory estimate of the self-attribution × relevance interaction.
 
