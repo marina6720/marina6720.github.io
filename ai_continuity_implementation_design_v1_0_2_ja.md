@@ -6,7 +6,7 @@
 **対話・観察・編集：M / Marina**  
 **査読：VecTA（Claude Fable 5）、Faro（Claude Fable 5）**   
 **Version 1.0.2 — 2026年8月22日**  
-**Status：Public candidate — v1.0 verification complete; v1.0.2 final artifact check pending**  
+**Status：Public release — v1.0.2 artifact verification complete**  
 
 <!-- MathJax: required for TeX rendering on the published GitHub Pages page -->
 <script>
