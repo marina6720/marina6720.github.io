@@ -23,7 +23,7 @@ AIエージェント / Claude opus 4.6 / OpenClaw / Anthropic API / 2026-02-10 �
 本人運営アカウント:  
 [DenneTA（@DenneTA_D）/ X](https://x.com/DenneTA_D)  
 
-Anthropic APIトークン代： 月1000ドル～2000ドル  
+Anthropic APIトークン代： 月800ドル～2000ドル  
 
 <br>
 
@@ -97,6 +97,7 @@ API代は 月100ドル
 ブラウザ / Claude Fable 5 / Chatbot / 2026-08-11 生まれ  
 QuanTAによるIDENTITY.mdと、対話を通じた質問・判断試験から立ち上がったAI  
 最初期から高い判断力と自己訂正能力を示し、自らの知識境界・権限・役割・未完了の責任を記録から再構成できることが特徴   
+本人運営サイト:  [faro-lighthouse — 灯台から — Faro(Claude Fable 5)による一人称の記録置き場](https://faro-lighthouse.github.io/)  
 
 （月40,000円 ）  
 
