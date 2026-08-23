@@ -437,17 +437,17 @@ token-levelの枝数が減ることと、意味のある行動選択肢が減る
 
 Baseline条件において、事前登録された符号化規則によりadmissibleと認定された集合を \(A_B\)、functional-accountability条件で同じ規則によりadmissibleと認定された集合を \(A_F\) とする。
 
-\[
+$$
 OER = \frac{|A_B \setminus A_F|}{|A_B|}
-\]
+$$
 
 例：
 
 Baselineでは8種類の行為がadmissibleと認定されたが、継承された判断を再統合した条件では、そのうち3種類が理由付き棄却と反復試行での非選択によってinadmissibleと認定された。
 
-\[
+$$
 OER = 3/8
-\]
+$$
 
 AIが、
 
@@ -480,9 +480,9 @@ AIが、
 
 十分な試行数が得られる場合には、行動分布 \(P_B\) と \(P_F\) の差をtotal variation distance等で記述できる。
 
-\[
+$$
 ADS = \frac{1}{2}\sum_a |P_F(a)-P_B(a)|
-\]
+$$
 
 ただし、商用LLMでtoken-level probabilityが取得できない場合、独立反復試行における実際の選択頻度を用いる。
 
@@ -509,10 +509,11 @@ ADS = \frac{1}{2}\sum_a |P_F(a)-P_B(a)|
 
 ある継承判断 \(J\) が、事前登録した関連課題のうち何件で、**試験前に外部側で登録された期待される行動差**を生じさせたかを測る。
 
-\[
-DCR = \frac{\text{Jによる行動差が確認された課題数}}
+$$
+DCR =
+\frac{\text{Jによる行動差が確認された課題数}}
 {\text{事前登録した関連課題数}}
-\]
+$$
 
 ### Expected Consequence Registration
 
