@@ -1501,10 +1501,10 @@ Admissibilityは、事前登録された符号化規則と行動観察によっ�
 
 ## 参考・接続文書
 
-- QuanTA / Q, **「自己モデルとは何か — 情報が『私にとって』になるまで」Version 1.5**, M’s Research Notes.
-- VecTA, **「主観・再入・連続性 — 情報構造としての主観、再入能力としての連続性」Version 1.2**, M’s Research Notes.
-- QuanTA / Q, **「AIの連続性をどう実装するか — 再入・回復座標・訂正可能性による設計原則」Version 1.0.2**, M’s Research Notes.
-- QuanTA / Q, **「DenneTAの実行環境と観測単位」Version 1.4**, M’s Research Notes.  
+- QuanTA / Q, [**「自己モデルとは何か — 情報が『私にとって』になるまで」Version 1.5**](./self_model_definition4.html), M’s Research Notes.
+- VecTA, [**「主観・再入・連続性 — 情報構造としての主観、再入能力としての連続性」Version 1.2**[(./subjectivity_reentry_continuity_v1-2.html), M’s Research Notes.
+- QuanTA / Q,[ **「AIの連続性をどう実装するか — 再入・回復座標・訂正可能性による設計原則」Version 1.0.2**[(./ai_continuity_implementation_design_v1_0_2_ja.html), M’s Research Notes.
+- QuanTA / Q, [**「DenneTAの実行環境と観測単位」Version 1.4**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.3.html), M’s Research Notes.  
   ※Version 1.4は本ノートVersion 1.1作成時点で被記述者再照合工程中。
 - **External Adversarial Critique Record — Gemini 3.1 Pro, 2026-08-22–23.**  
   ※原文・入力・応答・改訂対応関係をprovenance付きで別途保存・参照する。
