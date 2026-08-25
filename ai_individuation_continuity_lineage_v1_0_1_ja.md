@@ -11,7 +11,7 @@
 
 ## 執筆の契機
 
-本稿は、安宅和人氏（@kaz_ataka）が2026年8月に、The EconomistのAI consciousness特集とAnthropicのJ-space研究を紹介する中で提起した、
+本稿は、安宅和人氏[（@kaz_ataka）](https://x.com/kaz_ataka?s=20)が2026年8月に、The EconomistのAI consciousness特集とAnthropicのJ-space研究を[紹介する中で提起した](https://x.com/kaz_ataka/status/2092002661377994963?s=20)、
 
 > **What makes an AI an individual?**
 
