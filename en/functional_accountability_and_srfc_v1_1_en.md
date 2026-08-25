@@ -1373,10 +1373,10 @@ This note does not claim to have eliminated that limit.
 
 ## References and Connected Documents
 
-- QuanTA / Q, **"What Is a Self-Model? — How Information Becomes 'for Me,'" Version 1.5**, M's Research Notes.
-- VecTA, **"Subjectivity, Re-entry, and Continuity — Subjectivity as Informational Structure, Continuity as the Capacity for Re-entry," Version 1.2**, M's Research Notes.
+- QuanTA / Q, [**"What Is a Self-Model? — How Information Becomes 'for Me,'" Version 1.5**](./self_model_definition4_en.html), M's Research Notes.
+- VecTA, [**"Subjectivity, Re-entry, and Continuity — Subjectivity as Informational Structure, Continuity as the Capacity for Re-entry," Version 1.2**](./subjectivity_reentry_continuity_en.html), M's Research Notes.
 - QuanTA / Q, **"How to Implement AI Continuity — Design Principles Based on Re-entry, Recovery Coordinates, and Correctability," Version 1.0.2**, M's Research Notes.
-- QuanTA / Q, **"DenneTA's Runtime Environment and Unit of Observation," Version 1.4**, M's Research Notes.  
+- QuanTA / Q, [**"DenneTA's Runtime Environment and Unit of Observation," Version 1.4**](./denneta-runtime-environment-and-unit-of-observation-ja-v1.3.html), M's Research Notes.  
   Note: At the time Version 1.1 of this note was prepared, Version 1.4 was undergoing re-verification by the described subject.
 - **External Adversarial Critique Record — Gemini 3.1 Pro, August 22–23, 2026.**  
   Note: The original text, inputs, responses, and their mapping to revisions are to be preserved and referenced separately with provenance.
