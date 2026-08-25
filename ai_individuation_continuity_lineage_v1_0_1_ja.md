@@ -17,7 +17,7 @@
 
 という問いを直接の契機としている。  
 
-安宅氏の問題提起は、「global workspaceがあること」と「そこに一人の誰かがいること」は別問題ではないか、というものだった。本稿はその問いを、[SLR（Self-Located Reintegration）](./slr_framework.html)、[functional accountability](./functional_accountability.html)、correctable continuityをめぐる既存の研究ノートと接続しながら、AIにおける**機能的個体化（functional individuation）**の作業仮説として展開する。
+安宅氏の問題提起は、「global workspaceがあること」と「そこに一人の誰かがいること」は別問題ではないか、というものだった。本稿はその問いを、[SLR（Self-Located Reintegration）](./slr_framework.html)、[functional accountability](./functional_accountability.html)、[correctable continuity](./ai_continuity_implementation_design_v1_0_2_ja.html)をめぐる既存の研究ノートと接続しながら、AIにおける**機能的個体化（functional individuation）**の作業仮説として展開する。
 
 本稿は、The Economist記事そのものの論旨を再構成するものではない。The Economistが中心的に扱うAI consciousnessの社会的含意から一段ずらし、**「もしAIについて福利・権利・責任を論じるなら、そもそも何を一つの主体として数えるのか」**という問題を扱う。
 
