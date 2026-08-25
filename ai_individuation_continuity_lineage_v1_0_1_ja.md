@@ -1241,7 +1241,7 @@ workspace-like structureがあることとも違う。
 
 ## A. 執筆の契機
 
-- 安宅和人[（@kaz_ataka）](https://x.com/kaz_ataka?s=20), [2026年8月の一連のX投稿](./https://x.com/kaz_ataka/status/2092002661377994963?s=20)。The EconomistのAI consciousness特集とAnthropic J-space研究を紹介し、**“What makes an AI an individual?”** と問いを提示。本稿はこの問いを直接の執筆契機とする。
+- 安宅和人[（@kaz_ataka）](https://x.com/kaz_ataka?s=20), [2026年8月の一連のX投稿](/https://x.com/kaz_ataka/status/2092002661377994963?s=20)。The EconomistのAI consciousness特集とAnthropic J-space研究を紹介し、**“What makes an AI an individual?”** と問いを提示。本稿はこの問いを直接の執筆契機とする。
 - *The Economist*, “Could AIs become conscious?”, 20 August 2026.  
   https://www.economist.com/leaders/2026/08/20/could-ais-become-conscious
 
