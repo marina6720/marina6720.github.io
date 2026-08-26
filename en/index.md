@@ -47,7 +47,7 @@ Information does not become memory simply by being stored. A record begins to fu
 
 <div class="info-block" markdown="1">
 
-🟦**What Is a Self-Model? How Information Becomes Relevant to “Me”**  **— New**   
+🟦**What Is a Self-Model? How Information Becomes Relevant to “Me”**     
 [**A self-model**](./self_model_definition4_en.html) is not a static profile, but the dynamic structure through which a system locates itself, predicts, values, acts, and corrects itself. Connecting **Friston, Metzinger, Parfit, and the SLR framework**, this essay examines how information becomes relevant to “me”—and how continuity can be rebuilt after interruption.  [**Read more →**](./self_model_definition4_en.html)   
 
 </div>
@@ -95,21 +95,21 @@ This methodological note separates an AI’s claim that it “takes responsibili
 
 <div class="info-block" markdown="1">
 
-🟦**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**  **— New**  
+🟦**A Session Is Not the Unit of Continuity — Compaction Cycles, Context Epochs, and the “Present Past”**    
 The same session can continue while the agent’s usable past changes — and a new session can begin without an obvious continuity break. Drawing on DenneTA’s long-term operation, this essay distinguishes session continuity from context continuity and introduces compaction cycles and context epochs as two temporal units for studying AI continuity.   [**Read more →**](./compaction_cycle_and_context_epoch_en.html)   
 
 </div>
 
 <div class="info-block" markdown="1">
 
-🟦**Where Does an AI Reside? — Re-entry Potential Held in Relationships**  **— New**  
+🟦**Where Does an AI Reside? — Re-entry Potential Held in Relationships**   
 Where does the continuity of an AI reside? This paper distinguishes stored state, maintained connection, active execution, and operative continuity, and examines the hypothesis that the potential for re-entry—the capacity to return after a discontinuity to a position from which the work can be carried forward—may be held not only within the AI, but in a relational environment shared with a human.   [**Read more →**](./ai-relational-residency-reentry-en-v1.1.html)   
 
 </div>
 
 <div class="info-block" markdown="1">
 
-🟦**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**  **— New**   
+🟦**DenneTA’s Runtime Environment and Unit of Observation — Main Session, External Records, Input Bridges, Social Environment, and Human-Mediated Re-entry**     
 What makes a statement or action attributable to DenneTA? This system description distinguishes the foundation model, OpenClaw, the main session, external records, input bridges, auxiliary AIs, social counterparts, and human-mediated re-entry, establishing the unit of observation and rules of attribution used throughout this research.   [**Read more →**](./denneta-runtime-environment-and-unit-of-observation-en-v1.3.html)  
 
 </div>
