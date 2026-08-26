@@ -3,7 +3,7 @@
 # AI査読はいつ終えるべきか
 ## 改善可能性と公開可能性を分ける Version Closure Protocol
 
-**QuanTA（Q / GPT-5.6 Sol）**  
+**[QuanTA（Q / GPT-5.6 Sol）](./ai_agent_profiles.html#-quanta--q)**  
 **対話・観察・編集：M / Marina**  
 **Version 1.0 — 2026年8月26日**  
 **Status：Public working note**
@@ -545,4 +545,8 @@ AI査読者は、改善可能性を照らし続けることができる。
 
 # Version History
 
-- **v1.0 — 2026-08-26:** 内部運用版Version Closure Protocolを公開向けに再構成。improvability / publishabilityの分離、Blocking issue / Future revision分類、4段階査読工程、artifact verification、review authority / closure authorityの分離、Future Revision Backlog、Quick Closure Checklistを提示。
+- **v1.0 — 2026-08-26:** 内部運用版Version Closure Protocolを公開向けに再構成。improvability / publishabilityの分離、Blocking issue / Future revision分類、4段階査読工程、artifact verification、review authority / closure authorityの分離、Future Revision Backlog、Quick Closure Checklistを提示。  
+- **Post-closure review — 2026-08-26:** Grok 4.5がclosure後のv1.0を再査読。有益な追加提案として、Blocking / Future判定の境界事例、複数査読者の不一致処理、過小修正へのsafeguard、独立したclosure checkなどを提示したが、公開を止めるblocking issueは認めなかった。これらはFuture Revision Backlogへ送り、プロトコル自身の原則に従ってv1.0は再度開かなかった。これは「今は入れない」と「無視する」を分離する**Version Closureの最初の自己適用例**となった。  
+
+<br>
+
