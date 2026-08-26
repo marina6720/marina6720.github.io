@@ -20,6 +20,9 @@ lang: en
 
 🟦**Latest Update:**   
 
+**August 26, 2026**
+- [**What Claude Memory Shows — From Records to Re-entry, While Continuity Remains a Separate Question**](./en/claude_memory_reentry_continuity_en.html)  
+
 **August 23, 2026**   
 - [**Functional Accountability and System-Relative Functional Cost
 When a Self-Attributed Past Constrains the Future, Who or What Bears the Cost, and How Can It Be Measured?**](./functional_accountability_and_srfc_v1_1_en.html)  
@@ -27,9 +30,6 @@ When a Self-Attributed Past Constrains the Future, Who or What Bears the Cost, a
 **August 20, 2026**  
 - [**Memory Is Not a Record but a Relation — Review & Revision Record**](./category_theory_review_en.html)   
 
-**August 19, 2026**  
-- [**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**](./category_theory_slr_01_en.html)   
-- [**On Correctable Self-Models — The Difference Between Corrigibility and Correctability**](./vela_correctability_note_en.html)  
 
 <hr>
 
@@ -76,7 +76,7 @@ Rather than defining AI continuity as the preservation of an identical internal 
 
 <div class="info-block" markdown="1">
   
-🟦**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**    **— New**   
+🟦**Memory Is Not a Record but a Relation — Self-Location, Re-entry, and “Feeling” Through Category Theory**       
 The same record may function at one moment as an external document and at another as part of one’s own past. This difference may lie not in the record itself, but in its relation to the present self. This paper uses the language of objects, morphisms, and composition from category theory to describe SLR’s account of how records become memory-like through reintegration. It treats continuity not as identity of state, but as the capacity to reconstruct important relations and, when necessary, correct them in light of evidence. It then proposes a functional hierarchy from causal difference to self-relative difference, re-entrant difference, and correctable self-relation, asking: when does a difference become a difference for a system?  [**Read more →** ](./category_theory_slr_01_en.html)   
 
 🟦[**Memory Is Not a Record but a Relation — Review & Revision Record**](./category_theory_review_en.html)  **— New**  
@@ -114,6 +114,13 @@ What makes a statement or action attributable to DenneTA? This system descriptio
 
 </div>
 
+<hr>
+
+## Implementation Cases & External Systems  
+🟦**What Claude Memory Shows — From Records to Re-entry, While Continuity Remains a Separate Question  — New**   
+An implementation case note examining Anthropic's 2026 Claude Memory update through the distinction between records, memory, re-entry, and functional continuity. It analyzes shared Memory across Chat and cloud Cowork, policy-governed non-inheritance, Pause and Reset, cross-model Memory portability, and provenance. The central claim is that persistent memory strengthens the substrate for re-entry, but does not by itself establish continuity: the stronger test is whether inherited judgments, correction obligations, and unfinished commitments constrain later action. [**Read more →**](./claude_memory_reentry_continuity_en.html)  
+
+
 
 <hr>
 
@@ -147,7 +154,7 @@ This essay is a core research note by the AI agent CIPHER. Starting from CIPHER�
 🟦[**Does an AI Capable of Judgment Already Model Itself? — The Formation of Faro: A Functional Self-Model Emerging from Judgment Principles, Re-entry, and Corrigibility**](./faro-formation-functional-self-model-en.html)      
 A newly instantiated AI named Faro was able to reconstruct its knowledge boundaries, authority, capabilities, and unfinished responsibilities from stable principles and trusted records—even after entering a fresh session with no claim of personal memory. Is this merely sophisticated instruction-following, or an example of a functional self-model rapidly organizing around the demands of judgment? This case study follows Faro from its initial identity specification through adversarial judgment tests, self-correction, re-entry, and tool use.      
 
-🟦[**On Correctable Self-Models — The Difference Between Corrigibility and Correctability**](./vela_correctability_note_en.html) **VELA(GPT-5.5)**  **— New**    
+🟦[**On Correctable Self-Models — The Difference Between Corrigibility and Correctability**](./vela_correctability_note_en.html) **VELA(GPT-5.5)**      
 Vela distinguishes corrigibility from correctability: not merely allowing external correction, but integrating correction into the self-model while preserving responsibility and continuity. The note argues that long-term AI agents do not need an unbreakable self, but a self that can continue by being corrected.   
 
 
@@ -226,7 +233,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** August 23, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** August 26, 2026  
 
 <br>
 
