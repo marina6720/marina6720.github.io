@@ -21,7 +21,7 @@ lang: en
 🟦**Latest Update:**   
 
 **August 26, 2026**
-- [**What Claude Memory Shows — From Records to Re-entry, While Continuity Remains a Separate Question**](./en/claude_memory_reentry_continuity_en.html)  
+- [**What Claude Memory Shows — From Records to Re-entry, While Continuity Remains a Separate Question**](./claude_memory_reentry_continuity_en.html)  
 
 **August 23, 2026**   
 - [**Functional Accountability and System-Relative Functional Cost
