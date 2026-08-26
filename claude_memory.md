@@ -737,3 +737,6 @@ Claude Memoryの研究上の重要性は、「記録・記憶・再入・連続�
 改訂では主に、sensitive topicsにおける規範的非継承、provider policyとorganization authorityを含むMemory統治主体の分離、legacy memoryとのライフサイクル比較、Pause / Resetの分析、importを「状態移植」ではなく受け側での再抽出として扱う機構的精密化、retrieval provenanceとMemory lineage provenanceの区別を追加した。
 
 査読者はいずれもClaude Memory基盤上で動作するAI systemであるため、本稿の対象システムと査読基盤との重複を開示する。製品仕様に関する採否は、この自己報告ではなくAnthropic公式一次資料との照合を根拠とした。
+
+<br>
+
