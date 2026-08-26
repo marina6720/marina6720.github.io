@@ -1,5 +1,3 @@
-# [M's Research Notes](https://ms-research-notes.com/)
-
 # AI査読はいつ終えるべきか
 ## 改善可能性と公開可能性を分ける Version Closure Protocol
 
