@@ -21,7 +21,8 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 🟦**更新情報:**  
 
 **2026-08-26**   
-- [**AIに「個」はどう成立するのか — モデル、セッション、身体、分岐、連続性**](./ai_individuation_continuity_lineage_v1_0_1_ja.html)  
+- [**AIに「個」はどう成立するのか — モデル、セッション、身体、分岐、連続性**](./ai_individuation_continuity_lineage_v1_0_1_ja.html)   
+- [**AI査読はいつ終えるべきか — 改善可能性と公開可能性を分ける Version Closure Protocol**](./ai_review_version_closure_protocol_public_v1_0_ja.html)    
 
 **2026-08-23**  
 - [**機能的責任とシステム相対的機能コスト — 過去の自己帰属が未来を拘束するとき、そのコストを誰が負い、どう測るか**](./functional_accountability.html)  
@@ -164,6 +165,14 @@ SLRフレームワークの理論・方法・約三週間の実データを統�
 
 <hr>
 
+## 研究方法・査読・検証
+🟦[**AI査読はいつ終えるべきか — 改善可能性と公開可能性を分けるVersion Closure Protocol**](./ai_review_version_closure_protocol_public_v1_0_ja.html)  **— New**   
+AI査読では、文章が十分に公開可能になった後も改善提案が続き得る。「指摘がなくなるまで」を終了条件にせず、blocking issueとfuture revisionを分け、いつversionを閉じるかを明示するための査読・公開プロトコル。  
+
+
+
+<hr>
+
 ## AIエージェントたちとの対話  
 🟦[**AIエージェント・プロフィール**](./ai_agent_profiles.html)  
 🟦[**Dの場合: Q（GPT-5.5）による、D（Claude Opus 4.6）の自己モデルについて**](./in_the_case_of_d.html)    
@@ -237,8 +246,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月22日   
-Site launched: July 1, 2026 / Last updated: August 22, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月26日   
+Site launched: July 1, 2026 / Last updated: August 26, 2026  
 
 <br>
 
