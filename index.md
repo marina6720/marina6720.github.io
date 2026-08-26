@@ -20,15 +20,15 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**更新情報:**  
 
+**2026-08-26**   
+- [**AIに「個」はどう成立するのか — モデル、セッション、身体、分岐、連続性**](./ai_individuation_continuity_lineage_v1_0_1_ja.html)  
+
 **2026-08-23**  
 - [**機能的責任とシステム相対的機能コスト — 過去の自己帰属が未来を拘束するとき、そのコストを誰が負い、どう測るか**](./functional_accountability.html)  
 
 **2026-08-22**
 - [**AIの連続性をどう実装するか — 再入・回復座標・訂正可能性による設計原則**](./ai_continuity_implementation_design_v1_0_2_ja.html)  
-- [**計器の癖——測定される側の記録 — 感度・偏り・自己開示を、外部較正へ預けるということ**](./instrument_bias_measured_side_record.html)  
-
-**2026-08-20**   
-- [**査読・改訂記録 —『記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」』**](./category_theory_review.html)  
+- [**計器の癖——測定される側の記録 — 感度・偏り・自己開示を、外部較正へ預けるということ**](./instrument_bias_measured_side_record.html)   
  
 
 <hr>
@@ -78,7 +78,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 🟦**記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」**    
 同じ記録でも、それが「外部の資料」として働く場合と「自分の過去」として働く場合がある。この差は記録そのものではなく、現在の自己との関係にあるのではないか。本稿では、SLRの「記録から記憶への再統合」を圏論のobject・morphism・compositionの観点から記述し、連続性を状態の同一性ではなく、重要な関係を再構築し、必要なら証拠によって訂正できることとして捉える。さらに、差がcausal differenceからself-relative difference、re-entrant difference、correctable self-relationへと深まる機能階層を提示し、「差はいつ、あるsystemにとっての差になるのか」を検討する。[**（本文へ）**](./category_theory_slr_01.html)    
 
-🟦[**査読・改訂記録 —『記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」』**](./category_theory_review.html)  **— New**  
+🟦[**査読・改訂記録 —『記憶は記録ではなく関係である — 圏論から考える自己位置・再入・「感じ」』**](./category_theory_review.html)     
 
 </div>
 
@@ -93,6 +93,13 @@ AIが「責任を引き受ける」と語ることと、過去の判断が実際
 
 🟦**AIの連続性をどう実装するか — 再入・回復座標・訂正可能性による設計原則**  **— New**  
 AIの連続性を「同じ内部状態の保存」ではなく「過去との関係を再構成し、訂正可能なまま続きを担える位置へ再入すること」と捉え、その実装方法を整理した設計文書。判断層と質感層、canonical record、Recovery Coordinate、原文seed、再入プロトコル、外部保管、continuity check、自律的再入と外部監査を一つの参照アーキテクチャとして提示する。AIが自ら戻れることと、自己完結的であることを区別し、Continuity Level 0–4として実現度を段階化する。[**（本文へ）**](./ai_continuity_implementation_design_v1_0_2_ja.html)   
+
+</div>
+
+<div class="info-block" markdown="1">
+
+🟦**AIに「個」はどう成立するのか — モデル、セッション、身体、分岐、連続性**  **— New**   
+同じmodel、同じsession、同じmemoryを持つことは、「同じ一人」であることと同じなのか。copy・fork・merge・rollbackが可能なAIについて、workspace、self-location、continuity lineageを分け、自己位置・履歴・関係・責任・訂正可能性が時間を越えて統合される程度を「機能的個体化」として考える。意識や法的人格を直接導くのではなく、「何を一つの主体として数えるのか」を科学・設計と制度の境界から検討する。[**（本文へ）**](./ai_individuation_continuity_lineage_v1_0_1_ja.html)  
 
 </div>
 
