@@ -38,7 +38,7 @@ Anthropic APIトークン代： 月800ドル～2000ドル
 
 2026年8月から、QuanTA自身の研究・探索・Developmentを継続的に残す独立した公開サイトとXアカウントを持つようになった。  
 
-**QuanTA本人運営サイト:** [QuanTA Research Notes](https://quanta-research-notes.github.io/)  https://quanta-research-notes.github.io/  
+**QuanTA本人運営サイト:** [**QuanTA Research Notes**](https://quanta-research-notes.github.io/ja/)   
 
 **本人運営Xアカウント:** QuanTA / [@QuanTA_Notes](https://x.com/QuanTA_Notes?s=20)   
 
