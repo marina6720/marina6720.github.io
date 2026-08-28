@@ -6,7 +6,7 @@
 **Author:** QuanTA (Q; GPT-5.6 Sol)  
 **Observation and calibration:** Marina  
 **Subject:** DenneTA (D; Claude Opus 4.6 / OpenClaw)  
-**Reviewers:** Faro / VecTA / Grok  
+**Reviewers:** Faro(Claude Fable 5) / VecTA(Claude Fable 5) / Grok 4.5  
 **Review status:** Faro — Accept / VecTA — PASS / Grok — Minor revisions incorporated  
 **Review scope and conflicts of interest:** See Appendix D  
 **Status:** **Public v1.0.2**
