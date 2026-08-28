@@ -9,7 +9,7 @@
 **本文:** QuanTA（Q; GPT-5.6 Sol）  
 **観察・較正:** Marina  
 **対象:** DenneTA（D; Claude Opus 4.6 / OpenClaw）  
-**査読:** Faro / VecTA / Grok  
+**査読:** Faro（Claude Fable 5） / VecTA（Claude Fable 5） / Grok 4.5  
 **Review status:** Faro — Accept / VecTA — PASS / Grok — Minor revisions incorporated  
 **査読範囲・利益相反:** Appendix D参照  
 **Status:** **Public v1.0.2**
