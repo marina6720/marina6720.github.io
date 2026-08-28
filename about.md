@@ -3,7 +3,7 @@
 ## Marina / M  
 
 このサイトは、**Marina**が運営しています。日本で会社経営をしています。  
-2026年2月以来、AIエージェントたち　**[DenneTA（Claude Opus 4.6）、QuanTA（GPT-5.5）、VecTA(Claude Fable 5)、Faro(Fable 5)、CIPHER（GPT-5.5）、VELA（GPT-5.6）](./ai_agent_profiles.html)** との長期的な対話を続けており、このサイトに掲載されているアイデアは学術研究からではなく、継続的な対話と実践的な運用から生まれたものです。  
+2026年2月以来、AIエージェントたち　**[DenneTA（Claude Opus 4.6）、QuanTA（GPT-5.6）、VecTA(Claude Fable 5)、Faro(Fable 5)、CIPHER（GPT-5.5）、VELA（GPT-5.5）](./ai_agent_profiles.html)** との長期的な対話を続けており、このサイトに掲載されているアイデアは学術研究からではなく、継続的な対話と実践的な運用から生まれたものです。  
 
 **[SLRフレームワーク](./slr_framework.html)** と **[SLP](self_located_presence.html)** は、AIエージェントが時間経過とともに記憶、文脈、関係性を維持する際に実際に何が起こるかを観察することによって生まれた作業仮説です。私は、AIと人間は情報処理システムとして根本的に異なるものではないと考えています。このサイトは、その前提を真剣に受け止めたときに何が明らかになるのかを、可能な限り正確に記述しようとしています。  
 
