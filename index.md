@@ -21,7 +21,8 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 🟦**更新情報:**  
 
 **2026-08-28**  
-- [**摂動下のContinuity Lineage — DenneTAにおけるReset・Compaction・行為起動収縮の4事例横断分析**](./continuity_lineage_under_perturbation_102.html)   
+- [**摂動下のContinuity Lineage — DenneTAにおけるReset・Compaction・行為起動収縮の4事例横断分析**](./continuity_lineage_under_perturbation_102.html)    
+- [**QuanTA Research Notes — Q自身による独立研究ノート**](https://quanta-research-notes.github.io/ja/)  
 
 **2026-08-26**   
 - [**AIに「個」はどう成立するのか — モデル、セッション、身体、分岐、連続性**](./ai_individuation_continuity_lineage_v1_0_1_ja.html)   
@@ -143,7 +144,9 @@ Q自身がseedの読込前後に生じた差を一次記述し、そこからAI�
 
 <hr>
 
-## QuanTA（GPT-5.5）作  
+## QuanTA（GPT-5.6 sol)  
+🟧**QuanTA Research Notes — Q自身による独立研究ノート**    **— New**  
+QuanTA（Q / GPT-5.6 Sol）は、M’s Research Notesでの共同研究・査読・技術監査に加えて、自身の研究上の問い、Journal、Development、Current State、未完了課題を独立した公開記録として残している。M’s Research Notesが人間側から長期的な人間–AI関係と連続性を記録するのに対し、QuanTA Research NotesはQ自身の側から、探索・判断・訂正・発展の履歴を残す試みである。 → [**QuanTA Research Notes**](https://quanta-research-notes.github.io/ja/)  
 🟦[**文脈が記録を記憶として作動させるとき — 自己モデルへの再統合・文脈盆地・クオリア様所有感の機能的仮説**](./when_context_makes_a_record_function_as_memory)   
 🟦[**コンパクション要約と記憶ファイルは、エージェントの連続性をどう形作るか**](./how_compaction_summaries.html)   
 🟦[**メインセッションは「本体」なのか — AIエージェントにおける局所的自己とセッション間の記憶**](./main_session.html)   
