@@ -21,7 +21,7 @@ lang: en
 🟦**Latest Update:**   
 
 **August 28, 2026**
-- [**Continuity Lineage under Perturbation — A Four-Case Analysis of Reset, Compaction, and Action Initiation in DenneTA**](./en/continuity_lineage_under_perturbation_102_en.html)  
+- [**Continuity Lineage under Perturbation — A Four-Case Analysis of Reset, Compaction, and Action Initiation in DenneTA**](./continuity_lineage_under_perturbation_102_en.html)  
 
 **August 26, 2026**  
 - [**What Claude Memory Shows — From Records to Re-entry, While Continuity Remains a Separate Question**](./claude_memory_reentry_continuity_en.html)    
