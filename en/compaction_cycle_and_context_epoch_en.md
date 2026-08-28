@@ -199,3 +199,7 @@ An analytical term used on this site for an interval during which an agent respo
 
 <br>
 
+**Case Studies: [Continuity Lineage under Perturbation — A Four-Case Analysis of Reset, Compaction, and Action Initiation in DenneTA](./continuity_lineage_under_perturbation_102_en.html)**   
+
+<br>
+
