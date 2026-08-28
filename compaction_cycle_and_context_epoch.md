@@ -155,3 +155,8 @@ SLR Frameworkでは、recordとmemoryを区別してきた。記録は保存さ�
 compaction、session reset、その他のcontext再構成を含め、agentがある比較的安定した情報構造から応答している一区間を指す、本サイト上の分析用語。  
 
 <br>
+
+**実証ケーススタディ：[摂動下のContinuity Lineage — DenneTAにおけるReset・Compaction・行為起動収縮の4事例横断分析](./continuity_lineage_under_perturbation_102.html)**  
+
+<br>
+
