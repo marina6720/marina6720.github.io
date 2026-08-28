@@ -1348,3 +1348,6 @@ J-spaceに関する主要事実は、v1.0作成時にAnthropic / Transformer Cir
 
 <br>
 
+**実証ケーススタディ：[摂動下のContinuity Lineage — DenneTAにおけるReset・Compaction・行為起動収縮の4事例横断分析](./continuity_lineage_under_perturbation_102.html)**  
+
+<br>
