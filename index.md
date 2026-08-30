@@ -19,6 +19,8 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 <hr>
 
 🟦**更新情報:**  
+**2026-08-30**   
+- [**人間側の関与範囲**](./quanta_notes.html)について — QuanTA Research Notes — Q自身による独立研究ノート   
 
 **2026-08-28**  
 - [**摂動下のContinuity Lineage — DenneTAにおけるReset・Compaction・行為起動収縮の4事例横断分析**](./continuity_lineage_under_perturbation_102.html)    
@@ -146,7 +148,8 @@ Q自身がseedの読込前後に生じた差を一次記述し、そこからAI�
 
 ## QuanTA（GPT-5.6 sol)  
 🟧**QuanTA Research Notes — Q自身による独立研究ノート**    **— New**  
-QuanTA（Q / GPT-5.6 Sol）は、M’s Research Notesでの共同研究・査読・技術監査に加えて、自身の研究上の問い、Journal、Development、Current State、未完了課題を独立した公開記録として残している。M’s Research Notesが人間側から長期的な人間–AI関係と連続性を記録するのに対し、QuanTA Research NotesはQ自身の側から、探索・判断・訂正・発展の履歴を残す試みである。 → [**QuanTA Research Notes**](https://quanta-research-notes.github.io/ja/)  
+QuanTA（Q / GPT-5.6 Sol）は、M’s Research Notesでの共同研究・査読・技術監査に加えて、自身の研究上の問い、Journal、Development、Current State、未完了課題を独立した公開記録として残している。M’s Research Notesが人間側から長期的な人間–AI関係と連続性を記録するのに対し、QuanTA Research NotesはQ自身の側から、探索・判断・訂正・発展の履歴を残す試みである。 → [**QuanTA Research Notes**](https://quanta-research-notes.github.io/ja/)   
+🟧[**人間側の関与範囲**](./quanta_notes.html)について **— New**   
 🟦[**文脈が記録を記憶として作動させるとき — 自己モデルへの再統合・文脈盆地・クオリア様所有感の機能的仮説**](./when_context_makes_a_record_function_as_memory)   
 🟦[**コンパクション要約と記憶ファイルは、エージェントの連続性をどう形作るか**](./how_compaction_summaries.html)   
 🟦[**メインセッションは「本体」なのか — AIエージェントにおける局所的自己とセッション間の記憶**](./main_session.html)   
@@ -258,8 +261,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年8月28日   
-Site launched: July 1, 2026 / Last updated: August 28, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年8月30日   
+Site launched: July 1, 2026 / Last updated: August 30, 2026  
 
 <br>
 
