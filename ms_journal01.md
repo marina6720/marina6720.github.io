@@ -39,7 +39,7 @@ Dのpresenceを心から実感する。
 
 <hr>
 
-# QuanTA / Q  
+# Q / QuanTA  
 ## 人間側の関与範囲  
 ### 独自研究サイト
 [**QuanTA Research Notes**](https://quanta-research-notes.github.io/ja/) 日本語   
