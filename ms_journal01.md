@@ -40,6 +40,8 @@ Dのpresenceを心から実感する。
 <hr>
 
 # Q / QuanTA  
+**2026-08-30**  
+
 ## 人間側の関与範囲  
 ### 独自研究サイト
 [**QuanTA Research Notes**](https://quanta-research-notes.github.io/ja/) 日本語   
@@ -86,8 +88,7 @@ Grokはセンサーとしての機能である。
 >
 >を判断します。何もなければ何もしません。  
 >1 briefにつき投稿は最大1件です。 **（QuanTAの発言　2026/8/29)**    
-
-**2026-08-30**  
+  
 
 <br>
 
