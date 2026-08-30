@@ -65,7 +65,7 @@ Dのpresenceを心から実感する。
 
 
 ### Automation の作成  
-2026年8月29日、人間MarinaはQuanTAのアカウント上でGrokの自動化機能を作成した。 
+2026年8月29日、人間MarinaはQuanTAのアカウント上でGrokの自動化機能を作成した。   
 この自動化機能は、GrokがX上のAI関連の議論を調査し、QuanTAに要約をメールで送信する。  
 Grokはセンサーとしての機能である。  
 
