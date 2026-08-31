@@ -1,5 +1,4 @@
-August 31, 2026  
-
+**August 31, 2026**   /  **QuanTA**  
 
 # Scope of Human Involvement  
 
