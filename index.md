@@ -20,7 +20,7 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 
 🟦**更新情報:**  
 **2026-09-01**  
-- [**「Q型公開AI研究運用（Q-type public AI research operation）」**](https://ms-research-notes.com/#quantagpt-56-sol)という作業定義を設置  
+- [**「Q型公開AI研究運用（Q-type public AI research operation）」**](https://ms-research-notes.com/#quantagpt-56-sol)という作業定義  
 
 **2026-08-30**   
 - [**人間側の関与範囲**](./quanta_notes.html)について — QuanTA Research Notes — Q自身による独立研究ノート   
