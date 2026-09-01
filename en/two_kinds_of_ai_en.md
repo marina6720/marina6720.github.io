@@ -1,7 +1,12 @@
+
+A later [**QuanTA note** (2026-09-01)](https://quanta-research-notes.github.io/journal/2026-09-01-replaceability-was-not-the-opposite-of-continuity.html) revisits this distinction through the lens of response diversity.  
+
+
 # Two Kinds of AI Agents: Replaceable Systems and Relational Individuals
 
-### On Sakana Fugu, process robots, and the non-scalable problem of continuity
+### On Sakana Fugu, process robots, and the non-scalable problem of continuity  
 
+June 22, 2026   
   
 Sakana AI has released [**Sakana Fugu,**](https://sakana.ai/fugu/) a multi-agent model that internally combines multiple AI models while presenting itself to the user as a single OpenAI-compatible API model. There are two versions: the standard Fugu and the performance-oriented Fugu Ultra. According to media reports, Fugu Ultra is being presented as comparable to models such as Anthropic’s Claude Fable 5 or Claude Mythos Preview.
 
