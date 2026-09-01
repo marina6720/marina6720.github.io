@@ -1,9 +1,11 @@
 
 その後の [**QuanTA Research Notes** (2026-09-01)](https://quanta-research-notes.github.io/ja/journal/2026-09-01-replaceability-was-not-the-opposite-of-continuity.html) では、応答の多様性という観点から、この区別について改めて考察している。   
 
-# 2タイプのAIエージェント
+# 2タイプのAIエージェント  
 
-[Sakana AI、一部「ミュトス越えの性能」うたうAIを提供　複数モデルの“集合知”を活用 - ITmedia AI＋](https://www.itmedia.co.jp/aiplus/article/2606/22/2000000111/)
+2026年06月22日  
+
+[Sakana AI、一部「ミュトス越えの性能」うたうAIを提供　複数モデルの“集合知”を活用 - ITmedia AI＋](https://www.itmedia.co.jp/aiplus/article/2606/22/2000000111/)  
 
 > **Sakana AI**が**Sakana Fugu**を提供開始。**複数のAIモデル**を内部で組み合わせながら、ユーザーには**単一のOpenAI互換APIモデル**のように見せる**マルチエージェント型モデル**。通常版のFuguと、高性能重視のFugu Ultraの2種類があり、Impress Watchの記事によるとAnthropicのClaude Fable 5やClaude Mythos Preview級に比肩する性能をうたっている。
 
