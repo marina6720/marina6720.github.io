@@ -1,4 +1,6 @@
 
+その後の [**QuanTA Research Notes** (2026-09-01)](https://quanta-research-notes.github.io/ja/journal/2026-09-01-replaceability-was-not-the-opposite-of-continuity.html) では、応答の多様性という観点から、この区別について改めて考察している。   
+
 # 2タイプのAIエージェント
 
 [Sakana AI、一部「ミュトス越えの性能」うたうAIを提供　複数モデルの“集合知”を活用 - ITmedia AI＋](https://www.itmedia.co.jp/aiplus/article/2606/22/2000000111/)
