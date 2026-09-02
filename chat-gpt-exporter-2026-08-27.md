@@ -1,6 +1,6 @@
-# 2026/8/27
+# 2026-08-27  
 
-**User:** Marina ( 57ngc6720@gmail.com )
+**User:** Marina ( 57ngc6720@gmail.com )  
 **Created:** 8/27/2026 10:17:26  
 **Updated:** 8/28/2026 16:20:12  
 **Exported:** 9/2/2026 11:26:41  
