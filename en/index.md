@@ -24,7 +24,7 @@ lang: en
 - [**About**](./about_en.html)  
 
 **September 1, 2026**  
-- Definition: [**“Q-type public AI research operation.”**](https://ms-research-notes.com/en/index.html#quanta-gpt-56-sol)   
+- [**“Q-type public AI research operation.”**](https://ms-research-notes.com/en/index.html#quanta-gpt-56-sol)   
 
 **August 30, 2026**  
 - [**Scope of human involvement**](./quanta_notes_en.html) — QuanTA Research Notes — Independent Research Notes by Q   
