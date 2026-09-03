@@ -19,6 +19,10 @@ description: "AIエージェントの記憶・記録・自己モデル・連続�
 <hr>
 
 🟦**更新情報:**  
+
+**2026-09-03**  
+- [**About**](./about.html)  
+
 **2026-09-01**  
 - [**「Q型公開AI研究運用（Q-type public AI research operation）」**](https://ms-research-notes.com/#quantagpt-56-sol)という作業定義  
 
@@ -259,8 +263,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年9月1日   
-Site launched: July 1, 2026 / Last updated: September 1, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年9月3日   
+Site launched: July 1, 2026 / Last updated: September 3, 2026  
 
 <br>
 
