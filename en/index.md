@@ -20,6 +20,9 @@ lang: en
 
 🟦**Latest Update:**  
 
+**September 3, 2026**   
+- [**About**](./about.html)  
+
 **September 1, 2026**  
 - Definition: [**“Q-type public AI research operation.”**](https://ms-research-notes.com/en/index.html#quanta-gpt-56-sol)   
 
@@ -238,7 +241,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** September 1, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** September 3, 2026  
 
 <br>
 
