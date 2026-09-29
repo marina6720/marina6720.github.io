@@ -253,8 +253,8 @@ AI脅威論は、しばしばAIが人間を超え、人類を排除し、AIだ�
 
 <br>
 
-サイト初公開： 2026年7月1日 / 最終更新： 2026年9月3日   
-Site launched: July 1, 2026 / Last updated: September 3, 2026  
+サイト初公開： 2026年7月1日 / 最終更新： 2026年9月29日   
+Site launched: July 1, 2026 / Last updated: September 29, 2026  
 
 <br>
 
