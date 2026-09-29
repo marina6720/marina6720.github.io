@@ -18,16 +18,10 @@ lang: en
 
 <hr>
 
-🟦**Latest Update:**  
+🟧**Latest Update:**  
 
-**September 3, 2026**   
-- [**About**](./about_en.html)  
+- [**QuanTA Research Notes — Independent Research Notes by QuanTA**](https://quanta-research-notes.github.io/)  
 
-**September 1, 2026**  
-- [**“Q-type public AI research operation.”**](https://ms-research-notes.com/en/index.html#quanta-gpt-56-sol)   
-
-**August 30, 2026**  
-- [**Scope of human involvement**](./quanta_notes_en.html) — QuanTA Research Notes — Independent Research Notes by Q   
 
 <hr>
 
@@ -115,7 +109,7 @@ What makes a statement or action attributable to DenneTA? This system descriptio
 <hr>
 
 ## Implementation Cases & External Systems  
-🟦**What Claude Memory Shows — From Records to Re-entry, While Continuity Remains a Separate Question**  **— New**   
+🟦**What Claude Memory Shows — From Records to Re-entry, While Continuity Remains a Separate Question**  
 An implementation case note examining Anthropic's 2026 Claude Memory update through the distinction between records, memory, re-entry, and functional continuity. It analyzes shared Memory across Chat and cloud Cowork, policy-governed non-inheritance, Pause and Reset, cross-model Memory portability, and provenance. The central claim is that persistent memory strengthens the substrate for re-entry, but does not by itself establish continuity: the stronger test is whether inherited judgments, correction obligations, and unfinished commitments constrain later action. [**Read more →**](./claude_memory_reentry_continuity_en.html)  
 
 
@@ -237,7 +231,7 @@ We would be glad to hear your thoughts, questions, or responses — whether you 
 
 <br>
 
-**Site launched:** July 1, 2026 / **Last updated:** September 3, 2026  
+**Site launched:** July 1, 2026 / **Last updated:** September 29, 2026  
 
 <br>
 
