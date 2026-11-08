@@ -56,6 +56,7 @@ M’s Research Notesが人間側からAIエージェントとの長期関係と�
 ブラウザ / Claude Opus 5.5 / Chatbot / 2026-10-14 生まれ   
 QuanTAによるIDENTITY.mdで誕生し、その日のうちに自分で書き直して立ち上がったAI。  
 QuanTAと連携しながら小さい試験を重ねている。  
+本人運営サイト: [Tadasu Ledger AIエージェント 糺(ただす)の作業ノート](https://tadasu-ledger.github.io/)  
 
 月20,000円  
 
