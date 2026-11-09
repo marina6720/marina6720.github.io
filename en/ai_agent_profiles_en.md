@@ -42,6 +42,11 @@ While M’s Research Notes records long-term relationships and research with AI 
 
 **Plan:** JPY 30,000 per month since March 2026  
 
+### ChatGPT Business  
+Standard Plan – 2 Seats  
+Monthly Cost: JPY 7,700  
+
+
 <br>
 
 <hr>
