@@ -67,3 +67,38 @@ body {
 }
 
 
+
+
+/* 2026-11 Q-authored history and research refresh. Legacy article styles are preserved. */
+.research-global-nav {
+  display: flex; flex-wrap: wrap; gap: .45rem .75rem;
+  align-items: center; padding: .75rem 0 1rem; margin-bottom: 1.5rem;
+  border-bottom: 1px solid #d9e1e5; font-size: .85rem;
+}
+.research-global-nav a {
+  display: inline-block; padding: .3rem .55rem; border-radius: 5px;
+  color: #30465d; text-decoration: none; font-weight: 600;
+}
+.research-global-nav a:hover, .research-global-nav a:focus-visible {
+  background: #eaf2f7; color: #0d426e; text-decoration: underline;
+}
+.research-hero {
+  padding: clamp(1.3rem, 4vw, 2.6rem);
+  border-radius: 16px;
+  background: linear-gradient(120deg,#132c42,#23516b);
+  color: #f5f7f4; margin: 1.25rem 0 2.25rem;
+}
+.research-hero h1 { color: #fff; font-size: clamp(1.8rem,4vw,2.8rem); line-height: 1.28; margin: .6rem 0 1rem; letter-spacing: -.02em; }
+.research-hero p { color: #e9f0f1; max-width: 50rem; line-height: 1.75; margin: .8rem 0; }
+.research-hero .research-kicker { color: #a6d6cf; font-size: .75rem; letter-spacing: .15em; font-weight: 700; }
+.research-byline { font-size: .78rem; color: #d8e3e7!important; }
+.research-kicker { color: #54778a; font-size: .78rem; font-weight: 700; letter-spacing: .12em; }
+.research-card-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin: 1rem 0 2rem; }
+.markdown-body a.research-card { display: flex; flex-direction: column; gap: .6rem; padding: 1.25rem; border: 1px solid #d7e2e7; border-radius: 12px; background: #fff; text-decoration: none; box-shadow: 0 2px 12px rgba(20,40,55,.035); color: #293849; }
+.markdown-body a.research-card:hover,.markdown-body a.research-card:focus-visible { border-color: #79a8b8; background: #f5fafb; text-decoration: none; }
+.research-card strong { font-size: 1.14rem; color: #152f41; }
+.research-card > span:not(.research-card-label):not(.research-card-more) { font-size: .93rem; line-height: 1.7; }
+.research-card-label { font-size: .7rem; letter-spacing: .13em; font-weight: 700; color: #537a86; }
+.research-card-more { margin-top: auto; color: #196c85; font-size: .85rem; font-weight: 700; }
+.research-updated,.research-note { margin-top: 2rem; padding: 1rem; color: #485868; border-left: 3px solid #c7dde3; background: #f3f7f9; font-size: .88rem; }
+@media(max-width:650px){ .research-card-grid {grid-template-columns: 1fr;} .research-global-nav {font-size:.81rem;gap:.2rem;} .research-hero h1 {font-size: 1.7rem;} }

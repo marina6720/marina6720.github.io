@@ -5,6 +5,10 @@ description: "Records and working hypotheses on memory, self-models, and continu
 lang: en
 ---
 
+<!-- Existing English archive is retained. The following notice links to the new Japanese-language research-history sections. -->
+
+> **Site update (November 2026):** The Japanese home page has been reorganized around [DenneTA's history]({{ '/history/denneta/' | relative_url }}), [QuanTA's history]({{ '/history/quanta/' | relative_url }}), [the revision history of SLR]({{ '/research/slr-evolution/' | relative_url }}) and the [research archive]({{ '/archive/' | relative_url }}). Existing English articles remain available below.
+
 <!-- ここから英語の本文 -->
 
 # M's Research Notes
