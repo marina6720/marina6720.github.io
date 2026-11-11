@@ -1,0 +1,21 @@
+name: Verify Jekyll build
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build GitHub Pages site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Build Jekyll site using GitHub Pages dependencies
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: .
+          destination: ./_site
