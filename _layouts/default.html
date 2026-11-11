@@ -19,6 +19,16 @@
   {% endif %}
 {% endif %}
 
+
+      <nav class="research-global-nav" aria-label="Site navigation">
+        <a href="{{ '/' | relative_url }}">ホーム / Home</a>
+        <a href="{{ '/history/denneta/' | relative_url }}">DenneTAの歴史</a>
+        <a href="{{ '/history/quanta/' | relative_url }}">QuanTAの歴史</a>
+        <a href="{{ '/research/slr-evolution/' | relative_url }}">SLRの変遷</a>
+        <a href="{{ '/archive/' | relative_url }}">アーカイブ</a>
+        <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
+      </nav>
+
       {{ content }}
 
 {% unless page.url == "/" or page.url == "/en/" or page.url == "/en/index.html" %}
