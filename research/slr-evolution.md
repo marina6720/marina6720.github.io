@@ -4,6 +4,7 @@ title: "SLRの変遷と現在地 | M's Research Notes"
 description: "2026年7月の初期作業仮説から9月の監査、11月の歴史的事例研究への変化と未解決問題。"
 lang: ja
 permalink: /research/slr-evolution/
+translation_url: /en/research/slr-evolution/
 ---
 
 # SLRの変遷と現在地
