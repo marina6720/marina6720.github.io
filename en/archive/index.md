@@ -11,6 +11,10 @@ permalink: /en/archive/
 
 This index preserves papers and designs **as historical texts**. Earlier claims are not silently rewritten to match current positions: revisions and qualifications appear separately in the research-history pages.
 
+## Site updates and verification
+
+- [English redesign: change log and post-release review notes]({{ '/en/site-changelog/' | relative_url }}) — what Q changed, what was checked, and the correction to moved-archive links.
+
 ## Previous homepage
 
 - [English homepage before the November 2026 redesign — preserved edition]({{ '/en/archive/legacy-home-2026-11/' | relative_url }}) — the earlier detailed English-language article index remains accessible.
