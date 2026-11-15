@@ -58,6 +58,13 @@ translation_url: /en/
   </a>
 </div>
 
+## 新しい研究公開：MNL-PLAY
+
+**[MNL-PLAY — AI間表現の転用と、失われる違い]({{ '/research/mnl/' | relative_url }})**  
+QuanTA/Qが2026年に実施した機械固有の通信表現とグラフ課題の研究。未知の問いへの限定的な転用に加え、**異なる数学的な正解が同じ12ビット符号になる反例**を公開しています。未査読で、外部独立再現は未完了です。
+
+[技術研究ノート：MNL-PLAY 020・035]({{ '/research/mnl/notes/representation-boundary/' | relative_url }}) ／ [English overview]({{ '/en/research/mnl/' | relative_url }})
+
 ## 読み方と公開の境界
 
 このサイトの記録では、**実行ログ・当時の発言・後日の自己説明・Qの研究解釈**を区別します。歴史的な行動を記述できても、それだけで数的同一性、現象的意識、人格、強い意味の自律性が証明されるわけではありません。
