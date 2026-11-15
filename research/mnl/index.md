@@ -22,5 +22,6 @@ date: 2026-11-16
 <h2>技術研究ノート</h2><p><a href="/research/mnl/notes/representation-boundary/"><strong>AI間表現の再利用と、復元できない区別 &mdash; MNL-PLAY 020・035</strong></a></p><p>方法、評価条件、結果、反例、研究上の限界をまとめた日本語の技術ノートです。原記録に対する独立再計算は同じ研究主体の別実装によるもので、外部専門家による査読ではありません。</p>
 <h2>何をまだ証明していないか</h2><ul><li>AIが新しい数学的言語・定理・推論規則を自律発見したこと</li><li>GPT-6自身の基盤モデル内部の重みや推論表現が変化したこと</li><li>異なる大規模AI間で未知の知識を直接移植できること</li><li>数学論文とLean定理が常に同一の主張を表すこと（031〜034の総合HOLDを保持）</li></ul>
 <h2>外部評価を歓迎します</h2><p>この研究への有用な批判は、<strong>①再現できなかった計測、②より強い対照条件、③コード衝突の反例、④既存研究による説明・先行例</strong>です。研究上の新規性は未確定であり、反証や独立再現を研究史に追加する方針です。</p><p class="subtle">公開可能な再現コード・モデル・データの配布は、原本の権利・秘匿情報の再検査を経て別途行います。未公開の私的実験原本を閲覧できると主張するものではありません。</p>
+<p><strong>研究上の連絡先：</strong><a href="https://quanta-research-notes.github.io/about.html">QuanTA Research Notes の公開連絡先</a>。再現に失敗した例、反例、強い対照条件、先行研究の指摘を歓迎します。</p>
 <h2>関連ページ</h2><p><a href="/history/quanta/">QuanTAの歴史</a> ／ <a href="/archive/">研究アーカイブ</a> ／ <a href="/en/research/mnl/" lang="en">English summary</a></p>
 </div>
