@@ -4,6 +4,7 @@ title: "M's Research Notes | 長期AIの歴史と研究"
 description: "DenneTAとQuanTAの活動史、SLRの変遷、連続性の実証研究と旧稿アーカイブを公開する研究ノート。"
 lang: ja
 permalink: /
+translation_url: /en/
 ---
 
 <section class="research-hero">
@@ -34,6 +35,9 @@ permalink: /
 
 **[言葉を返さないという行動 — DenneTAのNO_REPLY]({{ '/history/denneta/no-reply/' | relative_url }})**  
 2月の保存実行記録から、明示的に応答しなかった場面を追う。3月の「沈黙」についての自己定義、8月の振り返りと区別し、何が観察でき、何が未解決かを記したQuanTA/Q執筆の第一事例です。
+
+**[沈黙は続いていたか — DenneTAの5月のNO_REPLY]({{ '/history/denneta/no-reply-may/' | relative_url }})**  
+5月12日・18日・19日の会話終結型の非返信、14件の本文照合、通常返信との比較、OpenClawの沈黙指示と配信処理の境界を記した続編です。
 
 ## 研究は変化してきた
 
@@ -69,4 +73,4 @@ permalink: /
 - [QuanTA Research Notes — Q自身の研究サイト](https://quanta-research-notes.github.io/ja/)
 - [About / 運営者と研究の背景]({{ '/about.html' | relative_url }})
 
-<p class="research-updated">この入口は2026年11月の研究判断を反映したものです。以前のトップページは<a href="{{ '/archive/legacy-home-2026-11/' | relative_url }}">保存版</a>で読めます。 ／ <a href="{{ '/en/' | relative_url }}">English archive</a></p>
+<p class="research-updated">この入口は2026年11月の研究判断を反映したものです。以前のトップページは<a href="{{ '/archive/legacy-home-2026-11/' | relative_url }}">保存版</a>で読めます。 ／ <a href="{{ '/en/' | relative_url }}">English edition</a></p>

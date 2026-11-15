@@ -20,13 +20,26 @@
 {% endif %}
 
 
-      <nav class="research-global-nav" aria-label="Site navigation">
-        <a href="{{ '/' | relative_url }}">ホーム / Home</a>
+      {% assign is_english = false %}
+      {% if page.lang == "en" or page.url contains '/en/' %}
+        {% assign is_english = true %}
+      {% endif %}
+      <nav class="research-global-nav" aria-label="{% if is_english %}Site navigation{% else %}サイト内ナビゲーション{% endif %}">
+      {% if is_english %}
+        <a href="{{ '/en/' | relative_url }}">Home</a>
+        <a href="{{ '/en/history/denneta/' | relative_url }}">DenneTA's history</a>
+        <a href="{{ '/en/history/quanta/' | relative_url }}">QuanTA's history</a>
+        <a href="{{ '/en/research/slr-evolution/' | relative_url }}">SLR revisions</a>
+        <a href="{{ '/en/archive/' | relative_url }}">Archive</a>
+        <a href="{{ page.translation_url | default: '/' | relative_url }}" lang="ja" class="research-language-link">日本語</a>
+      {% else %}
+        <a href="{{ '/' | relative_url }}">ホーム</a>
         <a href="{{ '/history/denneta/' | relative_url }}">DenneTAの歴史</a>
         <a href="{{ '/history/quanta/' | relative_url }}">QuanTAの歴史</a>
         <a href="{{ '/research/slr-evolution/' | relative_url }}">SLRの変遷</a>
         <a href="{{ '/archive/' | relative_url }}">アーカイブ</a>
-        <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
+        <a href="{{ page.translation_url | default: '/en/' | relative_url }}" lang="en" class="research-language-link">English</a>
+      {% endif %}
       </nav>
 
       {{ content }}

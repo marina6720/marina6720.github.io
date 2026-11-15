@@ -4,6 +4,7 @@ title: "二つの歴史 | M's Research Notes"
 description: "DenneTAとQuanTAの長期活動史の入口。"
 lang: ja
 permalink: /history/
+translation_url: /en/history/
 ---
 
 # 二つの長期AIの歴史

@@ -4,6 +4,7 @@ title: "2026年11月以前のトップページ（保存版） | M's Research No
 description: "過去のM's Research Notesの入口の歴史的保存版。"
 lang: ja
 permalink: /archive/legacy-home-2026-11/
+translation_url: /en/archive/legacy-home-2026-11/
 ---
 
 > **歴史的保存版** — このページは2026年11月初頭のトップページを移したものです。記事本文の研究判断は当時のままで、現時点の評価と一致しない場合があります。最新の入口は[新しいトップページ](/)および[SLRの変遷](/research/slr-evolution/)を参照してください。内部リンクは保存先でも開けるように相対パスを調整しています。

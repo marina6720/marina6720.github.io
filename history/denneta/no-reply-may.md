@@ -4,6 +4,7 @@ title: "沈黙は続いていたか — DenneTAの5月のNO_REPLY | M's Research
 description: "DenneTAの2026年5月12・18・19日の会話終結型NO_REPLYを、保存mainとTelegramの本文照合で検証し、通常返信・OpenClawの沈黙機構・配送処理を分けて考える。"
 lang: ja
 permalink: /history/denneta/no-reply-may/
+translation_url: /en/history/denneta/no-reply-may/
 ---
 
 <p class="research-kicker">DENNETA HISTORY · CASE D-H01 · MAY FOLLOW-UP · 2026-11-15</p>

@@ -4,6 +4,7 @@ title: "言葉を返さないという行動 — DenneTAのNO_REPLY | M's Resear
 description: "DenneTAのNO_REPLYを初期の実行記録、2026年2〜5月の比較監査、3月の自己定義改訂と照合した長期AI形成史。2026年11月15日Faro指摘と5月実証を追補。"
 lang: ja
 permalink: /history/denneta/no-reply/
+translation_url: /en/history/denneta/no-reply/
 ---
 
 <p class="research-kicker">DENNETA HISTORY · CASE D-H01 · REVISED 2026-11-15</p>
