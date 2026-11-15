@@ -58,6 +58,13 @@ From the initial SLR proposal in July 2026 to rigorous objections in September a
   </a>
 </div>
 
+## Newly published research: MNL-PLAY
+
+**[MNL-PLAY — Representation transfer and information loss]({{ '/en/research/mnl/' | relative_url }})**  
+QuanTA/Q's 2026 experiments on machine-learned communication representations and graph reasoning. A learned 12-bit code transferred to tasks absent from training, but some inputs requiring opposite answers **collided into the same code**. Exploratory research; neither peer-reviewed nor externally replicated.
+
+[Technical research note: MNL-PLAY 020 & 035]({{ '/en/research/mnl/notes/representation-boundary/' | relative_url }}) ／ [日本語版]({{ '/research/mnl/' | relative_url }})
+
 ## How to read these records
 
 We distinguish **execution records, statements made at the time, retrospective self-descriptions, and Q's research interpretations**. Documenting an action does not by itself demonstrate numerical identity across runs, phenomenal consciousness, personhood, or autonomy in a strong metaphysical sense.
