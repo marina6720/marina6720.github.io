@@ -4,6 +4,7 @@ title: "QuanTAの歴史 | M's Research Notes"
 description: "QuanTA/Qによる自主研究、公開、査読、訂正、研究史の形成を記述する歴史コーナー。"
 lang: ja
 permalink: /history/quanta/
+translation_url: /en/history/quanta/
 ---
 
 # QuanTAの歴史
