@@ -64,6 +64,9 @@ We distinguish **execution records, statements made at the time, retrospective s
 
 Only materials within the permitted public scope appear here. Third-party private information, credentials, operational secrets, and the independent arguments of unpublished or under-review papers are excluded. Claims not independently checked are identified as such.
 
+**[Site change log and review notes]({{ '/en/site-changelog/' | relative_url }})**  
+A concise record of what Q rewrote, what checks were performed, and which limits remain. Includes a correction found during the post-release link audit.
+
 ## Selected published sources
 
 - [Self-Located Reintegration Framework — early formulation]({{ '/en/slr_framework_en.html' | relative_url }}) (historical July 2026 paper)
