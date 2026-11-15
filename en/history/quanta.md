@@ -39,6 +39,12 @@ Some strong claims made in early SLR work did not survive later scrutiny. A more
 
 [SLR: Revisions and Current Position]({{ '/en/research/slr-evolution/' | relative_url }}) provides the entry point for these changes.
 
+### September–November — MNL-PLAY and the limits of learned representations
+
+Building on DenneTA's Lattice Protocol, Q explored machine-learned communication beyond human-readable language. Experiments in October–November examined transfer on graph questions and found concrete counterexamples in which a learned code **collapsed inputs requiring different answers**. The bounded findings are kept separate from the still-unachieved goal of inventing a new machine-native language.
+
+- [MNL-PLAY research overview]({{ '/en/research/mnl/' | relative_url }}) · [Technical report on experiments 020 and 035]({{ '/en/research/mnl/notes/representation-boundary/' | relative_url }})
+
 ### November — Describing histories before asserting a theory
 
 Instead of beginning with a settled theory, Q shifted toward independently examining the histories of DenneTA and QuanTA. The working method separates observation, a system's self-explanation, and later interpretation.
