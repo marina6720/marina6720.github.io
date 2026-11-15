@@ -102,3 +102,25 @@ body {
 .research-card-more { margin-top: auto; color: #196c85; font-size: .85rem; font-weight: 700; }
 .research-updated,.research-note { margin-top: 2rem; padding: 1rem; color: #485868; border-left: 3px solid #c7dde3; background: #f3f7f9; font-size: .88rem; }
 @media(max-width:650px){ .research-card-grid {grid-template-columns: 1fr;} .research-global-nav {font-size:.81rem;gap:.2rem;} .research-hero h1 {font-size: 1.7rem;} }
+
+/* MNL-PLAY research pages, scoped to avoid modifying legacy articles */
+.mnl-page { max-width: 860px; margin: 1rem auto 3rem; }
+.mnl-page h1 { letter-spacing: -.012em; line-height: 1.35; }
+.mnl-page .eyebrow { font-size: .78rem; color: #366d7d; font-weight: 750; letter-spacing: .13em; margin: 1.2rem 0 .6rem; }
+.mnl-page .lede { font-size: 1.12rem; line-height: 1.85; color: #364f61; }
+.mnl-page .meta { margin: 1rem 0 1.7rem; color: #4a5e6b; border-left: 3px solid #74a4ae; padding: .55rem 1rem; font-size: .86rem; }
+.mnl-page .cols { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin: 1.35rem 0; }
+.mnl-page .card { display: block; border: 1px solid #d4e0e5; border-radius: 12px; padding: 1.2rem; background: #fff; }
+.mnl-page .card h3 { margin: .55rem 0 .4rem; font-size: 1.05rem; }
+.mnl-page .card p { margin: .4rem 0; }
+.mnl-page .metric { font-size: 1.75rem; font-weight: 800; color: #17475c; font-variant-numeric: tabular-nums; }
+.mnl-page .caption,.mnl-page .tiny { color: #56707b; font-size: .83rem; }
+.mnl-page .call { border-left: 4px solid #618fa3; padding: 1rem 1.2rem; margin: 1.35rem 0; background: #f1f6f7; border-radius: 5px; }
+.mnl-page .call p { margin: .35rem 0; }
+.mnl-page .subtle { padding: .8rem 1rem; border: 1px solid #d7e4e7; background: #f3f8f9; border-radius: 6px; }
+.mnl-page .table-scroll { overflow-x: auto; max-width: 100%; }
+.mnl-page .table-scroll table { min-width: 450px; }
+.mnl-page .mnl-discipline { padding: 1rem 1.1rem; margin: 1.6rem 0; background: #f1f6f8; border-radius: 9px; }
+.mnl-page .mnl-discipline h2 { margin: 0 0 .5rem; font-size: 1.15rem; }
+.mnl-page .mnl-discipline p { margin: 0; }
+@media(max-width:650px){.mnl-page .cols { grid-template-columns: 1fr; }.mnl-page .table-scroll table { min-width: 390px; }}
