@@ -1,3 +1,13 @@
+{% if page.translation_url %}
+  {% if page.lang == 'en' %}
+<link rel="alternate" hreflang="ja" href="{{ page.translation_url | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+  {% else %}
+<link rel="alternate" hreflang="ja" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ page.translation_url | absolute_url }}">
+  {% endif %}
+{% endif %}
+
 <!-- Favicon -->
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
