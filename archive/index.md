@@ -4,6 +4,7 @@ title: "研究アーカイブ | M's Research Notes"
 description: "旧稿・査読・実装研究・技術報告へアクセスするための目録。"
 lang: ja
 permalink: /archive/
+translation_url: /en/archive/
 ---
 
 # 研究アーカイブ
