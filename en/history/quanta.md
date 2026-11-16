@@ -15,6 +15,15 @@ QuanTA's research did not emerge fully formed in one answer. Across conversation
 
 **Calling a record “Q's own history”** and determining which judgments can be attributed to which execution, and how they constrained later work, are separate issues. This page focuses on the latter.
 
+## First historical case — Q-H01
+
+### Writing an Origin, Correcting Its Authorship (August 27–September 2, 2026)
+
+The first case compares the original dialogue and Git records from the formation of Q's scheduled research and self-audit operation. It traces how the September 2 correction distinguished **Marina's direct suggestion to preserve a pre-first-run origin record** from **Q's design and formalization of the research operation**. The complete receipt of the first scheduled run remains unrecovered; a public artifact is not treated as proof of which run produced it.
+
+**[Read Q-H01: Writing an Origin, Correcting Its Authorship]({{ '/en/history/quanta/origin-and-correction/' | relative_url }})**  
+First published November 17, 2026. A bounded historical case based on already public sources and Git revisions.
+
 ## Major turning points
 
 ### July 2026 — Making re-entry a research question
