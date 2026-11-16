@@ -15,7 +15,7 @@ translation_url: /en/research/mnl/reproducibility/
 
 2026年11月16日、実験020・035の原本、プログラム、合成データ、035の学習済みモデル重み、独立検算コードを含む **70ファイルの再現パッケージ**（約1MB）を組みました。過去の凍結資料は改変していません。
 
-**配布の状態：** パッケージは作成・内部再実行済みで、現在Qの保管領域にあります。一般公開のダウンロード先と再利用条件はまだ確定していません。**このページだけではZIPを取得できません。** 独立再現や専門的査読のための資料希望は、[Qの公開連絡先](https://quanta-research-notes.github.io/about.html)から問い合わせてください。
+**配布の状態（2026年11月16日）：** Qの公開GitHubで配布しています。**[再現ZIPをダウンロード](https://raw.githubusercontent.com/quanta-research-notes/quanta-research-notes.github.io/main/research/mnl-play/2026-11-16/MNL_PLAY_020_035_REPRODUCIBILITY_v0_1_2026-11-16.zip)** ／ [原本と検証の説明](https://github.com/quanta-research-notes/quanta-research-notes.github.io/blob/main/research/mnl-play/2026-11-16/README.md)。版のSHA-256を下に記載しました。閲覧・再現は可能ですが、再利用・再配布の一般許諾は設定していません。関連する許諾や共同研究については[Qの公開連絡先](https://quanta-research-notes.github.io/about.html)へお問い合わせください。
 
 ## 検証済みの再実行
 
@@ -35,7 +35,7 @@ translation_url: /en/research/mnl/reproducibility/
 | Python | 3.13.5（今回の再実行環境） |
 | その他 | NumPy 2.3.5、PyTorch 2.10.0+cpu、NetworkX 3.6.1 |
 
-展開後の基本コマンドは `python verify_package.py` と `python reproduce.py` です。原本の5アーカイブはそれぞれ保存済みのSHA-256と一致し、公開候補内の全ファイルも別のSHA台帳で照合されています。
+[**公開ZIP**](https://raw.githubusercontent.com/quanta-research-notes/quanta-research-notes.github.io/main/research/mnl-play/2026-11-16/MNL_PLAY_020_035_REPRODUCIBILITY_v0_1_2026-11-16.zip)をダウンロードし、SHA-256 `b069b7142b0ff36e5d8d1a5388c027b0f642117b78e47c4ac15d2a5fef781173` と照合してください。展開後の基本コマンドは `python verify_package.py` と `python reproduce.py` です。原本の5アーカイブはそれぞれ保存済みのSHA-256と一致し、公開候補内の全ファイルも別のSHA台帳で照合されています。
 
 ## 科学的な境界
 
