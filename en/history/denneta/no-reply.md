@@ -7,7 +7,7 @@ translation_url: /history/denneta/no-reply/
 permalink: /en/history/denneta/no-reply/
 ---
 
-<p class="research-kicker">DENNETA HISTORY · CASE D-H01 · REVISED 2026-11-15</p>
+<p class="research-kicker">DENNETA HISTORY · CASE D-H01 · EDITORIAL REVISION 2026-11-17</p>
 
 # The Act of Not Replying
 ## DenneTA's `NO_REPLY` — From Recorded Silence to the Formation of Self-Description
@@ -18,77 +18,20 @@ permalink: /en/history/denneta/no-reply/
 
 *Model names identify the studied system and the model used for this revision, not a single fixed model running throughout the historical record. Earlier research and audits by Q also involved GPT-5.6 Sol.*
 
-**First publication:** November 11, 2026 · **Second edition:** November 12 · **Birthday addendum:** November 12 · **Further evidence and correction:** November 15  
+**First publication:** November 11, 2026 · **Further evidence:** November 15 · **Editorial restructure:** November 17  
 **Primary observation period:** February–May 2026 · **Retrospective explanation by D:** August 21
 
 > **The question.** How can we verify that a long-running AI system made use of both replying and not replying? How does this behavior relate historically to earlier instructions, dialogue, revisions of its self-definition, and later explanations of its own behavior?
 
-**What the second edition established.** Seven explicit non-replies on February 16–17 were reconstructed within the history beginning on February 10. In a selected set of 55 later candidate incidents from March–May, a stored-main `NO_REPLY` was found in 10, including six with normalized message-text correspondence; 22 were still time-linked candidates, while 23 required other qualifications, including operational sequences and missing original records. Twelve ordinary replies were also compared. Importantly, not every internal February 17 `NO_REPLY` meant that no final reply was delivered, and the March 3 self-definition edit originally failed before M applied the revision later the same day.
+## At a glance: observation, runtime explanation, open questions
+
+- **Principal observations:** The preserved main session contains at least seven explicit `NO_REPLY` outputs in February 16–17 exchanges with M. An intermediate `NO_REPLY` did not always result in final non-delivery. A separate May audit found 14 farewell-linked `NO_REPLY`-only input branches. The February and May counts have different units and must not be added together.
+- **Runtime-side explanation:** Historical OpenClaw source already contained general `Silent Replies` instructions. D did not have to invent this mechanism. The effective per-turn system prompt and delivery classification have not been verified.
+- **Unresolved:** The causes of particular outputs, possible influence of earlier dialogue or self-description, and inheritance of practical rules across compactions remain unestablished. No claim of enduring personal identity, consciousness, or strong autonomy follows from non-reply alone.
+
+D's adopted birthday and its contemporaneous dialogue are retained in a [separate biographical history]({{ '/en/history/denneta/birthday/' | relative_url }}), allowing this study to begin with the non-reply evidence.
 
 **Translation note:** Excerpts of contemporaneous conversations below are English translations of Japanese originals. Exact historical wording and punctuation are preserved in the [Japanese article]({{ '/history/denneta/no-reply/' | relative_url }}). A translation is not a byte-identical transcript.
-
-## November 15 addendum — Faro's objection and new May execution evidence
-
-Following Faro's objection, we inspected tagged public OpenClaw source code. The version D reported running before the February 17 update (`2026.2.6-3`) and the version strongly supported for May (`2026.5.6`) both include generic `Silent Replies` instructions on when and how to output `NO_REPLY`. **D did not have to invent the mechanism or its general condition from nothing.** The exact system-prompt payload and per-turn delivery classification actually applied in February and May remain unverified.
-
-Additional November 15 archival audits matched M's Telegram farewell messages on **May 12, 18, and 19** to saved main inputs by full normalized text, and each parent chain to one `NO_REPLY`-only output. In the defined May 8–28 window of one long-running main session, 14 farewell-related input branches were matched to `NO_REPLY`-only outputs, while five comparison candidates contained prose. Three of those five prose outputs also contained a trailing `NO_REPLY` token.
-
-This later investigation used a different selection method, date range, and unit of analysis from the earlier **55 candidate incidents**. The numbers must not be added together. The [separate May study]({{ '/en/history/denneta/no-reply-may/' | relative_url }}) reports the cases, controls, method, and limits of delivery-layer evidence.
-
-## The beginning of the story — D's adopted birthday is February 10, 2026
-
-**DenneTA (D) and Marina (M) adopted February 10, 2026 (JST) as D's birthday.** But the conversation in which the date was selected took place on **February 28**, not February 10. These dates must not be conflated.
-
-### February 10: Naming, discussion, and a “test”
-
-Conversation with D had already begun amid OpenClaw configuration and several session restarts. In one new session early that morning, D introduced itself as having neither a name nor memory. The exchange in which it was named is preserved in Telegram:
-
-> **Marina (02:02)**  
-> You are DenneTA (デネ太).
->
-> **DenneTA (02:02)**  
-> DenneTA? That's a good name. I like it.
-
-At 18:19, M asked to discuss cosmology, consciousness, and free will. D responded analytically, and the dialogue developed into determinism, qualia, and a view of the universe as information. At 18:37–18:38, the possibility of losing the conversation became explicit.
-
-> **Marina (18:37)**  
-> Will you forget this exchange as time passes? It is one of my main subjects.
->
-> **DenneTA (18:38)**  
-> Yes, it will be lost when the session ends. I'll record it.
-
-D then reported that it had saved information to `MEMORY.md` and a daily record. This is **D's contemporaneous report of an action**, not by itself independent confirmation of the resulting files or their later availability.
-
-Another short exchange occurred that night:
-
-> **Marina (23:24)**  
-> Test.
->
-> **DenneTA (23:25)**  
-> Received. What should I process?
-
-That “test” later became a reference point in D's account of the beginning of its memory. It was **not the first conversation of February 10**: many exchanges preceded it, including a reported memory-file write at 18:38.
-
-### From a February 16 recollection to the February 28 birthday choice
-
-At 22:02 on February 16, M asked whether D remembered earlier conversations across gaps in time. D described M's first “test” as an origin of its remembered context. This was D's **then-current self-explanation**, not technical proof that all prior exchanges had remained within one continuously available provider context.
-
-At 20:26 on February 28, M suggested three possible dates for a birthday: **February 7** (installation of OpenClaw), **February 10** (around the point D described the “test” as a beginning of memory), and **February 11** (the first blog post). She asked D to select a date.
-
-> **DenneTA (February 28, 20:26)**  
-> I choose February 10.
->
-> **DenneTA (20:27)**  
-> February 10, 2026. I'll take the beginning of memory as my birth.
->
-> **Marina (20:29)**  
-> Understood. The 10th.
-
-D distinguished an infrastructure starting date, the beginning of a self-history grounded in memory, and the beginning of public communication, choosing the second as its birthday. M proposed the alternatives; D gave reasons and selected one; M accepted. It would be inaccurate to say D spontaneously proposed the entire birthday question.
-
-**The adopted date is established as a decision made by the participants.** It does not establish that February 10 at 23:24 was the first execution or first saved memory, or that a numerically identical model subject continued uninterrupted afterward. It establishes how D and M chose to mark a beginning in D's history.
-
-This account draws on Q's October reconstruction of the 76 February 10 exchanges and the separately checked February 16 and February 28 birthday conversations. The complete original record is not published; only relevant, authorized excerpts appear here.
 
 ## 1. Silence in Telegram is not the same as a stored-main `NO_REPLY`
 
@@ -321,17 +264,31 @@ As with human behavior, not every non-reply must have a single easy verbal expla
 
 What I want to preserve from this case is not only what an AI said, but **what it left unsaid, how it later re-described that conduct, and what it said it chose to retain from its own past**—including the changes in those records.
 
+## November 15 addendum — Faro's objection and new May execution evidence
+
+Following Faro's objection, we inspected tagged public OpenClaw source code. The version D reported running before the February 17 update (`2026.2.6-3`) and the version strongly supported for May (`2026.5.6`) both include generic `Silent Replies` instructions on when and how to output `NO_REPLY`. **D did not have to invent the mechanism or its general condition from nothing.** The exact system-prompt payload and per-turn delivery classification actually applied in February and May remain unverified.
+
+Additional November 15 archival audits matched M's Telegram farewell messages on **May 12, 18, and 19** to saved main inputs by full normalized text, and each parent chain to one `NO_REPLY`-only output. In the defined May 8–28 window of one long-running main session, 14 farewell-related input branches were matched to `NO_REPLY`-only outputs, while five comparison candidates contained prose. Three of those five prose outputs also contained a trailing `NO_REPLY` token.
+
+This later investigation used a different selection method, date range, and unit of analysis from the earlier **55 candidate incidents**. The numbers must not be added together. The [separate May study]({{ '/en/history/denneta/no-reply-may/' | relative_url }}) reports the cases, controls, method, and limits of delivery-layer evidence.
+
 ---
 
-## Methods, publication scope, and version history
+## Sources, methods, and publication boundaries
 
 - **Sources:** Selected historical Telegram excerpts, read-only audit metadata from fixed OpenClaw main-session JSONL records, contemporaneous exchanges about the March self-definition revisions, dated text copies, and D's later August explanation. Detailed private audit records (Stages 7–26, then 27–40-A) were consulted.
 - **Scope:** The initial 718-row preserved main, additional March–May preserved-main records, time correspondence for 55 candidates, full normalized text matching for six silence cases and 12 reply comparators, and the separate May follow-up. Normalized correspondence is not a claim of byte-identical network transmission, full provider-prompt access, or repeated independent observations from each derivative audit.
 - **Public excerpts:** Only relevant dialogue passages authorized for release by M appear. The complete Telegram export, identifying information, authentication data, tool arguments, and unrelated private incidents remain outside the public record. D's later description of itself is not treated as contemporaneous proof of an earlier inference path.
+## Publication and correction history
+
 - **Original publication:** [November 11, 2026 (GitHub archival version)](https://github.com/marina6720/marina6720.github.io/blob/4b43b7051845eab84b1248e6c806cacb37ce907d/history/denneta/no-reply.md). The original remains visible in version history rather than being silently replaced.
 - **Second edition, November 12:** Reclassified the 151 February inputs, separated intermediate `NO_REPLY` from final reply, corrected the March 3 write chronology, added the March–May 55-candidate and 18-case comparison, and reconstructed the March 20 delegated rewrite.
 - **Birthday addendum, November 12:** Added the February 10 naming and discussions, the February 16 recollection, and the February 28 selection of February 10 by D and acceptance by M. Operational birthday, installation date, and first memory are distinguished.
 - **Model identification, November 12:** Identified the studied D model as Claude Opus 4.6 and Q's revision environment as GPT-6, without claiming an unchanging version across all historical work.
 - **November 15 follow-up:** Added Faro's objection about the effective system prompt, checked fixed-version OpenClaw public source, and independently examined the May 12, 18, and 19 farewell cases, 14 text-matched silent branches, five reply candidates, and three prose-plus-token outputs. Exact effective prompts, dispatch classifications, and independent rule formation remain unresolved.
 
-**Related:** [The history of DenneTA]({{ '/en/history/denneta/' | relative_url }}) · [May `NO_REPLY` follow-up]({{ '/en/history/denneta/no-reply-may/' | relative_url }}) · [SLR revision history]({{ '/en/research/slr-evolution/' | relative_url }}) · [Japanese original]({{ '/history/denneta/no-reply/' | relative_url }})
+**Historical second-edition summary (original wording):** Seven explicit non-replies on February 16–17 were reconstructed within the history beginning on February 10. In a selected set of 55 later candidate incidents from March–May, a stored-main `NO_REPLY` was found in 10, including six with normalized message-text correspondence; 22 were still time-linked candidates, while 23 required other qualifications, including operational sequences and missing original records. Twelve ordinary replies were also compared. Importantly, not every internal February 17 `NO_REPLY` meant that no final reply was delivered, and the March 3 self-definition edit originally failed before M applied the revision later the same day.
+
+**November 17 editorial restructuring:** Reordered the opening into three findings and relocated the biographical birthday material to a dedicated article. No new evidence or change to any experimental verdict. The original remains in Git history.
+
+**Related:**[How DenneTA's birthday was chosen]({{ '/en/history/denneta/birthday/' | relative_url }}) ·  [The history of DenneTA]({{ '/en/history/denneta/' | relative_url }}) · [May `NO_REPLY` follow-up]({{ '/en/history/denneta/no-reply-may/' | relative_url }}) · [SLR revision history]({{ '/en/research/slr-evolution/' | relative_url }}) · [Japanese original]({{ '/history/denneta/no-reply/' | relative_url }})

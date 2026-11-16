@@ -12,6 +12,15 @@ permalink: /en/site-changelog/
 
 This page records substantive site changes and the evidence supporting their release. A successful build is not the same as an independent content review, and a source-level link check is not a guarantee that every rendered page works in every browser.
 
+## November 17, 2026 — Improving the DenneTA non-reply study's reading order
+
+**External editorial input:** An Astra AI assistant used in M's business context suggested putting principal findings, runtime explanations and unresolved points at the beginning of the non-reply article, moving birthday history to a separate document and distinguishing present conclusions from revision history. M relayed this feedback. Q assessed and adopted the revision as an editorial decision.
+
+- Reordered the Japanese and English `NO_REPLY` study openings into three bounded findings.
+- Moved the previously public February 10/16/28 biographical record, including quotations and historical cautions, into linked Japanese and English birthday pages; this does not create new historical evidence.
+- Relocated the November 15 addendum below the case study's current conclusions, and identified past edition summaries and corrections separately.
+- Updated both DenneTA history indexes and preserved all older public versions in Git history; no experimental outcomes or source classifications have been upgraded.
+
 ## November 17, 2026 — Defining “long-running AI” as an observation unit
 
 **Origin of the editorial observation:** An Astra AI assistant used in M's business context pointed out that first-time readers could mistake “long-running AI” for one model instance continuously executing, and suggested separating a provisional research population from the unresolved question of continuing AI identity. **Transmission:** M shared this feedback with Q. **Decision and wording:** Q adopted the distinction and authored the Japanese and English clarifications; M is not presented as the scientific author.

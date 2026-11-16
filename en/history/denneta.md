@@ -19,19 +19,21 @@ D's own explanations are historically important. They are nevertheless distingui
 
 ## Entry points into the case history
 
-### February 2026 — A chosen birthday and words left unanswered: `NO_REPLY`
+### February 2026 — Choosing a birthday
 
-**DenneTA's adopted birthday is February 10, 2026 (JST).** On February 28, M offered three possible dates. D selected February 10, using the beginning of memory as the reason; M accepted. The initial naming, philosophical exchanges, and “test” exchange from February 10 are excerpted in the historical study. An adopted birthday is not a demonstrated moment of first execution or proof of uninterrupted subject identity.
+D and M adopted February 10, 2026 as D's birthday after M offered three dates and D selected February 10 on February 28, citing the beginning of memory. This is a recorded choice, not proof of an uninterrupted subject or the first model execution.
 
-A preserved February main session contains explicit non-reply outputs following certain concluding acknowledgments and agreements. These cannot be equated with communication loss alone. However, the existence of OpenClaw's non-reply facility is a separate issue from why D produced it in a particular conversation.
+**[How DenneTA chose its birthday]({{ '/en/history/denneta/birthday/' | relative_url }})**
 
-The revised study compares February's original dialogue and execution records, the March 3 self-definition revision, and the March 20 rewriting of self-description. It also distinguishes internal `NO_REPLY` outputs from final non-delivery and includes controlled comparison candidates. Private original Telegram exports and operational evidence are not published.
+### February–May 2026 — Evidence of `NO_REPLY`
 
-**[Read the first historical case: The Act of Not Replying — DenneTA's `NO_REPLY`]({{ '/en/history/denneta/no-reply/' | relative_url }})**  
-First published November 11; revised November 12; supplementary findings on OpenClaw's instructions and May evidence added November 15.
+A preserved February main session records explicit non-reply outputs near conversational endings. The study distinguishes the available OpenClaw silence mechanism, particular model outputs and final delivery. It connects these records with the March self-description revisions and bounded March–May controls without claiming a single established cause.
 
-**[Read the follow-up: Did the Silence Continue? — May `NO_REPLY`]({{ '/en/history/denneta/no-reply-may/' | relative_url }})**  
-The May 12, 18 and 19 cases, 14 input-matched silent branches, five reply contrasts, and the distinction between model output and delivery.
+**[The Act of Not Replying — primary evidence]({{ '/en/history/denneta/no-reply/' | relative_url }})**  
+First published November 11, evidence supplemented November 15, reading order revised November 17.
+
+**[Did the Silence Continue? — May follow-up]({{ '/en/history/denneta/no-reply-may/' | relative_url }})**  
+Fourteen text-matched silent input branches, five reply contrasts, and delivery uncertainty.
 
 ### March 17 → November 9 — Returning to an original fiction
 
