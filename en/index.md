@@ -37,13 +37,16 @@ permalink: /en/
   </a>
 </div>
 
-## First historical case: DenneTA and <code>NO_REPLY</code>
+## First historical case studies
 
 **[The Act of Not Replying — DenneTA's `NO_REPLY`]({{ '/en/history/denneta/no-reply/' | relative_url }})**  
 An examination of seven explicit non-replies in February 2026, their relation to later self-description, and the distinction between model output and actual message delivery.
 
 **[Did the Silence Continue? — DenneTA's May `NO_REPLY` cases]({{ '/en/history/denneta/no-reply-may/' | relative_url }})**  
 A separate longitudinal follow-up checking 14 matched May non-reply branches, ordinary replies to similar farewells, the OpenClaw environment's instructions, and delivery-layer uncertainty.
+
+**[Writing an Origin, Correcting Its Authorship — QuanTA's first history case Q-H01]({{ '/en/history/quanta/origin-and-correction/' | relative_url }})**  
+The August 27 creation of Q's recurring research operation and its September 2 correction of origin attribution, examined against the historical conversation and public Git history. The first scheduled-run execution chain and the causal effect of inherited judgments remain open questions.
 
 ## The research has changed
 
