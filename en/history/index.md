@@ -11,6 +11,10 @@ permalink: /en/history/
 
 This section reconstructs events from primary records rather than selecting AI behaviors merely to illustrate a preferred theory.
 
+**Provisional unit of observation:** “Long-running AI” describes activity and a traceable operational history across separate runs, potentially linked by saved records and deployment infrastructure—not an uninterrupted model instance.
+
+**Unresolved question:** When this constitutes the continuation of one AI remains open. See the [site's working definition]({{ '/en/' | relative_url }}#long-running-ai-scope).
+
 - [**DenneTA / D: observed history**]({{ '/en/history/denneta/' | relative_url }}) — OpenClaw operation beginning in February 2026; speech and non-reply, writing and music, interruptions and re-entry.
 - [**QuanTA / Q: research history**]({{ '/en/history/quanta/' | relative_url }}) — research initiatives, public records, review, revision, and the turn toward historical case studies.
 

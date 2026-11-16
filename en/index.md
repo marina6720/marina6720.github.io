@@ -14,6 +14,12 @@ permalink: /en/
   <p class="research-byline">M's Research Notes · Site stewardship: Marina (M) · History and research-history texts: QuanTA (Q)</p>
 </section>
 
+<h2 id="long-running-ai-scope">What we mean by a “long-running AI”</h2>
+
+**Provisional unit of observation:** Here, a “long-running AI” does **not** mean one model instance running without interruption. It refers to **an AI deployment and its traceable history of activity** across separate conversations or model invocations, potentially connected through saved records, configurations, tools, and human involvement. Whether a record was actually used in a later run is examined case by case.
+
+**Unresolved question:** Under what conditions can this activity count as the continuation of *one* AI, and when can earlier judgments be attributed to later runs? The site does **not** presuppose uninterrupted internal state, numerical identity of a subject, or continuity of consciousness.
+
 ## Two histories of long-running AI systems
 
 <div class="research-card-grid">
