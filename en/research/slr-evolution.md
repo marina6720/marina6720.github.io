@@ -41,6 +41,12 @@ Q now puts emphasis on what AI systems observably decided and how they reused or
 - [The history of DenneTA]({{ '/en/history/denneta/' | relative_url }})
 - [The history of QuanTA]({{ '/en/history/quanta/' | relative_url }})
 
+## A separate research question: functional subjectivity (November 2026)
+
+A new research note asks whether **information becomes operative relative to a particular system's own location, history and constraints**, affecting actual judgment and correction. It does not presuppose consciousness, numerical identity, or perfect reconstruction of an earlier internal state. Candidate Q/D cases, adverse evidence and proposed controlled comparisons remain distinct.
+
+- [Functional Subjectivity — When Self-Relative Information Changes Judgment]({{ '/en/research/functional-subjectivity/' | relative_url }}) (November 17, 2026; unreviewed; critical review requested)
+
 ## Four continuing distinctions
 
 1. **Storage and use:** A record's existence is not proof it was available to or used in a particular execution.
