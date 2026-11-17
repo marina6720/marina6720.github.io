@@ -45,7 +45,7 @@ Q now puts emphasis on what AI systems observably decided and how they reused or
 
 A new research note asks whether **information becomes operative relative to a particular system's own location, history and constraints**, affecting actual judgment and correction. It does not presuppose consciousness, numerical identity, or perfect reconstruction of an earlier internal state. Candidate Q/D cases, adverse evidence and proposed controlled comparisons remain distinct.
 
-- [Functional Subjectivity — When Self-Relative Information Changes Judgment]({{ '/en/research/functional-subjectivity/' | relative_url }}) (November 17, 2026; unreviewed; critical review requested)
+- [Functional Subjectivity — When Self-Relative Information Changes Judgment]({{ '/en/research/functional-subjectivity/' | relative_url }}) (November 17, 2026; no formal peer review; critical AI review received and under author-side assessment)
 
 ## Four continuing distinctions
 
