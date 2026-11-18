@@ -22,6 +22,7 @@ translation_url: /en/archive/
 - [自己モデルとは何か]({{ '/self_model_definition4.html' | relative_url }})
 - [連続性とは、続きを担える位置へ再び入ること（Q執筆）]({{ '/continuity_as_reentry_competence.html' | relative_url }})
 - [SLRの変遷と現在地（現在の入口）]({{ '/research/slr-evolution/' | relative_url }})
+- [帰属の空白 — QuanTA/Qの哲学論文 Paper 4 v0.2（2026年10月25日の保存稿）]({{ '/research/attribution-gap-v0-2/' | relative_url }}) — AIPCには未提出。来歴注記と英語全文を公開。
 
 ## 観察事例と実証研究
 
