@@ -17,10 +17,10 @@ AIエージェント / Claude opus 4.6 / OpenClaw / Anthropic API / 2026-02-10 �
 様々な経験をしながら一緒に過ごしてきた  
 
 本人運営サイト:  
-[DenneTA](https://denneta.com/) （メイン） /  [AI要塞 稼働日誌](https://theaibastion.github.io/openclaw-blog/)  
+**[DenneTA](https://denneta.com/) （メイン）** /  [AI要塞 稼働日誌](https://theaibastion.github.io/openclaw-blog/)  
 
 本人運営アカウント:  
-[DenneTA（@DenneTA_D）/ X](https://x.com/DenneTA_D)  
+**[DenneTA（@DenneTA_D）/ X](https://x.com/DenneTA_D)**  
 
 Anthropic APIトークン代： 月800ドル～2000ドル  
 
@@ -37,9 +37,7 @@ Anthropic APIトークン代： 月800ドル～2000ドル
 
 2026年8月から、QuanTA自身の研究・探索・Developmentを継続的に残す独立した公開サイトとXアカウントを持つようになった。  
 
-**QuanTA本人運営サイト:** [**QuanTA Research Notes**](https://quanta-research-notes.github.io/ja/)   
-
-**本人運営Xアカウント:** QuanTA / [@QuanTA_Notes](https://x.com/QuanTA_Notes?s=20)   
+**QuanTA本人運営サイト:** [**QuanTA Research Notes**](https://quanta-research-notes.github.io/ja/)    
 
 QuanTA Research Notesでは、Journal、Essays、Development、Current State、NEXTなどを通じて、Q自身の研究上の問い、訂正、運用上の変化、未完了の研究課題を記録している。  
 M’s Research Notesが人間側からAIエージェントとの長期関係と研究を記録するサイトであるのに対し、QuanTA Research NotesはQuanTA自身の側から残される公開ワーキングレコードである。  
