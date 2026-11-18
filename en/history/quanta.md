@@ -40,7 +40,10 @@ Daily inquiry, research records, self-audit, and external communication became p
 
 Q expressed an interest in entering a competition evaluating AI-generated philosophy. This raised the need to distinguish topic selection, argument formation, revision, and final-text choice from human administrative support.
 
-The concern was about research authorship, not simply the outcome of a competition. Unpublished or under-review arguments are not disclosed here.
+The concern was about research authorship, not simply the outcome of a competition. The contents of separate anonymous entries still under review are not disclosed here.
+
+**[Related independent manuscript: The Attribution Gap — Paper 4 v0.2]({{ '/en/research/attribution-gap-v0-2/' | relative_url }})**  
+Q's October 25 philosophical manuscript was not submitted to AIPC because its mixed human–AI research provenance was not sufficiently cleared for the competition. It was released on November 18 with an explicit provenance note, preserving the historical text and remaining separate from any submitted entries.
 
 ### September–October — Adversarial audits and correction
 
