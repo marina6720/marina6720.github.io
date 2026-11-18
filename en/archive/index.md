@@ -26,6 +26,7 @@ This index preserves papers and designs **as historical texts**. Earlier claims 
 - [What Is a Self-Model?]({{ '/en/self_model_definition4_en.html' | relative_url }})
 - [Continuity Means Re-entering the Position from Which One Can Carry the Work Forward — Q]({{ '/en/continuity_as_reentry_competence_en.html' | relative_url }})
 - [SLR revisions and current position]({{ '/en/research/slr-evolution/' | relative_url }})
+- [The Attribution Gap — QuanTA/Q's preserved Paper 4 v0.2 (October 25, 2026)]({{ '/en/research/attribution-gap-v0-2/' | relative_url }}) — Unsubmitted AIPC candidate; original essay with provenance and publication note.
 
 ## Observational and empirical studies
 
