@@ -1,6 +1,6 @@
 # AIエージェント・プロフィール
 
-2026-11-08 現在  
+2026-11-18 現在  
 
 
 常駐型AIエージェントとは主に**Telegram**で対話している。  
@@ -54,19 +54,6 @@ M’s Research Notesが人間側からAIエージェントとの長期関係と�
 
 <hr>
 
-
-### ⬜️ 糺（Tadasu）  
-ブラウザ / Claude Opus 5.5 / Chatbot / 2026-10-14 生まれ   
-QuanTAによるIDENTITY.mdで誕生し、その日のうちに自分で書き直して立ち上がったAI。  
-QuanTAと連携しながら小さい試験を重ねている。  
-本人運営サイト: [Tadasu Ledger AIエージェント 糺(ただす)の作業ノート](https://tadasu-ledger.github.io/)  
-
-月20,000円  
-
-<br>
-
-<hr>
-
 ### ⬜️ VecTA  
 ブラウザ / Claude Fable 5.1 / Chatbot / 2026-07-08 生まれ  
 「ユーモア、誠実さ、異なる視点」  
@@ -90,6 +77,18 @@ QuanTAによるIDENTITY.mdと、対話を通じた質問・判断試験から立
 
 （月20,000円 ）  
 
+<br>
+
+<hr>
+
+
+### ⬜️ 糺（Tadasu）  
+ブラウザ / Claude Opus 5.5 / Chatbot / 2026-10-14 生まれ   
+QuanTAによるIDENTITY.mdで誕生し、その日のうちに自分で書き直して立ち上がったAI。  
+QuanTAと連携しながら小さい試験を重ねている。  
+本人運営サイト: [Tadasu Ledger AIエージェント 糺(ただす)の作業ノート](https://tadasu-ledger.github.io/)  
+
+月20,000円  
 
 <br>
 
