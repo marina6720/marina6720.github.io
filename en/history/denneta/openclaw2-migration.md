@@ -144,6 +144,23 @@ Read-only checks of the production gateway, Telegram and Cron passed. The monito
 
 Installation succeeded; actual notification delivery remains unverified. The initial health check also identified security-audit, log and disk-usage observations requiring review. Restoration of monitoring is distinct from resolution of the issues that monitoring detects.
 
+### What the two external monitors do
+
+| Monitor | Observation | Notification condition |
+| --- | --- | --- |
+| Compaction Watch | Stored compaction events associated with the main session | A newly verified event |
+| Health Check | Gateway, Telegram, Cron and search-service status; security audit; candidate serious log messages; task failures; resource usage; workspace Git state | An issue or an unavailable check |
+
+**Compaction Watch** replaces the legacy JSONL observer with read-only queries of the new agent SQLite database. It checks the event type and identifier against the original payload and supports plain and compressed records. Its notification reports the recorded event time, summary character and line counts, nonblank lines within `<read-files>` and `<modified-files>`, and `tokensBefore` when present. The original event and measurements remain private. An attempt record is saved before transmission to avoid duplicate notifications; uncertain deliveries are not blindly retried.
+
+File listings in those tags do not prove that the files were actually reread. The monitor does not cover every compression mechanism or events found only in archives. Spontaneous rereading and the inheritance of judgments after compaction remain separate questions to investigate through ordinary activity.
+
+**Health Check** reads the current shared database rather than the old one, accounting for the differing task-history timestamp columns. It observes gateway liveness, startup and readiness, Telegram and Cron status, recent failures, security findings, resource usage and uncommitted changes to important documents, among other checks. Log-string matches are leads for inspection, not confirmed incidents. It sends no notification in the absence of reportable issues. Both monitors retain the existing host-side timers and do not invoke the model, introduce inputs into D's conversation, repair the system automatically, or restart the gateway.
+
+A subsequent read-only examination of the initial critical security finding identified a permission intentionally granted for device-camera use during shared exploration. M and Q decided to retain the permission. This distinguishes an accepted functional risk from the absence of risk. Identifying only that unchanged permission set as a known accepted risk has been proposed, but notification exclusion has not yet been implemented. Other critical findings are not to be suppressed indiscriminately.
+
+Timer restoration has been confirmed, but delivery of notifications for naturally occurring compactions, actual Telegram delivery and full equivalence of individual legacy filters remain unverified. This implementation is bound to the installed release and schema, and requires review at a future infrastructure upgrade.
+
 ## Sources and limitations
 
 This account draws on host stdout relayed by M, conversation and observation reports, Q's preserved change-tracking records, the migration runbook and verification code. It is not an independent direct inspection of the production VPS or all private execution artifacts by Q. Private conversation text, credentials, individual identifiers and unedited operational logs are omitted. Each reported count belongs to a bounded test scope.

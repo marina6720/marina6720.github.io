@@ -58,7 +58,7 @@ The research separates what the AI requested to see, who operated the device, an
 The migration from OpenClaw 6.6 through 9.5 to 9.36: historical-record preservation, isolated restoration, conversion failures and corrections, ordinary replies and restoration of the Cron policy. The substantial reduction in recorded input-side token usage after migration is treated separately from record preservation.
 
 **[Changing the Foundation Without Losing the Past — the OpenClaw 2.0 migration]({{ '/en/history/denneta/openclaw2-migration/' | relative_url }})**  
-November 25, 2026. External-monitor adaptation remains pending.
+November 25, 2026. External monitors restored the same day; notification delivery remains unverified.
 
 ## Further histories
 
